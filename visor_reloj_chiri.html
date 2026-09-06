@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMARU-CHIRI | Visor Táctico del Reloj de La Niña</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: #020617;
+            color: #e2e8f0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            color: #00f2fe;
+            font-size: 24px;
+            font-weight: 800;
+            letter-spacing: 1px;
+            text-shadow: 0 0 20px rgba(0, 242, 254, 0.4);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        .header p {
+            color: #94a3b8;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+        .main-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            align-items: center;
+            justify-content: center;
+            max-width: 1100px;
+            width: 100%;
+        }
+        .clock-card {
+            background: radial-gradient(circle at center, #082f49 0%, #020617 100%);
+            border: 1px solid #0369a1;
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 15px 40px rgba(0, 242, 254, 0.15), 0 0 20px rgba(3, 105, 161, 0.2);
+            width: 560px;
+            height: 560px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .info-panel {
+            flex: 1;
+            min-width: 320px;
+            max-width: 440px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .card {
+            background: rgba(15, 23, 42, 0.85);
+            border: 1px solid #1e293b;
+            border-radius: 12px;
+            padding: 16px;
+            backdrop-filter: blur(10px);
+        }
+        .card.oro {
+            border-color: #eab308;
+            background: rgba(113, 63, 18, 0.35);
+        }
+        .card.oro h3 {
+            color: #facc15;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 6px;
+        }
+        .card.glacial {
+            border-color: #0284c7;
+            background: rgba(8, 47, 73, 0.35);
+        }
+        .card.glacial h3 {
+            color: #00f2fe;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 6px;
+        }
+        .card.telemetria h3 {
+            color: #38bdf8;
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+        .card p, .card li {
+            font-size: 12.5px;
+            color: #cbd5e1;
+            line-height: 1.5;
+        }
+        .badge {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 6px;
+            font-size: 11px;
+            font-weight: 700;
+        }
+        .badge-oro {
+            background: #713f12;
+            color: #fde047;
+            border: 1px solid #eab308;
+        }
+        .badge-chiri {
+            background: #082f49;
+            color: #38bdf8;
+            border: 1px solid #00f2fe;
+        }
+        .footer {
+            margin-top: 25px;
+            text-align: center;
+            color: #64748b;
+            font-size: 11px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>❄️ SISTEMA AMARU-CHIRI | C2 CRIOCLIMÁTICO</h1>
+        <p>Centro de Mando & Gestión Anticipatoria de Heladas Extremas | Proyección Polar 12 Horas</p>
+    </div>
+
+    <div class="main-container">
+        <!-- Contenedor del Reloj Polar SVG -->
+        <div class="clock-card">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 520 520" width="100%" height="100%" style="background: transparent;">
+                <defs>
+                    <!-- Filtros Glassmorphism y Glow Crioclimático -->
+                    <radialGradient id="gradienteFondoGlacial" cx="50%" cy="50%" r="50%">
+                        <stop offset="0%" stop-color="#082f49" stop-opacity="0.85" />
+                        <stop offset="60%" stop-color="#020617" stop-opacity="0.95" />
+                        <stop offset="100%" stop-color="#000000" stop-opacity="0.98" />
+                    </radialGradient>
+                    <filter id="glowGlacial" x="-20%" y="-20%" width="140%" height="140%">
+                        <feGaussianBlur stdDeviation="4" result="blur" />
+                        <feComposite in="SourceGraphic" in2="blur" operator="over" />
+                    </filter>
+                    <filter id="glowAmarillo" x="-20%" y="-20%" width="140%" height="140%">
+                        <feGaussianBlur stdDeviation="3" result="blur" />
+                        <feComposite in="SourceGraphic" in2="blur" operator="over" />
+                    </filter>
+                    <!-- Pistas de texto curvo -->
+                    <path id="trackOroAbril" d="M 432.90 287.83 A 179.0 179.0 0 0 1 368.96 383.68" fill="none" />
+                    <path id="trackGlacialSup" d="M 378.85 410.74 A 197.0 197.0 0 0 1 85.34 285.38" fill="none" />
+                    <path id="trackGlacialMed" d="M 368.96 383.68 A 179.0 179.0 0 0 1 101.95 283.09" fill="none" />
+                    <path id="trackGlacialInf" d="M 359.08 356.62 A 161.0 161.0 0 0 1 118.57 280.80" fill="none" />
+                </defs>
+
+                <!-- Fondo Principal del Dial -->
+                <circle cx="260.0" cy="260.0" r="247.0" fill="url(#gradienteFondoGlacial)" stroke="#0369a1" stroke-width="1.5" />
+                <circle cx="260.0" cy="260.0" r="231.0" fill="none" stroke="#0ea5e9" stroke-width="0.6" stroke-dasharray="3 3" />
+                <circle cx="260.0" cy="260.0" r="143.0" fill="#020617" stroke="#1e293b" stroke-width="1" />
+
+                <!-- SECTOR VENTANA DE ORO LOGÍSTICA (ABRIL) EN AMARILLO -->
+                <path d="M 467.67 315.65 A 215.0 215.0 0 0 1 390.88 430.57 L 347.05 373.45 A 143.0 143.0 0 0 0 398.13 297.01 Z" fill="#facc15" fill-opacity="0.65" stroke="#fef08a" stroke-width="1.6" filter="url(#glowAmarillo)" />
+                <text fill="#020617" font-size="8.5" font-weight="900" font-family="system-ui, sans-serif" letter-spacing="0.5">
+                    <textPath href="#trackOroAbril" xlink:href="#trackOroAbril" startOffset="50%" text-anchor="middle">★ VENTANA DE ORO (ABRIL) ★</textPath>
+                </text>
+
+                <!-- Segmentos del Arco Glacial -->
+                <g id="arcoGlacialNina">
+                    <path d="M 390.88 430.57 A 215.0 215.0 0 0 1 315.65 467.67 L 297.01 398.13 A 143.0 143.0 0 0 0 347.05 373.45 Z" fill="#38bdf8" fill-opacity="0.45" stroke="#0369a1" stroke-width="0.8" />
+                    <path d="M 315.65 467.67 A 215.0 215.0 0 0 1 241.26 474.18 L 247.54 402.46 A 143.0 143.0 0 0 0 297.01 398.13 Z" fill="#00d2ff" fill-opacity="0.7" stroke="#0369a1" stroke-width="0.8" />
+                    <path d="M 241.26 474.18 A 215.0 215.0 0 0 1 136.68 436.12 L 177.98 377.14 A 143.0 143.0 0 0 0 247.54 402.46 Z" fill="#00f2fe" fill-opacity="1.0" stroke="#0369a1" stroke-width="0.8" />
+                    <path d="M 136.68 436.12 A 215.0 215.0 0 0 1 73.80 367.50 L 136.16 331.50 A 143.0 143.0 0 0 0 177.98 377.14 Z" fill="#0284c7" fill-opacity="0.8" stroke="#0369a1" stroke-width="0.8" />
+                    <path d="M 73.80 367.50 A 215.0 215.0 0 0 1 46.84 288.06 L 118.22 278.67 A 143.0 143.0 0 0 0 136.16 331.50 Z" fill="#1d4ed8" fill-opacity="0.4" stroke="#0369a1" stroke-width="0.8" />
+                </g>
+
+                <!-- Textos Curvos Concéntricos sobre el Arco Glacial en Color Negro -->
+                <g id="textosArcoGlacial" opacity="0.98">
+                    <text font-family="system-ui, sans-serif" font-size="8.5" font-weight="900" fill="#000000" letter-spacing="2px">
+                        <textPath href="#trackGlacialSup" xlink:href="#trackGlacialSup" startOffset="50%" text-anchor="middle">
+                            VENTANA DE HELADAS SEVERAS (AMARU-CHIRI)
+                        </textPath>
+                    </text>
+                    <text font-family="system-ui, sans-serif" font-size="11.5" font-weight="900" fill="#000000">
+                        <textPath href="#trackGlacialMed" xlink:href="#trackGlacialMed" startOffset="50%" text-anchor="middle">
+                            La Niña 2007-2008 (Ola Polar Histórica)
+                        </textPath>
+                    </text>
+                    <text font-family="system-ui, sans-serif" font-size="9" font-weight="800" fill="#000000">
+                        <textPath href="#trackGlacialInf" xlink:href="#trackGlacialInf" startOffset="50%" text-anchor="middle">
+                            SIMILITUD MULTIVARIABLE: 87.2% | CLÍMAX: JULIO
+                        </textPath>
+                    </text>
+                </g>
+
+                <!-- Malla y Ticks de Meses -->
+                <g id="ticksMeses">
+                    <line x1="260.00" y1="50.00" x2="260.00" y2="44.00" stroke="#475569" stroke-width="2" /><text x="260.00" y="37.00" fill="#94a3b8" font-size="11" font-weight="normal" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" dominant-baseline="central">DIC</text>
+                    <line x1="365.00" y1="78.13" x2="368.00" y2="72.94" stroke="#475569" stroke-width="2" /><text x="371.50" y="66.88" fill="#94a3b8" font-size="11" font-weight="normal" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" dominant-baseline="central">ENE</text>
+                    <line x1="441.87" y1="155.00" x2="447.06" y2="152.00" stroke="#475569" stroke-width="2" /><text x="453.12" y="148.50" fill="#94a3b8" font-size="11" font-weight="normal" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" dominant-baseline="central">FEB</text>
+                    <line x1="470.00" y1="260.00" x2="476.00" y2="260.00" stroke="#475569" stroke-width="2" /><text x="483.00" y="260.00" fill="#94a3b8" font-size="11" font-weight="normal" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" dominant-baseline="central">MAR</text>
+                    <line x1="441.87" y1="365.00" x2="447.06" y2="368.00" stroke="#eab308" stroke-width="2" /><text x="453.12" y="371.50" fill="#facc15" font-size="11" font-weight="bold" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" dominant-baseline="central">ABR★</text>
+                    <line x1="365.00" y1="441.87" x2="368.00" y2="447.06" stroke="#00f2fe" stroke-width="2" /><text x="371.50" y="453.12" fill="#38bdf8" font-size="11" font-weight="bold" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" dominant-baseline="central">MAY</text>
+                    <line x1="260.00" y1="470.00" x2="260.00" y2="476.00" stroke="#00f2fe" stroke-width="2" /><text x="260.00" y="483.00" fill="#00f2fe" font-size="11" font-weight="bold" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" dominant-baseline="central">JUN</text>
+                    <line x1="155.00" y1="441.87" x2="152.00" y2="447.06" stroke="#00f2fe" stroke-width="2" /><text x="148.50" y="453.12" fill="#00f2fe" font-size="11" font-weight="bold" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" dominant-baseline="central">JUL</text>
+                    <line x1="78.13" y1="365.00" x2="72.94" y2="368.00" stroke="#00f2fe" stroke-width="2" /><text x="66.88" y="371.50" fill="#38bdf8" font-size="11" font-weight="bold" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" dominant-baseline="central">AGO</text>
+                    <line x1="50.00" y1="260.00" x2="44.00" y2="260.00" stroke="#475569" stroke-width="2" /><text x="37.00" y="260.00" fill="#94a3b8" font-size="11" font-weight="normal" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" dominant-baseline="central">SET</text>
+                    <line x1="78.13" y1="155.00" x2="72.94" y2="152.00" stroke="#475569" stroke-width="2" /><text x="66.88" y="148.50" fill="#94a3b8" font-size="11" font-weight="normal" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" dominant-baseline="central">OCT</text>
+                    <line x1="155.00" y1="78.13" x2="152.00" y2="72.94" stroke="#475569" stroke-width="2" /><text x="148.50" y="66.88" fill="#94a3b8" font-size="11" font-weight="normal" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" dominant-baseline="central">NOV</text>
+                </g>
+
+                <!-- Indicador de Solsticio de Invierno (180° - 21 de Junio) -->
+                <line x1="260.0" y1="403.0" x2="260.0" y2="475.0" stroke="#00f2fe" stroke-width="2" stroke-dasharray="4 2" />
+                <circle cx="260.0" cy="479.0" r="3" fill="#00f2fe" filter="url(#glowGlacial)" />
+
+                <!-- Arco de Desfase Dinámico -->
+                <path d="M 89.62 245.39 A 171.00 171.00 0 0 1 117.41 165.62" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-dasharray="3 3" opacity="0.75" />
+
+                <!-- Aguja Horaria (Mes Calendario Solar) -->
+                <g id="agujaCalendario">
+                    <line x1="277.93" y1="261.54" x2="103.57" y2="246.59" stroke="#94a3b8" stroke-width="3" stroke-linecap="round" />
+                    <circle cx="103.57" cy="246.59" r="4" fill="#cbd5e1" />
+                </g>
+
+                <!-- Minutero Táctico Crioclimático (Forzamiento La Niña) -->
+                <g id="minuteroTactico" filter="url(#glowGlacial)">
+                    <line x1="281.68" y1="274.35" x2="99.06" y2="153.48" stroke="#00f2fe" stroke-width="4" stroke-linecap="round" />
+                    <polygon points="99.06,153.48 94.06,163.48 104.06,163.48" fill="#00f2fe" />
+                </g>
+
+                <!-- Núcleo Central C2 con Telemetría Resumida -->
+                <circle cx="260.0" cy="260.0" r="42" fill="#020617" stroke="#0ea5e9" stroke-width="2" />
+                <circle cx="260.0" cy="260.0" r="36" fill="#082f49" opacity="0.6" />
+                <text x="260.0" y="248.0" fill="#38bdf8" font-size="8" font-family="system-ui" text-anchor="middle" font-weight="bold">LA NIÑA C2</text>
+                <text x="260.0" y="262.0" fill="#ffffff" font-size="13" font-family="system-ui" text-anchor="middle" font-weight="900">-1.4°C</text>
+                <text x="260.0" y="275.0" fill="#00f2fe" font-size="8" font-family="system-ui" text-anchor="middle" font-weight="600">TSM PACÍFICO</text>
+                <text x="260.0" y="285.0" fill="#94a3b8" font-size="7" font-family="system-ui" text-anchor="middle">Tmin: -9.6°C</text>
+            </svg>
+        </div>
+
+        <!-- Panel de Estado Táctico y Doctrinal -->
+        <div class="info-panel">
+            <div class="card oro">
+                <h3>⭐ VENTANA DE ORO LOGÍSTICA (ABRIL)</h3>
+                <p><b>Fase Activa:</b> Despliegue anticipado obligatorio antes del inicio de las heladas agronómicas en Mayo.</p>
+                <p style="margin-top: 5px;"><b>Acciones Críticas:</b> Distribución de kits veterinarios para alpacas, cobertizos, pacas de heno y mantenimiento de aulas PRONIED.</p>
+                <div style="margin-top: 8px;">
+                    <span class="badge badge-oro">AMARILLO ORO = PREPARACIÓN LOGÍSTICA</span>
+                </div>
+            </div>
+
+            <div class="card glacial">
+                <h3>❄️ VENTANA DE HELADAS SEVERAS (MAYO - AGOSTO)</h3>
+                <p><b>Clímax Glacial:</b> Julio (7:00 en el dial | Tmin &le; -9.6°C).</p>
+                <p style="margin-top: 5px;"><b>Análogo Dominante:</b> La Niña 2007-2008 (Ola Polar Histórica con 87.2% de correlación multivariable).</p>
+                <div style="margin-top: 8px;">
+                    <span class="badge badge-chiri">FORZAMIENTO: -1.4°C TSM</span>
+                </div>
+            </div>
+
+            <div class="card telemetria">
+                <h3>🧭 DINÁMICA DE AGUJAS POLARES</h3>
+                <ul style="padding-left: 18px;">
+                    <li><b>Aguja Gris:</b> Tiempo astronómico calendario.</li>
+                    <li><b>Minutero Cian:</b> Desfase crioclimático real forzado por anomalía fría en el Pacífico central.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        Sistema AMARU-CHIRI — Cumplimiento Estricto de la Ley Nº 31814 (Inteligencia Artificial del Estado Peruano)
+    </div>
+
+</body>
+</html>

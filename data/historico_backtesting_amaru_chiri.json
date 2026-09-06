@@ -1,0 +1,382 @@
+{
+  "metadata": {
+    "titulo": "Auditoría de Backtesting Histórico AMARU-CHIRI ante Eventos La Niña",
+    "version": "1.0.0",
+    "fecha_ejecucion": "2026-09-05T19:22:10.083601",
+    "eventos_evaluados": 5,
+    "total_muestras_distritales": 30
+  },
+  "metricas_consolidadas": {
+    "exactitud_global_pct": 93.3,
+    "sensibilidad_recall_pct": 100.0,
+    "precision_pct": 93.3,
+    "f1_score": 0.966,
+    "falsas_alarmas": 2,
+    "omisiones": 0,
+    "lead_time_promedio_dias": 41.0,
+    "acierto_prevaed_pct": 100.0,
+    "acierto_alerta_vial_pct": 100.0
+  },
+  "detalle_eventos": [
+    {
+      "evento": "La Niña 1988-1989 (Mega-Niña del Siglo XX)",
+      "rango": "1988 - 1989",
+      "tsm": -2.1,
+      "alisios": 8.6,
+      "lead_time_dias": 45.0,
+      "analogo_detectado": "La Niña 2007-2008 (Ola Polar Histórica)",
+      "similitud_analogo": 96.0,
+      "tasa_acierto": 100.0,
+      "casos": [
+        {
+          "distrito": "Mazocruz",
+          "ubigeo": "210504",
+          "tmin": -25.0,
+          "ish_chiri": 91.5,
+          "nivel_alerta": "ALERTA_ROJA_GLACIAL",
+          "directiva_prevaed": "¡SUSPENSIÓN DE LABORES ESCOLARES PRESENCIALES! (PREVAED PP-0068 / UGEL). Pase a clases remotas/radiales por frío extremo.",
+          "alerta_vial": "PELIGRO DE CONGELAMIENTO: Formación de escarcha y placas de hielo en Carretera Ilave - Mazocruz (PE-38). Reducir velocidad y restringir tránsito matinal.",
+          "resultado_caso": "VERDADERO_POSITIVO (ÉXITO)"
+        },
+        {
+          "distrito": "Macusani",
+          "ubigeo": "210301",
+          "tmin": -18.0,
+          "ish_chiri": 88.7,
+          "nivel_alerta": "ALERTA_ROJA_GLACIAL",
+          "directiva_prevaed": "¡SUSPENSIÓN DE LABORES ESCOLARES PRESENCIALES! (PREVAED PP-0068 / UGEL). Pase a clases remotas/radiales por frío extremo.",
+          "alerta_vial": "PELIGRO DE CONGELAMIENTO: Formación de escarcha y placas de hielo en Carretera Interoceánica Sur Macusani (PE-34B). Reducir velocidad y restringir tránsito matinal.",
+          "resultado_caso": "VERDADERO_POSITIVO (ÉXITO)"
+        },
+        {
+          "distrito": "San Juan de Tarucani / Imata",
+          "ubigeo": "040119",
+          "tmin": -23.0,
+          "ish_chiri": 92.0,
+          "nivel_alerta": "ALERTA_ROJA_GLACIAL",
+          "directiva_prevaed": "¡SUSPENSIÓN DE LABORES ESCOLARES PRESENCIALES! (PREVAED PP-0068 / UGEL). Pase a clases remotas/radiales por frío extremo.",
+          "alerta_vial": "PELIGRO DE CONGELAMIENTO: Formación de escarcha y placas de hielo en Vía Interprovincial Altoandina. Reducir velocidad y restringir tránsito matinal.",
+          "resultado_caso": "VERDADERO_POSITIVO (ÉXITO)"
+        },
+        {
+          "distrito": "Palca (Tacna)",
+          "ubigeo": "230107",
+          "tmin": -20.0,
+          "ish_chiri": 89.3,
+          "nivel_alerta": "ALERTA_ROJA_GLACIAL",
+          "directiva_prevaed": "¡SUSPENSIÓN DE LABORES ESCOLARES PRESENCIALES! (PREVAED PP-0068 / UGEL). Pase a clases remotas/radiales por frío extremo.",
+          "alerta_vial": "PELIGRO DE CONGELAMIENTO: Formación de escarcha y placas de hielo en Carretera Tacna - Collpa - La Paz (PE-40). Reducir velocidad y restringir tránsito matinal.",
+          "resultado_caso": "VERDADERO_POSITIVO (ÉXITO)"
+        },
+        {
+          "distrito": "Yanahuanca (Pasco)",
+          "ubigeo": "190201",
+          "tmin": -15.0,
+          "ish_chiri": 88.0,
+          "nivel_alerta": "ALERTA_ROJA_GLACIAL",
+          "directiva_prevaed": "¡SUSPENSIÓN DE LABORES ESCOLARES PRESENCIALES! (PREVAED PP-0068 / UGEL). Pase a clases remotas/radiales por frío extremo.",
+          "alerta_vial": "PELIGRO DE CONGELAMIENTO: Formación de escarcha y placas de hielo en Vía Cerro de Pasco - Yanahuanca (PA-101). Reducir velocidad y restringir tránsito matinal.",
+          "resultado_caso": "VERDADERO_POSITIVO (ÉXITO)"
+        },
+        {
+          "distrito": "Caujul (Oyón - Lima)",
+          "ubigeo": "150903",
+          "tmin": -11.0,
+          "ish_chiri": 88.0,
+          "nivel_alerta": "ALERTA_ROJA_GLACIAL",
+          "directiva_prevaed": "¡SUSPENSIÓN DE LABORES ESCOLARES PRESENCIALES! (PREVAED PP-0068 / UGEL). Pase a clases remotas/radiales por frío extremo.",
+          "alerta_vial": "PELIGRO DE CONGELAMIENTO: Formación de escarcha y placas de hielo en Carretera Huaura - Sayán - Oyón (PE-18). Reducir velocidad y restringir tránsito matinal.",
+          "resultado_caso": "VERDADERO_POSITIVO (ÉXITO)"
+        }
+      ]
+    },
+    {
+      "evento": "La Niña 1998-2000 (Rebote Post-Mega Niño 1997-1998)",
+      "rango": "1998 - 2000",
+      "tsm": -1.6,
+      "alisios": 8.1,
+      "lead_time_dias": 44.4,
+      "analogo_detectado": "La Niña 2007-2008 (Ola Polar Histórica)",
+      "similitud_analogo": 96.0,
+      "tasa_acierto": 100.0,
+      "casos": [
+        {
+          "distrito": "Mazocruz",
+          "ubigeo": "210504",
+          "tmin": -26.5,
+          "ish_chiri": 88.0,
+          "nivel_alerta": "ALERTA_ROJA_GLACIAL",
+          "directiva_prevaed": "¡SUSPENSIÓN DE LABORES ESCOLARES PRESENCIALES! (PREVAED PP-0068 / UGEL). Pase a clases remotas/radiales por frío extremo.",
+          "alerta_vial": "PELIGRO DE CONGELAMIENTO: Formación de escarcha y placas de hielo en Carretera Ilave - Mazocruz (PE-38). Reducir velocidad y restringir tránsito matinal.",
+          "resultado_caso": "VERDADERO_POSITIVO (ÉXITO)"
+        },
+        {
+          "distrito": "Capazo",
+          "ubigeo": "210502",
+          "tmin": -21.0,
+          "ish_chiri": 86.4,
+          "nivel_alerta": "ALERTA_ROJA_GLACIAL",
+          "directiva_prevaed": "¡SUSPENSIÓN DE LABORES ESCOLARES PRESENCIALES! (PREVAED PP-0068 / UGEL). Pase a clases remotas/radiales por frío extremo.",
+          "alerta_vial": "PELIGRO DE CONGELAMIENTO: Formación de escarcha y placas de hielo en Vía Interprovincial Altoandina. Reducir velocidad y restringir tránsito matinal.",
+          "resultado_caso": "VERDADERO_POSITIVO (ÉXITO)"
+        },
+        {
+          "distrito": "Pichigua (Espinar)",
+          "ubigeo": "080806",
+          "tmin": -16.0,
+          "ish_chiri": 88.0,
+          "nivel_alerta": "ALERTA_ROJA_GLACIAL",
+          "directiva_prevaed": "¡SUSPENSIÓN DE LABORES ESCOLARES PRESENCIALES! (PREVAED PP-0068 / UGEL). Pase a clases remotas/radiales por frío extremo.",
+          "alerta_vial": "PELIGRO DE CONGELAMIENTO: Formación de escarcha y placas de hielo en Carretera Espinar - Sicuani (PE-34E). Reducir velocidad y restringir tránsito matinal.",
+          "resultado_caso": "VERDADERO_POSITIVO (ÉXITO)"
+        },
+        {
+          "distrito": "Maranganí (Canchis)",
+          "ubigeo": "080604",
+          "tmin": -14.5,
+          "ish_chiri": 88.0,
+          "nivel_alerta": "ALERTA_ROJA_GLACIAL",
+          "directiva_prevaed": "¡SUSPENSIÓN DE LABORES ESCOLARES PRESENCIALES! (PREVAED PP-0068 / UGEL). Pase a clases remotas/radiales por frío extremo.",
+          "alerta_vial": "PELIGRO DE CONGELAMIENTO: Formación de escarcha y placas de hielo en Carretera Longitudinal de la Sierra Sur (PE-3S). Reducir velocidad y restringir tránsito matinal.",
+          "resultado_caso": "VERDADERO_POSITIVO (ÉXITO)"
+        },
+        {
+          "distrito": "Castrovirreyna",
+          "ubigeo": "090401",
+          "tmin": -13.0,
+          "ish_chiri": 82.0,
+          "nivel_alerta": "ALERTA_ROJA_GLACIAL",
+          "directiva_prevaed": "¡SUSPENSIÓN DE LABORES ESCOLARES PRESENCIALES! (PREVAED PP-0068 / UGEL). Pase a clases remotas/radiales por frío extremo.",
+          "alerta_vial": "PELIGRO DE CONGELAMIENTO: Formación de escarcha y placas de hielo en Carretera Huancavelica - Castrovirreyna (PE-26A). Reducir velocidad y restringir tránsito matinal.",
+          "resultado_caso": "VERDADERO_POSITIVO (ÉXITO)"
+        },
+        {
+          "distrito": "La Unión (Huánuco)",
+          "ubigeo": "100301",
+          "tmin": -12.5,
+          "ish_chiri": 88.0,
+          "nivel_alerta": "ALERTA_ROJA_GLACIAL",
+          "directiva_prevaed": "¡SUSPENSIÓN DE LABORES ESCOLARES PRESENCIALES! (PREVAED PP-0068 / UGEL). Pase a clases remotas/radiales por frío extremo.",
+          "alerta_vial": "PELIGRO DE CONGELAMIENTO: Formación de escarcha y placas de hielo en Carretera Huánuco - La Unión (PE-3N). Reducir velocidad y restringir tránsito matinal.",
+          "resultado_caso": "VERDADERO_POSITIVO (ÉXITO)"
+        }
+      ]
+    },
+    {
+      "evento": "La Niña 2007-2008 (Ola Polar Histórica del Siglo XXI)",
+      "rango": "2007 - 2008",
+      "tsm": -1.5,
+      "alisios": 8.0,
+      "lead_time_dias": 43.0,
+      "analogo_detectado": "La Niña 2007-2008 (Ola Polar Histórica)",
+      "similitud_analogo": 96.0,
+      "tasa_acierto": 100.0,
+      "casos": [
+        {
+          "distrito": "Mazocruz",
+          "ubigeo": "210504",
+          "tmin": -28.2,
+          "ish_chiri": 91.0,
+          "nivel_alerta": "ALERTA_ROJA_GLACIAL",
+          "directiva_prevaed": "¡SUSPENSIÓN DE LABORES ESCOLARES PRESENCIALES! (PREVAED PP-0068 / UGEL). Pase a clases remotas/radiales por frío extremo.",
+          "alerta_vial": "PELIGRO DE CONGELAMIENTO: Formación de escarcha y placas de hielo en Carretera Ilave - Mazocruz (PE-38). Reducir velocidad y restringir tránsito matinal.",
+          "resultado_caso": "VERDADERO_POSITIVO (ÉXITO)"
+        },
+        {
+          "distrito": "Ananea (4,660 m)",
+          "ubigeo": "211002",
+          "tmin": -17.5,
+          "ish_chiri": 90.0,
+          "nivel_alerta": "ALERTA_ROJA_GLACIAL",
+          "directiva_prevaed": "¡SUSPENSIÓN DE LABORES ESCOLARES PRESENCIALES! (PREVAED PP-0068 / UGEL). Pase a clases remotas/radiales por frío extremo.",
+          "alerta_vial": "PELIGRO DE CONGELAMIENTO: Formación de escarcha y placas de hielo en Vía Interprovincial Altoandina. Reducir velocidad y restringir tránsito matinal.",
+          "resultado_caso": "VERDADERO_POSITIVO (ÉXITO)"
+        },
+        {
+          "distrito": "San Juan de Tarucani / Imata",
+          "ubigeo": "040119",
+          "tmin": -21.0,
+          "ish_chiri": 91.5,
+          "nivel_alerta": "ALERTA_ROJA_GLACIAL",
+          "directiva_prevaed": "¡SUSPENSIÓN DE LABORES ESCOLARES PRESENCIALES! (PREVAED PP-0068 / UGEL). Pase a clases remotas/radiales por frío extremo.",
+          "alerta_vial": "PELIGRO DE CONGELAMIENTO: Formación de escarcha y placas de hielo en Vía Interprovincial Altoandina. Reducir velocidad y restringir tránsito matinal.",
+          "resultado_caso": "VERDADERO_POSITIVO (ÉXITO)"
+        },
+        {
+          "distrito": "Colcha (Paruro)",
+          "ubigeo": "081004",
+          "tmin": -14.0,
+          "ish_chiri": 88.0,
+          "nivel_alerta": "ALERTA_ROJA_GLACIAL",
+          "directiva_prevaed": "¡SUSPENSIÓN DE LABORES ESCOLARES PRESENCIALES! (PREVAED PP-0068 / UGEL). Pase a clases remotas/radiales por frío extremo.",
+          "alerta_vial": "PELIGRO DE CONGELAMIENTO: Formación de escarcha y placas de hielo en Trocha Paruro - Colcha - Araypallpa. Reducir velocidad y restringir tránsito matinal.",
+          "resultado_caso": "VERDADERO_POSITIVO (ÉXITO)"
+        },
+        {
+          "distrito": "Palca (Tacna)",
+          "ubigeo": "230107",
+          "tmin": -21.5,
+          "ish_chiri": 92.2,
+          "nivel_alerta": "ALERTA_ROJA_GLACIAL",
+          "directiva_prevaed": "¡SUSPENSIÓN DE LABORES ESCOLARES PRESENCIALES! (PREVAED PP-0068 / UGEL). Pase a clases remotas/radiales por frío extremo.",
+          "alerta_vial": "PELIGRO DE CONGELAMIENTO: Formación de escarcha y placas de hielo en Carretera Tacna - Collpa - La Paz (PE-40). Reducir velocidad y restringir tránsito matinal.",
+          "resultado_caso": "VERDADERO_POSITIVO (ÉXITO)"
+        },
+        {
+          "distrito": "Pilpichaca (Huancavelica)",
+          "ubigeo": "090607",
+          "tmin": -15.8,
+          "ish_chiri": 86.4,
+          "nivel_alerta": "ALERTA_ROJA_GLACIAL",
+          "directiva_prevaed": "¡SUSPENSIÓN DE LABORES ESCOLARES PRESENCIALES! (PREVAED PP-0068 / UGEL). Pase a clases remotas/radiales por frío extremo.",
+          "alerta_vial": "PELIGRO DE CONGELAMIENTO: Formación de escarcha y placas de hielo en Vía Interprovincial Altoandina. Reducir velocidad y restringir tránsito matinal.",
+          "resultado_caso": "VERDADERO_POSITIVO (ÉXITO)"
+        }
+      ]
+    },
+    {
+      "evento": "La Niña 2011-2012 (La Niña Moderada a Fuerte)",
+      "rango": "2011 - 2012",
+      "tsm": -1.1,
+      "alisios": 7.5,
+      "lead_time_dias": 37.0,
+      "analogo_detectado": "La Niña 2007-2008 (Ola Polar Histórica)",
+      "similitud_analogo": 91.5,
+      "tasa_acierto": 66.7,
+      "casos": [
+        {
+          "distrito": "Mazocruz",
+          "ubigeo": "210504",
+          "tmin": -22.0,
+          "ish_chiri": 88.0,
+          "nivel_alerta": "ALERTA_ROJA_GLACIAL",
+          "directiva_prevaed": "¡SUSPENSIÓN DE LABORES ESCOLARES PRESENCIALES! (PREVAED PP-0068 / UGEL). Pase a clases remotas/radiales por frío extremo.",
+          "alerta_vial": "PELIGRO DE CONGELAMIENTO: Formación de escarcha y placas de hielo en Carretera Ilave - Mazocruz (PE-38). Reducir velocidad y restringir tránsito matinal.",
+          "resultado_caso": "VERDADERO_POSITIVO (ÉXITO)"
+        },
+        {
+          "distrito": "Crucero (Carabaya)",
+          "ubigeo": "210306",
+          "tmin": -13.5,
+          "ish_chiri": 82.0,
+          "nivel_alerta": "ALERTA_ROJA_GLACIAL",
+          "directiva_prevaed": "¡SUSPENSIÓN DE LABORES ESCOLARES PRESENCIALES! (PREVAED PP-0068 / UGEL). Pase a clases remotas/radiales por frío extremo.",
+          "alerta_vial": "PELIGRO DE CONGELAMIENTO: Formación de escarcha y placas de hielo en Vía Interprovincial Altoandina. Reducir velocidad y restringir tránsito matinal.",
+          "resultado_caso": "VERDADERO_POSITIVO (ÉXITO)"
+        },
+        {
+          "distrito": "Caujul (Oyón)",
+          "ubigeo": "150903",
+          "tmin": -7.0,
+          "ish_chiri": 72.0,
+          "nivel_alerta": "ALERTA_NARANJA_SEVERA",
+          "directiva_prevaed": "HORARIO DE INVIERNO OBLIGATORIO: Retrasar ingreso escolar 45 a 60 min para evitar la ventana de congelamiento matutino (PREVAED).",
+          "alerta_vial": "PELIGRO DE CONGELAMIENTO: Formación de escarcha y placas de hielo en Carretera Huaura - Sayán - Oyón (PE-18). Reducir velocidad y restringir tránsito matinal.",
+          "resultado_caso": "FALSO_POSITIVO (SOBREALERTA)"
+        },
+        {
+          "distrito": "La Unión (Huánuco)",
+          "ubigeo": "100301",
+          "tmin": -11.0,
+          "ish_chiri": 82.0,
+          "nivel_alerta": "ALERTA_ROJA_GLACIAL",
+          "directiva_prevaed": "¡SUSPENSIÓN DE LABORES ESCOLARES PRESENCIALES! (PREVAED PP-0068 / UGEL). Pase a clases remotas/radiales por frío extremo.",
+          "alerta_vial": "PELIGRO DE CONGELAMIENTO: Formación de escarcha y placas de hielo en Carretera Huánuco - La Unión (PE-3N). Reducir velocidad y restringir tránsito matinal.",
+          "resultado_caso": "VERDADERO_POSITIVO (ÉXITO)"
+        },
+        {
+          "distrito": "Tarata (Tacna)",
+          "ubigeo": "230401",
+          "tmin": -8.5,
+          "ish_chiri": 72.0,
+          "nivel_alerta": "ALERTA_NARANJA_SEVERA",
+          "directiva_prevaed": "HORARIO DE INVIERNO OBLIGATORIO: Retrasar ingreso escolar 45 a 60 min para evitar la ventana de congelamiento matutino (PREVAED).",
+          "alerta_vial": "PELIGRO DE CONGELAMIENTO: Formación de escarcha y placas de hielo en Carretera Tarata - Candarave (PE-38). Reducir velocidad y restringir tránsito matinal.",
+          "resultado_caso": "FALSO_POSITIVO (SOBREALERTA)"
+        },
+        {
+          "distrito": "Huancavelica",
+          "ubigeo": "090101",
+          "tmin": -12.0,
+          "ish_chiri": 88.0,
+          "nivel_alerta": "ALERTA_ROJA_GLACIAL",
+          "directiva_prevaed": "¡SUSPENSIÓN DE LABORES ESCOLARES PRESENCIALES! (PREVAED PP-0068 / UGEL). Pase a clases remotas/radiales por frío extremo.",
+          "alerta_vial": "PELIGRO DE CONGELAMIENTO: Formación de escarcha y placas de hielo en Vía Interprovincial Altoandina. Reducir velocidad y restringir tránsito matinal.",
+          "resultado_caso": "VERDADERO_POSITIVO (ÉXITO)"
+        }
+      ]
+    },
+    {
+      "evento": "La Niña Prolongada 2020-2023 (Triple-Dip Multianual)",
+      "rango": "2020 - 2023",
+      "tsm": -1.0,
+      "alisios": 7.4,
+      "lead_time_dias": 35.6,
+      "analogo_detectado": "La Niña 2007-2008 (Ola Polar Histórica)",
+      "similitud_analogo": 91.5,
+      "tasa_acierto": 100.0,
+      "casos": [
+        {
+          "distrito": "Mazocruz",
+          "ubigeo": "210504",
+          "tmin": -24.0,
+          "ish_chiri": 88.0,
+          "nivel_alerta": "ALERTA_ROJA_GLACIAL",
+          "directiva_prevaed": "¡SUSPENSIÓN DE LABORES ESCOLARES PRESENCIALES! (PREVAED PP-0068 / UGEL). Pase a clases remotas/radiales por frío extremo.",
+          "alerta_vial": "PELIGRO DE CONGELAMIENTO: Formación de escarcha y placas de hielo en Carretera Ilave - Mazocruz (PE-38). Reducir velocidad y restringir tránsito matinal.",
+          "resultado_caso": "VERDADERO_POSITIVO (ÉXITO)"
+        },
+        {
+          "distrito": "Macusani",
+          "ubigeo": "210301",
+          "tmin": -16.5,
+          "ish_chiri": 88.0,
+          "nivel_alerta": "ALERTA_ROJA_GLACIAL",
+          "directiva_prevaed": "¡SUSPENSIÓN DE LABORES ESCOLARES PRESENCIALES! (PREVAED PP-0068 / UGEL). Pase a clases remotas/radiales por frío extremo.",
+          "alerta_vial": "PELIGRO DE CONGELAMIENTO: Formación de escarcha y placas de hielo en Carretera Interoceánica Sur Macusani (PE-34B). Reducir velocidad y restringir tránsito matinal.",
+          "resultado_caso": "VERDADERO_POSITIVO (ÉXITO)"
+        },
+        {
+          "distrito": "Pichigua (Espinar)",
+          "ubigeo": "080806",
+          "tmin": -15.5,
+          "ish_chiri": 82.0,
+          "nivel_alerta": "ALERTA_ROJA_GLACIAL",
+          "directiva_prevaed": "¡SUSPENSIÓN DE LABORES ESCOLARES PRESENCIALES! (PREVAED PP-0068 / UGEL). Pase a clases remotas/radiales por frío extremo.",
+          "alerta_vial": "PELIGRO DE CONGELAMIENTO: Formación de escarcha y placas de hielo en Carretera Espinar - Sicuani (PE-34E). Reducir velocidad y restringir tránsito matinal.",
+          "resultado_caso": "VERDADERO_POSITIVO (ÉXITO)"
+        },
+        {
+          "distrito": "Palca (Tacna)",
+          "ubigeo": "230107",
+          "tmin": -18.0,
+          "ish_chiri": 88.0,
+          "nivel_alerta": "ALERTA_ROJA_GLACIAL",
+          "directiva_prevaed": "¡SUSPENSIÓN DE LABORES ESCOLARES PRESENCIALES! (PREVAED PP-0068 / UGEL). Pase a clases remotas/radiales por frío extremo.",
+          "alerta_vial": "PELIGRO DE CONGELAMIENTO: Formación de escarcha y placas de hielo en Carretera Tacna - Collpa - La Paz (PE-40). Reducir velocidad y restringir tránsito matinal.",
+          "resultado_caso": "VERDADERO_POSITIVO (ÉXITO)"
+        },
+        {
+          "distrito": "Yanahuanca (Pasco)",
+          "ubigeo": "190201",
+          "tmin": -14.0,
+          "ish_chiri": 88.0,
+          "nivel_alerta": "ALERTA_ROJA_GLACIAL",
+          "directiva_prevaed": "¡SUSPENSIÓN DE LABORES ESCOLARES PRESENCIALES! (PREVAED PP-0068 / UGEL). Pase a clases remotas/radiales por frío extremo.",
+          "alerta_vial": "PELIGRO DE CONGELAMIENTO: Formación de escarcha y placas de hielo en Vía Cerro de Pasco - Yanahuanca (PA-101). Reducir velocidad y restringir tránsito matinal.",
+          "resultado_caso": "VERDADERO_POSITIVO (ÉXITO)"
+        },
+        {
+          "distrito": "Caylloma",
+          "ubigeo": "040505",
+          "tmin": -17.0,
+          "ish_chiri": 84.0,
+          "nivel_alerta": "ALERTA_ROJA_GLACIAL",
+          "directiva_prevaed": "¡SUSPENSIÓN DE LABORES ESCOLARES PRESENCIALES! (PREVAED PP-0068 / UGEL). Pase a clases remotas/radiales por frío extremo.",
+          "alerta_vial": "PELIGRO DE CONGELAMIENTO: Formación de escarcha y placas de hielo en Vía Interprovincial Altoandina. Reducir velocidad y restringir tránsito matinal.",
+          "resultado_caso": "VERDADERO_POSITIVO (ÉXITO)"
+        }
+      ]
+    }
+  ]
+}

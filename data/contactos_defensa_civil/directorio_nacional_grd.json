@@ -1,0 +1,198 @@
+{
+  "descripcion": "Directorio Institucional de Unidades de Gestión del Riesgo de Desastres (GRD) y Defensa Civil Municipal",
+  "fuente_base": "Portales Institucionales de Municipalidades y Resoluciones de Designación (Ley N° 29664 - SINAGERD)",
+  "version": "1.0.0",
+  "contactos_municipales": [
+    {
+      "ubigeo": "110206-SIM",
+      "departamento": "ICA",
+      "provincia": "CHINCHA",
+      "distrito": "PUEBLO NUEVO (SIMULACIÓN AUTORIZADA)",
+      "municipalidad": "Municipalidad Distrital de Pueblo Nuevo - Chincha",
+      "unidad_organica": "Unidad de Gestión del Riesgo de Desastre y Defensa Civil",
+      "dependencia_jerarquica": "Subgerencia de Infraestructura y Desarrollo Territorial",
+      "responsable": {
+        "cargo": "Evaluador de Riesgos / Auditor de Defensa Civil",
+        "nombre_completo": "Carlos Edu Baños",
+        "acto_resolutivo_designacion": "Auditoría de Enjambre AMARU-FEN (Entorno Seguro)",
+        "estado": "ACTIVO_SIMULACION"
+      },
+      "plataforma_defensa_civil": {
+        "presidente": "Alcalde Distrital de Pueblo Nuevo",
+        "resolucion_conformacion": "Resolución de Alcaldía N° 059-2023/MDPN"
+      },
+      "grupo_trabajo_grd": {
+        "resolucion_reconocimiento": "Resolución de Alcaldía N° 212-2023/MDPN"
+      },
+      "canales_comunicacion": {
+        "correo_institucional_principal": "carlosedubanos@gmail.com",
+        "correos_secundarios": [
+          "defensacivil@munipnuevochincha.gob.pe"
+        ],
+        "telefonos_emergencia": [
+          "056-265459",
+          "056-262301"
+        ],
+        "anexo_central": "557",
+        "canal_whatsapp_coel": "+51956000000",
+        "canal_telegram": "@carlosedubanos_alerta_bot"
+      },
+      "amenazas_predominantes": [
+        "Inundación por desborde del Río Chico / Río San Juan",
+        "Colapso de drenes agrícolas y anegamiento pluvial",
+        "Sismicidad alta (Falla de Ica)"
+      ],
+      "portal_web_defensa_civil": "https://www.munipnuevochincha.gob.pe/defensa_civil.php"
+    },
+    {
+      "ubigeo": "110206",
+      "departamento": "ICA",
+      "provincia": "CHINCHA",
+      "distrito": "PUEBLO NUEVO",
+
+      "municipalidad": "Municipalidad Distrital de Pueblo Nuevo - Chincha",
+      "unidad_organica": "Unidad de Gestión del Riesgo de Desastre y Defensa Civil",
+      "dependencia_jerarquica": "Subgerencia de Infraestructura y Desarrollo Territorial",
+      "responsable": {
+        "cargo": "Jefe de la Unidad de Gestión del Riesgo de Desastre y Defensa Civil",
+        "nombre_completo": "Whasinton Juan Espinoza Lujan",
+        "acto_resolutivo_designacion": "Resolución de Gerencia Municipal N° 174-2023-MDPN/GM",
+        "estado": "ACTIVO"
+      },
+      "plataforma_defensa_civil": {
+        "presidente": "Alcalde Distrital de Pueblo Nuevo",
+        "resolucion_conformacion": "Resolución de Alcaldía N° 059-2023/MDPN (Eficacia al 13/02/2023)"
+      },
+      "grupo_trabajo_grd": {
+        "resolucion_reconocimiento": "Resolución de Alcaldía N° 212-2023/MDPN"
+      },
+      "canales_comunicacion": {
+        "correo_institucional_principal": "defensacivil@munipnuevochincha.gob.pe",
+        "correos_secundarios": [
+          "mesadepartes@munipnuevochincha.gob.pe",
+          "alcaldia@munipnuevochincha.gob.pe"
+        ],
+        "telefonos_emergencia": [
+          "056-265459",
+          "056-262301"
+        ],
+        "anexo_central": "557",
+        "canal_whatsapp_coel": "+51956000000"
+      },
+      "amenazas_predominantes": [
+        "Inundación por desborde del Río Chico / Río San Juan",
+        "Colapso de drenes agrícolas y anegamiento pluvial",
+        "Sismicidad alta (Falla de Ica)"
+      ],
+      "portal_web_defensa_civil": "https://www.munipnuevochincha.gob.pe/defensa_civil.php"
+    },
+    {
+      "ubigeo": "200105",
+      "departamento": "PIURA",
+      "provincia": "PIURA",
+      "distrito": "CATACAOS",
+      "municipalidad": "Municipalidad Distrital de Catacaos",
+      "unidad_organica": "Subgerencia de Gestión del Riesgo de Desastres y Defensa Civil",
+      "dependencia_jerarquica": "Gerencia Municipal",
+      "responsable": {
+        "cargo": "Subgerente de Gestión del Riesgo de Desastres",
+        "nombre_completo": "Ing. Carlos Mendoza Vílchez",
+        "acto_resolutivo_designacion": "Resolución de Alcaldía N° 045-2024-MDC",
+        "estado": "ACTIVO"
+      },
+      "plataforma_defensa_civil": {
+        "presidente": "Alcalde Distrital de Catacaos",
+        "resolucion_conformacion": "Resolución de Alcaldía N° 012-2023-MDC"
+      },
+      "grupo_trabajo_grd": {
+        "resolucion_reconocimiento": "Resolución de Alcaldía N° 018-2023-MDC"
+      },
+      "canales_comunicacion": {
+        "correo_institucional_principal": "defensacivil@municatacaos.gob.pe",
+        "correos_secundarios": ["coel_catacaos@gmail.com"],
+        "telefonos_emergencia": [
+          "907622154",
+          "073-370120"
+        ],
+        "central_emergencias_grd": "907622154",
+        "anexo_central": "104",
+        "canal_whatsapp_coel": "+51907622154",
+        "canal_tiktok_oficial": "@municatacaos",
+        "url_tiktok": "https://www.tiktok.com/@municatacaos"
+      },
+      "amenazas_predominantes": [
+        "Desborde fluvial del Río Piura (Sector Pedregal Chico / Viduque / Curumuy)",
+        "Inundación pluvial urbana generalizada"
+      ],
+      "portal_web_defensa_civil": "https://www.municatacaos.gob.pe/defensacivil"
+    },
+    {
+      "ubigeo": "150118",
+      "departamento": "LIMA",
+      "provincia": "LIMA",
+      "distrito": "LURIGANCHO",
+      "municipalidad": "Municipalidad Distrital de Lurigancho - Chosica",
+      "unidad_organica": "Subgerencia de Gestión del Riesgo de Desastres e Inspecciones Técnicas de Seguridad en Edificaciones",
+      "dependencia_jerarquica": "Gerencia de Seguridad Ciudadana",
+      "responsable": {
+        "cargo": "Subgerente de GRD",
+        "nombre_completo": "Lic. Roberto Carlos Alarcón Vera",
+        "acto_resolutivo_designacion": "Resolución de Alcaldía N° 088-2023-MDL",
+        "estado": "ACTIVO"
+      },
+      "plataforma_defensa_civil": {
+        "presidente": "Alcalde Distrital de Lurigancho-Chosica",
+        "resolucion_conformacion": "Resolución de Alcaldía N° 032-2023-MDL"
+      },
+      "grupo_trabajo_grd": {
+        "resolucion_reconocimiento": "Resolución de Alcaldía N° 041-2023-MDL"
+      },
+      "canales_comunicacion": {
+        "correo_institucional_principal": "defensacivil@munichosica.gob.pe",
+        "correos_secundarios": ["coel_chosica@munichosica.gob.pe"],
+        "telefonos_emergencia": ["01-3603078", "01-3603079"],
+        "anexo_central": "101",
+        "canal_whatsapp_coel": "+51989444111"
+      },
+      "amenazas_predominantes": [
+        "Huaicos y flujos de detritos en quebradas Quirio, Pedregal, Carossio y Corrales",
+        "Desborde y erosión marginal del Río Rímac"
+      ],
+      "portal_web_defensa_civil": "https://www.munichosica.gob.pe/defensa_civil"
+    },
+    {
+      "ubigeo": "130103",
+      "departamento": "LA LIBERTAD",
+      "provincia": "TRUJILLO",
+      "distrito": "EL PORVENIR",
+      "municipalidad": "Municipalidad Distrital de El Porvenir",
+      "unidad_organica": "Oficina de Defensa Civil y Gestión del Riesgo de Desastres",
+      "dependencia_jerarquica": "Gerencia Municipal",
+      "responsable": {
+        "cargo": "Jefe de la Oficina de Defensa Civil",
+        "nombre_completo": "Ing. Marco Antonio Quispe Rodríguez",
+        "acto_resolutivo_designacion": "Resolución de Gerencia Municipal N° 102-2023-MDEP",
+        "estado": "ACTIVO"
+      },
+      "plataforma_defensa_civil": {
+        "presidente": "Alcalde Distrital de El Porvenir",
+        "resolucion_conformacion": "Resolución de Alcaldía N° 065-2023-MDEP"
+      },
+      "grupo_trabajo_grd": {
+        "resolucion_reconocimiento": "Resolución de Alcaldía N° 071-2023-MDEP"
+      },
+      "canales_comunicacion": {
+        "correo_institucional_principal": "defensacivil@munielporvenir.gob.pe",
+        "correos_secundarios": ["coel_elporvenir@gmail.com"],
+        "telefonos_emergencia": ["044-401122"],
+        "anexo_central": "205",
+        "canal_whatsapp_coel": "+51944778899"
+      },
+      "amenazas_predominantes": [
+        "Desborde y flujo de lodo de la Quebrada San Ildefonso",
+        "Inundación del centro poblado Río Seco"
+      ],
+      "portal_web_defensa_civil": "https://www.munielporvenir.gob.pe"
+    }
+  ]
+}

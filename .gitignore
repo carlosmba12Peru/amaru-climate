@@ -1,0 +1,31 @@
+# Environment & Secrets
+.env
+.env.*
+credentials.json
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Scratch & Temporary R&D files
+scratch/
+*.tmp
+
+# Private Strategy & Internal Founder Documents
+documentos_privados/
+
+# Heavy PDF archives in data (preserves lightweight JSON catalogs & structure)
+data/*.pdf
+
+# OS artifacts
+Thumbs.db
+Desktop.ini
+.DS_Store

@@ -1,0 +1,561 @@
+[
+  {
+    "id": 1,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:33:41.829301+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1791,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "🚨 *ALERTA ROJA INMINENTE — SISTEMA AMARU-FEN* 🚨\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU bajo el marco de la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 110202:* ICA (HUACARPANA, ICA)\n🔴 *NIVEL:* ALERTA ROJA DE EVACUACIÓN CRÍTICA\n📊 *Índice de Peligro IRCE-FEN:* `0.754` / 1.000\n⏱️ *Ventana de Acción Táctica:* Margen de evacuación antes del clímax de crecida\n🕒 *Hora de Detección IA:* 05/09/2026 22:33:41 (PET)\n\n📈 *PARÁMETROS FÍSICOS COMPUTADOS POR LA IA:*\n• *Precipitación Estimada:* 45.0 mm/24h (SENAMHI - Umbral P99 Extremo)\n• *Población en Exposición Directa:* 291,611 habitantes\n• *Vulnerabilidad FEN:* Cuenca crítica con antecedentes de socavación y desborde\n• *Servicios en Peligro:* Red eléctrica de media tensión, pozos de agua y bocatomas\n\n⚡ *DIRECTIVAS EJECUTIVAS INMEDIATAS PARA EL ALCALDE / COEL:*\n1️⃣ *Evacuación Preventiva:* Trasladar a familias de fajas marginales hacia cotas altas seguras.\n2️⃣ *Resguardo de Servicios:* Solicitar pre-seccionamiento a la empresa eléctrica (SCADA) y generadores a EPS de agua.\n3️⃣ *Control Vial:* Restringir tránsito de mototaxis y vehículos en badenes y puentes vulnerables.\n4️⃣ *Habilitación Jurídica:* Activar compras directas de emergencia bajo D.S. Nº 124-2026-PCM y prellenar Ficha EDAN.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe constituye soporte técnico y predictivo algorítmico. Las decisiones de evacuación y ejecución corresponden con exclusividad a la autoridad humana competente._\n\n🔗 *Consola Táctica en Vivo:* http://localhost:8501/?ubigeo=110202\n🏛️ *Centro de Operaciones:* Sistema Nacional de Gestión del Riesgo de Desastres (SINAGERD)"
+  },
+  {
+    "id": 2,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:33:42.446318+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1804,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "🚨 *ALERTA ROJA INMINENTE — SISTEMA AMARU-FEN* 🚨\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU bajo el marco de la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 131002:* EL PORVENIR (TRUJILLO, LA LIBERTAD)\n🔴 *NIVEL:* ALERTA ROJA DE EVACUACIÓN CRÍTICA\n📊 *Índice de Peligro IRCE-FEN:* `0.797` / 1.000\n⏱️ *Ventana de Acción Táctica:* Margen de evacuación antes del clímax de crecida\n🕒 *Hora de Detección IA:* 05/09/2026 22:33:42 (PET)\n\n📈 *PARÁMETROS FÍSICOS COMPUTADOS POR LA IA:*\n• *Precipitación Estimada:* 75.0 mm/24h (SENAMHI - Umbral P99 Extremo)\n• *Población en Exposición Directa:* 20,518 habitantes\n• *Vulnerabilidad FEN:* Cuenca crítica con antecedentes de socavación y desborde\n• *Servicios en Peligro:* Red eléctrica de media tensión, pozos de agua y bocatomas\n\n⚡ *DIRECTIVAS EJECUTIVAS INMEDIATAS PARA EL ALCALDE / COEL:*\n1️⃣ *Evacuación Preventiva:* Trasladar a familias de fajas marginales hacia cotas altas seguras.\n2️⃣ *Resguardo de Servicios:* Solicitar pre-seccionamiento a la empresa eléctrica (SCADA) y generadores a EPS de agua.\n3️⃣ *Control Vial:* Restringir tránsito de mototaxis y vehículos en badenes y puentes vulnerables.\n4️⃣ *Habilitación Jurídica:* Activar compras directas de emergencia bajo D.S. Nº 124-2026-PCM y prellenar Ficha EDAN.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe constituye soporte técnico y predictivo algorítmico. Las decisiones de evacuación y ejecución corresponden con exclusividad a la autoridad humana competente._\n\n🔗 *Consola Táctica en Vivo:* http://localhost:8501/?ubigeo=131002\n🏛️ *Centro de Operaciones:* Sistema Nacional de Gestión del Riesgo de Desastres (SINAGERD)"
+  },
+  {
+    "id": 3,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:33:43.734773+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1802,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "🚨 *ALERTA ROJA INMINENTE — SISTEMA AMARU-FEN* 🚨\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU bajo el marco de la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 131004:* HUANCHACO (TRUJILLO, LA LIBERTAD)\n🔴 *NIVEL:* ALERTA ROJA DE EVACUACIÓN CRÍTICA\n📊 *Índice de Peligro IRCE-FEN:* `0.797` / 1.000\n⏱️ *Ventana de Acción Táctica:* Margen de evacuación antes del clímax de crecida\n🕒 *Hora de Detección IA:* 05/09/2026 22:33:43 (PET)\n\n📈 *PARÁMETROS FÍSICOS COMPUTADOS POR LA IA:*\n• *Precipitación Estimada:* 75.0 mm/24h (SENAMHI - Umbral P99 Extremo)\n• *Población en Exposición Directa:* 20,518 habitantes\n• *Vulnerabilidad FEN:* Cuenca crítica con antecedentes de socavación y desborde\n• *Servicios en Peligro:* Red eléctrica de media tensión, pozos de agua y bocatomas\n\n⚡ *DIRECTIVAS EJECUTIVAS INMEDIATAS PARA EL ALCALDE / COEL:*\n1️⃣ *Evacuación Preventiva:* Trasladar a familias de fajas marginales hacia cotas altas seguras.\n2️⃣ *Resguardo de Servicios:* Solicitar pre-seccionamiento a la empresa eléctrica (SCADA) y generadores a EPS de agua.\n3️⃣ *Control Vial:* Restringir tránsito de mototaxis y vehículos en badenes y puentes vulnerables.\n4️⃣ *Habilitación Jurídica:* Activar compras directas de emergencia bajo D.S. Nº 124-2026-PCM y prellenar Ficha EDAN.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe constituye soporte técnico y predictivo algorítmico. Las decisiones de evacuación y ejecución corresponden con exclusividad a la autoridad humana competente._\n\n🔗 *Consola Táctica en Vivo:* http://localhost:8501/?ubigeo=131004\n🏛️ *Centro de Operaciones:* Sistema Nacional de Gestión del Riesgo de Desastres (SINAGERD)"
+  },
+  {
+    "id": 4,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:33:43.792308+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1802,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "🚨 *ALERTA ROJA INMINENTE — SISTEMA AMARU-FEN* 🚨\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU bajo el marco de la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 131011:* TRUJILLO (TRUJILLO, LA LIBERTAD)\n🔴 *NIVEL:* ALERTA ROJA DE EVACUACIÓN CRÍTICA\n📊 *Índice de Peligro IRCE-FEN:* `0.899` / 1.000\n⏱️ *Ventana de Acción Táctica:* Margen de evacuación antes del clímax de crecida\n🕒 *Hora de Detección IA:* 05/09/2026 22:33:43 (PET)\n\n📈 *PARÁMETROS FÍSICOS COMPUTADOS POR LA IA:*\n• *Precipitación Estimada:* 75.0 mm/24h (SENAMHI - Umbral P99 Extremo)\n• *Población en Exposición Directa:* 238,424 habitantes\n• *Vulnerabilidad FEN:* Cuenca crítica con antecedentes de socavación y desborde\n• *Servicios en Peligro:* Red eléctrica de media tensión, pozos de agua y bocatomas\n\n⚡ *DIRECTIVAS EJECUTIVAS INMEDIATAS PARA EL ALCALDE / COEL:*\n1️⃣ *Evacuación Preventiva:* Trasladar a familias de fajas marginales hacia cotas altas seguras.\n2️⃣ *Resguardo de Servicios:* Solicitar pre-seccionamiento a la empresa eléctrica (SCADA) y generadores a EPS de agua.\n3️⃣ *Control Vial:* Restringir tránsito de mototaxis y vehículos en badenes y puentes vulnerables.\n4️⃣ *Habilitación Jurídica:* Activar compras directas de emergencia bajo D.S. Nº 124-2026-PCM y prellenar Ficha EDAN.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe constituye soporte técnico y predictivo algorítmico. Las decisiones de evacuación y ejecución corresponden con exclusividad a la autoridad humana competente._\n\n🔗 *Consola Táctica en Vivo:* http://localhost:8501/?ubigeo=131011\n🏛️ *Centro de Operaciones:* Sistema Nacional de Gestión del Riesgo de Desastres (SINAGERD)"
+  },
+  {
+    "id": 5,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:33:43.845457+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1801,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "🚨 *ALERTA ROJA INMINENTE — SISTEMA AMARU-FEN* 🚨\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU bajo el marco de la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 140102:* CHICLAYO (CHICLAYO, LAMBAYEQUE)\n🔴 *NIVEL:* ALERTA ROJA DE EVACUACIÓN CRÍTICA\n📊 *Índice de Peligro IRCE-FEN:* `0.899` / 1.000\n⏱️ *Ventana de Acción Táctica:* Margen de evacuación antes del clímax de crecida\n🕒 *Hora de Detección IA:* 05/09/2026 22:33:43 (PET)\n\n📈 *PARÁMETROS FÍSICOS COMPUTADOS POR LA IA:*\n• *Precipitación Estimada:* 75.0 mm/24h (SENAMHI - Umbral P99 Extremo)\n• *Población en Exposición Directa:* 296,907 habitantes\n• *Vulnerabilidad FEN:* Cuenca crítica con antecedentes de socavación y desborde\n• *Servicios en Peligro:* Red eléctrica de media tensión, pozos de agua y bocatomas\n\n⚡ *DIRECTIVAS EJECUTIVAS INMEDIATAS PARA EL ALCALDE / COEL:*\n1️⃣ *Evacuación Preventiva:* Trasladar a familias de fajas marginales hacia cotas altas seguras.\n2️⃣ *Resguardo de Servicios:* Solicitar pre-seccionamiento a la empresa eléctrica (SCADA) y generadores a EPS de agua.\n3️⃣ *Control Vial:* Restringir tránsito de mototaxis y vehículos en badenes y puentes vulnerables.\n4️⃣ *Habilitación Jurídica:* Activar compras directas de emergencia bajo D.S. Nº 124-2026-PCM y prellenar Ficha EDAN.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe constituye soporte técnico y predictivo algorítmico. Las decisiones de evacuación y ejecución corresponden con exclusividad a la autoridad humana competente._\n\n🔗 *Consola Táctica en Vivo:* http://localhost:8501/?ubigeo=140102\n🏛️ *Centro de Operaciones:* Sistema Nacional de Gestión del Riesgo de Desastres (SINAGERD)"
+  },
+  {
+    "id": 6,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:33:43.899630+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1802,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "🚨 *ALERTA ROJA INMINENTE — SISTEMA AMARU-FEN* 🚨\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU bajo el marco de la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 140404:* ILLIMO (MESONES MURO, LAMBAYEQUE)\n🔴 *NIVEL:* ALERTA ROJA DE EVACUACIÓN CRÍTICA\n📊 *Índice de Peligro IRCE-FEN:* `0.797` / 1.000\n⏱️ *Ventana de Acción Táctica:* Margen de evacuación antes del clímax de crecida\n🕒 *Hora de Detección IA:* 05/09/2026 22:33:43 (PET)\n\n📈 *PARÁMETROS FÍSICOS COMPUTADOS POR LA IA:*\n• *Precipitación Estimada:* 75.0 mm/24h (SENAMHI - Umbral P99 Extremo)\n• *Población en Exposición Directa:* 20,302 habitantes\n• *Vulnerabilidad FEN:* Cuenca crítica con antecedentes de socavación y desborde\n• *Servicios en Peligro:* Red eléctrica de media tensión, pozos de agua y bocatomas\n\n⚡ *DIRECTIVAS EJECUTIVAS INMEDIATAS PARA EL ALCALDE / COEL:*\n1️⃣ *Evacuación Preventiva:* Trasladar a familias de fajas marginales hacia cotas altas seguras.\n2️⃣ *Resguardo de Servicios:* Solicitar pre-seccionamiento a la empresa eléctrica (SCADA) y generadores a EPS de agua.\n3️⃣ *Control Vial:* Restringir tránsito de mototaxis y vehículos en badenes y puentes vulnerables.\n4️⃣ *Habilitación Jurídica:* Activar compras directas de emergencia bajo D.S. Nº 124-2026-PCM y prellenar Ficha EDAN.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe constituye soporte técnico y predictivo algorítmico. Las decisiones de evacuación y ejecución corresponden con exclusividad a la autoridad humana competente._\n\n🔗 *Consola Táctica en Vivo:* http://localhost:8501/?ubigeo=140404\n🏛️ *Centro de Operaciones:* Sistema Nacional de Gestión del Riesgo de Desastres (SINAGERD)"
+  },
+  {
+    "id": 7,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:33:43.952260+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1802,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "🚨 *ALERTA ROJA INMINENTE — SISTEMA AMARU-FEN* 🚨\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU bajo el marco de la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 140411:* PACORA (MESONES MURO, LAMBAYEQUE)\n🔴 *NIVEL:* ALERTA ROJA DE EVACUACIÓN CRÍTICA\n📊 *Índice de Peligro IRCE-FEN:* `0.883` / 1.000\n⏱️ *Ventana de Acción Táctica:* Margen de evacuación antes del clímax de crecida\n🕒 *Hora de Detección IA:* 05/09/2026 22:33:43 (PET)\n\n📈 *PARÁMETROS FÍSICOS COMPUTADOS POR LA IA:*\n• *Precipitación Estimada:* 75.0 mm/24h (SENAMHI - Umbral P99 Extremo)\n• *Población en Exposición Directa:* 45,840 habitantes\n• *Vulnerabilidad FEN:* Cuenca crítica con antecedentes de socavación y desborde\n• *Servicios en Peligro:* Red eléctrica de media tensión, pozos de agua y bocatomas\n\n⚡ *DIRECTIVAS EJECUTIVAS INMEDIATAS PARA EL ALCALDE / COEL:*\n1️⃣ *Evacuación Preventiva:* Trasladar a familias de fajas marginales hacia cotas altas seguras.\n2️⃣ *Resguardo de Servicios:* Solicitar pre-seccionamiento a la empresa eléctrica (SCADA) y generadores a EPS de agua.\n3️⃣ *Control Vial:* Restringir tránsito de mototaxis y vehículos en badenes y puentes vulnerables.\n4️⃣ *Habilitación Jurídica:* Activar compras directas de emergencia bajo D.S. Nº 124-2026-PCM y prellenar Ficha EDAN.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe constituye soporte técnico y predictivo algorítmico. Las decisiones de evacuación y ejecución corresponden con exclusividad a la autoridad humana competente._\n\n🔗 *Consola Táctica en Vivo:* http://localhost:8501/?ubigeo=140411\n🏛️ *Centro de Operaciones:* Sistema Nacional de Gestión del Riesgo de Desastres (SINAGERD)"
+  },
+  {
+    "id": 8,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:33:44.009016+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1795,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "🚨 *ALERTA ROJA INMINENTE — SISTEMA AMARU-FEN* 🚨\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU bajo el marco de la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 151301:* ATE (METROPOLITANA, LIMA)\n🔴 *NIVEL:* ALERTA ROJA DE EVACUACIÓN CRÍTICA\n📊 *Índice de Peligro IRCE-FEN:* `0.754` / 1.000\n⏱️ *Ventana de Acción Táctica:* Margen de evacuación antes del clímax de crecida\n🕒 *Hora de Detección IA:* 05/09/2026 22:33:44 (PET)\n\n📈 *PARÁMETROS FÍSICOS COMPUTADOS POR LA IA:*\n• *Precipitación Estimada:* 45.0 mm/24h (SENAMHI - Umbral P99 Extremo)\n• *Población en Exposición Directa:* 279,885 habitantes\n• *Vulnerabilidad FEN:* Cuenca crítica con antecedentes de socavación y desborde\n• *Servicios en Peligro:* Red eléctrica de media tensión, pozos de agua y bocatomas\n\n⚡ *DIRECTIVAS EJECUTIVAS INMEDIATAS PARA EL ALCALDE / COEL:*\n1️⃣ *Evacuación Preventiva:* Trasladar a familias de fajas marginales hacia cotas altas seguras.\n2️⃣ *Resguardo de Servicios:* Solicitar pre-seccionamiento a la empresa eléctrica (SCADA) y generadores a EPS de agua.\n3️⃣ *Control Vial:* Restringir tránsito de mototaxis y vehículos en badenes y puentes vulnerables.\n4️⃣ *Habilitación Jurídica:* Activar compras directas de emergencia bajo D.S. Nº 124-2026-PCM y prellenar Ficha EDAN.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe constituye soporte técnico y predictivo algorítmico. Las decisiones de evacuación y ejecución corresponden con exclusividad a la autoridad humana competente._\n\n🔗 *Consola Táctica en Vivo:* http://localhost:8501/?ubigeo=151301\n🏛️ *Centro de Operaciones:* Sistema Nacional de Gestión del Riesgo de Desastres (SINAGERD)"
+  },
+  {
+    "id": 9,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:33:44.060462+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1802,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "🚨 *ALERTA ROJA INMINENTE — SISTEMA AMARU-FEN* 🚨\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU bajo el marco de la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 151310:* LURIGANCHO (METROPOLITANA, LIMA)\n🔴 *NIVEL:* ALERTA ROJA DE EVACUACIÓN CRÍTICA\n📊 *Índice de Peligro IRCE-FEN:* `0.950` / 1.000\n⏱️ *Ventana de Acción Táctica:* Margen de evacuación antes del clímax de crecida\n🕒 *Hora de Detección IA:* 05/09/2026 22:33:44 (PET)\n\n📈 *PARÁMETROS FÍSICOS COMPUTADOS POR LA IA:*\n• *Precipitación Estimada:* 45.0 mm/24h (SENAMHI - Umbral P99 Extremo)\n• *Población en Exposición Directa:* 232,707 habitantes\n• *Vulnerabilidad FEN:* Cuenca crítica con antecedentes de socavación y desborde\n• *Servicios en Peligro:* Red eléctrica de media tensión, pozos de agua y bocatomas\n\n⚡ *DIRECTIVAS EJECUTIVAS INMEDIATAS PARA EL ALCALDE / COEL:*\n1️⃣ *Evacuación Preventiva:* Trasladar a familias de fajas marginales hacia cotas altas seguras.\n2️⃣ *Resguardo de Servicios:* Solicitar pre-seccionamiento a la empresa eléctrica (SCADA) y generadores a EPS de agua.\n3️⃣ *Control Vial:* Restringir tránsito de mototaxis y vehículos en badenes y puentes vulnerables.\n4️⃣ *Habilitación Jurídica:* Activar compras directas de emergencia bajo D.S. Nº 124-2026-PCM y prellenar Ficha EDAN.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe constituye soporte técnico y predictivo algorítmico. Las decisiones de evacuación y ejecución corresponden con exclusividad a la autoridad humana competente._\n\n🔗 *Consola Táctica en Vivo:* http://localhost:8501/?ubigeo=151310\n🏛️ *Centro de Operaciones:* Sistema Nacional de Gestión del Riesgo de Desastres (SINAGERD)"
+  },
+  {
+    "id": 10,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:33:44.116934+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1792,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "🚨 *ALERTA ROJA INMINENTE — SISTEMA AMARU-FEN* 🚨\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU bajo el marco de la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 200708:* CASTILLA (PAITA, PIURA)\n🔴 *NIVEL:* ALERTA ROJA DE EVACUACIÓN CRÍTICA\n📊 *Índice de Peligro IRCE-FEN:* `0.822` / 1.000\n⏱️ *Ventana de Acción Táctica:* Margen de evacuación antes del clímax de crecida\n🕒 *Hora de Detección IA:* 05/09/2026 22:33:44 (PET)\n\n📈 *PARÁMETROS FÍSICOS COMPUTADOS POR LA IA:*\n• *Precipitación Estimada:* 75.0 mm/24h (SENAMHI - Umbral P99 Extremo)\n• *Población en Exposición Directa:* 27,732 habitantes\n• *Vulnerabilidad FEN:* Cuenca crítica con antecedentes de socavación y desborde\n• *Servicios en Peligro:* Red eléctrica de media tensión, pozos de agua y bocatomas\n\n⚡ *DIRECTIVAS EJECUTIVAS INMEDIATAS PARA EL ALCALDE / COEL:*\n1️⃣ *Evacuación Preventiva:* Trasladar a familias de fajas marginales hacia cotas altas seguras.\n2️⃣ *Resguardo de Servicios:* Solicitar pre-seccionamiento a la empresa eléctrica (SCADA) y generadores a EPS de agua.\n3️⃣ *Control Vial:* Restringir tránsito de mototaxis y vehículos en badenes y puentes vulnerables.\n4️⃣ *Habilitación Jurídica:* Activar compras directas de emergencia bajo D.S. Nº 124-2026-PCM y prellenar Ficha EDAN.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe constituye soporte técnico y predictivo algorítmico. Las decisiones de evacuación y ejecución corresponden con exclusividad a la autoridad humana competente._\n\n🔗 *Consola Táctica en Vivo:* http://localhost:8501/?ubigeo=200708\n🏛️ *Centro de Operaciones:* Sistema Nacional de Gestión del Riesgo de Desastres (SINAGERD)"
+  },
+  {
+    "id": 11,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:33:44.166801+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1792,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "🚨 *ALERTA ROJA INMINENTE — SISTEMA AMARU-FEN* 🚨\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU bajo el marco de la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 200709:* CATACAOS (PAITA, PIURA)\n🔴 *NIVEL:* ALERTA ROJA DE EVACUACIÓN CRÍTICA\n📊 *Índice de Peligro IRCE-FEN:* `0.822` / 1.000\n⏱️ *Ventana de Acción Táctica:* Margen de evacuación antes del clímax de crecida\n🕒 *Hora de Detección IA:* 05/09/2026 22:33:44 (PET)\n\n📈 *PARÁMETROS FÍSICOS COMPUTADOS POR LA IA:*\n• *Precipitación Estimada:* 75.0 mm/24h (SENAMHI - Umbral P99 Extremo)\n• *Población en Exposición Directa:* 27,732 habitantes\n• *Vulnerabilidad FEN:* Cuenca crítica con antecedentes de socavación y desborde\n• *Servicios en Peligro:* Red eléctrica de media tensión, pozos de agua y bocatomas\n\n⚡ *DIRECTIVAS EJECUTIVAS INMEDIATAS PARA EL ALCALDE / COEL:*\n1️⃣ *Evacuación Preventiva:* Trasladar a familias de fajas marginales hacia cotas altas seguras.\n2️⃣ *Resguardo de Servicios:* Solicitar pre-seccionamiento a la empresa eléctrica (SCADA) y generadores a EPS de agua.\n3️⃣ *Control Vial:* Restringir tránsito de mototaxis y vehículos en badenes y puentes vulnerables.\n4️⃣ *Habilitación Jurídica:* Activar compras directas de emergencia bajo D.S. Nº 124-2026-PCM y prellenar Ficha EDAN.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe constituye soporte técnico y predictivo algorítmico. Las decisiones de evacuación y ejecución corresponden con exclusividad a la autoridad humana competente._\n\n🔗 *Consola Táctica en Vivo:* http://localhost:8501/?ubigeo=200709\n🏛️ *Centro de Operaciones:* Sistema Nacional de Gestión del Riesgo de Desastres (SINAGERD)"
+  },
+  {
+    "id": 12,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:33:44.225218+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1793,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "🚨 *ALERTA ROJA INMINENTE — SISTEMA AMARU-FEN* 🚨\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU bajo el marco de la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 200710:* CURA MORI (PAITA, PIURA)\n🔴 *NIVEL:* ALERTA ROJA DE EVACUACIÓN CRÍTICA\n📊 *Índice de Peligro IRCE-FEN:* `0.822` / 1.000\n⏱️ *Ventana de Acción Táctica:* Margen de evacuación antes del clímax de crecida\n🕒 *Hora de Detección IA:* 05/09/2026 22:33:44 (PET)\n\n📈 *PARÁMETROS FÍSICOS COMPUTADOS POR LA IA:*\n• *Precipitación Estimada:* 75.0 mm/24h (SENAMHI - Umbral P99 Extremo)\n• *Población en Exposición Directa:* 27,732 habitantes\n• *Vulnerabilidad FEN:* Cuenca crítica con antecedentes de socavación y desborde\n• *Servicios en Peligro:* Red eléctrica de media tensión, pozos de agua y bocatomas\n\n⚡ *DIRECTIVAS EJECUTIVAS INMEDIATAS PARA EL ALCALDE / COEL:*\n1️⃣ *Evacuación Preventiva:* Trasladar a familias de fajas marginales hacia cotas altas seguras.\n2️⃣ *Resguardo de Servicios:* Solicitar pre-seccionamiento a la empresa eléctrica (SCADA) y generadores a EPS de agua.\n3️⃣ *Control Vial:* Restringir tránsito de mototaxis y vehículos en badenes y puentes vulnerables.\n4️⃣ *Habilitación Jurídica:* Activar compras directas de emergencia bajo D.S. Nº 124-2026-PCM y prellenar Ficha EDAN.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe constituye soporte técnico y predictivo algorítmico. Las decisiones de evacuación y ejecución corresponden con exclusividad a la autoridad humana competente._\n\n🔗 *Consola Táctica en Vivo:* http://localhost:8501/?ubigeo=200710\n🏛️ *Centro de Operaciones:* Sistema Nacional de Gestión del Riesgo de Desastres (SINAGERD)"
+  },
+  {
+    "id": 13,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:33:44.281629+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1790,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "🚨 *ALERTA ROJA INMINENTE — SISTEMA AMARU-FEN* 🚨\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU bajo el marco de la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 200715:* PIURA (PAITA, PIURA)\n🔴 *NIVEL:* ALERTA ROJA DE EVACUACIÓN CRÍTICA\n📊 *Índice de Peligro IRCE-FEN:* `1.000` / 1.000\n⏱️ *Ventana de Acción Táctica:* Margen de evacuación antes del clímax de crecida\n🕒 *Hora de Detección IA:* 05/09/2026 22:33:44 (PET)\n\n📈 *PARÁMETROS FÍSICOS COMPUTADOS POR LA IA:*\n• *Precipitación Estimada:* 75.0 mm/24h (SENAMHI - Umbral P99 Extremo)\n• *Población en Exposición Directa:* 279,044 habitantes\n• *Vulnerabilidad FEN:* Cuenca crítica con antecedentes de socavación y desborde\n• *Servicios en Peligro:* Red eléctrica de media tensión, pozos de agua y bocatomas\n\n⚡ *DIRECTIVAS EJECUTIVAS INMEDIATAS PARA EL ALCALDE / COEL:*\n1️⃣ *Evacuación Preventiva:* Trasladar a familias de fajas marginales hacia cotas altas seguras.\n2️⃣ *Resguardo de Servicios:* Solicitar pre-seccionamiento a la empresa eléctrica (SCADA) y generadores a EPS de agua.\n3️⃣ *Control Vial:* Restringir tránsito de mototaxis y vehículos en badenes y puentes vulnerables.\n4️⃣ *Habilitación Jurídica:* Activar compras directas de emergencia bajo D.S. Nº 124-2026-PCM y prellenar Ficha EDAN.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe constituye soporte técnico y predictivo algorítmico. Las decisiones de evacuación y ejecución corresponden con exclusividad a la autoridad humana competente._\n\n🔗 *Consola Táctica en Vivo:* http://localhost:8501/?ubigeo=200715\n🏛️ *Centro de Operaciones:* Sistema Nacional de Gestión del Riesgo de Desastres (SINAGERD)"
+  },
+  {
+    "id": 14,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:33:44.334443+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1796,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "🚨 *ALERTA ROJA INMINENTE — SISTEMA AMARU-FEN* 🚨\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU bajo el marco de la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 200716:* TAMBO GRANDE (PAITA, PIURA)\n🔴 *NIVEL:* ALERTA ROJA DE EVACUACIÓN CRÍTICA\n📊 *Índice de Peligro IRCE-FEN:* `0.812` / 1.000\n⏱️ *Ventana de Acción Táctica:* Margen de evacuación antes del clímax de crecida\n🕒 *Hora de Detección IA:* 05/09/2026 22:33:44 (PET)\n\n📈 *PARÁMETROS FÍSICOS COMPUTADOS POR LA IA:*\n• *Precipitación Estimada:* 75.0 mm/24h (SENAMHI - Umbral P99 Extremo)\n• *Población en Exposición Directa:* 24,847 habitantes\n• *Vulnerabilidad FEN:* Cuenca crítica con antecedentes de socavación y desborde\n• *Servicios en Peligro:* Red eléctrica de media tensión, pozos de agua y bocatomas\n\n⚡ *DIRECTIVAS EJECUTIVAS INMEDIATAS PARA EL ALCALDE / COEL:*\n1️⃣ *Evacuación Preventiva:* Trasladar a familias de fajas marginales hacia cotas altas seguras.\n2️⃣ *Resguardo de Servicios:* Solicitar pre-seccionamiento a la empresa eléctrica (SCADA) y generadores a EPS de agua.\n3️⃣ *Control Vial:* Restringir tránsito de mototaxis y vehículos en badenes y puentes vulnerables.\n4️⃣ *Habilitación Jurídica:* Activar compras directas de emergencia bajo D.S. Nº 124-2026-PCM y prellenar Ficha EDAN.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe constituye soporte técnico y predictivo algorítmico. Las decisiones de evacuación y ejecución corresponden con exclusividad a la autoridad humana competente._\n\n🔗 *Consola Táctica en Vivo:* http://localhost:8501/?ubigeo=200716\n🏛️ *Centro de Operaciones:* Sistema Nacional de Gestión del Riesgo de Desastres (SINAGERD)"
+  },
+  {
+    "id": 15,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:33:45.379951+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1715,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "❄️ *ALERTA ROJA GLACIAL — SISTEMA AMARU-CHIRI* ❄️\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU-CHIRI bajo la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 210504:* SANTA ROSA (PUNO)\n🔴 *NIVEL:* ALERTA ROJA GLACIAL | *Índice ISH-CHIRI:* `82.0 / 100`\n⏱️ *Ventana Táctica Nocturna:* Desplome crítico en 4 a 6 horas (Clímax al amanecer)\n🕒 *Hora de Detección IA:* 05/09/2026 22:33:45 (PET)\n\n🌡️ *PARÁMETROS CRIOCLIMÁTICOS COMPUTADOS POR LA IA:*\n• *Temperatura Mínima Proyectada:* -12.5 °C\n• *Sensación Térmica (Wind Chill):* -17.5 °C (Viento Catabático Severo)\n• *Ganado Alpaquero en Riesgo:* 50,000 cabezas (Peligro de hipotermia/neumonía)\n• *Locales Escolares de Adobe:* 18 II.EE. sin aislamiento térmico PRONIED\n\n🏫 *DIRECTIVAS SECTORIALES EDUCATIVAS Y VIALES:*\n• *MINEDU / PREVAED:* ⚠️ *SUSPENSIÓN DE CLASES PRESENCIALES (PREVAED PP-0068)*\n• *Vialidad:* ⚠️ Peligro de formación de hielo en carreteras altoandinas\n\n⚡ *ACCIONES COMUNALES INMEDIATAS:*\n1️⃣ *Pecuario:* Guarecer crías en cobertizos y encender ahumado comunal con bosta seca.\n2️⃣ *Salud:* Distribuir antibióticos veterinarios y abrigar a niños y adultos mayores.\n3️⃣ *Transporte:* Restringir tránsito matinal en pasos cordilleranos por placas de hielo negro.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe es un cálculo algorítmico automatizado. La ejecución de medidas de protección corresponde a los comités multisectoriales locales (PMHF / INDECI)._\n\n🔗 *Consola Crioclimática en Vivo:* http://localhost:8502/?ubigeo=210504\n🏛️ *Plan Multisectorial ante Heladas y Friaje (PMHF)*"
+  },
+  {
+    "id": 16,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:33:45.424051+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1713,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "❄️ *ALERTA ROJA GLACIAL — SISTEMA AMARU-CHIRI* ❄️\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU-CHIRI bajo la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 210301:* MACUSANI (PUNO)\n🔴 *NIVEL:* ALERTA ROJA GLACIAL | *Índice ISH-CHIRI:* `82.0 / 100`\n⏱️ *Ventana Táctica Nocturna:* Desplome crítico en 4 a 6 horas (Clímax al amanecer)\n🕒 *Hora de Detección IA:* 05/09/2026 22:33:45 (PET)\n\n🌡️ *PARÁMETROS CRIOCLIMÁTICOS COMPUTADOS POR LA IA:*\n• *Temperatura Mínima Proyectada:* -10.5 °C\n• *Sensación Térmica (Wind Chill):* -15.5 °C (Viento Catabático Severo)\n• *Ganado Alpaquero en Riesgo:* 50,000 cabezas (Peligro de hipotermia/neumonía)\n• *Locales Escolares de Adobe:* 32 II.EE. sin aislamiento térmico PRONIED\n\n🏫 *DIRECTIVAS SECTORIALES EDUCATIVAS Y VIALES:*\n• *MINEDU / PREVAED:* ⚠️ *SUSPENSIÓN DE CLASES PRESENCIALES (PREVAED PP-0068)*\n• *Vialidad:* ⚠️ Peligro de formación de hielo en carreteras altoandinas\n\n⚡ *ACCIONES COMUNALES INMEDIATAS:*\n1️⃣ *Pecuario:* Guarecer crías en cobertizos y encender ahumado comunal con bosta seca.\n2️⃣ *Salud:* Distribuir antibióticos veterinarios y abrigar a niños y adultos mayores.\n3️⃣ *Transporte:* Restringir tránsito matinal en pasos cordilleranos por placas de hielo negro.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe es un cálculo algorítmico automatizado. La ejecución de medidas de protección corresponde a los comités multisectoriales locales (PMHF / INDECI)._\n\n🔗 *Consola Crioclimática en Vivo:* http://localhost:8502/?ubigeo=210301\n🏛️ *Plan Multisectorial ante Heladas y Friaje (PMHF)*"
+  },
+  {
+    "id": 17,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:33:45.487148+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1711,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "❄️ *ALERTA ROJA GLACIAL — SISTEMA AMARU-CHIRI* ❄️\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU-CHIRI bajo la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 211002:* ANANEA (PUNO)\n🔴 *NIVEL:* ALERTA ROJA GLACIAL | *Índice ISH-CHIRI:* `82.0 / 100`\n⏱️ *Ventana Táctica Nocturna:* Desplome crítico en 4 a 6 horas (Clímax al amanecer)\n🕒 *Hora de Detección IA:* 05/09/2026 22:33:45 (PET)\n\n🌡️ *PARÁMETROS CRIOCLIMÁTICOS COMPUTADOS POR LA IA:*\n• *Temperatura Mínima Proyectada:* -12.5 °C\n• *Sensación Térmica (Wind Chill):* -17.5 °C (Viento Catabático Severo)\n• *Ganado Alpaquero en Riesgo:* 50,000 cabezas (Peligro de hipotermia/neumonía)\n• *Locales Escolares de Adobe:* 10 II.EE. sin aislamiento térmico PRONIED\n\n🏫 *DIRECTIVAS SECTORIALES EDUCATIVAS Y VIALES:*\n• *MINEDU / PREVAED:* ⚠️ *SUSPENSIÓN DE CLASES PRESENCIALES (PREVAED PP-0068)*\n• *Vialidad:* ⚠️ Peligro de formación de hielo en carreteras altoandinas\n\n⚡ *ACCIONES COMUNALES INMEDIATAS:*\n1️⃣ *Pecuario:* Guarecer crías en cobertizos y encender ahumado comunal con bosta seca.\n2️⃣ *Salud:* Distribuir antibióticos veterinarios y abrigar a niños y adultos mayores.\n3️⃣ *Transporte:* Restringir tránsito matinal en pasos cordilleranos por placas de hielo negro.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe es un cálculo algorítmico automatizado. La ejecución de medidas de protección corresponde a los comités multisectoriales locales (PMHF / INDECI)._\n\n🔗 *Consola Crioclimática en Vivo:* http://localhost:8502/?ubigeo=211002\n🏛️ *Plan Multisectorial ante Heladas y Friaje (PMHF)*"
+  },
+  {
+    "id": 18,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:33:45.553493+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1711,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "❄️ *ALERTA ROJA GLACIAL — SISTEMA AMARU-CHIRI* ❄️\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU-CHIRI bajo la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 210502:* CAPAZO (PUNO)\n🔴 *NIVEL:* ALERTA ROJA GLACIAL | *Índice ISH-CHIRI:* `82.0 / 100`\n⏱️ *Ventana Táctica Nocturna:* Desplome crítico en 4 a 6 horas (Clímax al amanecer)\n🕒 *Hora de Detección IA:* 05/09/2026 22:33:45 (PET)\n\n🌡️ *PARÁMETROS CRIOCLIMÁTICOS COMPUTADOS POR LA IA:*\n• *Temperatura Mínima Proyectada:* -14.5 °C\n• *Sensación Térmica (Wind Chill):* -19.5 °C (Viento Catabático Severo)\n• *Ganado Alpaquero en Riesgo:* 50,000 cabezas (Peligro de hipotermia/neumonía)\n• *Locales Escolares de Adobe:* 10 II.EE. sin aislamiento térmico PRONIED\n\n🏫 *DIRECTIVAS SECTORIALES EDUCATIVAS Y VIALES:*\n• *MINEDU / PREVAED:* ⚠️ *SUSPENSIÓN DE CLASES PRESENCIALES (PREVAED PP-0068)*\n• *Vialidad:* ⚠️ Peligro de formación de hielo en carreteras altoandinas\n\n⚡ *ACCIONES COMUNALES INMEDIATAS:*\n1️⃣ *Pecuario:* Guarecer crías en cobertizos y encender ahumado comunal con bosta seca.\n2️⃣ *Salud:* Distribuir antibióticos veterinarios y abrigar a niños y adultos mayores.\n3️⃣ *Transporte:* Restringir tránsito matinal en pasos cordilleranos por placas de hielo negro.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe es un cálculo algorítmico automatizado. La ejecución de medidas de protección corresponde a los comités multisectoriales locales (PMHF / INDECI)._\n\n🔗 *Consola Crioclimática en Vivo:* http://localhost:8502/?ubigeo=210502\n🏛️ *Plan Multisectorial ante Heladas y Friaje (PMHF)*"
+  },
+  {
+    "id": 19,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:33:45.615448+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1713,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "❄️ *ALERTA ROJA GLACIAL — SISTEMA AMARU-CHIRI* ❄️\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU-CHIRI bajo la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 210405:* PISACOMA (PUNO)\n🔴 *NIVEL:* ALERTA ROJA GLACIAL | *Índice ISH-CHIRI:* `82.0 / 100`\n⏱️ *Ventana Táctica Nocturna:* Desplome crítico en 4 a 6 horas (Clímax al amanecer)\n🕒 *Hora de Detección IA:* 05/09/2026 22:33:45 (PET)\n\n🌡️ *PARÁMETROS CRIOCLIMÁTICOS COMPUTADOS POR LA IA:*\n• *Temperatura Mínima Proyectada:* -11.5 °C\n• *Sensación Térmica (Wind Chill):* -16.5 °C (Viento Catabático Severo)\n• *Ganado Alpaquero en Riesgo:* 50,000 cabezas (Peligro de hipotermia/neumonía)\n• *Locales Escolares de Adobe:* 10 II.EE. sin aislamiento térmico PRONIED\n\n🏫 *DIRECTIVAS SECTORIALES EDUCATIVAS Y VIALES:*\n• *MINEDU / PREVAED:* ⚠️ *SUSPENSIÓN DE CLASES PRESENCIALES (PREVAED PP-0068)*\n• *Vialidad:* ⚠️ Peligro de formación de hielo en carreteras altoandinas\n\n⚡ *ACCIONES COMUNALES INMEDIATAS:*\n1️⃣ *Pecuario:* Guarecer crías en cobertizos y encender ahumado comunal con bosta seca.\n2️⃣ *Salud:* Distribuir antibióticos veterinarios y abrigar a niños y adultos mayores.\n3️⃣ *Transporte:* Restringir tránsito matinal en pasos cordilleranos por placas de hielo negro.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe es un cálculo algorítmico automatizado. La ejecución de medidas de protección corresponde a los comités multisectoriales locales (PMHF / INDECI)._\n\n🔗 *Consola Crioclimática en Vivo:* http://localhost:8502/?ubigeo=210405\n🏛️ *Plan Multisectorial ante Heladas y Friaje (PMHF)*"
+  },
+  {
+    "id": 20,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:33:45.675347+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1714,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "❄️ *ALERTA ROJA GLACIAL — SISTEMA AMARU-CHIRI* ❄️\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU-CHIRI bajo la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 210808:* SANTA ROSA (PUNO)\n🔴 *NIVEL:* ALERTA ROJA GLACIAL | *Índice ISH-CHIRI:* `82.0 / 100`\n⏱️ *Ventana Táctica Nocturna:* Desplome crítico en 4 a 6 horas (Clímax al amanecer)\n🕒 *Hora de Detección IA:* 05/09/2026 22:33:45 (PET)\n\n🌡️ *PARÁMETROS CRIOCLIMÁTICOS COMPUTADOS POR LA IA:*\n• *Temperatura Mínima Proyectada:* -9.5 °C\n• *Sensación Térmica (Wind Chill):* -14.5 °C (Viento Catabático Severo)\n• *Ganado Alpaquero en Riesgo:* 50,000 cabezas (Peligro de hipotermia/neumonía)\n• *Locales Escolares de Adobe:* 10 II.EE. sin aislamiento térmico PRONIED\n\n🏫 *DIRECTIVAS SECTORIALES EDUCATIVAS Y VIALES:*\n• *MINEDU / PREVAED:* ⚠️ *SUSPENSIÓN DE CLASES PRESENCIALES (PREVAED PP-0068)*\n• *Vialidad:* ⚠️ Peligro de formación de hielo en carreteras altoandinas\n\n⚡ *ACCIONES COMUNALES INMEDIATAS:*\n1️⃣ *Pecuario:* Guarecer crías en cobertizos y encender ahumado comunal con bosta seca.\n2️⃣ *Salud:* Distribuir antibióticos veterinarios y abrigar a niños y adultos mayores.\n3️⃣ *Transporte:* Restringir tránsito matinal en pasos cordilleranos por placas de hielo negro.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe es un cálculo algorítmico automatizado. La ejecución de medidas de protección corresponde a los comités multisectoriales locales (PMHF / INDECI)._\n\n🔗 *Consola Crioclimática en Vivo:* http://localhost:8502/?ubigeo=210808\n🏛️ *Plan Multisectorial ante Heladas y Friaje (PMHF)*"
+  },
+  {
+    "id": 21,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:33:45.765995+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1712,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "❄️ *ALERTA ROJA GLACIAL — SISTEMA AMARU-CHIRI* ❄️\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU-CHIRI bajo la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 210306:* CRUCERO (PUNO)\n🔴 *NIVEL:* ALERTA ROJA GLACIAL | *Índice ISH-CHIRI:* `82.0 / 100`\n⏱️ *Ventana Táctica Nocturna:* Desplome crítico en 4 a 6 horas (Clímax al amanecer)\n🕒 *Hora de Detección IA:* 05/09/2026 22:33:45 (PET)\n\n🌡️ *PARÁMETROS CRIOCLIMÁTICOS COMPUTADOS POR LA IA:*\n• *Temperatura Mínima Proyectada:* -12.5 °C\n• *Sensación Térmica (Wind Chill):* -17.5 °C (Viento Catabático Severo)\n• *Ganado Alpaquero en Riesgo:* 50,000 cabezas (Peligro de hipotermia/neumonía)\n• *Locales Escolares de Adobe:* 10 II.EE. sin aislamiento térmico PRONIED\n\n🏫 *DIRECTIVAS SECTORIALES EDUCATIVAS Y VIALES:*\n• *MINEDU / PREVAED:* ⚠️ *SUSPENSIÓN DE CLASES PRESENCIALES (PREVAED PP-0068)*\n• *Vialidad:* ⚠️ Peligro de formación de hielo en carreteras altoandinas\n\n⚡ *ACCIONES COMUNALES INMEDIATAS:*\n1️⃣ *Pecuario:* Guarecer crías en cobertizos y encender ahumado comunal con bosta seca.\n2️⃣ *Salud:* Distribuir antibióticos veterinarios y abrigar a niños y adultos mayores.\n3️⃣ *Transporte:* Restringir tránsito matinal en pasos cordilleranos por placas de hielo negro.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe es un cálculo algorítmico automatizado. La ejecución de medidas de protección corresponde a los comités multisectoriales locales (PMHF / INDECI)._\n\n🔗 *Consola Crioclimática en Vivo:* http://localhost:8502/?ubigeo=210306\n🏛️ *Plan Multisectorial ante Heladas y Friaje (PMHF)*"
+  },
+  {
+    "id": 22,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:33:45.837694+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1726,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "❄️ *ALERTA ROJA GLACIAL — SISTEMA AMARU-CHIRI* ❄️\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU-CHIRI bajo la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 090401:* CASTROVIRREYNA (HUANCAVELICA)\n🔴 *NIVEL:* ALERTA ROJA GLACIAL | *Índice ISH-CHIRI:* `82.0 / 100`\n⏱️ *Ventana Táctica Nocturna:* Desplome crítico en 4 a 6 horas (Clímax al amanecer)\n🕒 *Hora de Detección IA:* 05/09/2026 22:33:45 (PET)\n\n🌡️ *PARÁMETROS CRIOCLIMÁTICOS COMPUTADOS POR LA IA:*\n• *Temperatura Mínima Proyectada:* -8.5 °C\n• *Sensación Térmica (Wind Chill):* -13.5 °C (Viento Catabático Severo)\n• *Ganado Alpaquero en Riesgo:* 50,000 cabezas (Peligro de hipotermia/neumonía)\n• *Locales Escolares de Adobe:* 20 II.EE. sin aislamiento térmico PRONIED\n\n🏫 *DIRECTIVAS SECTORIALES EDUCATIVAS Y VIALES:*\n• *MINEDU / PREVAED:* ⚠️ *SUSPENSIÓN DE CLASES PRESENCIALES (PREVAED PP-0068)*\n• *Vialidad:* ⚠️ Peligro de formación de hielo en carreteras altoandinas\n\n⚡ *ACCIONES COMUNALES INMEDIATAS:*\n1️⃣ *Pecuario:* Guarecer crías en cobertizos y encender ahumado comunal con bosta seca.\n2️⃣ *Salud:* Distribuir antibióticos veterinarios y abrigar a niños y adultos mayores.\n3️⃣ *Transporte:* Restringir tránsito matinal en pasos cordilleranos por placas de hielo negro.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe es un cálculo algorítmico automatizado. La ejecución de medidas de protección corresponde a los comités multisectoriales locales (PMHF / INDECI)._\n\n🔗 *Consola Crioclimática en Vivo:* http://localhost:8502/?ubigeo=090401\n🏛️ *Plan Multisectorial ante Heladas y Friaje (PMHF)*"
+  },
+  {
+    "id": 23,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:33:45.904292+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1723,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "❄️ *ALERTA ROJA GLACIAL — SISTEMA AMARU-CHIRI* ❄️\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU-CHIRI bajo la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 090607:* PILPICHACA (HUANCAVELICA)\n🔴 *NIVEL:* ALERTA ROJA GLACIAL | *Índice ISH-CHIRI:* `82.0 / 100`\n⏱️ *Ventana Táctica Nocturna:* Desplome crítico en 4 a 6 horas (Clímax al amanecer)\n🕒 *Hora de Detección IA:* 05/09/2026 22:33:45 (PET)\n\n🌡️ *PARÁMETROS CRIOCLIMÁTICOS COMPUTADOS POR LA IA:*\n• *Temperatura Mínima Proyectada:* -10.5 °C\n• *Sensación Térmica (Wind Chill):* -15.5 °C (Viento Catabático Severo)\n• *Ganado Alpaquero en Riesgo:* 50,000 cabezas (Peligro de hipotermia/neumonía)\n• *Locales Escolares de Adobe:* 10 II.EE. sin aislamiento térmico PRONIED\n\n🏫 *DIRECTIVAS SECTORIALES EDUCATIVAS Y VIALES:*\n• *MINEDU / PREVAED:* ⚠️ *SUSPENSIÓN DE CLASES PRESENCIALES (PREVAED PP-0068)*\n• *Vialidad:* ⚠️ Peligro de formación de hielo en carreteras altoandinas\n\n⚡ *ACCIONES COMUNALES INMEDIATAS:*\n1️⃣ *Pecuario:* Guarecer crías en cobertizos y encender ahumado comunal con bosta seca.\n2️⃣ *Salud:* Distribuir antibióticos veterinarios y abrigar a niños y adultos mayores.\n3️⃣ *Transporte:* Restringir tránsito matinal en pasos cordilleranos por placas de hielo negro.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe es un cálculo algorítmico automatizado. La ejecución de medidas de protección corresponde a los comités multisectoriales locales (PMHF / INDECI)._\n\n🔗 *Consola Crioclimática en Vivo:* http://localhost:8502/?ubigeo=090607\n🏛️ *Plan Multisectorial ante Heladas y Friaje (PMHF)*"
+  },
+  {
+    "id": 24,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:33:45.969932+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1719,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "❄️ *ALERTA ROJA GLACIAL — SISTEMA AMARU-CHIRI* ❄️\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU-CHIRI bajo la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 090206:* PAUCARA (HUANCAVELICA)\n🔴 *NIVEL:* ALERTA ROJA GLACIAL | *Índice ISH-CHIRI:* `82.0 / 100`\n⏱️ *Ventana Táctica Nocturna:* Desplome crítico en 4 a 6 horas (Clímax al amanecer)\n🕒 *Hora de Detección IA:* 05/09/2026 22:33:45 (PET)\n\n🌡️ *PARÁMETROS CRIOCLIMÁTICOS COMPUTADOS POR LA IA:*\n• *Temperatura Mínima Proyectada:* -8.5 °C\n• *Sensación Térmica (Wind Chill):* -13.5 °C (Viento Catabático Severo)\n• *Ganado Alpaquero en Riesgo:* 50,000 cabezas (Peligro de hipotermia/neumonía)\n• *Locales Escolares de Adobe:* 10 II.EE. sin aislamiento térmico PRONIED\n\n🏫 *DIRECTIVAS SECTORIALES EDUCATIVAS Y VIALES:*\n• *MINEDU / PREVAED:* ⚠️ *SUSPENSIÓN DE CLASES PRESENCIALES (PREVAED PP-0068)*\n• *Vialidad:* ⚠️ Peligro de formación de hielo en carreteras altoandinas\n\n⚡ *ACCIONES COMUNALES INMEDIATAS:*\n1️⃣ *Pecuario:* Guarecer crías en cobertizos y encender ahumado comunal con bosta seca.\n2️⃣ *Salud:* Distribuir antibióticos veterinarios y abrigar a niños y adultos mayores.\n3️⃣ *Transporte:* Restringir tránsito matinal en pasos cordilleranos por placas de hielo negro.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe es un cálculo algorítmico automatizado. La ejecución de medidas de protección corresponde a los comités multisectoriales locales (PMHF / INDECI)._\n\n🔗 *Consola Crioclimática en Vivo:* http://localhost:8502/?ubigeo=090206\n🏛️ *Plan Multisectorial ante Heladas y Friaje (PMHF)*"
+  },
+  {
+    "id": 25,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:33:46.029483+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1729,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "❄️ *ALERTA ROJA GLACIAL — SISTEMA AMARU-CHIRI* ❄️\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU-CHIRI bajo la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 040514:* SAN ANTONIO DE CHUCA (AREQUIPA)\n🔴 *NIVEL:* ALERTA ROJA GLACIAL | *Índice ISH-CHIRI:* `82.0 / 100`\n⏱️ *Ventana Táctica Nocturna:* Desplome crítico en 4 a 6 horas (Clímax al amanecer)\n🕒 *Hora de Detección IA:* 05/09/2026 22:33:46 (PET)\n\n🌡️ *PARÁMETROS CRIOCLIMÁTICOS COMPUTADOS POR LA IA:*\n• *Temperatura Mínima Proyectada:* -12.5 °C\n• *Sensación Térmica (Wind Chill):* -17.5 °C (Viento Catabático Severo)\n• *Ganado Alpaquero en Riesgo:* 50,000 cabezas (Peligro de hipotermia/neumonía)\n• *Locales Escolares de Adobe:* 10 II.EE. sin aislamiento térmico PRONIED\n\n🏫 *DIRECTIVAS SECTORIALES EDUCATIVAS Y VIALES:*\n• *MINEDU / PREVAED:* ⚠️ *SUSPENSIÓN DE CLASES PRESENCIALES (PREVAED PP-0068)*\n• *Vialidad:* ⚠️ Peligro de formación de hielo en carreteras altoandinas\n\n⚡ *ACCIONES COMUNALES INMEDIATAS:*\n1️⃣ *Pecuario:* Guarecer crías en cobertizos y encender ahumado comunal con bosta seca.\n2️⃣ *Salud:* Distribuir antibióticos veterinarios y abrigar a niños y adultos mayores.\n3️⃣ *Transporte:* Restringir tránsito matinal en pasos cordilleranos por placas de hielo negro.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe es un cálculo algorítmico automatizado. La ejecución de medidas de protección corresponde a los comités multisectoriales locales (PMHF / INDECI)._\n\n🔗 *Consola Crioclimática en Vivo:* http://localhost:8502/?ubigeo=040514\n🏛️ *Plan Multisectorial ante Heladas y Friaje (PMHF)*"
+  },
+  {
+    "id": 26,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:33:46.094033+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1717,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "❄️ *ALERTA ROJA GLACIAL — SISTEMA AMARU-CHIRI* ❄️\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU-CHIRI bajo la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 040505:* CAYLLOMA (AREQUIPA)\n🔴 *NIVEL:* ALERTA ROJA GLACIAL | *Índice ISH-CHIRI:* `82.0 / 100`\n⏱️ *Ventana Táctica Nocturna:* Desplome crítico en 4 a 6 horas (Clímax al amanecer)\n🕒 *Hora de Detección IA:* 05/09/2026 22:33:46 (PET)\n\n🌡️ *PARÁMETROS CRIOCLIMÁTICOS COMPUTADOS POR LA IA:*\n• *Temperatura Mínima Proyectada:* -11.5 °C\n• *Sensación Térmica (Wind Chill):* -16.5 °C (Viento Catabático Severo)\n• *Ganado Alpaquero en Riesgo:* 50,000 cabezas (Peligro de hipotermia/neumonía)\n• *Locales Escolares de Adobe:* 10 II.EE. sin aislamiento térmico PRONIED\n\n🏫 *DIRECTIVAS SECTORIALES EDUCATIVAS Y VIALES:*\n• *MINEDU / PREVAED:* ⚠️ *SUSPENSIÓN DE CLASES PRESENCIALES (PREVAED PP-0068)*\n• *Vialidad:* ⚠️ Peligro de formación de hielo en carreteras altoandinas\n\n⚡ *ACCIONES COMUNALES INMEDIATAS:*\n1️⃣ *Pecuario:* Guarecer crías en cobertizos y encender ahumado comunal con bosta seca.\n2️⃣ *Salud:* Distribuir antibióticos veterinarios y abrigar a niños y adultos mayores.\n3️⃣ *Transporte:* Restringir tránsito matinal en pasos cordilleranos por placas de hielo negro.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe es un cálculo algorítmico automatizado. La ejecución de medidas de protección corresponde a los comités multisectoriales locales (PMHF / INDECI)._\n\n🔗 *Consola Crioclimática en Vivo:* http://localhost:8502/?ubigeo=040505\n🏛️ *Plan Multisectorial ante Heladas y Friaje (PMHF)*"
+  },
+  {
+    "id": 27,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:33:46.476489+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1715,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "❄️ *ALERTA ROJA GLACIAL — SISTEMA AMARU-CHIRI* ❄️\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU-CHIRI bajo la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 040515:* SIBAYO (AREQUIPA)\n🔴 *NIVEL:* ALERTA ROJA GLACIAL | *Índice ISH-CHIRI:* `82.0 / 100`\n⏱️ *Ventana Táctica Nocturna:* Desplome crítico en 4 a 6 horas (Clímax al amanecer)\n🕒 *Hora de Detección IA:* 05/09/2026 22:33:46 (PET)\n\n🌡️ *PARÁMETROS CRIOCLIMÁTICOS COMPUTADOS POR LA IA:*\n• *Temperatura Mínima Proyectada:* -10.5 °C\n• *Sensación Térmica (Wind Chill):* -15.5 °C (Viento Catabático Severo)\n• *Ganado Alpaquero en Riesgo:* 50,000 cabezas (Peligro de hipotermia/neumonía)\n• *Locales Escolares de Adobe:* 10 II.EE. sin aislamiento térmico PRONIED\n\n🏫 *DIRECTIVAS SECTORIALES EDUCATIVAS Y VIALES:*\n• *MINEDU / PREVAED:* ⚠️ *SUSPENSIÓN DE CLASES PRESENCIALES (PREVAED PP-0068)*\n• *Vialidad:* ⚠️ Peligro de formación de hielo en carreteras altoandinas\n\n⚡ *ACCIONES COMUNALES INMEDIATAS:*\n1️⃣ *Pecuario:* Guarecer crías en cobertizos y encender ahumado comunal con bosta seca.\n2️⃣ *Salud:* Distribuir antibióticos veterinarios y abrigar a niños y adultos mayores.\n3️⃣ *Transporte:* Restringir tránsito matinal en pasos cordilleranos por placas de hielo negro.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe es un cálculo algorítmico automatizado. La ejecución de medidas de protección corresponde a los comités multisectoriales locales (PMHF / INDECI)._\n\n🔗 *Consola Crioclimática en Vivo:* http://localhost:8502/?ubigeo=040515\n🏛️ *Plan Multisectorial ante Heladas y Friaje (PMHF)*"
+  },
+  {
+    "id": 28,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:33:46.530613+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1729,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "❄️ *ALERTA ROJA GLACIAL — SISTEMA AMARU-CHIRI* ❄️\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU-CHIRI bajo la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 040119:* SAN JUAN DE TARUCANI (AREQUIPA)\n🔴 *NIVEL:* ALERTA ROJA GLACIAL | *Índice ISH-CHIRI:* `82.0 / 100`\n⏱️ *Ventana Táctica Nocturna:* Desplome crítico en 4 a 6 horas (Clímax al amanecer)\n🕒 *Hora de Detección IA:* 05/09/2026 22:33:46 (PET)\n\n🌡️ *PARÁMETROS CRIOCLIMÁTICOS COMPUTADOS POR LA IA:*\n• *Temperatura Mínima Proyectada:* -11.5 °C\n• *Sensación Térmica (Wind Chill):* -16.5 °C (Viento Catabático Severo)\n• *Ganado Alpaquero en Riesgo:* 50,000 cabezas (Peligro de hipotermia/neumonía)\n• *Locales Escolares de Adobe:* 10 II.EE. sin aislamiento térmico PRONIED\n\n🏫 *DIRECTIVAS SECTORIALES EDUCATIVAS Y VIALES:*\n• *MINEDU / PREVAED:* ⚠️ *SUSPENSIÓN DE CLASES PRESENCIALES (PREVAED PP-0068)*\n• *Vialidad:* ⚠️ Peligro de formación de hielo en carreteras altoandinas\n\n⚡ *ACCIONES COMUNALES INMEDIATAS:*\n1️⃣ *Pecuario:* Guarecer crías en cobertizos y encender ahumado comunal con bosta seca.\n2️⃣ *Salud:* Distribuir antibióticos veterinarios y abrigar a niños y adultos mayores.\n3️⃣ *Transporte:* Restringir tránsito matinal en pasos cordilleranos por placas de hielo negro.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe es un cálculo algorítmico automatizado. La ejecución de medidas de protección corresponde a los comités multisectoriales locales (PMHF / INDECI)._\n\n🔗 *Consola Crioclimática en Vivo:* http://localhost:8502/?ubigeo=040119\n🏛️ *Plan Multisectorial ante Heladas y Friaje (PMHF)*"
+  },
+  {
+    "id": 29,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:33:46.586689+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1717,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "❄️ *ALERTA ROJA GLACIAL — SISTEMA AMARU-CHIRI* ❄️\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU-CHIRI bajo la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 040409:* ORCOPAMPA (AREQUIPA)\n🔴 *NIVEL:* ALERTA ROJA GLACIAL | *Índice ISH-CHIRI:* `82.0 / 100`\n⏱️ *Ventana Táctica Nocturna:* Desplome crítico en 4 a 6 horas (Clímax al amanecer)\n🕒 *Hora de Detección IA:* 05/09/2026 22:33:46 (PET)\n\n🌡️ *PARÁMETROS CRIOCLIMÁTICOS COMPUTADOS POR LA IA:*\n• *Temperatura Mínima Proyectada:* -8.5 °C\n• *Sensación Térmica (Wind Chill):* -13.5 °C (Viento Catabático Severo)\n• *Ganado Alpaquero en Riesgo:* 50,000 cabezas (Peligro de hipotermia/neumonía)\n• *Locales Escolares de Adobe:* 10 II.EE. sin aislamiento térmico PRONIED\n\n🏫 *DIRECTIVAS SECTORIALES EDUCATIVAS Y VIALES:*\n• *MINEDU / PREVAED:* ⚠️ *SUSPENSIÓN DE CLASES PRESENCIALES (PREVAED PP-0068)*\n• *Vialidad:* ⚠️ Peligro de formación de hielo en carreteras altoandinas\n\n⚡ *ACCIONES COMUNALES INMEDIATAS:*\n1️⃣ *Pecuario:* Guarecer crías en cobertizos y encender ahumado comunal con bosta seca.\n2️⃣ *Salud:* Distribuir antibióticos veterinarios y abrigar a niños y adultos mayores.\n3️⃣ *Transporte:* Restringir tránsito matinal en pasos cordilleranos por placas de hielo negro.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe es un cálculo algorítmico automatizado. La ejecución de medidas de protección corresponde a los comités multisectoriales locales (PMHF / INDECI)._\n\n🔗 *Consola Crioclimática en Vivo:* http://localhost:8502/?ubigeo=040409\n🏛️ *Plan Multisectorial ante Heladas y Friaje (PMHF)*"
+  },
+  {
+    "id": 30,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:33:46.645099+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1717,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "❄️ *ALERTA ROJA GLACIAL — SISTEMA AMARU-CHIRI* ❄️\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU-CHIRI bajo la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 040504:* CALLALLI (AREQUIPA)\n🔴 *NIVEL:* ALERTA ROJA GLACIAL | *Índice ISH-CHIRI:* `82.0 / 100`\n⏱️ *Ventana Táctica Nocturna:* Desplome crítico en 4 a 6 horas (Clímax al amanecer)\n🕒 *Hora de Detección IA:* 05/09/2026 22:33:46 (PET)\n\n🌡️ *PARÁMETROS CRIOCLIMÁTICOS COMPUTADOS POR LA IA:*\n• *Temperatura Mínima Proyectada:* -10.5 °C\n• *Sensación Térmica (Wind Chill):* -15.5 °C (Viento Catabático Severo)\n• *Ganado Alpaquero en Riesgo:* 50,000 cabezas (Peligro de hipotermia/neumonía)\n• *Locales Escolares de Adobe:* 10 II.EE. sin aislamiento térmico PRONIED\n\n🏫 *DIRECTIVAS SECTORIALES EDUCATIVAS Y VIALES:*\n• *MINEDU / PREVAED:* ⚠️ *SUSPENSIÓN DE CLASES PRESENCIALES (PREVAED PP-0068)*\n• *Vialidad:* ⚠️ Peligro de formación de hielo en carreteras altoandinas\n\n⚡ *ACCIONES COMUNALES INMEDIATAS:*\n1️⃣ *Pecuario:* Guarecer crías en cobertizos y encender ahumado comunal con bosta seca.\n2️⃣ *Salud:* Distribuir antibióticos veterinarios y abrigar a niños y adultos mayores.\n3️⃣ *Transporte:* Restringir tránsito matinal en pasos cordilleranos por placas de hielo negro.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe es un cálculo algorítmico automatizado. La ejecución de medidas de protección corresponde a los comités multisectoriales locales (PMHF / INDECI)._\n\n🔗 *Consola Crioclimática en Vivo:* http://localhost:8502/?ubigeo=040504\n🏛️ *Plan Multisectorial ante Heladas y Friaje (PMHF)*"
+  },
+  {
+    "id": 31,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:33:46.704377+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1714,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "❄️ *ALERTA ROJA GLACIAL — SISTEMA AMARU-CHIRI* ❄️\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU-CHIRI bajo la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 080806:* PICHIGUA (CUSCO)\n🔴 *NIVEL:* ALERTA ROJA GLACIAL | *Índice ISH-CHIRI:* `82.0 / 100`\n⏱️ *Ventana Táctica Nocturna:* Desplome crítico en 4 a 6 horas (Clímax al amanecer)\n🕒 *Hora de Detección IA:* 05/09/2026 22:33:46 (PET)\n\n🌡️ *PARÁMETROS CRIOCLIMÁTICOS COMPUTADOS POR LA IA:*\n• *Temperatura Mínima Proyectada:* -10.5 °C\n• *Sensación Térmica (Wind Chill):* -15.5 °C (Viento Catabático Severo)\n• *Ganado Alpaquero en Riesgo:* 50,000 cabezas (Peligro de hipotermia/neumonía)\n• *Locales Escolares de Adobe:* 12 II.EE. sin aislamiento térmico PRONIED\n\n🏫 *DIRECTIVAS SECTORIALES EDUCATIVAS Y VIALES:*\n• *MINEDU / PREVAED:* ⚠️ *SUSPENSIÓN DE CLASES PRESENCIALES (PREVAED PP-0068)*\n• *Vialidad:* ⚠️ Peligro de formación de hielo en carreteras altoandinas\n\n⚡ *ACCIONES COMUNALES INMEDIATAS:*\n1️⃣ *Pecuario:* Guarecer crías en cobertizos y encender ahumado comunal con bosta seca.\n2️⃣ *Salud:* Distribuir antibióticos veterinarios y abrigar a niños y adultos mayores.\n3️⃣ *Transporte:* Restringir tránsito matinal en pasos cordilleranos por placas de hielo negro.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe es un cálculo algorítmico automatizado. La ejecución de medidas de protección corresponde a los comités multisectoriales locales (PMHF / INDECI)._\n\n🔗 *Consola Crioclimática en Vivo:* http://localhost:8502/?ubigeo=080806\n🏛️ *Plan Multisectorial ante Heladas y Friaje (PMHF)*"
+  },
+  {
+    "id": 32,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:33:46.770846+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1714,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "❄️ *ALERTA ROJA GLACIAL — SISTEMA AMARU-CHIRI* ❄️\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU-CHIRI bajo la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 080604:* MARANGANI (CUSCO)\n🔴 *NIVEL:* ALERTA ROJA GLACIAL | *Índice ISH-CHIRI:* `82.0 / 100`\n⏱️ *Ventana Táctica Nocturna:* Desplome crítico en 4 a 6 horas (Clímax al amanecer)\n🕒 *Hora de Detección IA:* 05/09/2026 22:33:46 (PET)\n\n🌡️ *PARÁMETROS CRIOCLIMÁTICOS COMPUTADOS POR LA IA:*\n• *Temperatura Mínima Proyectada:* -9.5 °C\n• *Sensación Térmica (Wind Chill):* -14.5 °C (Viento Catabático Severo)\n• *Ganado Alpaquero en Riesgo:* 50,000 cabezas (Peligro de hipotermia/neumonía)\n• *Locales Escolares de Adobe:* 16 II.EE. sin aislamiento térmico PRONIED\n\n🏫 *DIRECTIVAS SECTORIALES EDUCATIVAS Y VIALES:*\n• *MINEDU / PREVAED:* ⚠️ *SUSPENSIÓN DE CLASES PRESENCIALES (PREVAED PP-0068)*\n• *Vialidad:* ⚠️ Peligro de formación de hielo en carreteras altoandinas\n\n⚡ *ACCIONES COMUNALES INMEDIATAS:*\n1️⃣ *Pecuario:* Guarecer crías en cobertizos y encender ahumado comunal con bosta seca.\n2️⃣ *Salud:* Distribuir antibióticos veterinarios y abrigar a niños y adultos mayores.\n3️⃣ *Transporte:* Restringir tránsito matinal en pasos cordilleranos por placas de hielo negro.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe es un cálculo algorítmico automatizado. La ejecución de medidas de protección corresponde a los comités multisectoriales locales (PMHF / INDECI)._\n\n🔗 *Consola Crioclimática en Vivo:* http://localhost:8502/?ubigeo=080604\n🏛️ *Plan Multisectorial ante Heladas y Friaje (PMHF)*"
+  },
+  {
+    "id": 33,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:33:46.831587+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1710,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "❄️ *ALERTA ROJA GLACIAL — SISTEMA AMARU-CHIRI* ❄️\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU-CHIRI bajo la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 081004:* COLCHA (CUSCO)\n🔴 *NIVEL:* ALERTA ROJA GLACIAL | *Índice ISH-CHIRI:* `82.0 / 100`\n⏱️ *Ventana Táctica Nocturna:* Desplome crítico en 4 a 6 horas (Clímax al amanecer)\n🕒 *Hora de Detección IA:* 05/09/2026 22:33:46 (PET)\n\n🌡️ *PARÁMETROS CRIOCLIMÁTICOS COMPUTADOS POR LA IA:*\n• *Temperatura Mínima Proyectada:* -9.0 °C\n• *Sensación Térmica (Wind Chill):* -14.0 °C (Viento Catabático Severo)\n• *Ganado Alpaquero en Riesgo:* 50,000 cabezas (Peligro de hipotermia/neumonía)\n• *Locales Escolares de Adobe:* 5 II.EE. sin aislamiento térmico PRONIED\n\n🏫 *DIRECTIVAS SECTORIALES EDUCATIVAS Y VIALES:*\n• *MINEDU / PREVAED:* ⚠️ *SUSPENSIÓN DE CLASES PRESENCIALES (PREVAED PP-0068)*\n• *Vialidad:* ⚠️ Peligro de formación de hielo en carreteras altoandinas\n\n⚡ *ACCIONES COMUNALES INMEDIATAS:*\n1️⃣ *Pecuario:* Guarecer crías en cobertizos y encender ahumado comunal con bosta seca.\n2️⃣ *Salud:* Distribuir antibióticos veterinarios y abrigar a niños y adultos mayores.\n3️⃣ *Transporte:* Restringir tránsito matinal en pasos cordilleranos por placas de hielo negro.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe es un cálculo algorítmico automatizado. La ejecución de medidas de protección corresponde a los comités multisectoriales locales (PMHF / INDECI)._\n\n🔗 *Consola Crioclimática en Vivo:* http://localhost:8502/?ubigeo=081004\n🏛️ *Plan Multisectorial ante Heladas y Friaje (PMHF)*"
+  },
+  {
+    "id": 34,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:33:46.888910+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1710,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "❄️ *ALERTA ROJA GLACIAL — SISTEMA AMARU-CHIRI* ❄️\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU-CHIRI bajo la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 230107:* PALCA (TACNA)\n🔴 *NIVEL:* ALERTA ROJA GLACIAL | *Índice ISH-CHIRI:* `82.0 / 100`\n⏱️ *Ventana Táctica Nocturna:* Desplome crítico en 4 a 6 horas (Clímax al amanecer)\n🕒 *Hora de Detección IA:* 05/09/2026 22:33:46 (PET)\n\n🌡️ *PARÁMETROS CRIOCLIMÁTICOS COMPUTADOS POR LA IA:*\n• *Temperatura Mínima Proyectada:* -11.5 °C\n• *Sensación Térmica (Wind Chill):* -16.5 °C (Viento Catabático Severo)\n• *Ganado Alpaquero en Riesgo:* 50,000 cabezas (Peligro de hipotermia/neumonía)\n• *Locales Escolares de Adobe:* 8 II.EE. sin aislamiento térmico PRONIED\n\n🏫 *DIRECTIVAS SECTORIALES EDUCATIVAS Y VIALES:*\n• *MINEDU / PREVAED:* ⚠️ *SUSPENSIÓN DE CLASES PRESENCIALES (PREVAED PP-0068)*\n• *Vialidad:* ⚠️ Peligro de formación de hielo en carreteras altoandinas\n\n⚡ *ACCIONES COMUNALES INMEDIATAS:*\n1️⃣ *Pecuario:* Guarecer crías en cobertizos y encender ahumado comunal con bosta seca.\n2️⃣ *Salud:* Distribuir antibióticos veterinarios y abrigar a niños y adultos mayores.\n3️⃣ *Transporte:* Restringir tránsito matinal en pasos cordilleranos por placas de hielo negro.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe es un cálculo algorítmico automatizado. La ejecución de medidas de protección corresponde a los comités multisectoriales locales (PMHF / INDECI)._\n\n🔗 *Consola Crioclimática en Vivo:* http://localhost:8502/?ubigeo=230107\n🏛️ *Plan Multisectorial ante Heladas y Friaje (PMHF)*"
+  },
+  {
+    "id": 35,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:33:46.955938+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1711,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "❄️ *ALERTA ROJA GLACIAL — SISTEMA AMARU-CHIRI* ❄️\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU-CHIRI bajo la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 230401:* TARATA (TACNA)\n🔴 *NIVEL:* ALERTA ROJA GLACIAL | *Índice ISH-CHIRI:* `82.0 / 100`\n⏱️ *Ventana Táctica Nocturna:* Desplome crítico en 4 a 6 horas (Clímax al amanecer)\n🕒 *Hora de Detección IA:* 05/09/2026 22:33:46 (PET)\n\n🌡️ *PARÁMETROS CRIOCLIMÁTICOS COMPUTADOS POR LA IA:*\n• *Temperatura Mínima Proyectada:* -8.5 °C\n• *Sensación Térmica (Wind Chill):* -13.5 °C (Viento Catabático Severo)\n• *Ganado Alpaquero en Riesgo:* 50,000 cabezas (Peligro de hipotermia/neumonía)\n• *Locales Escolares de Adobe:* 10 II.EE. sin aislamiento térmico PRONIED\n\n🏫 *DIRECTIVAS SECTORIALES EDUCATIVAS Y VIALES:*\n• *MINEDU / PREVAED:* ⚠️ *SUSPENSIÓN DE CLASES PRESENCIALES (PREVAED PP-0068)*\n• *Vialidad:* ⚠️ Peligro de formación de hielo en carreteras altoandinas\n\n⚡ *ACCIONES COMUNALES INMEDIATAS:*\n1️⃣ *Pecuario:* Guarecer crías en cobertizos y encender ahumado comunal con bosta seca.\n2️⃣ *Salud:* Distribuir antibióticos veterinarios y abrigar a niños y adultos mayores.\n3️⃣ *Transporte:* Restringir tránsito matinal en pasos cordilleranos por placas de hielo negro.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe es un cálculo algorítmico automatizado. La ejecución de medidas de protección corresponde a los comités multisectoriales locales (PMHF / INDECI)._\n\n🔗 *Consola Crioclimática en Vivo:* http://localhost:8502/?ubigeo=230401\n🏛️ *Plan Multisectorial ante Heladas y Friaje (PMHF)*"
+  },
+  {
+    "id": 36,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:33:47.019598+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1715,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "❄️ *ALERTA ROJA GLACIAL — SISTEMA AMARU-CHIRI* ❄️\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU-CHIRI bajo la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 190201:* YANAHUANCA (PASCO)\n🔴 *NIVEL:* ALERTA ROJA GLACIAL | *Índice ISH-CHIRI:* `82.0 / 100`\n⏱️ *Ventana Táctica Nocturna:* Desplome crítico en 4 a 6 horas (Clímax al amanecer)\n🕒 *Hora de Detección IA:* 05/09/2026 22:33:47 (PET)\n\n🌡️ *PARÁMETROS CRIOCLIMÁTICOS COMPUTADOS POR LA IA:*\n• *Temperatura Mínima Proyectada:* -9.5 °C\n• *Sensación Térmica (Wind Chill):* -14.5 °C (Viento Catabático Severo)\n• *Ganado Alpaquero en Riesgo:* 50,000 cabezas (Peligro de hipotermia/neumonía)\n• *Locales Escolares de Adobe:* 18 II.EE. sin aislamiento térmico PRONIED\n\n🏫 *DIRECTIVAS SECTORIALES EDUCATIVAS Y VIALES:*\n• *MINEDU / PREVAED:* ⚠️ *SUSPENSIÓN DE CLASES PRESENCIALES (PREVAED PP-0068)*\n• *Vialidad:* ⚠️ Peligro de formación de hielo en carreteras altoandinas\n\n⚡ *ACCIONES COMUNALES INMEDIATAS:*\n1️⃣ *Pecuario:* Guarecer crías en cobertizos y encender ahumado comunal con bosta seca.\n2️⃣ *Salud:* Distribuir antibióticos veterinarios y abrigar a niños y adultos mayores.\n3️⃣ *Transporte:* Restringir tránsito matinal en pasos cordilleranos por placas de hielo negro.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe es un cálculo algorítmico automatizado. La ejecución de medidas de protección corresponde a los comités multisectoriales locales (PMHF / INDECI)._\n\n🔗 *Consola Crioclimática en Vivo:* http://localhost:8502/?ubigeo=190201\n🏛️ *Plan Multisectorial ante Heladas y Friaje (PMHF)*"
+  },
+  {
+    "id": 37,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:33:47.081380+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1715,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "❄️ *ALERTA ROJA GLACIAL — SISTEMA AMARU-CHIRI* ❄️\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU-CHIRI bajo la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 100301:* LA UNION (HUANUCO)\n🔴 *NIVEL:* ALERTA ROJA GLACIAL | *Índice ISH-CHIRI:* `82.0 / 100`\n⏱️ *Ventana Táctica Nocturna:* Desplome crítico en 4 a 6 horas (Clímax al amanecer)\n🕒 *Hora de Detección IA:* 05/09/2026 22:33:47 (PET)\n\n🌡️ *PARÁMETROS CRIOCLIMÁTICOS COMPUTADOS POR LA IA:*\n• *Temperatura Mínima Proyectada:* -8.5 °C\n• *Sensación Térmica (Wind Chill):* -13.5 °C (Viento Catabático Severo)\n• *Ganado Alpaquero en Riesgo:* 50,000 cabezas (Peligro de hipotermia/neumonía)\n• *Locales Escolares de Adobe:* 14 II.EE. sin aislamiento térmico PRONIED\n\n🏫 *DIRECTIVAS SECTORIALES EDUCATIVAS Y VIALES:*\n• *MINEDU / PREVAED:* ⚠️ *SUSPENSIÓN DE CLASES PRESENCIALES (PREVAED PP-0068)*\n• *Vialidad:* ⚠️ Peligro de formación de hielo en carreteras altoandinas\n\n⚡ *ACCIONES COMUNALES INMEDIATAS:*\n1️⃣ *Pecuario:* Guarecer crías en cobertizos y encender ahumado comunal con bosta seca.\n2️⃣ *Salud:* Distribuir antibióticos veterinarios y abrigar a niños y adultos mayores.\n3️⃣ *Transporte:* Restringir tránsito matinal en pasos cordilleranos por placas de hielo negro.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe es un cálculo algorítmico automatizado. La ejecución de medidas de protección corresponde a los comités multisectoriales locales (PMHF / INDECI)._\n\n🔗 *Consola Crioclimática en Vivo:* http://localhost:8502/?ubigeo=100301\n🏛️ *Plan Multisectorial ante Heladas y Friaje (PMHF)*"
+  },
+  {
+    "id": 38,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:39:07.639590+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1726,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "❄️ *ALERTA ROJA GLACIAL — SISTEMA AMARU-CHIRI* ❄️\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU-CHIRI bajo la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 090401:* CASTROVIRREYNA (HUANCAVELICA)\n🔴 *NIVEL:* ALERTA ROJA GLACIAL | *Índice ISH-CHIRI:* `82.0 / 100`\n⏱️ *Ventana Táctica Nocturna:* Desplome crítico en 4 a 6 horas (Clímax al amanecer)\n🕒 *Hora de Detección IA:* 05/09/2026 22:39:07 (PET)\n\n🌡️ *PARÁMETROS CRIOCLIMÁTICOS COMPUTADOS POR LA IA:*\n• *Temperatura Mínima Proyectada:* -8.5 °C\n• *Sensación Térmica (Wind Chill):* -13.5 °C (Viento Catabático Severo)\n• *Ganado Alpaquero en Riesgo:* 50,000 cabezas (Peligro de hipotermia/neumonía)\n• *Locales Escolares de Adobe:* 20 II.EE. sin aislamiento térmico PRONIED\n\n🏫 *DIRECTIVAS SECTORIALES EDUCATIVAS Y VIALES:*\n• *MINEDU / PREVAED:* ⚠️ *SUSPENSIÓN DE CLASES PRESENCIALES (PREVAED PP-0068)*\n• *Vialidad:* ⚠️ Peligro de formación de hielo en carreteras altoandinas\n\n⚡ *ACCIONES COMUNALES INMEDIATAS:*\n1️⃣ *Pecuario:* Guarecer crías en cobertizos y encender ahumado comunal con bosta seca.\n2️⃣ *Salud:* Distribuir antibióticos veterinarios y abrigar a niños y adultos mayores.\n3️⃣ *Transporte:* Restringir tránsito matinal en pasos cordilleranos por placas de hielo negro.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe es un cálculo algorítmico automatizado. La ejecución de medidas de protección corresponde a los comités multisectoriales locales (PMHF / INDECI)._\n\n🔗 *Consola Crioclimática en Vivo:* http://localhost:8502/?ubigeo=090401\n🏛️ *Plan Multisectorial ante Heladas y Friaje (PMHF)*"
+  },
+  {
+    "id": 39,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:39:09.393453+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1717,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "❄️ *ALERTA ROJA GLACIAL — SISTEMA AMARU-CHIRI* ❄️\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU-CHIRI bajo la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 040505:* CAYLLOMA (AREQUIPA)\n🔴 *NIVEL:* ALERTA ROJA GLACIAL | *Índice ISH-CHIRI:* `82.0 / 100`\n⏱️ *Ventana Táctica Nocturna:* Desplome crítico en 4 a 6 horas (Clímax al amanecer)\n🕒 *Hora de Detección IA:* 05/09/2026 22:39:09 (PET)\n\n🌡️ *PARÁMETROS CRIOCLIMÁTICOS COMPUTADOS POR LA IA:*\n• *Temperatura Mínima Proyectada:* -11.5 °C\n• *Sensación Térmica (Wind Chill):* -16.5 °C (Viento Catabático Severo)\n• *Ganado Alpaquero en Riesgo:* 50,000 cabezas (Peligro de hipotermia/neumonía)\n• *Locales Escolares de Adobe:* 10 II.EE. sin aislamiento térmico PRONIED\n\n🏫 *DIRECTIVAS SECTORIALES EDUCATIVAS Y VIALES:*\n• *MINEDU / PREVAED:* ⚠️ *SUSPENSIÓN DE CLASES PRESENCIALES (PREVAED PP-0068)*\n• *Vialidad:* ⚠️ Peligro de formación de hielo en carreteras altoandinas\n\n⚡ *ACCIONES COMUNALES INMEDIATAS:*\n1️⃣ *Pecuario:* Guarecer crías en cobertizos y encender ahumado comunal con bosta seca.\n2️⃣ *Salud:* Distribuir antibióticos veterinarios y abrigar a niños y adultos mayores.\n3️⃣ *Transporte:* Restringir tránsito matinal en pasos cordilleranos por placas de hielo negro.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe es un cálculo algorítmico automatizado. La ejecución de medidas de protección corresponde a los comités multisectoriales locales (PMHF / INDECI)._\n\n🔗 *Consola Crioclimática en Vivo:* http://localhost:8502/?ubigeo=040505\n🏛️ *Plan Multisectorial ante Heladas y Friaje (PMHF)*"
+  },
+  {
+    "id": 40,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:39:09.468608+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1717,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "❄️ *ALERTA ROJA GLACIAL — SISTEMA AMARU-CHIRI* ❄️\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU-CHIRI bajo la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 040504:* CALLALLI (AREQUIPA)\n🔴 *NIVEL:* ALERTA ROJA GLACIAL | *Índice ISH-CHIRI:* `82.0 / 100`\n⏱️ *Ventana Táctica Nocturna:* Desplome crítico en 4 a 6 horas (Clímax al amanecer)\n🕒 *Hora de Detección IA:* 05/09/2026 22:39:09 (PET)\n\n🌡️ *PARÁMETROS CRIOCLIMÁTICOS COMPUTADOS POR LA IA:*\n• *Temperatura Mínima Proyectada:* -10.5 °C\n• *Sensación Térmica (Wind Chill):* -15.5 °C (Viento Catabático Severo)\n• *Ganado Alpaquero en Riesgo:* 50,000 cabezas (Peligro de hipotermia/neumonía)\n• *Locales Escolares de Adobe:* 10 II.EE. sin aislamiento térmico PRONIED\n\n🏫 *DIRECTIVAS SECTORIALES EDUCATIVAS Y VIALES:*\n• *MINEDU / PREVAED:* ⚠️ *SUSPENSIÓN DE CLASES PRESENCIALES (PREVAED PP-0068)*\n• *Vialidad:* ⚠️ Peligro de formación de hielo en carreteras altoandinas\n\n⚡ *ACCIONES COMUNALES INMEDIATAS:*\n1️⃣ *Pecuario:* Guarecer crías en cobertizos y encender ahumado comunal con bosta seca.\n2️⃣ *Salud:* Distribuir antibióticos veterinarios y abrigar a niños y adultos mayores.\n3️⃣ *Transporte:* Restringir tránsito matinal en pasos cordilleranos por placas de hielo negro.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe es un cálculo algorítmico automatizado. La ejecución de medidas de protección corresponde a los comités multisectoriales locales (PMHF / INDECI)._\n\n🔗 *Consola Crioclimática en Vivo:* http://localhost:8502/?ubigeo=040504\n🏛️ *Plan Multisectorial ante Heladas y Friaje (PMHF)*"
+  },
+  {
+    "id": 41,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:39:09.532876+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1711,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "❄️ *ALERTA ROJA GLACIAL — SISTEMA AMARU-CHIRI* ❄️\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU-CHIRI bajo la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 230401:* TARATA (TACNA)\n🔴 *NIVEL:* ALERTA ROJA GLACIAL | *Índice ISH-CHIRI:* `82.0 / 100`\n⏱️ *Ventana Táctica Nocturna:* Desplome crítico en 4 a 6 horas (Clímax al amanecer)\n🕒 *Hora de Detección IA:* 05/09/2026 22:39:09 (PET)\n\n🌡️ *PARÁMETROS CRIOCLIMÁTICOS COMPUTADOS POR LA IA:*\n• *Temperatura Mínima Proyectada:* -8.5 °C\n• *Sensación Térmica (Wind Chill):* -13.5 °C (Viento Catabático Severo)\n• *Ganado Alpaquero en Riesgo:* 50,000 cabezas (Peligro de hipotermia/neumonía)\n• *Locales Escolares de Adobe:* 10 II.EE. sin aislamiento térmico PRONIED\n\n🏫 *DIRECTIVAS SECTORIALES EDUCATIVAS Y VIALES:*\n• *MINEDU / PREVAED:* ⚠️ *SUSPENSIÓN DE CLASES PRESENCIALES (PREVAED PP-0068)*\n• *Vialidad:* ⚠️ Peligro de formación de hielo en carreteras altoandinas\n\n⚡ *ACCIONES COMUNALES INMEDIATAS:*\n1️⃣ *Pecuario:* Guarecer crías en cobertizos y encender ahumado comunal con bosta seca.\n2️⃣ *Salud:* Distribuir antibióticos veterinarios y abrigar a niños y adultos mayores.\n3️⃣ *Transporte:* Restringir tránsito matinal en pasos cordilleranos por placas de hielo negro.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe es un cálculo algorítmico automatizado. La ejecución de medidas de protección corresponde a los comités multisectoriales locales (PMHF / INDECI)._\n\n🔗 *Consola Crioclimática en Vivo:* http://localhost:8502/?ubigeo=230401\n🏛️ *Plan Multisectorial ante Heladas y Friaje (PMHF)*"
+  },
+  {
+    "id": 42,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:39:09.602168+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1715,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "❄️ *ALERTA ROJA GLACIAL — SISTEMA AMARU-CHIRI* ❄️\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU-CHIRI bajo la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 190201:* YANAHUANCA (PASCO)\n🔴 *NIVEL:* ALERTA ROJA GLACIAL | *Índice ISH-CHIRI:* `82.0 / 100`\n⏱️ *Ventana Táctica Nocturna:* Desplome crítico en 4 a 6 horas (Clímax al amanecer)\n🕒 *Hora de Detección IA:* 05/09/2026 22:39:09 (PET)\n\n🌡️ *PARÁMETROS CRIOCLIMÁTICOS COMPUTADOS POR LA IA:*\n• *Temperatura Mínima Proyectada:* -9.5 °C\n• *Sensación Térmica (Wind Chill):* -14.5 °C (Viento Catabático Severo)\n• *Ganado Alpaquero en Riesgo:* 50,000 cabezas (Peligro de hipotermia/neumonía)\n• *Locales Escolares de Adobe:* 18 II.EE. sin aislamiento térmico PRONIED\n\n🏫 *DIRECTIVAS SECTORIALES EDUCATIVAS Y VIALES:*\n• *MINEDU / PREVAED:* ⚠️ *SUSPENSIÓN DE CLASES PRESENCIALES (PREVAED PP-0068)*\n• *Vialidad:* ⚠️ Peligro de formación de hielo en carreteras altoandinas\n\n⚡ *ACCIONES COMUNALES INMEDIATAS:*\n1️⃣ *Pecuario:* Guarecer crías en cobertizos y encender ahumado comunal con bosta seca.\n2️⃣ *Salud:* Distribuir antibióticos veterinarios y abrigar a niños y adultos mayores.\n3️⃣ *Transporte:* Restringir tránsito matinal en pasos cordilleranos por placas de hielo negro.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe es un cálculo algorítmico automatizado. La ejecución de medidas de protección corresponde a los comités multisectoriales locales (PMHF / INDECI)._\n\n🔗 *Consola Crioclimática en Vivo:* http://localhost:8502/?ubigeo=190201\n🏛️ *Plan Multisectorial ante Heladas y Friaje (PMHF)*"
+  },
+  {
+    "id": 43,
+    "metadata_envio": {
+      "timestamp": "2026-09-06T03:39:09.668822+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 1715,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "❄️ *ALERTA ROJA GLACIAL — SISTEMA AMARU-CHIRI* ❄️\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU-CHIRI bajo la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 100301:* LA UNION (HUANUCO)\n🔴 *NIVEL:* ALERTA ROJA GLACIAL | *Índice ISH-CHIRI:* `82.0 / 100`\n⏱️ *Ventana Táctica Nocturna:* Desplome crítico en 4 a 6 horas (Clímax al amanecer)\n🕒 *Hora de Detección IA:* 05/09/2026 22:39:09 (PET)\n\n🌡️ *PARÁMETROS CRIOCLIMÁTICOS COMPUTADOS POR LA IA:*\n• *Temperatura Mínima Proyectada:* -8.5 °C\n• *Sensación Térmica (Wind Chill):* -13.5 °C (Viento Catabático Severo)\n• *Ganado Alpaquero en Riesgo:* 50,000 cabezas (Peligro de hipotermia/neumonía)\n• *Locales Escolares de Adobe:* 14 II.EE. sin aislamiento térmico PRONIED\n\n🏫 *DIRECTIVAS SECTORIALES EDUCATIVAS Y VIALES:*\n• *MINEDU / PREVAED:* ⚠️ *SUSPENSIÓN DE CLASES PRESENCIALES (PREVAED PP-0068)*\n• *Vialidad:* ⚠️ Peligro de formación de hielo en carreteras altoandinas\n\n⚡ *ACCIONES COMUNALES INMEDIATAS:*\n1️⃣ *Pecuario:* Guarecer crías en cobertizos y encender ahumado comunal con bosta seca.\n2️⃣ *Salud:* Distribuir antibióticos veterinarios y abrigar a niños y adultos mayores.\n3️⃣ *Transporte:* Restringir tránsito matinal en pasos cordilleranos por placas de hielo negro.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe es un cálculo algorítmico automatizado. La ejecución de medidas de protección corresponde a los comités multisectoriales locales (PMHF / INDECI)._\n\n🔗 *Consola Crioclimática en Vivo:* http://localhost:8502/?ubigeo=100301\n🏛️ *Plan Multisectorial ante Heladas y Friaje (PMHF)*"
+  }
+]

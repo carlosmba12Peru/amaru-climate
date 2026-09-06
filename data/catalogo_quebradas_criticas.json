@@ -1,0 +1,4402 @@
+[
+  {
+    "id_quebrada": "Q-LIB-01",
+    "nombre": "Quebrada San Ildefonso",
+    "cuenca": "Cuenca del Río Moche / Qda. San Ildefonso",
+    "region": "La Libertad",
+    "provincia": "Trujillo",
+    "distrito": "El Porvenir",
+    "distritos_impactados": [
+      "El Porvenir",
+      "Florencia de Mora",
+      "Trujillo Centro",
+      "Víctor Larco Herrera"
+    ],
+    "lat": -8.0833,
+    "lng": -78.9667,
+    "historial_activaciones": [
+      1891,
+      1925,
+      1983,
+      1998,
+      2017,
+      2023
+    ],
+    "frecuencia_historica": "REINCIDENCIA_CRITICA_EXTREMA",
+    "umbral_critico_mm_hora": 12.0,
+    "umbral_acumulado_24h": 40.0,
+    "tiempo_concentracion_horas": 2.5,
+    "poblacion_en_cono_deyeccion": 85000,
+    "puntos_estrangulamiento": [
+      "Sector Mampuesto / Cementerio",
+      "Avenida Miraflores",
+      "Centro Histórico (Plaza de Armas)",
+      "Desembocadura Víctor Larco (Buenos Aires)"
+    ],
+    "obras_defensa_existentes": "Diques de retención escalonados y canal de derivación al río Moche",
+    "leccion_historica": "En 2017 se activó 7 veces consecutivas en marzo con lluvias de 45 mm, cruzando Trujillo de este a oeste e inundando el centro cívico.",
+    "fuente_estudio": "MINAM SIAL Trujillo Doc 4665 / CENEPRED / Estudio UCV",
+    "cabecera_lat": -8.02,
+    "cabecera_lng": -78.78,
+    "cabecera_altitud_msnm": 1950,
+    "pendiente_media_pct": 18.5,
+    "codigo_pfafstetter_ana": "ANA-PF-13774",
+    "codigo_punto_critico_ana": "PC-ANA-2024-LIB-018",
+    "codigo_ingemmet_peligro": "PEL-ING-LIB-004",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-4665",
+    "codigo_vial_mtc_pvn": "Ruta Urbana Av. Miraflores / Mampuesto",
+    "ubigeo_cabecera": "131010",
+    "distrito_cabecera_nombre": "Simbal",
+    "ubigeo_receptor": "131002",
+    "distrito_receptor_nombre": "El Porvenir",
+    "denominacion_oficial_igp": "N/A",
+    "codigo_oficial_igp": "N/A",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": false,
+    "denominacion_amaru": "Q-LIB-01: Quebrada San Ildefonso",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "codigo_tactico_c2": "Q-LIB-01-SAN_ILDEFONSO",
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "131010",
+        "distrito": "Simbal",
+        "altitud_msnm": 1950,
+        "lat": -8.02,
+        "lng": -78.78,
+        "en_decreto_pcm": true
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "131002",
+        "distrito": "Simbal - El Porvenir",
+        "hito_vial": "Ruta Urbana Av. Miraflores / Mampuesto",
+        "lat": -8.0516,
+        "lng": -78.8734,
+        "en_decreto_pcm": true
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "131002",
+        "distrito": "El Porvenir",
+        "cono_deyeccion": "Sector Mampuesto / Cementerio",
+        "lat": -8.0833,
+        "lng": -78.9667,
+        "en_decreto_pcm": true
+      },
+      "tiempo_arribo_cono_minutos": 150,
+      "poblacion_total_triangulo": 85000,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": true,
+        "receptor_en_decreto": true,
+        "es_completamente_decretado": true,
+        "requiere_ampliacion_decreto": false,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    },
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "DOCUMENTO_EVAR_SIGRID_CENEPRED",
+      "entidad_fuente": "CENEPRED SIGRID / ANA",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/4665",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID / ANA. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    }
+  },
+  {
+    "id_quebrada": "Q-LIB-02",
+    "nombre": "Quebrada El León",
+    "cuenca": "Intercuenca Río Seco / Qda. El León",
+    "region": "La Libertad",
+    "provincia": "Trujillo",
+    "distrito": "Huanchaco",
+    "distritos_impactados": [
+      "Huanchaco",
+      "La Esperanza"
+    ],
+    "lat": -8.055,
+    "lng": -79.035,
+    "historial_activaciones": [
+      1983,
+      1998,
+      2017,
+      2023
+    ],
+    "frecuencia_historica": "REINCIDENCIA_CRITICA_ALTA",
+    "umbral_critico_mm_hora": 15.0,
+    "umbral_acumulado_24h": 45.0,
+    "tiempo_concentracion_horas": 3.0,
+    "poblacion_en_cono_deyeccion": 48000,
+    "puntos_estrangulamiento": [
+      "Sector El Milagro",
+      "Cruce Panamericana Norte",
+      "Balneario de Huanchaco"
+    ],
+    "obras_defensa_existentes": "Dique de captación y canal de desvío hacia el mar",
+    "leccion_historica": "Desbordes en Huanchaco y El Milagro cortando la Panamericana Norte e inundando zonas turísticas y residenciales.",
+    "fuente_estudio": "MINAM SIAL Trujillo / CENEPRED",
+    "cabecera_lat": -7.98,
+    "cabecera_lng": -78.92,
+    "cabecera_altitud_msnm": 1200,
+    "pendiente_media_pct": 15.0,
+    "codigo_pfafstetter_ana": "ANA-PF-13772",
+    "codigo_punto_critico_ana": "PC-ANA-2024-LIB-019",
+    "codigo_ingemmet_peligro": "PEL-ING-LIB-005",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-4668",
+    "codigo_vial_mtc_pvn": "PE-1N km 568 (Cruce El Milagro)",
+    "ubigeo_cabecera": "131005",
+    "distrito_cabecera_nombre": "Huanchaco",
+    "ubigeo_receptor": "131005",
+    "distrito_receptor_nombre": "Huanchaco",
+    "denominacion_oficial_igp": "N/A",
+    "codigo_oficial_igp": "N/A",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": false,
+    "denominacion_amaru": "Q-LIB-02: Quebrada El León",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "codigo_tactico_c2": "Q-LIB-02-EL_LEON",
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "131005",
+        "distrito": "Huanchaco",
+        "altitud_msnm": 1200,
+        "lat": -7.98,
+        "lng": -78.92,
+        "en_decreto_pcm": true
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "131005",
+        "distrito": "Huanchaco - Huanchaco",
+        "hito_vial": "PE-1N km 568 (Cruce El Milagro)",
+        "lat": -8.0175,
+        "lng": -78.9775,
+        "en_decreto_pcm": true
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "131005",
+        "distrito": "Huanchaco",
+        "cono_deyeccion": "Sector El Milagro",
+        "lat": -8.055,
+        "lng": -79.035,
+        "en_decreto_pcm": true
+      },
+      "tiempo_arribo_cono_minutos": 180,
+      "poblacion_total_triangulo": 48000,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": true,
+        "receptor_en_decreto": true,
+        "es_completamente_decretado": true,
+        "requiere_ampliacion_decreto": false,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    },
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "DOCUMENTO_EVAR_SIGRID_CENEPRED",
+      "entidad_fuente": "CENEPRED SIGRID / ANA",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/4668",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID / ANA. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    }
+  },
+  {
+    "id_quebrada": "Q-LIB-03",
+    "nombre": "Quebrada San Carlos",
+    "cuenca": "Cuenca Baja Río Moche",
+    "region": "La Libertad",
+    "provincia": "Trujillo",
+    "distrito": "Laredo",
+    "distritos_impactados": [
+      "Laredo",
+      "Moche"
+    ],
+    "lat": -8.115,
+    "lng": -78.932,
+    "historial_activaciones": [
+      1983,
+      1998,
+      2017
+    ],
+    "frecuencia_historica": "REINCIDENCIA_ALTA",
+    "umbral_critico_mm_hora": 14.0,
+    "umbral_acumulado_24h": 42.0,
+    "tiempo_concentracion_horas": 2.0,
+    "poblacion_en_cono_deyeccion": 22000,
+    "puntos_estrangulamiento": [
+      "Valle agrícola de Laredo",
+      "Cruce con Carretera a la Sierra liberteña"
+    ],
+    "obras_defensa_existentes": "Diques enrocados parciales",
+    "leccion_historica": "Pérdida de cultivos de caña de azúcar e inundación de caseríos rurales en Laredo.",
+    "fuente_estudio": "MINAM SIAL Trujillo / CENEPRED Agrícola",
+    "cabecera_lat": -8.05,
+    "cabecera_lng": -78.82,
+    "cabecera_altitud_msnm": 1600,
+    "pendiente_media_pct": 16.0,
+    "codigo_pfafstetter_ana": "ANA-PF-13774",
+    "codigo_punto_critico_ana": "PC-ANA-2024-LIB-022",
+    "codigo_ingemmet_peligro": "PEL-ING-LIB-007",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-4670",
+    "codigo_vial_mtc_pvn": "Carretera Industrial Laredo - Moche",
+    "ubigeo_cabecera": "131006",
+    "distrito_cabecera_nombre": "Laredo",
+    "ubigeo_receptor": "131006",
+    "distrito_receptor_nombre": "Laredo",
+    "denominacion_oficial_igp": "N/A",
+    "codigo_oficial_igp": "N/A",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": false,
+    "denominacion_amaru": "Q-LIB-03: Quebrada San Carlos",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "codigo_tactico_c2": "Q-LIB-03-SAN_CARLOS",
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "131006",
+        "distrito": "Laredo",
+        "altitud_msnm": 1600,
+        "lat": -8.05,
+        "lng": -78.82,
+        "en_decreto_pcm": true
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "131006",
+        "distrito": "Laredo - Laredo",
+        "hito_vial": "Carretera Industrial Laredo - Moche",
+        "lat": -8.0825,
+        "lng": -78.876,
+        "en_decreto_pcm": true
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "131006",
+        "distrito": "Laredo",
+        "cono_deyeccion": "Valle agrícola de Laredo",
+        "lat": -8.115,
+        "lng": -78.932,
+        "en_decreto_pcm": true
+      },
+      "tiempo_arribo_cono_minutos": 120,
+      "poblacion_total_triangulo": 22000,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": true,
+        "receptor_en_decreto": true,
+        "es_completamente_decretado": true,
+        "requiere_ampliacion_decreto": false,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    },
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "DOCUMENTO_EVAR_SIGRID_CENEPRED",
+      "entidad_fuente": "CENEPRED SIGRID / ANA",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/4670",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID / ANA. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    }
+  },
+  {
+    "id_quebrada": "Q-LIM-01",
+    "nombre": "Quebrada Cuculí",
+    "cuenca": "Cuenca del Río Santa Eulalia",
+    "region": "Lima",
+    "provincia": "Huarochirí",
+    "distrito": "Santa Eulalia",
+    "distritos_impactados": [
+      "Santa Eulalia",
+      "Chosica"
+    ],
+    "lat": -11.905,
+    "lng": -76.662,
+    "historial_activaciones": [
+      1983,
+      1998,
+      2017,
+      2023
+    ],
+    "frecuencia_historica": "REINCIDENCIA_CRITICA_ALTA",
+    "umbral_critico_mm_hora": 10.0,
+    "umbral_acumulado_24h": 22.0,
+    "tiempo_concentracion_horas": 0.8,
+    "poblacion_en_cono_deyeccion": 12000,
+    "puntos_estrangulamiento": [
+      "Puente Cuculí",
+      "Viviendas ribereñas en faja de quebrada"
+    ],
+    "obras_defensa_existentes": "Muros de gaviones y descolmatación periódica de cauce",
+    "leccion_historica": "Pendiente muy pronunciada (>45°). Activación rápida con lluvias de 20 mm en cabecera aislando poblados de la cuenca media.",
+    "fuente_estudio": "Municipalidad de Santa Eulalia / Noticia Oficial FEN 828830",
+    "cabecera_lat": -11.85,
+    "cabecera_lng": -76.55,
+    "cabecera_altitud_msnm": 2300,
+    "pendiente_media_pct": 22.0,
+    "codigo_pfafstetter_ana": "ANA-PF-137554",
+    "codigo_punto_critico_ana": "PC-ANA-2024-LIM-009",
+    "codigo_ingemmet_peligro": "PEL-ING-LIM-012",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-828830",
+    "codigo_vial_mtc_pvn": "Carretera Central LM-115 km 4",
+    "ubigeo_cabecera": "150711",
+    "distrito_cabecera_nombre": "Santa Eulalia",
+    "ubigeo_receptor": "150711",
+    "distrito_receptor_nombre": "Santa Eulalia",
+    "denominacion_oficial_igp": "N/A",
+    "codigo_oficial_igp": "N/A",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": false,
+    "denominacion_amaru": "Q-LIM-01: Quebrada Cuculí",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "codigo_tactico_c2": "Q-LIM-01-CUCULI",
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "150711",
+        "distrito": "Santa Eulalia",
+        "altitud_msnm": 2300,
+        "lat": -11.85,
+        "lng": -76.55,
+        "en_decreto_pcm": true
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "150711",
+        "distrito": "Santa Eulalia - Santa Eulalia",
+        "hito_vial": "Carretera Central LM-115 km 4",
+        "lat": -11.8775,
+        "lng": -76.606,
+        "en_decreto_pcm": true
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "150711",
+        "distrito": "Santa Eulalia",
+        "cono_deyeccion": "Puente Cuculí",
+        "lat": -11.905,
+        "lng": -76.662,
+        "en_decreto_pcm": true
+      },
+      "tiempo_arribo_cono_minutos": 48,
+      "poblacion_total_triangulo": 12000,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": true,
+        "receptor_en_decreto": true,
+        "es_completamente_decretado": true,
+        "requiere_ampliacion_decreto": false,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    },
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "DOCUMENTO_EVAR_SIGRID_CENEPRED",
+      "entidad_fuente": "CENEPRED SIGRID / ANA",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/828830",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID / ANA. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    }
+  },
+  {
+    "id_quebrada": "Q-LIM-02",
+    "nombre": "Quebrada Lucumaseca y Cashahuacra",
+    "cuenca": "Cuenca del Río Santa Eulalia",
+    "region": "Lima",
+    "provincia": "Huarochirí",
+    "distrito": "Santa Eulalia",
+    "distritos_impactados": [
+      "Santa Eulalia"
+    ],
+    "lat": -11.892,
+    "lng": -76.655,
+    "historial_activaciones": [
+      1998,
+      2017,
+      2023
+    ],
+    "frecuencia_historica": "REINCIDENCIA_ALTA",
+    "umbral_critico_mm_hora": 11.0,
+    "umbral_acumulado_24h": 25.0,
+    "tiempo_concentracion_horas": 1.0,
+    "poblacion_en_cono_deyeccion": 9500,
+    "puntos_estrangulamiento": [
+      "Ingreso a Cashahuacra",
+      "Vía de penetración Santa Eulalia - Autisha"
+    ],
+    "obras_defensa_existentes": "Limpieza y descolmatación con maquinaria pesada",
+    "leccion_historica": "Arrastre de bolonería y lodo que bloquea el tránsito hacia la sierra central de Huarochirí.",
+    "fuente_estudio": "Municipalidad de Santa Eulalia / COEN",
+    "cabecera_lat": -11.87,
+    "cabecera_lng": -76.58,
+    "cabecera_altitud_msnm": 2100,
+    "pendiente_media_pct": 20.5,
+    "codigo_pfafstetter_ana": "ANA-PF-137554",
+    "codigo_punto_critico_ana": "PC-ANA-2024-LIM-010",
+    "codigo_ingemmet_peligro": "PEL-ING-LIM-013",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-828832",
+    "codigo_vial_mtc_pvn": "Puente Cashahuacra LM-115",
+    "ubigeo_cabecera": "150711",
+    "distrito_cabecera_nombre": "Santa Eulalia",
+    "ubigeo_receptor": "150711",
+    "distrito_receptor_nombre": "Santa Eulalia",
+    "denominacion_oficial_igp": "N/A",
+    "codigo_oficial_igp": "N/A",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": false,
+    "denominacion_amaru": "Q-LIM-02: Quebrada Lucumaseca y Cashahuacra",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "codigo_tactico_c2": "Q-LIM-02-LUCUMASECA_Y_CASHAHUAC",
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "150711",
+        "distrito": "Santa Eulalia",
+        "altitud_msnm": 2100,
+        "lat": -11.87,
+        "lng": -76.58,
+        "en_decreto_pcm": true
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "150711",
+        "distrito": "Santa Eulalia - Santa Eulalia",
+        "hito_vial": "Puente Cashahuacra LM-115",
+        "lat": -11.881,
+        "lng": -76.6175,
+        "en_decreto_pcm": true
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "150711",
+        "distrito": "Santa Eulalia",
+        "cono_deyeccion": "Ingreso a Cashahuacra",
+        "lat": -11.892,
+        "lng": -76.655,
+        "en_decreto_pcm": true
+      },
+      "tiempo_arribo_cono_minutos": 60,
+      "poblacion_total_triangulo": 9500,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": true,
+        "receptor_en_decreto": true,
+        "es_completamente_decretado": true,
+        "requiere_ampliacion_decreto": false,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    },
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "DOCUMENTO_EVAR_SIGRID_CENEPRED",
+      "entidad_fuente": "CENEPRED SIGRID / ANA",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/828832",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID / ANA. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    }
+  },
+  {
+    "id_quebrada": "Q-LIM-03",
+    "nombre": "Quebrada Payhua y Huayaringa",
+    "cuenca": "Cuenca del Río Santa Eulalia",
+    "region": "Lima",
+    "provincia": "Huarochirí",
+    "distrito": "Santa Eulalia",
+    "distritos_impactados": [
+      "Santa Eulalia",
+      "Ricardo Palma"
+    ],
+    "lat": -11.918,
+    "lng": -76.671,
+    "historial_activaciones": [
+      1983,
+      1998,
+      2017,
+      2023
+    ],
+    "frecuencia_historica": "REINCIDENCIA_CRITICA_ALTA",
+    "umbral_critico_mm_hora": 9.0,
+    "umbral_acumulado_24h": 20.0,
+    "tiempo_concentracion_horas": 0.7,
+    "poblacion_en_cono_deyeccion": 14000,
+    "puntos_estrangulamiento": [
+      "Cruce con Carretera a Santa Eulalia",
+      "Puente Huayaringa"
+    ],
+    "obras_defensa_existentes": "Diques transversales de mampostería",
+    "leccion_historica": "Aluvión de flujo denso que desemboca en el río Santa Eulalia incrementando la turbidez del agua hacia La Atarjea (SEDAPAL).",
+    "fuente_estudio": "Municipalidad de Santa Eulalia / SEDAPAL",
+    "cabecera_lat": -11.89,
+    "cabecera_lng": -76.62,
+    "cabecera_altitud_msnm": 1950,
+    "pendiente_media_pct": 21.0,
+    "codigo_pfafstetter_ana": "ANA-PF-137554",
+    "codigo_punto_critico_ana": "PC-ANA-2024-LIM-011",
+    "codigo_ingemmet_peligro": "PEL-ING-LIM-015",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-828835",
+    "codigo_vial_mtc_pvn": "Puente Huayaringa km 38",
+    "ubigeo_cabecera": "150711",
+    "distrito_cabecera_nombre": "Santa Eulalia",
+    "ubigeo_receptor": "150711",
+    "distrito_receptor_nombre": "Santa Eulalia",
+    "denominacion_oficial_igp": "N/A",
+    "codigo_oficial_igp": "N/A",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": false,
+    "denominacion_amaru": "Q-LIM-03: Quebrada Payhua y Huayaringa",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "codigo_tactico_c2": "Q-LIM-03-PAYHUA_Y_HUAYARINGA",
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "150711",
+        "distrito": "Santa Eulalia",
+        "altitud_msnm": 1950,
+        "lat": -11.89,
+        "lng": -76.62,
+        "en_decreto_pcm": true
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "150711",
+        "distrito": "Santa Eulalia - Santa Eulalia",
+        "hito_vial": "Puente Huayaringa km 38",
+        "lat": -11.904,
+        "lng": -76.6455,
+        "en_decreto_pcm": true
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "150711",
+        "distrito": "Santa Eulalia",
+        "cono_deyeccion": "Cruce con Carretera a Santa Eulalia",
+        "lat": -11.918,
+        "lng": -76.671,
+        "en_decreto_pcm": true
+      },
+      "tiempo_arribo_cono_minutos": 42,
+      "poblacion_total_triangulo": 14000,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": true,
+        "receptor_en_decreto": true,
+        "es_completamente_decretado": true,
+        "requiere_ampliacion_decreto": false,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    },
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "DOCUMENTO_EVAR_SIGRID_CENEPRED",
+      "entidad_fuente": "CENEPRED SIGRID / ANA",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/828835",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID / ANA. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    }
+  },
+  {
+    "id_quebrada": "Q-LIM-04",
+    "nombre": "Quebrada Quirio y Pedregal",
+    "cuenca": "Cuenca del Río Rímac",
+    "region": "Lima",
+    "provincia": "Lima",
+    "distrito": "Lurigancho-Chosica",
+    "distritos_impactados": [
+      "Lurigancho-Chosica"
+    ],
+    "lat": -11.9422,
+    "lng": -76.7025,
+    "historial_activaciones": [
+      1983,
+      1987,
+      1998,
+      2012,
+      2015,
+      2017,
+      2023
+    ],
+    "frecuencia_historica": "REINCIDENCIA_CRITICA_EXTREMA",
+    "umbral_critico_mm_hora": 10.0,
+    "umbral_acumulado_24h": 25.0,
+    "tiempo_concentracion_horas": 0.75,
+    "poblacion_en_cono_deyeccion": 45000,
+    "puntos_estrangulamiento": [
+      "Pase urbano de Quirio",
+      "Carretera Central km 34"
+    ],
+    "obras_defensa_existentes": "Mallas dinámicas de acero en quebrada alta y diques de retención",
+    "leccion_historica": "Una de las quebradas más letales del país. En 1987 y 2015 los huaicos arrastraron rocas gigantes de hasta 5 toneladas cortando la Carretera Central.",
+    "fuente_estudio": "CENEPRED / INGEMMET / INDECI",
+    "cabecera_lat": -11.9,
+    "cabecera_lng": -76.65,
+    "cabecera_altitud_msnm": 1850,
+    "pendiente_media_pct": 19.0,
+    "codigo_pfafstetter_ana": "ANA-PF-137552",
+    "codigo_punto_critico_ana": "PC-ANA-2024-LIM-004",
+    "codigo_ingemmet_peligro": "PEL-ING-LIM-001",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-2341",
+    "codigo_vial_mtc_pvn": "PE-22 km 34 (Carretera Central Chosica)",
+    "ubigeo_cabecera": "150118",
+    "distrito_cabecera_nombre": "Lurigancho Chosica",
+    "ubigeo_receptor": "150118",
+    "distrito_receptor_nombre": "Lurigancho Chosica",
+    "denominacion_oficial_igp": "N/A",
+    "codigo_oficial_igp": "N/A",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": false,
+    "denominacion_amaru": "Q-LIM-04: Quebrada Quirio y Pedregal",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "codigo_tactico_c2": "Q-LIM-04-QUIRIO_Y_PEDREGAL",
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "150118",
+        "distrito": "Lurigancho Chosica",
+        "altitud_msnm": 1850,
+        "lat": -11.9,
+        "lng": -76.65,
+        "en_decreto_pcm": false
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "150118",
+        "distrito": "Lurigancho Chosica - Lurigancho Chosica",
+        "hito_vial": "PE-22 km 34 (Carretera Central Chosica)",
+        "lat": -11.9211,
+        "lng": -76.6763,
+        "en_decreto_pcm": false
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "150118",
+        "distrito": "Lurigancho Chosica",
+        "cono_deyeccion": "Pase urbano de Quirio",
+        "lat": -11.9422,
+        "lng": -76.7025,
+        "en_decreto_pcm": false
+      },
+      "tiempo_arribo_cono_minutos": 45,
+      "poblacion_total_triangulo": 45000,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": false,
+        "receptor_en_decreto": false,
+        "es_completamente_decretado": false,
+        "requiere_ampliacion_decreto": true,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    },
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "DOCUMENTO_EVAR_SIGRID_CENEPRED",
+      "entidad_fuente": "CENEPRED SIGRID / ANA",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/2341",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID / ANA. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    }
+  },
+  {
+    "id_quebrada": "Q-LIM-05",
+    "nombre": "Quebrada Carossio y Corrales",
+    "cuenca": "Cuenca del Río Rímac",
+    "region": "Lima",
+    "provincia": "Lima",
+    "distrito": "Lurigancho-Chosica",
+    "distritos_impactados": [
+      "Lurigancho-Chosica"
+    ],
+    "lat": -11.938,
+    "lng": -76.711,
+    "historial_activaciones": [
+      1983,
+      1998,
+      2015,
+      2017
+    ],
+    "frecuencia_historica": "REINCIDENCIA_ALTA",
+    "umbral_critico_mm_hora": 11.0,
+    "umbral_acumulado_24h": 28.0,
+    "tiempo_concentracion_horas": 0.9,
+    "poblacion_en_cono_deyeccion": 28000,
+    "puntos_estrangulamiento": [
+      "Asentamiento Humano Carossio",
+      "Puente Carossio sobre Carretera Central"
+    ],
+    "obras_defensa_existentes": "Mallas dinámicas suizas y canalizaciones escalonadas",
+    "leccion_historica": "Saturación rápida por laderas sin vegetación que descienden directamente al eje vial nacional.",
+    "fuente_estudio": "INGEMMET / CENEPRED",
+    "cabecera_lat": -11.91,
+    "cabecera_lng": -76.66,
+    "cabecera_altitud_msnm": 1700,
+    "pendiente_media_pct": 18.0,
+    "codigo_pfafstetter_ana": "ANA-PF-137552",
+    "codigo_punto_critico_ana": "PC-ANA-2024-LIM-005",
+    "codigo_ingemmet_peligro": "PEL-ING-LIM-002",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-2342",
+    "codigo_vial_mtc_pvn": "PE-22 km 36 (Puente Carossio)",
+    "ubigeo_cabecera": "150118",
+    "distrito_cabecera_nombre": "Lurigancho Chosica",
+    "ubigeo_receptor": "150118",
+    "distrito_receptor_nombre": "Lurigancho Chosica",
+    "denominacion_oficial_igp": "N/A",
+    "codigo_oficial_igp": "N/A",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": false,
+    "denominacion_amaru": "Q-LIM-05: Quebrada Carossio y Corrales",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "codigo_tactico_c2": "Q-LIM-05-CAROSSIO_Y_CORRALES",
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "150118",
+        "distrito": "Lurigancho Chosica",
+        "altitud_msnm": 1700,
+        "lat": -11.91,
+        "lng": -76.66,
+        "en_decreto_pcm": false
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "150118",
+        "distrito": "Lurigancho Chosica - Lurigancho Chosica",
+        "hito_vial": "PE-22 km 36 (Puente Carossio)",
+        "lat": -11.924,
+        "lng": -76.6855,
+        "en_decreto_pcm": false
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "150118",
+        "distrito": "Lurigancho Chosica",
+        "cono_deyeccion": "Asentamiento Humano Carossio",
+        "lat": -11.938,
+        "lng": -76.711,
+        "en_decreto_pcm": false
+      },
+      "tiempo_arribo_cono_minutos": 54,
+      "poblacion_total_triangulo": 28000,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": false,
+        "receptor_en_decreto": false,
+        "es_completamente_decretado": false,
+        "requiere_ampliacion_decreto": true,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    },
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "DOCUMENTO_EVAR_SIGRID_CENEPRED",
+      "entidad_fuente": "CENEPRED SIGRID / ANA",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/2342",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID / ANA. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    }
+  },
+  {
+    "id_quebrada": "Q-LIM-06",
+    "nombre": "Quebrada Huaycoloro y Campoy",
+    "cuenca": "Cuenca del Río Rímac",
+    "region": "Lima",
+    "provincia": "Lima",
+    "distrito": "San Juan de Lurigancho",
+    "distritos_impactados": [
+      "San Juan de Lurigancho",
+      "Lurigancho-Chosica",
+      "El Agustino"
+    ],
+    "lat": -11.988,
+    "lng": -76.932,
+    "historial_activaciones": [
+      1998,
+      2017,
+      2023
+    ],
+    "frecuencia_historica": "REINCIDENCIA_CRITICA_EXTREMA",
+    "umbral_critico_mm_hora": 10.0,
+    "umbral_acumulado_24h": 30.0,
+    "tiempo_concentracion_horas": 1.8,
+    "poblacion_en_cono_deyeccion": 80000,
+    "puntos_estrangulamiento": [
+      "Puente Huaycoloro (Autopista Ramiro Prialé)",
+      "Sector Campoy",
+      "Planta de Tratamiento La Atarjea (SEDAPAL)"
+    ],
+    "obras_defensa_existentes": "Encauzamiento con geobolsas y nuevo puente Bailey elevado",
+    "leccion_historica": "En 2017 el colapso del Puente Huaycoloro paralizó la autopista Ramiro Prialé y el lodo suspendió el servicio de agua potable a toda Lima por 4 días.",
+    "fuente_estudio": "La República ENFEN 2023 / CENEPRED / SEDAPAL",
+    "cabecera_lat": -11.92,
+    "cabecera_lng": -76.82,
+    "cabecera_altitud_msnm": 1450,
+    "pendiente_media_pct": 14.0,
+    "codigo_pfafstetter_ana": "ANA-PF-137552",
+    "codigo_punto_critico_ana": "PC-ANA-2024-LIM-001",
+    "codigo_ingemmet_peligro": "PEL-ING-LIM-008",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-1120",
+    "codigo_vial_mtc_pvn": "Puente Huaycoloro - Autopista Ramiro Prialé",
+    "ubigeo_cabecera": "150132",
+    "distrito_cabecera_nombre": "San Juan de Lurigancho",
+    "ubigeo_receptor": "150132",
+    "distrito_receptor_nombre": "San Juan de Lurigancho",
+    "denominacion_oficial_igp": "Quebrada Huaycoloro 1 y 2",
+    "codigo_oficial_igp": "IGP-HUAICO-LIM-HUAYCOLORO-01",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": true,
+    "denominacion_amaru": "Q-LIM-06: Quebrada Huaycoloro y Campoy",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "codigo_tactico_c2": "Q-LIM-06-HUAYCOLORO_Y_CAMPOY",
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "150132",
+        "distrito": "San Juan de Lurigancho",
+        "altitud_msnm": 1450,
+        "lat": -11.92,
+        "lng": -76.82,
+        "en_decreto_pcm": false
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "150132",
+        "distrito": "San Juan de Lurigancho - San Juan de Lurigancho",
+        "hito_vial": "Puente Huaycoloro - Autopista Ramiro Prialé",
+        "lat": -11.954,
+        "lng": -76.876,
+        "en_decreto_pcm": false
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "150132",
+        "distrito": "San Juan de Lurigancho",
+        "cono_deyeccion": "Puente Huaycoloro (Autopista Ramiro Prialé)",
+        "lat": -11.988,
+        "lng": -76.932,
+        "en_decreto_pcm": false
+      },
+      "tiempo_arribo_cono_minutos": 108,
+      "poblacion_total_triangulo": 80000,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": false,
+        "receptor_en_decreto": false,
+        "es_completamente_decretado": false,
+        "requiere_ampliacion_decreto": true,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    },
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "DOCUMENTO_EVAR_SIGRID_CENEPRED",
+      "entidad_fuente": "CENEPRED SIGRID / ANA",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/1120",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID / ANA. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    }
+  },
+  {
+    "id_quebrada": "Q-LIM-07",
+    "nombre": "Quebrada Canto Grande y Media Luna",
+    "cuenca": "Intercuenca Rímac - San Juan de Lurigancho",
+    "region": "Lima",
+    "provincia": "Lima",
+    "distrito": "San Juan de Lurigancho",
+    "distritos_impactados": [
+      "San Juan de Lurigancho"
+    ],
+    "lat": -11.961,
+    "lng": -76.985,
+    "historial_activaciones": [
+      1998,
+      2017,
+      2023
+    ],
+    "frecuencia_historica": "REINCIDENCIA_ALTA",
+    "umbral_critico_mm_hora": 12.0,
+    "umbral_acumulado_24h": 26.0,
+    "tiempo_concentracion_horas": 1.2,
+    "poblacion_en_cono_deyeccion": 65000,
+    "puntos_estrangulamiento": [
+      "Avenida Canto Grande",
+      "Sector Media Luna / Laderas de Jicamarca"
+    ],
+    "obras_defensa_existentes": "Muros de contención artesanales (pircas)",
+    "leccion_historica": "Alta densificación urbana sobre cauces secos sin canalización. El agua pluvial satura las vías principales convirtiéndolas en ríos de lodo.",
+    "fuente_estudio": "La República / CENEPRED SJL 7 Quebradas",
+    "cabecera_lat": -11.93,
+    "cabecera_lng": -76.92,
+    "cabecera_altitud_msnm": 1250,
+    "pendiente_media_pct": 15.0,
+    "codigo_pfafstetter_ana": "ANA-PF-137552",
+    "codigo_punto_critico_ana": "PC-ANA-2024-LIM-002",
+    "codigo_ingemmet_peligro": "PEL-ING-LIM-009",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-1122",
+    "codigo_vial_mtc_pvn": "Av. Canto Grande / Av. Wiesse",
+    "ubigeo_cabecera": "150132",
+    "distrito_cabecera_nombre": "San Juan de Lurigancho",
+    "ubigeo_receptor": "150132",
+    "distrito_receptor_nombre": "San Juan de Lurigancho",
+    "denominacion_oficial_igp": "N/A",
+    "codigo_oficial_igp": "N/A",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": false,
+    "denominacion_amaru": "Q-LIM-07: Quebrada Canto Grande y Media Luna",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "codigo_tactico_c2": "Q-LIM-07-CANTO_GRANDE_Y_MEDIA_L",
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "150132",
+        "distrito": "San Juan de Lurigancho",
+        "altitud_msnm": 1250,
+        "lat": -11.93,
+        "lng": -76.92,
+        "en_decreto_pcm": false
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "150132",
+        "distrito": "San Juan de Lurigancho - San Juan de Lurigancho",
+        "hito_vial": "Av. Canto Grande / Av. Wiesse",
+        "lat": -11.9455,
+        "lng": -76.9525,
+        "en_decreto_pcm": false
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "150132",
+        "distrito": "San Juan de Lurigancho",
+        "cono_deyeccion": "Avenida Canto Grande",
+        "lat": -11.961,
+        "lng": -76.985,
+        "en_decreto_pcm": false
+      },
+      "tiempo_arribo_cono_minutos": 72,
+      "poblacion_total_triangulo": 65000,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": false,
+        "receptor_en_decreto": false,
+        "es_completamente_decretado": false,
+        "requiere_ampliacion_decreto": true,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    },
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "DOCUMENTO_EVAR_SIGRID_CENEPRED",
+      "entidad_fuente": "CENEPRED SIGRID / ANA",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/1122",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID / ANA. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    }
+  },
+  {
+    "id_quebrada": "Q-LIM-08",
+    "nombre": "Quebrada Mariscal Cáceres y El Sauce",
+    "cuenca": "Intercuenca Rímac - San Juan de Lurigancho",
+    "region": "Lima",
+    "provincia": "Lima",
+    "distrito": "San Juan de Lurigancho",
+    "distritos_impactados": [
+      "San Juan de Lurigancho"
+    ],
+    "lat": -11.948,
+    "lng": -76.972,
+    "historial_activaciones": [
+      1998,
+      2017,
+      2023
+    ],
+    "frecuencia_historica": "REINCIDENCIA_ALTA",
+    "umbral_critico_mm_hora": 11.0,
+    "umbral_acumulado_24h": 25.0,
+    "tiempo_concentracion_horas": 1.1,
+    "poblacion_en_cono_deyeccion": 55000,
+    "puntos_estrangulamiento": [
+      "Paradero 10 de Canto Grande",
+      "Asentamientos Humanos de la zona alta de Mariscal Cáceres"
+    ],
+    "obras_defensa_existentes": "Ninguna infraestructura de derivación definitiva",
+    "leccion_historica": "Las aguas de escorrentía arrastran desmonte y basura acumulada en los cerros, tapando buzones de alcantarillado.",
+    "fuente_estudio": "Estudio CENEPRED SJL / La República 2023",
+    "cabecera_lat": -11.91,
+    "cabecera_lng": -76.9,
+    "cabecera_altitud_msnm": 1300,
+    "pendiente_media_pct": 16.0,
+    "codigo_pfafstetter_ana": "ANA-PF-137552",
+    "codigo_punto_critico_ana": "PC-ANA-2024-LIM-003",
+    "codigo_ingemmet_peligro": "PEL-ING-LIM-010",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-1125",
+    "codigo_vial_mtc_pvn": "Av. Mariscal Cáceres / El Sauce",
+    "ubigeo_cabecera": "150132",
+    "distrito_cabecera_nombre": "San Juan de Lurigancho",
+    "ubigeo_receptor": "150132",
+    "distrito_receptor_nombre": "San Juan de Lurigancho",
+    "denominacion_oficial_igp": "N/A",
+    "codigo_oficial_igp": "N/A",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": false,
+    "denominacion_amaru": "Q-LIM-08: Quebrada Mariscal Cáceres y El Sauce",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "codigo_tactico_c2": "Q-LIM-08-MARISCAL_CACERES_Y_EL_",
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "150132",
+        "distrito": "San Juan de Lurigancho",
+        "altitud_msnm": 1300,
+        "lat": -11.91,
+        "lng": -76.9,
+        "en_decreto_pcm": false
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "150132",
+        "distrito": "San Juan de Lurigancho - San Juan de Lurigancho",
+        "hito_vial": "Av. Mariscal Cáceres / El Sauce",
+        "lat": -11.929,
+        "lng": -76.936,
+        "en_decreto_pcm": false
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "150132",
+        "distrito": "San Juan de Lurigancho",
+        "cono_deyeccion": "Paradero 10 de Canto Grande",
+        "lat": -11.948,
+        "lng": -76.972,
+        "en_decreto_pcm": false
+      },
+      "tiempo_arribo_cono_minutos": 66,
+      "poblacion_total_triangulo": 55000,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": false,
+        "receptor_en_decreto": false,
+        "es_completamente_decretado": false,
+        "requiere_ampliacion_decreto": true,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    },
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "DOCUMENTO_EVAR_SIGRID_CENEPRED",
+      "entidad_fuente": "CENEPRED SIGRID / ANA",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/1125",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID / ANA. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    }
+  },
+  {
+    "id_quebrada": "Q-ICA-01",
+    "nombre": "Quebrada Cansas y La Tinguiña",
+    "cuenca": "Cuenca del Río Ica",
+    "region": "Ica",
+    "provincia": "Ica",
+    "distrito": "La Tinguiña",
+    "distritos_impactados": [
+      "La Tinguiña",
+      "Parcona",
+      "Ica Centro"
+    ],
+    "lat": -14.032,
+    "lng": -75.698,
+    "historial_activaciones": [
+      1998,
+      2017
+    ],
+    "frecuencia_historica": "REINCIDENCIA_CRITICA_ALTA",
+    "umbral_critico_mm_hora": 14.0,
+    "umbral_acumulado_24h": 35.0,
+    "tiempo_concentracion_horas": 2.2,
+    "poblacion_en_cono_deyeccion": 65000,
+    "puntos_estrangulamiento": [
+      "Puente Cansas",
+      "Avenida Las Nieves",
+      "Ingreso urbano a La Tinguiña"
+    ],
+    "obras_defensa_existentes": "Dique de tierra compactada y canal colector",
+    "leccion_historica": "En 1998 y 2017 la quebrada Cansas bajó con gran volumen colmatando el colector e inundando completamente La Tinguiña y Parcona.",
+    "fuente_estudio": "CENEPRED Sector Agrícola e Inundaciones Ica / Debate Congreso 1998",
+    "cabecera_lat": -13.92,
+    "cabecera_lng": -75.52,
+    "cabecera_altitud_msnm": 1800,
+    "pendiente_media_pct": 17.5,
+    "codigo_pfafstetter_ana": "ANA-PF-13732",
+    "codigo_punto_critico_ana": "PC-ANA-2024-ICA-006",
+    "codigo_ingemmet_peligro": "PEL-ING-ICA-002",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-3120",
+    "codigo_vial_mtc_pvn": "Vía Vecinal La Tinguiña - San José de los Molinos",
+    "ubigeo_cabecera": "110107",
+    "distrito_cabecera_nombre": "San José de los Molinos",
+    "ubigeo_receptor": "110109",
+    "distrito_receptor_nombre": "La Tinguiña",
+    "denominacion_oficial_igp": "N/A",
+    "codigo_oficial_igp": "N/A",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": false,
+    "denominacion_amaru": "Q-ICA-01: Quebrada Cansas y La Tinguiña",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "codigo_tactico_c2": "Q-ICA-01-CANSAS_Y_LA_TINGUINA",
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "110107",
+        "distrito": "San José de los Molinos",
+        "altitud_msnm": 1800,
+        "lat": -13.92,
+        "lng": -75.52,
+        "en_decreto_pcm": false
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "110109",
+        "distrito": "San José de los Molinos - La Tinguiña",
+        "hito_vial": "Vía Vecinal La Tinguiña - San José de los Molinos",
+        "lat": -13.976,
+        "lng": -75.609,
+        "en_decreto_pcm": false
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "110109",
+        "distrito": "La Tinguiña",
+        "cono_deyeccion": "Puente Cansas",
+        "lat": -14.032,
+        "lng": -75.698,
+        "en_decreto_pcm": false
+      },
+      "tiempo_arribo_cono_minutos": 132,
+      "poblacion_total_triangulo": 65000,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": false,
+        "receptor_en_decreto": false,
+        "es_completamente_decretado": false,
+        "requiere_ampliacion_decreto": true,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    },
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "DOCUMENTO_EVAR_SIGRID_CENEPRED",
+      "entidad_fuente": "CENEPRED SIGRID / ANA",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/3120",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID / ANA. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    }
+  },
+  {
+    "id_quebrada": "Q-PIU-01",
+    "nombre": "Cuenca Baja Río Piura y Dique Pedregal",
+    "cuenca": "Cuenca del Río Piura",
+    "region": "Piura",
+    "provincia": "Piura",
+    "distrito": "Catacaos",
+    "distritos_impactados": [
+      "Catacaos",
+      "Cura Mori",
+      "Tallán"
+    ],
+    "lat": -5.2711,
+    "lng": -80.6728,
+    "historial_activaciones": [
+      1983,
+      1998,
+      2017,
+      2023
+    ],
+    "frecuencia_historica": "REINCIDENCIA_CRITICA_EXTREMA",
+    "umbral_critico_mm_hora": 20.0,
+    "umbral_acumulado_24h": 70.0,
+    "tiempo_concentracion_horas": 6.0,
+    "poblacion_en_cono_deyeccion": 110000,
+    "puntos_estrangulamiento": [
+      "Dique Pedregal / Vado de Catacaos",
+      "Puente Independencia",
+      "Canal Biaggio Arbulú"
+    ],
+    "obras_defensa_existentes": "Dique de tierra reforzado con geotextiles y enrocado parcial",
+    "leccion_historica": "En 1998 y 2017 el caudal del río superó los 3,100 m³/s, rompiendo el Dique Pedregal e inundando el 85% del distrito de Catacaos.",
+    "fuente_estudio": "Estudios CENEPRED Agrícola / Debate Congreso 1998",
+    "cabecera_lat": -5.1,
+    "cabecera_lng": -79.8,
+    "cabecera_altitud_msnm": 1400,
+    "pendiente_media_pct": 8.5,
+    "codigo_pfafstetter_ana": "ANA-PF-13712",
+    "codigo_punto_critico_ana": "PC-ANA-2024-PIU-001",
+    "codigo_ingemmet_peligro": "PEL-ING-PIU-001",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-3910",
+    "codigo_vial_mtc_pvn": "Puente Independencia / Vado Pedregal",
+    "ubigeo_cabecera": "200101",
+    "distrito_cabecera_nombre": "Piura",
+    "ubigeo_receptor": "200105",
+    "distrito_receptor_nombre": "Catacaos",
+    "denominacion_oficial_igp": "N/A",
+    "codigo_oficial_igp": "N/A",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": false,
+    "denominacion_amaru": "Q-PIU-01: Cuenca Baja Río Piura y Dique Pedregal",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "codigo_tactico_c2": "Q-PIU-01-CUENCA_BAJA_RIO_PIURA_",
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "200101",
+        "distrito": "Piura",
+        "altitud_msnm": 1400,
+        "lat": -5.1,
+        "lng": -79.8,
+        "en_decreto_pcm": true
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "200105",
+        "distrito": "Piura - Catacaos",
+        "hito_vial": "Puente Independencia / Vado Pedregal",
+        "lat": -5.1855,
+        "lng": -80.2364,
+        "en_decreto_pcm": true
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "200105",
+        "distrito": "Catacaos",
+        "cono_deyeccion": "Dique Pedregal / Vado de Catacaos",
+        "lat": -5.2711,
+        "lng": -80.6728,
+        "en_decreto_pcm": true
+      },
+      "tiempo_arribo_cono_minutos": 360,
+      "poblacion_total_triangulo": 110000,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": true,
+        "receptor_en_decreto": true,
+        "es_completamente_decretado": true,
+        "requiere_ampliacion_decreto": false,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    },
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "DOCUMENTO_EVAR_SIGRID_CENEPRED",
+      "entidad_fuente": "CENEPRED SIGRID / ANA",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/3910",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID / ANA. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    }
+  },
+  {
+    "id_quebrada": "Q-LAM-01",
+    "nombre": "Quebrada Juana Ríos",
+    "cuenca": "Cuenca Chancay-Lambayeque / Chongoyape",
+    "region": "Lambayeque",
+    "provincia": "Chiclayo",
+    "distrito": "Chongoyape",
+    "distritos_impactados": [
+      "Chongoyape"
+    ],
+    "lat": -6.6417,
+    "lng": -79.3889,
+    "historial_activaciones": [
+      1983,
+      1998,
+      2017,
+      2023,
+      2026
+    ],
+    "frecuencia_historica": "REINCIDENCIA_CRITICA_EXTREMA",
+    "umbral_critico_mm_hora": 12.0,
+    "umbral_acumulado_24h": 35.0,
+    "tiempo_concentracion_horas": 1.8,
+    "poblacion_en_cono_deyeccion": 18500,
+    "puntos_estrangulamiento": [
+      "Badén Juana Ríos",
+      "Carretera Chiclayo - Chota (km 68)",
+      "Paso carrozable Chongoyape"
+    ],
+    "obras_defensa_existentes": "Puente definitivo en construcción (S/ 86M) y badén de concreto",
+    "leccion_historica": "Aísla la conexión entre Lambayeque y Cajamarca. Afecta viviendas y bloquea tránsito interregional durante El Niño.",
+    "fuente_estudio": "GORE Lambayeque Noticia 1357729 / INDECI Emergencia 0493-2026",
+    "cabecera_lat": -6.58,
+    "cabecera_lng": -79.25,
+    "cabecera_altitud_msnm": 1850,
+    "pendiente_media_pct": 19.0,
+    "codigo_pfafstetter_ana": "ANA-PF-137564",
+    "codigo_punto_critico_ana": "PC-ANA-2024-LAM-012",
+    "codigo_ingemmet_peligro": "PEL-ING-LAM-008",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-1357729",
+    "codigo_vial_mtc_pvn": "PE-06A km 68+200 (Badén Juana Ríos)",
+    "ubigeo_cabecera": "060312",
+    "distrito_cabecera_nombre": "Tocmoche",
+    "ubigeo_receptor": "140103",
+    "distrito_receptor_nombre": "Chongoyape",
+    "denominacion_oficial_igp": "N/A",
+    "codigo_oficial_igp": "N/A",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": false,
+    "denominacion_amaru": "Q-LAM-01: Quebrada Juana Ríos",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "codigo_tactico_c2": "Q-LAM-01-JUANA_RIOS",
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "060312",
+        "distrito": "Tocmoche",
+        "altitud_msnm": 1850,
+        "lat": -6.58,
+        "lng": -79.25,
+        "en_decreto_pcm": true
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "140103",
+        "distrito": "Tocmoche - Chongoyape",
+        "hito_vial": "PE-06A km 68+200 (Badén Juana Ríos)",
+        "lat": -6.6109,
+        "lng": -79.3195,
+        "en_decreto_pcm": true
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "140103",
+        "distrito": "Chongoyape",
+        "cono_deyeccion": "Badén Juana Ríos",
+        "lat": -6.6417,
+        "lng": -79.3889,
+        "en_decreto_pcm": true
+      },
+      "tiempo_arribo_cono_minutos": 108,
+      "poblacion_total_triangulo": 18500,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": true,
+        "receptor_en_decreto": true,
+        "es_completamente_decretado": true,
+        "requiere_ampliacion_decreto": false,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    },
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "DOCUMENTO_EVAR_SIGRID_CENEPRED",
+      "entidad_fuente": "CENEPRED SIGRID / ANA",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/1357729",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID / ANA. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    }
+  },
+  {
+    "id_quebrada": "Q-LAM-02",
+    "nombre": "Quebrada Yaipón",
+    "cuenca": "Cuenca Alta Chancay / Quebrada Yaipón",
+    "region": "Lambayeque",
+    "provincia": "Chiclayo",
+    "distrito": "Chongoyape",
+    "distritos_impactados": [
+      "Chongoyape"
+    ],
+    "lat": -6.625,
+    "lng": -79.362,
+    "historial_activaciones": [
+      1998,
+      2017,
+      2023
+    ],
+    "frecuencia_historica": "REINCIDENCIA_ALTA",
+    "umbral_critico_mm_hora": 14.0,
+    "umbral_acumulado_24h": 38.0,
+    "tiempo_concentracion_horas": 2.0,
+    "poblacion_en_cono_deyeccion": 8200,
+    "puntos_estrangulamiento": [
+      "Sector Majín",
+      "Piedra Parada",
+      "Caserío El Mirador"
+    ],
+    "obras_defensa_existentes": "Diques rústicos de contención",
+    "leccion_historica": "Desbordes recurrentes en Majín y El Mirador aislando a poblaciones agrícolas.",
+    "fuente_estudio": "INDECI Informe Emergencia 0493-2026 / GORE Lambayeque",
+    "cabecera_lat": -6.55,
+    "cabecera_lng": -79.18,
+    "cabecera_altitud_msnm": 2100,
+    "pendiente_media_pct": 21.0,
+    "codigo_pfafstetter_ana": "ANA-PF-137564",
+    "codigo_punto_critico_ana": "PC-ANA-2024-LAM-014",
+    "codigo_ingemmet_peligro": "PEL-ING-LAM-009",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-0493-2026",
+    "codigo_vial_mtc_pvn": "Carretera Vecinal Majín - Piedra Parada",
+    "ubigeo_cabecera": "060306",
+    "distrito_cabecera_nombre": "Llama",
+    "ubigeo_receptor": "140103",
+    "distrito_receptor_nombre": "Chongoyape",
+    "denominacion_oficial_igp": "N/A",
+    "codigo_oficial_igp": "N/A",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": false,
+    "denominacion_amaru": "Q-LAM-02: Quebrada Yaipón",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "codigo_tactico_c2": "Q-LAM-02-YAIPON",
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "060306",
+        "distrito": "Llama",
+        "altitud_msnm": 2100,
+        "lat": -6.55,
+        "lng": -79.18,
+        "en_decreto_pcm": true
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "140103",
+        "distrito": "Llama - Chongoyape",
+        "hito_vial": "Carretera Vecinal Majín - Piedra Parada",
+        "lat": -6.5875,
+        "lng": -79.271,
+        "en_decreto_pcm": true
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "140103",
+        "distrito": "Chongoyape",
+        "cono_deyeccion": "Sector Majín",
+        "lat": -6.625,
+        "lng": -79.362,
+        "en_decreto_pcm": true
+      },
+      "tiempo_arribo_cono_minutos": 120,
+      "poblacion_total_triangulo": 8200,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": true,
+        "receptor_en_decreto": true,
+        "es_completamente_decretado": true,
+        "requiere_ampliacion_decreto": false,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    },
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "DOCUMENTO_EVAR_SIGRID_CENEPRED",
+      "entidad_fuente": "CENEPRED SIGRID / ANA",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/0493-2026",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID / ANA. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    }
+  },
+  {
+    "id_quebrada": "Q-LAM-03",
+    "nombre": "Quebrada Cerro al Umbral y La Compuerta",
+    "cuenca": "Cuenca del Río Zaña / Oyotún",
+    "region": "Lambayeque",
+    "provincia": "Chiclayo",
+    "distrito": "Oyotún",
+    "distritos_impactados": [
+      "Oyotún"
+    ],
+    "lat": -6.845,
+    "lng": -79.31,
+    "historial_activaciones": [
+      1998,
+      2017,
+      2023
+    ],
+    "frecuencia_historica": "REINCIDENCIA_ALTA",
+    "umbral_critico_mm_hora": 13.0,
+    "umbral_acumulado_24h": 36.0,
+    "tiempo_concentracion_horas": 1.5,
+    "poblacion_en_cono_deyeccion": 6500,
+    "puntos_estrangulamiento": [
+      "Centro Poblado La Compuerta",
+      "Sector El Algarrobal",
+      "Canal de derivación Zaña"
+    ],
+    "obras_defensa_existentes": "Defensas ribereñas locales",
+    "leccion_historica": "Flujos de lodo y detritos que colmatan canales de riego y amenazan cultivos.",
+    "fuente_estudio": "CENEPRED SIGRID Doc 4542 / Invierte.pe 256279",
+    "cabecera_lat": -6.92,
+    "cabecera_lng": -79.15,
+    "cabecera_altitud_msnm": 2400,
+    "pendiente_media_pct": 22.5,
+    "codigo_pfafstetter_ana": "ANA-PF-13758",
+    "codigo_punto_critico_ana": "PC-ANA-2024-LAM-020",
+    "codigo_ingemmet_peligro": "PEL-ING-LAM-012",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-4542",
+    "codigo_vial_mtc_pvn": "Vía Zaña - Oyotún / Puente La Compuerta",
+    "ubigeo_cabecera": "061204",
+    "distrito_cabecera_nombre": "Niepos",
+    "ubigeo_receptor": "140110",
+    "distrito_receptor_nombre": "Oyotún",
+    "denominacion_oficial_igp": "N/A",
+    "codigo_oficial_igp": "N/A",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": false,
+    "denominacion_amaru": "Q-LAM-03: Quebrada Cerro al Umbral y La Compuerta",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "codigo_tactico_c2": "Q-LAM-03-CERRO_AL_UMBRAL_Y_LA_C",
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "061204",
+        "distrito": "Niepos",
+        "altitud_msnm": 2400,
+        "lat": -6.92,
+        "lng": -79.15,
+        "en_decreto_pcm": true
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "140110",
+        "distrito": "Niepos - Oyotún",
+        "hito_vial": "Vía Zaña - Oyotún / Puente La Compuerta",
+        "lat": -6.8825,
+        "lng": -79.23,
+        "en_decreto_pcm": false
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "140110",
+        "distrito": "Oyotún",
+        "cono_deyeccion": "Centro Poblado La Compuerta",
+        "lat": -6.845,
+        "lng": -79.31,
+        "en_decreto_pcm": false
+      },
+      "tiempo_arribo_cono_minutos": 90,
+      "poblacion_total_triangulo": 6500,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": true,
+        "receptor_en_decreto": false,
+        "es_completamente_decretado": false,
+        "requiere_ampliacion_decreto": true,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    },
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "DOCUMENTO_EVAR_SIGRID_CENEPRED",
+      "entidad_fuente": "CENEPRED SIGRID / ANA",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/4542",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID / ANA. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    }
+  },
+  {
+    "id_quebrada": "Q-LAM-04",
+    "nombre": "Quebrada La Viña",
+    "cuenca": "Cuenca Alta Zaña / Nueva Arica",
+    "region": "Lambayeque",
+    "provincia": "Chiclayo",
+    "distrito": "Nueva Arica",
+    "distritos_impactados": [
+      "Nueva Arica",
+      "Oyotún"
+    ],
+    "lat": -6.872,
+    "lng": -79.335,
+    "historial_activaciones": [
+      1998,
+      2017,
+      2023
+    ],
+    "frecuencia_historica": "REINCIDENCIA_ALTA",
+    "umbral_critico_mm_hora": 12.0,
+    "umbral_acumulado_24h": 35.0,
+    "tiempo_concentracion_horas": 1.8,
+    "poblacion_en_cono_deyeccion": 5200,
+    "puntos_estrangulamiento": [
+      "Centro Poblado La Viña",
+      "Vía de acceso Nueva Arica"
+    ],
+    "obras_defensa_existentes": "Muros secos de defensa",
+    "leccion_historica": "Huaicos que cruzan el poblado La Viña aislando la cuenca alta de Zaña.",
+    "fuente_estudio": "CENEPRED SIGRID Doc 4537",
+    "cabecera_lat": -6.95,
+    "cabecera_lng": -79.18,
+    "cabecera_altitud_msnm": 2250,
+    "pendiente_media_pct": 20.0,
+    "codigo_pfafstetter_ana": "ANA-PF-13758",
+    "codigo_punto_critico_ana": "PC-ANA-2024-LAM-021",
+    "codigo_ingemmet_peligro": "PEL-ING-LAM-013",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-4537",
+    "codigo_vial_mtc_pvn": "Carretera de Penetración La Viña - Zaña",
+    "ubigeo_cabecera": "061204",
+    "distrito_cabecera_nombre": "Niepos",
+    "ubigeo_receptor": "140109",
+    "distrito_receptor_nombre": "Nueva Arica",
+    "denominacion_oficial_igp": "N/A",
+    "codigo_oficial_igp": "N/A",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": false,
+    "denominacion_amaru": "Q-LAM-04: Quebrada La Viña",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "codigo_tactico_c2": "Q-LAM-04-LA_VINA",
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "061204",
+        "distrito": "Niepos",
+        "altitud_msnm": 2250,
+        "lat": -6.95,
+        "lng": -79.18,
+        "en_decreto_pcm": true
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "140109",
+        "distrito": "Niepos - Nueva Arica",
+        "hito_vial": "Carretera de Penetración La Viña - Zaña",
+        "lat": -6.911,
+        "lng": -79.2575,
+        "en_decreto_pcm": true
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "140109",
+        "distrito": "Nueva Arica",
+        "cono_deyeccion": "Centro Poblado La Viña",
+        "lat": -6.872,
+        "lng": -79.335,
+        "en_decreto_pcm": true
+      },
+      "tiempo_arribo_cono_minutos": 108,
+      "poblacion_total_triangulo": 5200,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": true,
+        "receptor_en_decreto": true,
+        "es_completamente_decretado": true,
+        "requiere_ampliacion_decreto": false,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    },
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "DOCUMENTO_EVAR_SIGRID_CENEPRED",
+      "entidad_fuente": "CENEPRED SIGRID / ANA",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/4537",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID / ANA. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    }
+  },
+  {
+    "id_quebrada": "Q-PIU-02",
+    "nombre": "Quebrada Sol Sol y Pacchas",
+    "cuenca": "Cuenca del Río Piura / Alto Piura",
+    "region": "Piura",
+    "provincia": "Morropón",
+    "distrito": "Chulucanas",
+    "distritos_impactados": [
+      "Chulucanas",
+      "Morropón"
+    ],
+    "lat": -5.092,
+    "lng": -80.162,
+    "historial_activaciones": [
+      1983,
+      1998,
+      2017,
+      2023,
+      2026
+    ],
+    "frecuencia_historica": "REINCIDENCIA_CRITICA_EXTREMA",
+    "umbral_critico_mm_hora": 12.0,
+    "umbral_acumulado_24h": 35.0,
+    "tiempo_concentracion_horas": 1.5,
+    "poblacion_en_cono_deyeccion": 34000,
+    "puntos_estrangulamiento": [
+      "Badén Sol Sol",
+      "Carretera Chulucanas - Morropón",
+      "Caserío Pacchas"
+    ],
+    "obras_defensa_existentes": "Badén de concreto armado y diques enrocados",
+    "leccion_historica": "Corta la vía de acceso entre Chulucanas y Morropón. Aísla caseríos y arrasa cultivos agrícolas del Alto Piura.",
+    "fuente_estudio": "COER Piura Aviso 247 / CENEPRED SIGRID Doc 3925",
+    "cabecera_lat": -4.95,
+    "cabecera_lng": -79.92,
+    "cabecera_altitud_msnm": 1650,
+    "pendiente_media_pct": 17.0,
+    "codigo_pfafstetter_ana": "ANA-PF-13714",
+    "codigo_punto_critico_ana": "PC-ANA-2024-PIU-015",
+    "codigo_ingemmet_peligro": "PEL-ING-PIU-007",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-3925",
+    "codigo_vial_mtc_pvn": "Ruta Departamental PI-103 (Badén Sol Sol)",
+    "ubigeo_cabecera": "200102",
+    "distrito_cabecera_nombre": "Frías",
+    "ubigeo_receptor": "200503",
+    "distrito_receptor_nombre": "Chulucanas",
+    "denominacion_oficial_igp": "N/A",
+    "codigo_oficial_igp": "N/A",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": false,
+    "denominacion_amaru": "Q-PIU-02: Quebrada Sol Sol y Pacchas",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "codigo_tactico_c2": "Q-PIU-02-SOL_SOL_Y_PACCHAS",
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "200102",
+        "distrito": "Frías",
+        "altitud_msnm": 1650,
+        "lat": -4.95,
+        "lng": -79.92,
+        "en_decreto_pcm": false
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "200503",
+        "distrito": "Frías - Chulucanas",
+        "hito_vial": "Ruta Departamental PI-103 (Badén Sol Sol)",
+        "lat": -5.021,
+        "lng": -80.041,
+        "en_decreto_pcm": true
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "200503",
+        "distrito": "Chulucanas",
+        "cono_deyeccion": "Badén Sol Sol",
+        "lat": -5.092,
+        "lng": -80.162,
+        "en_decreto_pcm": true
+      },
+      "tiempo_arribo_cono_minutos": 90,
+      "poblacion_total_triangulo": 34000,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": false,
+        "receptor_en_decreto": true,
+        "es_completamente_decretado": false,
+        "requiere_ampliacion_decreto": true,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    },
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "DOCUMENTO_EVAR_SIGRID_CENEPRED",
+      "entidad_fuente": "CENEPRED SIGRID / ANA",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/3925",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID / ANA. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    }
+  },
+  {
+    "id_quebrada": "Q-PIU-03",
+    "nombre": "Quebrada Serrán",
+    "cuenca": "Cuenca del Río Huancabamba / Serrán",
+    "region": "Piura",
+    "provincia": "Morropón",
+    "distrito": "Salitral",
+    "distritos_impactados": [
+      "Salitral",
+      "Canchaque",
+      "Huancabamba"
+    ],
+    "lat": -5.321,
+    "lng": -79.789,
+    "historial_activaciones": [
+      1998,
+      2017,
+      2023
+    ],
+    "frecuencia_historica": "REINCIDENCIA_CRITICA_ALTA",
+    "umbral_critico_mm_hora": 13.0,
+    "umbral_acumulado_24h": 38.0,
+    "tiempo_concentracion_horas": 2.2,
+    "poblacion_en_cono_deyeccion": 15000,
+    "puntos_estrangulamiento": [
+      "Puente Serrán",
+      "Carretera Longitudinal de la Sierra hacia Huancabamba"
+    ],
+    "obras_defensa_existentes": "Puente modular provisional",
+    "leccion_historica": "Bloquea el tránsito hacia la provincia de Huancabamba, dejando desabastecida la sierra piurana.",
+    "fuente_estudio": "COER Piura / CENEPRED SIGRID Doc 3910",
+    "cabecera_lat": -5.38,
+    "cabecera_lng": -79.6,
+    "cabecera_altitud_msnm": 2200,
+    "pendiente_media_pct": 23.0,
+    "codigo_pfafstetter_ana": "ANA-PF-13714",
+    "codigo_punto_critico_ana": "PC-ANA-2024-PIU-018",
+    "codigo_ingemmet_peligro": "PEL-ING-PIU-009",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-3910",
+    "codigo_vial_mtc_pvn": "PE-04A km 78 (Puente Modular Serrán)",
+    "ubigeo_cabecera": "200301",
+    "distrito_cabecera_nombre": "Huancabamba",
+    "ubigeo_receptor": "200507",
+    "distrito_receptor_nombre": "Salitral",
+    "denominacion_oficial_igp": "N/A",
+    "codigo_oficial_igp": "N/A",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": false,
+    "denominacion_amaru": "Q-PIU-03: Quebrada Serrán",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "codigo_tactico_c2": "Q-PIU-03-SERRAN",
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "200301",
+        "distrito": "Huancabamba",
+        "altitud_msnm": 2200,
+        "lat": -5.38,
+        "lng": -79.6,
+        "en_decreto_pcm": true
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "200507",
+        "distrito": "Huancabamba - Salitral",
+        "hito_vial": "PE-04A km 78 (Puente Modular Serrán)",
+        "lat": -5.3505,
+        "lng": -79.6945,
+        "en_decreto_pcm": true
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "200507",
+        "distrito": "Salitral",
+        "cono_deyeccion": "Puente Serrán",
+        "lat": -5.321,
+        "lng": -79.789,
+        "en_decreto_pcm": true
+      },
+      "tiempo_arribo_cono_minutos": 132,
+      "poblacion_total_triangulo": 15000,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": true,
+        "receptor_en_decreto": true,
+        "es_completamente_decretado": true,
+        "requiere_ampliacion_decreto": false,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    },
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "DOCUMENTO_EVAR_SIGRID_CENEPRED",
+      "entidad_fuente": "CENEPRED SIGRID / ANA",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/3910",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID / ANA. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    }
+  },
+  {
+    "id_quebrada": "Q-TUM-01",
+    "nombre": "Quebradas Panales y Bocapán",
+    "cuenca": "Cuenca Bocapán - Casitas",
+    "region": "Tumbes",
+    "provincia": "Contralmirante Villar",
+    "distrito": "Casitas",
+    "distritos_impactados": [
+      "Casitas",
+      "Zorritos"
+    ],
+    "lat": -3.882,
+    "lng": -80.655,
+    "historial_activaciones": [
+      1983,
+      1998,
+      2017,
+      2023
+    ],
+    "frecuencia_historica": "REINCIDENCIA_ALTA",
+    "umbral_critico_mm_hora": 15.0,
+    "umbral_acumulado_24h": 40.0,
+    "tiempo_concentracion_horas": 2.5,
+    "poblacion_en_cono_deyeccion": 11500,
+    "puntos_estrangulamiento": [
+      "Badén Panales",
+      "Valle de Casitas",
+      "Puente Bocapán"
+    ],
+    "obras_defensa_existentes": "Diques enrocados y badenes",
+    "leccion_historica": "Inunda el valle de Casitas dejando aislados a más de 10 caseríos ganaderos de Tumbes.",
+    "fuente_estudio": "CENEPRED SIGRID Doc 3771 / SENAMHI Tumbes",
+    "cabecera_lat": -3.95,
+    "cabecera_lng": -80.52,
+    "cabecera_altitud_msnm": 950,
+    "pendiente_media_pct": 14.5,
+    "codigo_pfafstetter_ana": "ANA-PF-13702",
+    "codigo_punto_critico_ana": "PC-ANA-2024-TUM-004",
+    "codigo_ingemmet_peligro": "PEL-ING-TUM-002",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-3771",
+    "codigo_vial_mtc_pvn": "Ruta Vecinal Casitas - Cañaveral (Badén Panales)",
+    "ubigeo_cabecera": "240202",
+    "distrito_cabecera_nombre": "Casitas",
+    "ubigeo_receptor": "240202",
+    "distrito_receptor_nombre": "Casitas",
+    "denominacion_oficial_igp": "N/A",
+    "codigo_oficial_igp": "N/A",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": false,
+    "denominacion_amaru": "Q-TUM-01: Quebradas Panales y Bocapán",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "codigo_tactico_c2": "Q-TUM-01-PANALES_Y_BOCAPAN",
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "240202",
+        "distrito": "Casitas",
+        "altitud_msnm": 950,
+        "lat": -3.95,
+        "lng": -80.52,
+        "en_decreto_pcm": true
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "240202",
+        "distrito": "Casitas - Casitas",
+        "hito_vial": "Ruta Vecinal Casitas - Cañaveral (Badén Panales)",
+        "lat": -3.916,
+        "lng": -80.5875,
+        "en_decreto_pcm": true
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "240202",
+        "distrito": "Casitas",
+        "cono_deyeccion": "Badén Panales",
+        "lat": -3.882,
+        "lng": -80.655,
+        "en_decreto_pcm": true
+      },
+      "tiempo_arribo_cono_minutos": 150,
+      "poblacion_total_triangulo": 11500,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": true,
+        "receptor_en_decreto": true,
+        "es_completamente_decretado": true,
+        "requiere_ampliacion_decreto": false,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    },
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "DOCUMENTO_EVAR_SIGRID_CENEPRED",
+      "entidad_fuente": "CENEPRED SIGRID / ANA",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/3771",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID / ANA. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    }
+  },
+  {
+    "id_quebrada": "Q-ANC-01",
+    "nombre": "Quebrada Cascajal",
+    "cuenca": "Cuenca Baja Río Santa / Quebrada Cascajal",
+    "region": "Áncash",
+    "provincia": "Santa",
+    "distrito": "Chimbote",
+    "distritos_impactados": [
+      "Chimbote",
+      "Coishco"
+    ],
+    "lat": -9.025,
+    "lng": -78.615,
+    "historial_activaciones": [
+      1983,
+      1998,
+      2017,
+      2023
+    ],
+    "frecuencia_historica": "REINCIDENCIA_CRITICA_ALTA",
+    "umbral_critico_mm_hora": 11.0,
+    "umbral_acumulado_24h": 30.0,
+    "tiempo_concentracion_horas": 2.0,
+    "poblacion_en_cono_deyeccion": 42000,
+    "puntos_estrangulamiento": [
+      "Sector Pampa de Vinzos",
+      "Túnel y peaje de Coishco",
+      "Panamericana Norte km 443"
+    ],
+    "obras_defensa_existentes": "Canales de desvío y fajas marginales delimitadas",
+    "leccion_historica": "Flujos de lodo cortan la Panamericana Norte en Coishco y anegan zonas industriales y pesqueras de Chimbote.",
+    "fuente_estudio": "CENEPRED SIGRID Doc 5840 / ANA Faja Marginal Cascajal",
+    "cabecera_lat": -8.85,
+    "cabecera_lng": -78.35,
+    "cabecera_altitud_msnm": 1400,
+    "pendiente_media_pct": 18.0,
+    "codigo_pfafstetter_ana": "ANA-PF-13762",
+    "codigo_punto_critico_ana": "PC-ANA-2024-ANC-011",
+    "codigo_ingemmet_peligro": "PEL-ING-ANC-006",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-5840",
+    "codigo_vial_mtc_pvn": "PE-1N km 443 (Peaje y Túnel de Coishco)",
+    "ubigeo_cabecera": "021808",
+    "distrito_cabecera_nombre": "Santa",
+    "ubigeo_receptor": "021801",
+    "distrito_receptor_nombre": "Chimbote",
+    "denominacion_oficial_igp": "N/A",
+    "codigo_oficial_igp": "N/A",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": false,
+    "denominacion_amaru": "Q-ANC-01: Quebrada Cascajal",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "codigo_tactico_c2": "Q-ANC-01-CASCAJAL",
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "021808",
+        "distrito": "Santa",
+        "altitud_msnm": 1400,
+        "lat": -8.85,
+        "lng": -78.35,
+        "en_decreto_pcm": true
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "021801",
+        "distrito": "Santa - Chimbote",
+        "hito_vial": "PE-1N km 443 (Peaje y Túnel de Coishco)",
+        "lat": -8.9375,
+        "lng": -78.4825,
+        "en_decreto_pcm": true
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "021801",
+        "distrito": "Chimbote",
+        "cono_deyeccion": "Sector Pampa de Vinzos",
+        "lat": -9.025,
+        "lng": -78.615,
+        "en_decreto_pcm": true
+      },
+      "tiempo_arribo_cono_minutos": 120,
+      "poblacion_total_triangulo": 42000,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": true,
+        "receptor_en_decreto": true,
+        "es_completamente_decretado": true,
+        "requiere_ampliacion_decreto": false,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    },
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "DOCUMENTO_EVAR_SIGRID_CENEPRED",
+      "entidad_fuente": "CENEPRED SIGRID / ANA",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/5840",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID / ANA. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    }
+  },
+  {
+    "id_quebrada": "Q-LAM-05",
+    "nombre": "Quebrada El Algarrobal",
+    "cuenca": "Cuenca del Río Zaña / Subcuenca Oyotún",
+    "region": "Lambayeque",
+    "provincia": "Chiclayo",
+    "distrito": "Oyotún",
+    "distritos_impactados": [
+      "Oyotún"
+    ],
+    "lat": -6.839,
+    "lng": -79.295,
+    "cabecera_lat": -6.895,
+    "cabecera_lng": -79.16,
+    "cabecera_altitud_msnm": 2300,
+    "pendiente_media_pct": 21.0,
+    "historial_activaciones": [
+      1998,
+      2017,
+      2023
+    ],
+    "frecuencia_historica": "REINCIDENCIA_ALTA",
+    "umbral_critico_mm_hora": 13.0,
+    "umbral_acumulado_24h": 36.0,
+    "tiempo_concentracion_horas": 1.6,
+    "poblacion_en_cono_deyeccion": 4500,
+    "puntos_estrangulamiento": [
+      "Caserío El Algarrobal",
+      "Canal de Riego Zaña"
+    ],
+    "obras_defensa_existentes": "Diques rústicos enrocados",
+    "leccion_historica": "Flujos de lodo y detritos que amenazan a la población agrícola y bocatomas.",
+    "fuente_estudio": "CENEPRED SIGRID Doc 4542 / Invierte.pe 256279",
+    "codigo_pfafstetter_ana": "ANA-PF-13758",
+    "codigo_punto_critico_ana": "PC-ANA-2024-LAM-022",
+    "codigo_ingemmet_peligro": "PEL-ING-LAM-014",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-4542",
+    "codigo_vial_mtc_pvn": "Carretera de Acceso El Algarrobal",
+    "ubigeo_cabecera": "061204",
+    "distrito_cabecera_nombre": "Niepos",
+    "ubigeo_receptor": "140110",
+    "distrito_receptor_nombre": "Oyotún",
+    "denominacion_oficial_igp": "N/A",
+    "codigo_oficial_igp": "N/A",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": false,
+    "denominacion_amaru": "Q-LAM-05: Quebrada El Algarrobal",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "codigo_tactico_c2": "Q-LAM-05-EL_ALGARROBAL",
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "061204",
+        "distrito": "Niepos",
+        "altitud_msnm": 2300,
+        "lat": -6.895,
+        "lng": -79.16,
+        "en_decreto_pcm": true
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "140110",
+        "distrito": "Niepos - Oyotún",
+        "hito_vial": "Carretera de Acceso El Algarrobal",
+        "lat": -6.867,
+        "lng": -79.2275,
+        "en_decreto_pcm": false
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "140110",
+        "distrito": "Oyotún",
+        "cono_deyeccion": "Caserío El Algarrobal",
+        "lat": -6.839,
+        "lng": -79.295,
+        "en_decreto_pcm": false
+      },
+      "tiempo_arribo_cono_minutos": 96,
+      "poblacion_total_triangulo": 4500,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": true,
+        "receptor_en_decreto": false,
+        "es_completamente_decretado": false,
+        "requiere_ampliacion_decreto": true,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    },
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "DOCUMENTO_EVAR_SIGRID_CENEPRED",
+      "entidad_fuente": "CENEPRED SIGRID / ANA",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/4542",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID / ANA. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    }
+  },
+  {
+    "id_quebrada": "Q-LAM-06",
+    "nombre": "Quebrada Nueva Esperanza",
+    "cuenca": "Cuenca del Río Zaña / Oyotún",
+    "region": "Lambayeque",
+    "provincia": "Chiclayo",
+    "distrito": "Oyotún",
+    "distritos_impactados": [
+      "Oyotún"
+    ],
+    "lat": -6.842,
+    "lng": -79.305,
+    "cabecera_lat": -6.901,
+    "cabecera_lng": -79.172,
+    "cabecera_altitud_msnm": 2200,
+    "pendiente_media_pct": 20.0,
+    "historial_activaciones": [
+      1998,
+      2017,
+      2023
+    ],
+    "frecuencia_historica": "REINCIDENCIA_ALTA",
+    "umbral_critico_mm_hora": 13.5,
+    "umbral_acumulado_24h": 37.0,
+    "tiempo_concentracion_horas": 1.7,
+    "poblacion_en_cono_deyeccion": 3800,
+    "puntos_estrangulamiento": [
+      "Caserío Nueva Esperanza",
+      "Tomas de Riego"
+    ],
+    "obras_defensa_existentes": "Muros secos de defensa",
+    "leccion_historica": "Arrastre severo de sedimentos colmatando canales de riego del valle Zaña.",
+    "fuente_estudio": "CENEPRED SIGRID Doc 4542",
+    "codigo_pfafstetter_ana": "ANA-PF-13758",
+    "codigo_punto_critico_ana": "PC-ANA-2024-LAM-023",
+    "codigo_ingemmet_peligro": "PEL-ING-LAM-015",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-4542",
+    "codigo_vial_mtc_pvn": "Vía Vecinal Nueva Esperanza",
+    "ubigeo_cabecera": "061204",
+    "distrito_cabecera_nombre": "Niepos",
+    "ubigeo_receptor": "140110",
+    "distrito_receptor_nombre": "Oyotún",
+    "denominacion_oficial_igp": "N/A",
+    "codigo_oficial_igp": "N/A",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": false,
+    "denominacion_amaru": "Q-LAM-06: Quebrada Nueva Esperanza",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "codigo_tactico_c2": "Q-LAM-06-NUEVA_ESPERANZA",
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "061204",
+        "distrito": "Niepos",
+        "altitud_msnm": 2200,
+        "lat": -6.901,
+        "lng": -79.172,
+        "en_decreto_pcm": true
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "140110",
+        "distrito": "Niepos - Oyotún",
+        "hito_vial": "Vía Vecinal Nueva Esperanza",
+        "lat": -6.8715,
+        "lng": -79.2385,
+        "en_decreto_pcm": false
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "140110",
+        "distrito": "Oyotún",
+        "cono_deyeccion": "Caserío Nueva Esperanza",
+        "lat": -6.842,
+        "lng": -79.305,
+        "en_decreto_pcm": false
+      },
+      "tiempo_arribo_cono_minutos": 102,
+      "poblacion_total_triangulo": 3800,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": true,
+        "receptor_en_decreto": false,
+        "es_completamente_decretado": false,
+        "requiere_ampliacion_decreto": true,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    },
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "DOCUMENTO_EVAR_SIGRID_CENEPRED",
+      "entidad_fuente": "CENEPRED SIGRID / ANA",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/4542",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID / ANA. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    }
+  },
+  {
+    "id_quebrada": "Q-LAM-07",
+    "nombre": "Quebrada Germán Muñoz",
+    "cuenca": "Cuenca Media Río Zaña",
+    "region": "Lambayeque",
+    "provincia": "Chiclayo",
+    "distrito": "Oyotún",
+    "distritos_impactados": [
+      "Oyotún"
+    ],
+    "lat": -6.851,
+    "lng": -79.318,
+    "cabecera_lat": -6.915,
+    "cabecera_lng": -79.18,
+    "cabecera_altitud_msnm": 2150,
+    "pendiente_media_pct": 19.5,
+    "historial_activaciones": [
+      1998,
+      2017,
+      2023
+    ],
+    "frecuencia_historica": "REINCIDENCIA_ALTA",
+    "umbral_critico_mm_hora": 14.0,
+    "umbral_acumulado_24h": 38.0,
+    "tiempo_concentracion_horas": 1.8,
+    "poblacion_en_cono_deyeccion": 3200,
+    "puntos_estrangulamiento": [
+      "Sector Germán Muñoz",
+      "Canal de Derivación"
+    ],
+    "obras_defensa_existentes": "Defensas ribereñas locales",
+    "leccion_historica": "Amenaza directa a infraestructura agrícola local y cultivos de caña.",
+    "fuente_estudio": "CENEPRED SIGRID Doc 4542",
+    "codigo_pfafstetter_ana": "ANA-PF-13758",
+    "codigo_punto_critico_ana": "PC-ANA-2024-LAM-024",
+    "codigo_ingemmet_peligro": "PEL-ING-LAM-016",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-4542",
+    "codigo_vial_mtc_pvn": "Puente Germán Muñoz",
+    "ubigeo_cabecera": "061204",
+    "distrito_cabecera_nombre": "Niepos",
+    "ubigeo_receptor": "140110",
+    "distrito_receptor_nombre": "Oyotún",
+    "denominacion_oficial_igp": "N/A",
+    "codigo_oficial_igp": "N/A",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": false,
+    "denominacion_amaru": "Q-LAM-07: Quebrada Germán Muñoz",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "codigo_tactico_c2": "Q-LAM-07-GERMAN_MUNOZ",
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "061204",
+        "distrito": "Niepos",
+        "altitud_msnm": 2150,
+        "lat": -6.915,
+        "lng": -79.18,
+        "en_decreto_pcm": true
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "140110",
+        "distrito": "Niepos - Oyotún",
+        "hito_vial": "Puente Germán Muñoz",
+        "lat": -6.883,
+        "lng": -79.249,
+        "en_decreto_pcm": false
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "140110",
+        "distrito": "Oyotún",
+        "cono_deyeccion": "Sector Germán Muñoz",
+        "lat": -6.851,
+        "lng": -79.318,
+        "en_decreto_pcm": false
+      },
+      "tiempo_arribo_cono_minutos": 108,
+      "poblacion_total_triangulo": 3200,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": true,
+        "receptor_en_decreto": false,
+        "es_completamente_decretado": false,
+        "requiere_ampliacion_decreto": true,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    },
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "DOCUMENTO_EVAR_SIGRID_CENEPRED",
+      "entidad_fuente": "CENEPRED SIGRID / ANA",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/4542",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID / ANA. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    }
+  },
+  {
+    "id_quebrada": "Q-LAM-08",
+    "nombre": "Quebrada Nueva Arica Centro",
+    "cuenca": "Cuenca Alta Zaña / Nueva Arica",
+    "region": "Lambayeque",
+    "provincia": "Chiclayo",
+    "distrito": "Nueva Arica",
+    "distritos_impactados": [
+      "Nueva Arica"
+    ],
+    "lat": -6.865,
+    "lng": -79.325,
+    "cabecera_lat": -6.935,
+    "cabecera_lng": -79.165,
+    "cabecera_altitud_msnm": 2350,
+    "pendiente_media_pct": 22.0,
+    "historial_activaciones": [
+      1998,
+      2017,
+      2023
+    ],
+    "frecuencia_historica": "REINCIDENCIA_ALTA",
+    "umbral_critico_mm_hora": 12.5,
+    "umbral_acumulado_24h": 35.0,
+    "tiempo_concentracion_horas": 1.7,
+    "poblacion_en_cono_deyeccion": 4800,
+    "puntos_estrangulamiento": [
+      "Casco Urbano Nueva Arica",
+      "Vía de Evacuación Principal"
+    ],
+    "obras_defensa_existentes": "Diques escalonados rústicos",
+    "leccion_historica": "Afecta directamente la capital del distrito y las zonas agrícolas colindantes.",
+    "fuente_estudio": "CENEPRED SIGRID Doc 1161",
+    "codigo_pfafstetter_ana": "ANA-PF-13758",
+    "codigo_punto_critico_ana": "PC-ANA-2024-LAM-025",
+    "codigo_ingemmet_peligro": "PEL-ING-LAM-017",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-1161",
+    "codigo_vial_mtc_pvn": "Acceso Principal Nueva Arica",
+    "ubigeo_cabecera": "061204",
+    "distrito_cabecera_nombre": "Niepos",
+    "ubigeo_receptor": "140109",
+    "distrito_receptor_nombre": "Nueva Arica",
+    "denominacion_oficial_igp": "N/A",
+    "codigo_oficial_igp": "N/A",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": false,
+    "denominacion_amaru": "Q-LAM-08: Quebrada Nueva Arica Centro",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "codigo_tactico_c2": "Q-LAM-08-NUEVA_ARICA_CENTRO",
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "061204",
+        "distrito": "Niepos",
+        "altitud_msnm": 2350,
+        "lat": -6.935,
+        "lng": -79.165,
+        "en_decreto_pcm": true
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "140109",
+        "distrito": "Niepos - Nueva Arica",
+        "hito_vial": "Acceso Principal Nueva Arica",
+        "lat": -6.9,
+        "lng": -79.245,
+        "en_decreto_pcm": true
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "140109",
+        "distrito": "Nueva Arica",
+        "cono_deyeccion": "Casco Urbano Nueva Arica",
+        "lat": -6.865,
+        "lng": -79.325,
+        "en_decreto_pcm": true
+      },
+      "tiempo_arribo_cono_minutos": 102,
+      "poblacion_total_triangulo": 4800,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": true,
+        "receptor_en_decreto": true,
+        "es_completamente_decretado": true,
+        "requiere_ampliacion_decreto": false,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    },
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "DOCUMENTO_EVAR_SIGRID_CENEPRED",
+      "entidad_fuente": "CENEPRED SIGRID / ANA",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/1161",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID / ANA. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    }
+  },
+  {
+    "id_quebrada": "Q-LAM-09",
+    "nombre": "Quebrada de Pátapo",
+    "cuenca": "Cuenca del Río Chancay-Lambayeque / Pátapo",
+    "region": "Lambayeque",
+    "provincia": "Chiclayo",
+    "distrito": "Pátapo",
+    "distritos_impactados": [
+      "Pátapo",
+      "Pucalá"
+    ],
+    "lat": -6.721,
+    "lng": -79.625,
+    "cabecera_lat": -6.65,
+    "cabecera_lng": -79.48,
+    "cabecera_altitud_msnm": 1600,
+    "pendiente_media_pct": 18.0,
+    "historial_activaciones": [
+      1983,
+      1998,
+      2017,
+      2023
+    ],
+    "frecuencia_historica": "REINCIDENCIA_CRITICA_ALTA",
+    "umbral_critico_mm_hora": 13.0,
+    "umbral_acumulado_24h": 36.0,
+    "tiempo_concentracion_horas": 1.9,
+    "poblacion_en_cono_deyeccion": 6200,
+    "puntos_estrangulamiento": [
+      "Sector La Cría",
+      "Zonas bajas de Pátapo",
+      "Canal Taymi"
+    ],
+    "obras_defensa_existentes": "Defensas ribereñas del Canal Taymi",
+    "leccion_historica": "Puso en peligro de colapso a más de 100 familias y aisló sectores agrícolas.",
+    "fuente_estudio": "COER Lambayeque / CENEPRED Pátapo",
+    "codigo_pfafstetter_ana": "ANA-PF-13756",
+    "codigo_punto_critico_ana": "PC-ANA-2024-LAM-028",
+    "codigo_ingemmet_peligro": "PEL-ING-LAM-019",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-1240",
+    "codigo_vial_mtc_pvn": "Ruta Departamental Chiclayo - Chongoyape km 22",
+    "ubigeo_cabecera": "140103",
+    "distrito_cabecera_nombre": "Chongoyape",
+    "ubigeo_receptor": "140111",
+    "distrito_receptor_nombre": "Pátapo",
+    "denominacion_oficial_igp": "N/A",
+    "codigo_oficial_igp": "N/A",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": false,
+    "denominacion_amaru": "Q-LAM-09: Quebrada de Pátapo",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "codigo_tactico_c2": "Q-LAM-09-DE_PATAPO",
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "140103",
+        "distrito": "Chongoyape",
+        "altitud_msnm": 1600,
+        "lat": -6.65,
+        "lng": -79.48,
+        "en_decreto_pcm": true
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "140111",
+        "distrito": "Chongoyape - Pátapo",
+        "hito_vial": "Ruta Departamental Chiclayo - Chongoyape km 22",
+        "lat": -6.6855,
+        "lng": -79.5525,
+        "en_decreto_pcm": false
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "140111",
+        "distrito": "Pátapo",
+        "cono_deyeccion": "Sector La Cría",
+        "lat": -6.721,
+        "lng": -79.625,
+        "en_decreto_pcm": false
+      },
+      "tiempo_arribo_cono_minutos": 114,
+      "poblacion_total_triangulo": 6200,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": true,
+        "receptor_en_decreto": false,
+        "es_completamente_decretado": false,
+        "requiere_ampliacion_decreto": true,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    },
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "DOCUMENTO_EVAR_SIGRID_CENEPRED",
+      "entidad_fuente": "CENEPRED SIGRID / ANA",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/1240",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID / ANA. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    }
+  },
+  {
+    "id_quebrada": "Q-LIB-04",
+    "nombre": "Quebrada Indoamérica",
+    "cuenca": "Intercuenca Seca La Esperanza / Trujillo",
+    "region": "La Libertad",
+    "provincia": "Trujillo",
+    "distrito": "La Esperanza",
+    "distritos_impactados": [
+      "La Esperanza",
+      "Huanchaco",
+      "Trujillo"
+    ],
+    "lat": -8.065,
+    "lng": -79.055,
+    "cabecera_lat": -8.01,
+    "cabecera_lng": -78.95,
+    "cabecera_altitud_msnm": 1100,
+    "pendiente_media_pct": 15.0,
+    "historial_activaciones": [
+      1998,
+      2017,
+      2023,
+      2025
+    ],
+    "frecuencia_historica": "REINCIDENCIA_CRITICA_ALTA",
+    "umbral_critico_mm_hora": 14.0,
+    "umbral_acumulado_24h": 38.0,
+    "tiempo_concentracion_horas": 2.2,
+    "poblacion_en_cono_deyeccion": 38000,
+    "puntos_estrangulamiento": [
+      "Sector Indoamérica",
+      "Av. Condorcanqui",
+      "Panamericana Norte"
+    ],
+    "obras_defensa_existentes": "Canales de drenaje pluvial provisionales",
+    "leccion_historica": "Desbordes en La Esperanza afectando viviendas densamente pobladas y conectividad vial con Trujillo.",
+    "fuente_estudio": "COER La Libertad / MINAM SIAL Trujillo",
+    "codigo_pfafstetter_ana": "ANA-PF-13772",
+    "codigo_punto_critico_ana": "PC-ANA-2024-LIB-025",
+    "codigo_ingemmet_peligro": "PEL-ING-LIB-011",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-4672",
+    "codigo_vial_mtc_pvn": "Av. José Gabriel Condorcanqui / Cruce PE-1N",
+    "ubigeo_cabecera": "131005",
+    "distrito_cabecera_nombre": "Huanchaco",
+    "ubigeo_receptor": "131005",
+    "distrito_receptor_nombre": "La Esperanza",
+    "denominacion_oficial_igp": "N/A",
+    "codigo_oficial_igp": "N/A",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": false,
+    "denominacion_amaru": "Q-LIB-04: Quebrada Indoamérica",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "codigo_tactico_c2": "Q-LIB-04-INDOAMERICA",
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "131005",
+        "distrito": "Huanchaco",
+        "altitud_msnm": 1100,
+        "lat": -8.01,
+        "lng": -78.95,
+        "en_decreto_pcm": true
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "131005",
+        "distrito": "Huanchaco - La Esperanza",
+        "hito_vial": "Av. José Gabriel Condorcanqui / Cruce PE-1N",
+        "lat": -8.0375,
+        "lng": -79.0025,
+        "en_decreto_pcm": true
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "131005",
+        "distrito": "La Esperanza",
+        "cono_deyeccion": "Sector Indoamérica",
+        "lat": -8.065,
+        "lng": -79.055,
+        "en_decreto_pcm": true
+      },
+      "tiempo_arribo_cono_minutos": 132,
+      "poblacion_total_triangulo": 38000,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": true,
+        "receptor_en_decreto": true,
+        "es_completamente_decretado": true,
+        "requiere_ampliacion_decreto": false,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    },
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "DOCUMENTO_EVAR_SIGRID_CENEPRED",
+      "entidad_fuente": "CENEPRED SIGRID / ANA",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/4672",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID / ANA. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    }
+  },
+  {
+    "id_quebrada": "Q-PIU-04",
+    "nombre": "Quebrada La Layo",
+    "cuenca": "Cuenca del Alto Piura / Bigote",
+    "region": "Piura",
+    "provincia": "Morropón",
+    "distrito": "San Juan de Bigote",
+    "distritos_impactados": [
+      "San Juan de Bigote",
+      "Salitral"
+    ],
+    "lat": -5.285,
+    "lng": -79.762,
+    "cabecera_lat": -5.35,
+    "cabecera_lng": -79.62,
+    "cabecera_altitud_msnm": 2100,
+    "pendiente_media_pct": 22.0,
+    "historial_activaciones": [
+      1983,
+      1998,
+      2017,
+      2023
+    ],
+    "frecuencia_historica": "REINCIDENCIA_CRITICA_ALTA",
+    "umbral_critico_mm_hora": 13.0,
+    "umbral_acumulado_24h": 36.0,
+    "tiempo_concentracion_horas": 1.9,
+    "poblacion_en_cono_deyeccion": 7500,
+    "puntos_estrangulamiento": [
+      "Puente Bigote",
+      "Caserío La Layo",
+      "Carretera hacia Canchaque"
+    ],
+    "obras_defensa_existentes": "Diques enrocados y badenes",
+    "leccion_historica": "Aísla a caseríos de San Juan de Bigote y bloquea el acceso a la sierra alta.",
+    "fuente_estudio": "COER Piura Aviso 247 / CENEPRED Doc 3925",
+    "codigo_pfafstetter_ana": "ANA-PF-13714",
+    "codigo_punto_critico_ana": "PC-ANA-2024-PIU-022",
+    "codigo_ingemmet_peligro": "PEL-ING-PIU-012",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-3925",
+    "codigo_vial_mtc_pvn": "Ruta Departamental PI-107 km 14",
+    "ubigeo_cabecera": "200301",
+    "distrito_cabecera_nombre": "Canchaque",
+    "ubigeo_receptor": "200506",
+    "distrito_receptor_nombre": "San Juan de Bigote",
+    "denominacion_oficial_igp": "N/A",
+    "codigo_oficial_igp": "N/A",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": false,
+    "denominacion_amaru": "Q-PIU-04: Quebrada La Layo",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "codigo_tactico_c2": "Q-PIU-04-LA_LAYO",
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "200301",
+        "distrito": "Canchaque",
+        "altitud_msnm": 2100,
+        "lat": -5.35,
+        "lng": -79.62,
+        "en_decreto_pcm": true
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "200506",
+        "distrito": "Canchaque - San Juan de Bigote",
+        "hito_vial": "Ruta Departamental PI-107 km 14",
+        "lat": -5.3175,
+        "lng": -79.691,
+        "en_decreto_pcm": true
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "200506",
+        "distrito": "San Juan de Bigote",
+        "cono_deyeccion": "Puente Bigote",
+        "lat": -5.285,
+        "lng": -79.762,
+        "en_decreto_pcm": true
+      },
+      "tiempo_arribo_cono_minutos": 114,
+      "poblacion_total_triangulo": 7500,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": true,
+        "receptor_en_decreto": true,
+        "es_completamente_decretado": true,
+        "requiere_ampliacion_decreto": false,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    },
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "DOCUMENTO_EVAR_SIGRID_CENEPRED",
+      "entidad_fuente": "CENEPRED SIGRID / ANA",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/3925",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID / ANA. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    }
+  },
+  {
+    "id_quebrada": "Q-PIU-05",
+    "nombre": "Quebradas El Alto Perú y El Pozo",
+    "cuenca": "Intercuenca del Desierto de Sechura / Vice",
+    "region": "Piura",
+    "provincia": "Sechura",
+    "distrito": "Vice",
+    "distritos_impactados": [
+      "Vice",
+      "Sechura",
+      "Bernal"
+    ],
+    "lat": -5.415,
+    "lng": -80.785,
+    "cabecera_lat": -5.35,
+    "cabecera_lng": -80.65,
+    "cabecera_altitud_msnm": 180,
+    "pendiente_media_pct": 9.5,
+    "historial_activaciones": [
+      1983,
+      1998,
+      2017,
+      2023
+    ],
+    "frecuencia_historica": "REINCIDENCIA_ALTA",
+    "umbral_critico_mm_hora": 15.0,
+    "umbral_acumulado_24h": 45.0,
+    "tiempo_concentracion_horas": 3.0,
+    "poblacion_en_cono_deyeccion": 12800,
+    "puntos_estrangulamiento": [
+      "Sector Alto Perú",
+      "Canal Principal de Drenaje Sechura",
+      "Panamericana Sechura"
+    ],
+    "obras_defensa_existentes": "Drenes de alivio hacia la laguna Ramón",
+    "leccion_historica": "Inunda áreas urbanas y terrenos agrícolas del bajo Piura y Sechura.",
+    "fuente_estudio": "CENEPRED SIGRID Doc 3910 / GORE Piura",
+    "codigo_pfafstetter_ana": "ANA-PF-13712",
+    "codigo_punto_critico_ana": "PC-ANA-2024-PIU-029",
+    "codigo_ingemmet_peligro": "PEL-ING-PIU-015",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-3910",
+    "codigo_vial_mtc_pvn": "Ruta Costanera PI-101 Sechura - Paita",
+    "ubigeo_cabecera": "200805",
+    "distrito_cabecera_nombre": "Vice",
+    "ubigeo_receptor": "200805",
+    "distrito_receptor_nombre": "Vice",
+    "denominacion_oficial_igp": "N/A",
+    "codigo_oficial_igp": "N/A",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": false,
+    "denominacion_amaru": "Q-PIU-05: Quebradas El Alto Perú y El Pozo",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "codigo_tactico_c2": "Q-PIU-05-EL_ALTO_PERU_Y_EL_POZO",
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "200805",
+        "distrito": "Vice",
+        "altitud_msnm": 180,
+        "lat": -5.35,
+        "lng": -80.65,
+        "en_decreto_pcm": true
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "200805",
+        "distrito": "Vice - Vice",
+        "hito_vial": "Ruta Costanera PI-101 Sechura - Paita",
+        "lat": -5.3825,
+        "lng": -80.7175,
+        "en_decreto_pcm": true
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "200805",
+        "distrito": "Vice",
+        "cono_deyeccion": "Sector Alto Perú",
+        "lat": -5.415,
+        "lng": -80.785,
+        "en_decreto_pcm": true
+      },
+      "tiempo_arribo_cono_minutos": 180,
+      "poblacion_total_triangulo": 12800,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": true,
+        "receptor_en_decreto": true,
+        "es_completamente_decretado": true,
+        "requiere_ampliacion_decreto": false,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    },
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "DOCUMENTO_EVAR_SIGRID_CENEPRED",
+      "entidad_fuente": "CENEPRED SIGRID / ANA",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/3910",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID / ANA. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    }
+  },
+  {
+    "id_quebrada": "Q-TUM-02",
+    "nombre": "Quebradas Peña Negra y Plateritos",
+    "cuenca": "Intercuenca Litoral Contralmirante Villar",
+    "region": "Tumbes",
+    "provincia": "Contralmirante Villar",
+    "distrito": "Zorritos",
+    "distritos_impactados": [
+      "Zorritos"
+    ],
+    "lat": -3.712,
+    "lng": -80.715,
+    "cabecera_lat": -3.82,
+    "cabecera_lng": -80.62,
+    "cabecera_altitud_msnm": 850,
+    "pendiente_media_pct": 16.0,
+    "historial_activaciones": [
+      1983,
+      1998,
+      2017,
+      2023
+    ],
+    "frecuencia_historica": "REINCIDENCIA_ALTA",
+    "umbral_critico_mm_hora": 16.0,
+    "umbral_acumulado_24h": 42.0,
+    "tiempo_concentracion_horas": 2.0,
+    "poblacion_en_cono_deyeccion": 8900,
+    "puntos_estrangulamiento": [
+      "Panamericana Norte km 210",
+      "Balneario Plateritos"
+    ],
+    "obras_defensa_existentes": "Alcantarillas de paso y muros de roca",
+    "leccion_historica": "Cortes frecuentes de la Panamericana Norte entre Tumbes y Máncora.",
+    "fuente_estudio": "CENEPRED SIGRID Doc 3769 / Provías Nacional",
+    "codigo_pfafstetter_ana": "ANA-PF-13702",
+    "codigo_punto_critico_ana": "PC-ANA-2024-TUM-007",
+    "codigo_ingemmet_peligro": "PEL-ING-TUM-004",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-3769",
+    "codigo_vial_mtc_pvn": "PE-1N km 208+400 (Quebrada Peña Negra)",
+    "ubigeo_cabecera": "240201",
+    "distrito_cabecera_nombre": "Zorritos",
+    "ubigeo_receptor": "240201",
+    "distrito_receptor_nombre": "Zorritos",
+    "denominacion_oficial_igp": "N/A",
+    "codigo_oficial_igp": "N/A",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": false,
+    "denominacion_amaru": "Q-TUM-02: Quebradas Peña Negra y Plateritos",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "codigo_tactico_c2": "Q-TUM-02-PENA_NEGRA_Y_PLATERITO",
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "240201",
+        "distrito": "Zorritos",
+        "altitud_msnm": 850,
+        "lat": -3.82,
+        "lng": -80.62,
+        "en_decreto_pcm": true
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "240201",
+        "distrito": "Zorritos - Zorritos",
+        "hito_vial": "PE-1N km 208+400 (Quebrada Peña Negra)",
+        "lat": -3.766,
+        "lng": -80.6675,
+        "en_decreto_pcm": true
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "240201",
+        "distrito": "Zorritos",
+        "cono_deyeccion": "Panamericana Norte km 210",
+        "lat": -3.712,
+        "lng": -80.715,
+        "en_decreto_pcm": true
+      },
+      "tiempo_arribo_cono_minutos": 120,
+      "poblacion_total_triangulo": 8900,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": true,
+        "receptor_en_decreto": true,
+        "es_completamente_decretado": true,
+        "requiere_ampliacion_decreto": false,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    },
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "DOCUMENTO_EVAR_SIGRID_CENEPRED",
+      "entidad_fuente": "CENEPRED SIGRID / ANA",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/3769",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID / ANA. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    }
+  },
+  {
+    "id_quebrada": "Q-TUM-03",
+    "nombre": "Quebradas Corrales y San Juan de la Virgen",
+    "cuenca": "Cuenca Baja Río Tumbes",
+    "region": "Tumbes",
+    "provincia": "Tumbes",
+    "distrito": "San Juan de la Virgen",
+    "distritos_impactados": [
+      "San Juan de la Virgen",
+      "Corrales",
+      "Tumbes"
+    ],
+    "lat": -3.615,
+    "lng": -80.445,
+    "cabecera_lat": -3.75,
+    "cabecera_lng": -80.35,
+    "cabecera_altitud_msnm": 650,
+    "pendiente_media_pct": 14.0,
+    "historial_activaciones": [
+      1983,
+      1998,
+      2017,
+      2023
+    ],
+    "frecuencia_historica": "REINCIDENCIA_ALTA",
+    "umbral_critico_mm_hora": 15.5,
+    "umbral_acumulado_24h": 40.0,
+    "tiempo_concentracion_horas": 2.2,
+    "poblacion_en_cono_deyeccion": 16500,
+    "puntos_estrangulamiento": [
+      "Vía Corrales - Tumbes",
+      "Bocatoma La Peña"
+    ],
+    "obras_defensa_existentes": "Diques enrocados y canales de drenaje",
+    "leccion_historica": "Inundación masiva de campos de cultivo de plátano y áreas periféricas de Tumbes.",
+    "fuente_estudio": "CENEPRED SIGRID Doc 3771 / ANA ALA Tumbes",
+    "codigo_pfafstetter_ana": "ANA-PF-13704",
+    "codigo_punto_critico_ana": "PC-ANA-2024-TUM-011",
+    "codigo_ingemmet_peligro": "PEL-ING-TUM-006",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-3771",
+    "codigo_vial_mtc_pvn": "Puente Corrales / Carretera Panamericana",
+    "ubigeo_cabecera": "240106",
+    "distrito_cabecera_nombre": "San Juan de la Virgen",
+    "ubigeo_receptor": "240102",
+    "distrito_receptor_nombre": "Corrales",
+    "denominacion_oficial_igp": "N/A",
+    "codigo_oficial_igp": "N/A",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": false,
+    "denominacion_amaru": "Q-TUM-03: Quebradas Corrales y San Juan de la Virgen",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "codigo_tactico_c2": "Q-TUM-03-CORRALES_Y_SAN_JUAN_DE",
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "240106",
+        "distrito": "San Juan de la Virgen",
+        "altitud_msnm": 650,
+        "lat": -3.75,
+        "lng": -80.35,
+        "en_decreto_pcm": false
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "240102",
+        "distrito": "San Juan de la Virgen - Corrales",
+        "hito_vial": "Puente Corrales / Carretera Panamericana",
+        "lat": -3.6825,
+        "lng": -80.3975,
+        "en_decreto_pcm": true
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "240102",
+        "distrito": "Corrales",
+        "cono_deyeccion": "Vía Corrales - Tumbes",
+        "lat": -3.615,
+        "lng": -80.445,
+        "en_decreto_pcm": true
+      },
+      "tiempo_arribo_cono_minutos": 132,
+      "poblacion_total_triangulo": 16500,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": false,
+        "receptor_en_decreto": true,
+        "es_completamente_decretado": false,
+        "requiere_ampliacion_decreto": true,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    },
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "DOCUMENTO_EVAR_SIGRID_CENEPRED",
+      "entidad_fuente": "CENEPRED SIGRID / ANA",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/3771",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID / ANA. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    }
+  },
+  {
+    "id_quebrada": "Q-ANC-02",
+    "nombre": "Quebradas San Juan y La Cantera",
+    "cuenca": "Cuenca Baja Río Santa / Sector Vinzos",
+    "region": "Áncash",
+    "provincia": "Santa",
+    "distrito": "Chimbote",
+    "distritos_impactados": [
+      "Chimbote",
+      "Santa"
+    ],
+    "lat": -8.965,
+    "lng": -78.545,
+    "cabecera_lat": -8.88,
+    "cabecera_lng": -78.39,
+    "cabecera_altitud_msnm": 1350,
+    "pendiente_media_pct": 17.5,
+    "historial_activaciones": [
+      1983,
+      1998,
+      2017,
+      2023
+    ],
+    "frecuencia_historica": "REINCIDENCIA_ALTA",
+    "umbral_critico_mm_hora": 12.0,
+    "umbral_acumulado_24h": 32.0,
+    "tiempo_concentracion_horas": 1.9,
+    "poblacion_en_cono_deyeccion": 9800,
+    "puntos_estrangulamiento": [
+      "Centro Poblado Pampa de Vinzos",
+      "Canal de Derivación CHINECAS"
+    ],
+    "obras_defensa_existentes": "Diques rústicos en faja marginal",
+    "leccion_historica": "Huaicos que colmatan el canal CHINECAS y amenazan centros poblados rurales.",
+    "fuente_estudio": "CENEPRED SIGRID Doc 5839 / Doc 5840",
+    "codigo_pfafstetter_ana": "ANA-PF-13762",
+    "codigo_punto_critico_ana": "PC-ANA-2024-ANC-014",
+    "codigo_ingemmet_peligro": "PEL-ING-ANC-008",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-5840",
+    "codigo_vial_mtc_pvn": "Carretera de Acceso Vinzos - Chuquicara",
+    "ubigeo_cabecera": "021808",
+    "distrito_cabecera_nombre": "Santa",
+    "ubigeo_receptor": "021801",
+    "distrito_receptor_nombre": "Chimbote",
+    "denominacion_oficial_igp": "N/A",
+    "codigo_oficial_igp": "N/A",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": false,
+    "denominacion_amaru": "Q-ANC-02: Quebradas San Juan y La Cantera",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "codigo_tactico_c2": "Q-ANC-02-SAN_JUAN_Y_LA_CANTERA",
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "021808",
+        "distrito": "Santa",
+        "altitud_msnm": 1350,
+        "lat": -8.88,
+        "lng": -78.39,
+        "en_decreto_pcm": true
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "021801",
+        "distrito": "Santa - Chimbote",
+        "hito_vial": "Carretera de Acceso Vinzos - Chuquicara",
+        "lat": -8.9225,
+        "lng": -78.4675,
+        "en_decreto_pcm": true
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "021801",
+        "distrito": "Chimbote",
+        "cono_deyeccion": "Centro Poblado Pampa de Vinzos",
+        "lat": -8.965,
+        "lng": -78.545,
+        "en_decreto_pcm": true
+      },
+      "tiempo_arribo_cono_minutos": 114,
+      "poblacion_total_triangulo": 9800,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": true,
+        "receptor_en_decreto": true,
+        "es_completamente_decretado": true,
+        "requiere_ampliacion_decreto": false,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    },
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "DOCUMENTO_EVAR_SIGRID_CENEPRED",
+      "entidad_fuente": "CENEPRED SIGRID / ANA",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/5840",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID / ANA. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    }
+  },
+  {
+    "id_quebrada": "Q-ANC-03",
+    "nombre": "Quebrada San Antonio",
+    "cuenca": "Intercuenca Lacramarca / Nuevo Chimbote",
+    "region": "Áncash",
+    "provincia": "Santa",
+    "distrito": "Nuevo Chimbote",
+    "distritos_impactados": [
+      "Nuevo Chimbote"
+    ],
+    "lat": -9.115,
+    "lng": -78.525,
+    "cabecera_lat": -9.05,
+    "cabecera_lng": -78.41,
+    "cabecera_altitud_msnm": 1150,
+    "pendiente_media_pct": 16.5,
+    "historial_activaciones": [
+      1983,
+      1998,
+      2017,
+      2023
+    ],
+    "frecuencia_historica": "REINCIDENCIA_CRITICA_ALTA",
+    "umbral_critico_mm_hora": 11.5,
+    "umbral_acumulado_24h": 30.0,
+    "tiempo_concentracion_horas": 2.1,
+    "poblacion_en_cono_deyeccion": 65000,
+    "puntos_estrangulamiento": [
+      "Sector Bellamar",
+      "Urb. Garatea",
+      "Buenos Aires",
+      "Av. Brasil"
+    ],
+    "obras_defensa_existentes": "Drenes pluviales urbanos y diques",
+    "leccion_historica": "Inunda populosas urbanizaciones de Nuevo Chimbote cortando avenidas troncales y aislando hospitales.",
+    "fuente_estudio": "CENEPRED SIGRID Doc 5979 / Muni Nuevo Chimbote",
+    "codigo_pfafstetter_ana": "ANA-PF-13764",
+    "codigo_punto_critico_ana": "PC-ANA-2024-ANC-018",
+    "codigo_ingemmet_peligro": "PEL-ING-ANC-012",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-5979",
+    "codigo_vial_mtc_pvn": "Av. Pacífico / Cruce PE-1N Nuevo Chimbote",
+    "ubigeo_cabecera": "021809",
+    "distrito_cabecera_nombre": "Nuevo Chimbote",
+    "ubigeo_receptor": "021809",
+    "distrito_receptor_nombre": "Nuevo Chimbote",
+    "denominacion_oficial_igp": "N/A",
+    "codigo_oficial_igp": "N/A",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": false,
+    "denominacion_amaru": "Q-ANC-03: Quebrada San Antonio",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "codigo_tactico_c2": "Q-ANC-03-SAN_ANTONIO",
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "021809",
+        "distrito": "Nuevo Chimbote",
+        "altitud_msnm": 1150,
+        "lat": -9.05,
+        "lng": -78.41,
+        "en_decreto_pcm": true
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "021809",
+        "distrito": "Nuevo Chimbote - Nuevo Chimbote",
+        "hito_vial": "Av. Pacífico / Cruce PE-1N Nuevo Chimbote",
+        "lat": -9.0825,
+        "lng": -78.4675,
+        "en_decreto_pcm": true
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "021809",
+        "distrito": "Nuevo Chimbote",
+        "cono_deyeccion": "Sector Bellamar",
+        "lat": -9.115,
+        "lng": -78.525,
+        "en_decreto_pcm": true
+      },
+      "tiempo_arribo_cono_minutos": 126,
+      "poblacion_total_triangulo": 65000,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": true,
+        "receptor_en_decreto": true,
+        "es_completamente_decretado": true,
+        "requiere_ampliacion_decreto": false,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    },
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "DOCUMENTO_EVAR_SIGRID_CENEPRED",
+      "entidad_fuente": "CENEPRED SIGRID / ANA",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/5979",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID / ANA. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    }
+  },
+  {
+    "id_quebrada": "Q-PIU-06",
+    "nombre": "Quebrada Limón (Canchaque)",
+    "denominacion_oficial_igp": "Quebrada Limón",
+    "codigo_oficial_igp": "IGP-HUAICO-PIU-LIMON-01",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": true,
+    "cuenca": "Cuenca del Río Pusmalca / Canchaque",
+    "region": "Piura",
+    "provincia": "Huancabamba",
+    "distrito": "Canchaque",
+    "distritos_impactados": [
+      "Canchaque",
+      "San Miguel de El Faique"
+    ],
+    "lat": -5.3761,
+    "lng": -79.6058,
+    "historial_activaciones": [
+      1983,
+      1998,
+      2017,
+      2023
+    ],
+    "frecuencia_historica": "REINCIDENCIA_CRITICA_EXTREMA",
+    "umbral_critico_mm_hora": 14.0,
+    "umbral_acumulado_24h": 38.0,
+    "tiempo_concentracion_horas": 0.8,
+    "poblacion_en_cono_deyeccion": 6500,
+    "puntos_estrangulamiento": [
+      "Puente Fierro Canchaque",
+      "Sector La Esperanza",
+      "Carretera PE-08C"
+    ],
+    "obras_defensa_existentes": "Diques transversales de gaviones y canaletas de derivación",
+    "leccion_historica": "En marzo de 2023 el aluvión de Qda. Limón sepultó viviendas y cortó la ruta PE-08C aislando Canchaque.",
+    "fuente_estudio": "IGP Sistema Lahares-Huaicos / CENEPRED EVAR Canchaque / ANA",
+    "cabecera_lat": -5.352,
+    "cabecera_lng": -79.582,
+    "cabecera_altitud_msnm": 2650,
+    "pendiente_media_pct": 26.5,
+    "codigo_pfafstetter_ana": "ANA-PF-13728",
+    "codigo_punto_critico_ana": "PC-ANA-2024-PIU-024",
+    "codigo_ingemmet_peligro": "PEL-ING-PIU-018",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-15332",
+    "codigo_vial_mtc_pvn": "PE-08C km 84+300 (Puente Fierro)",
+    "ubigeo_cabecera": "200302",
+    "distrito_cabecera_nombre": "Canchaque",
+    "ubigeo_receptor": "200302",
+    "distrito_receptor_nombre": "Canchaque",
+    "denominacion_amaru": "Q-PIU-06: Quebrada Limón (Canchaque)",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "codigo_tactico_c2": "Q-PIU-06-LIMON",
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "200302",
+        "distrito": "Canchaque",
+        "altitud_msnm": 2650,
+        "lat": -5.352,
+        "lng": -79.582,
+        "en_decreto_pcm": true
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "200302",
+        "distrito": "Canchaque - Canchaque",
+        "hito_vial": "PE-08C km 84+300 (Puente Fierro)",
+        "lat": -5.3641,
+        "lng": -79.5939,
+        "en_decreto_pcm": true
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "200302",
+        "distrito": "Canchaque",
+        "cono_deyeccion": "Puente Fierro Canchaque",
+        "lat": -5.3761,
+        "lng": -79.6058,
+        "en_decreto_pcm": true
+      },
+      "tiempo_arribo_cono_minutos": 48,
+      "poblacion_total_triangulo": 6500,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": true,
+        "receptor_en_decreto": true,
+        "es_completamente_decretado": true,
+        "requiere_ampliacion_decreto": false,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    },
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "DOCUMENTO_EVAR_SIGRID_CENEPRED",
+      "entidad_fuente": "CENEPRED SIGRID / ANA",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/15332",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID / ANA. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    }
+  },
+  {
+    "id_quebrada": "Q-LIM-09",
+    "nombre": "Quebrada Río Seco 1 y 2 (Chosica)",
+    "denominacion_oficial_igp": "Quebrada Rio Seco 1 y 2",
+    "codigo_oficial_igp": "IGP-HUAICO-LIM-RIOSECO-01",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": true,
+    "cuenca": "Cuenca del Río Rímac / Quebrada Río Seco",
+    "region": "Lima",
+    "provincia": "Lima",
+    "distrito": "Lurigancho-Chosica",
+    "distritos_impactados": [
+      "Lurigancho-Chosica",
+      "Chaclacayo"
+    ],
+    "lat": -11.9425,
+    "lng": -76.7118,
+    "historial_activaciones": [
+      1983,
+      1987,
+      1998,
+      2015,
+      2017,
+      2023
+    ],
+    "frecuencia_historica": "REINCIDENCIA_CRITICA_EXTREMA",
+    "umbral_critico_mm_hora": 11.0,
+    "umbral_acumulado_24h": 30.0,
+    "tiempo_concentracion_horas": 1.4,
+    "poblacion_en_cono_deyeccion": 24000,
+    "puntos_estrangulamiento": [
+      "Carretera Central PE-22 km 34+800",
+      "Puente Los Ángeles",
+      "Vía Férrea"
+    ],
+    "obras_defensa_existentes": "Geomallas dinámicas suizas Geobrugg y descolmatación de lecho",
+    "leccion_historica": "Huaico catastrófico de 1987 y 2015 con bloqueo de la Carretera Central.",
+    "fuente_estudio": "IGP Sistema Lahares-Huaicos / CENEPRED EVAR Chosica / INGEMMET",
+    "cabecera_lat": -11.895,
+    "cabecera_lng": -76.662,
+    "cabecera_altitud_msnm": 2850,
+    "pendiente_media_pct": 22.0,
+    "codigo_pfafstetter_ana": "ANA-PF-13755",
+    "codigo_punto_critico_ana": "PC-ANA-2024-LIM-009",
+    "codigo_ingemmet_peligro": "PEL-ING-LIM-015",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-9821",
+    "codigo_vial_mtc_pvn": "PE-22 km 34+800 (Carretera Central)",
+    "ubigeo_cabecera": "150118",
+    "distrito_cabecera_nombre": "Lurigancho-Chosica",
+    "ubigeo_receptor": "150118",
+    "distrito_receptor_nombre": "Lurigancho-Chosica",
+    "denominacion_amaru": "Q-LIM-09: Quebrada Río Seco 1 y 2 (Chosica)",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "codigo_tactico_c2": "Q-LIM-09-RIO_SECO_1_Y_2",
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "150118",
+        "distrito": "Lurigancho-Chosica",
+        "altitud_msnm": 2850,
+        "lat": -11.895,
+        "lng": -76.662,
+        "en_decreto_pcm": false
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "150118",
+        "distrito": "Lurigancho-Chosica - Lurigancho-Chosica",
+        "hito_vial": "PE-22 km 34+800 (Carretera Central)",
+        "lat": -11.9187,
+        "lng": -76.6869,
+        "en_decreto_pcm": false
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "150118",
+        "distrito": "Lurigancho-Chosica",
+        "cono_deyeccion": "Carretera Central PE-22 km 34+800",
+        "lat": -11.9425,
+        "lng": -76.7118,
+        "en_decreto_pcm": false
+      },
+      "tiempo_arribo_cono_minutos": 84,
+      "poblacion_total_triangulo": 24000,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": false,
+        "receptor_en_decreto": false,
+        "es_completamente_decretado": false,
+        "requiere_ampliacion_decreto": true,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    },
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "DOCUMENTO_EVAR_SIGRID_CENEPRED",
+      "entidad_fuente": "CENEPRED SIGRID / ANA",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/9821",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID / ANA. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    }
+  },
+  {
+    "id_quebrada": "Q-ARE-01",
+    "nombre": "Quebrada San Lázaro 2 y Huarangueros (Lahar Misti)",
+    "denominacion_oficial_igp": "Quebrada San Lazaro 2 / Huarangueros 1 y 2",
+    "codigo_oficial_igp": "IGP-LAHAR-ARE-SANLAZARO-02",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": true,
+    "cuenca": "Cuenca del Río Chili / Faldas Suroeste Volcán Misti",
+    "region": "Arequipa",
+    "provincia": "Arequipa",
+    "distrito": "Alto Selva Alegre",
+    "distritos_impactados": [
+      "Alto Selva Alegre",
+      "Miraflores",
+      "Arequipa Centro"
+    ],
+    "lat": -16.375,
+    "lng": -71.515,
+    "historial_activaciones": [
+      1983,
+      1997,
+      2012,
+      2019,
+      2020
+    ],
+    "frecuencia_historica": "REINCIDENCIA_CRITICA_ALTA",
+    "umbral_critico_mm_hora": 10.0,
+    "umbral_acumulado_24h": 25.0,
+    "tiempo_concentracion_horas": 1.1,
+    "poblacion_en_cono_deyeccion": 68000,
+    "puntos_estrangulamiento": [
+      "Puente San Lázaro Centro Histórico",
+      "Torrentera San Lázaro",
+      "Av. Juan de la Torre"
+    ],
+    "obras_defensa_existentes": "Canalización de concreto armado y muros de contención",
+    "leccion_historica": "Lahares de febrero 2020 con arrastre de material piroclástico del Misti al Centro de Arequipa.",
+    "fuente_estudio": "IGP Red Lahares Misti / CENVUL / INGEMMET Boletín C-65",
+    "cabecera_lat": -16.302,
+    "cabecera_lng": -71.428,
+    "cabecera_altitud_msnm": 3950,
+    "pendiente_media_pct": 28.0,
+    "codigo_pfafstetter_ana": "ANA-PF-13788",
+    "codigo_punto_critico_ana": "PC-ANA-2024-ARE-004",
+    "codigo_ingemmet_peligro": "PEL-ING-ARE-002",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-11204",
+    "codigo_vial_mtc_pvn": "Puente San Lázaro / Av. Juan de la Torre",
+    "ubigeo_cabecera": "040102",
+    "distrito_cabecera_nombre": "Alto Selva Alegre",
+    "ubigeo_receptor": "040101",
+    "distrito_receptor_nombre": "Arequipa Centro",
+    "denominacion_amaru": "Q-ARE-01: Quebrada San Lázaro 2 y Huarangueros (Lahar Misti)",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "codigo_tactico_c2": "Q-ARE-01-SAN_LAZARO_2_Y_HUARANG",
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "040102",
+        "distrito": "Alto Selva Alegre",
+        "altitud_msnm": 3950,
+        "lat": -16.302,
+        "lng": -71.428,
+        "en_decreto_pcm": true
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "040101",
+        "distrito": "Alto Selva Alegre - Arequipa Centro",
+        "hito_vial": "Puente San Lázaro / Av. Juan de la Torre",
+        "lat": -16.3385,
+        "lng": -71.4715,
+        "en_decreto_pcm": false
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "040101",
+        "distrito": "Arequipa Centro",
+        "cono_deyeccion": "Puente San Lázaro Centro Histórico",
+        "lat": -16.375,
+        "lng": -71.515,
+        "en_decreto_pcm": false
+      },
+      "tiempo_arribo_cono_minutos": 66,
+      "poblacion_total_triangulo": 68000,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": true,
+        "receptor_en_decreto": false,
+        "es_completamente_decretado": false,
+        "requiere_ampliacion_decreto": true,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    },
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "DOCUMENTO_EVAR_SIGRID_CENEPRED",
+      "entidad_fuente": "CENEPRED SIGRID / ANA",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/11204",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID / ANA. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    }
+  },
+  {
+    "id_quebrada": "Q-ARE-02",
+    "nombre": "Quebrada Venezuela 1 y 2 (Lahar Misti)",
+    "denominacion_oficial_igp": "Quebrada Venezuela 1 y 2",
+    "codigo_oficial_igp": "IGP-LAHAR-ARE-VENEZUELA-01",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": true,
+    "cuenca": "Cuenca del Río Chili / Torrentera Chullo-Venezuela",
+    "region": "Arequipa",
+    "provincia": "Arequipa",
+    "distrito": "Mariano Melgar",
+    "distritos_impactados": [
+      "Mariano Melgar",
+      "Paucarpata",
+      "Arequipa Centro"
+    ],
+    "lat": -16.411,
+    "lng": -71.528,
+    "historial_activaciones": [
+      1983,
+      1998,
+      2013,
+      2020
+    ],
+    "frecuencia_historica": "REINCIDENCIA_CRITICA_ALTA",
+    "umbral_critico_mm_hora": 12.0,
+    "umbral_acumulado_24h": 28.0,
+    "tiempo_concentracion_horas": 1.2,
+    "poblacion_en_cono_deyeccion": 54000,
+    "puntos_estrangulamiento": [
+      "By-Pass Av. Venezuela / Mariscal Castilla",
+      "Intercambio Palomar",
+      "Feria El Altiplano"
+    ],
+    "obras_defensa_existentes": "Diques de disipación y canalización perimetral",
+    "leccion_historica": "Desborde de la torrentera Venezuela inundó el By-pass y el mercado El Altiplano en 2013.",
+    "fuente_estudio": "IGP Red Lahares Misti / INGEMMET / CENEPRED EVAR",
+    "cabecera_lat": -16.325,
+    "cabecera_lng": -71.435,
+    "cabecera_altitud_msnm": 3820,
+    "pendiente_media_pct": 25.0,
+    "codigo_pfafstetter_ana": "ANA-PF-13789",
+    "codigo_punto_critico_ana": "PC-ANA-2024-ARE-007",
+    "codigo_ingemmet_peligro": "PEL-ING-ARE-005",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-11209",
+    "codigo_vial_mtc_pvn": "By-Pass Av. Venezuela / Mariscal Castilla",
+    "ubigeo_cabecera": "040108",
+    "distrito_cabecera_nombre": "Mariano Melgar",
+    "ubigeo_receptor": "040101",
+    "distrito_receptor_nombre": "Arequipa Centro",
+    "denominacion_amaru": "Q-ARE-02: Quebrada Venezuela 1 y 2 (Lahar Misti)",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "codigo_tactico_c2": "Q-ARE-02-VENEZUELA_1_Y_2",
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "040108",
+        "distrito": "Mariano Melgar",
+        "altitud_msnm": 3820,
+        "lat": -16.325,
+        "lng": -71.435,
+        "en_decreto_pcm": true
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "040101",
+        "distrito": "Mariano Melgar - Arequipa Centro",
+        "hito_vial": "By-Pass Av. Venezuela / Mariscal Castilla",
+        "lat": -16.368,
+        "lng": -71.4815,
+        "en_decreto_pcm": false
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "040101",
+        "distrito": "Arequipa Centro",
+        "cono_deyeccion": "By-Pass Av. Venezuela / Mariscal Castilla",
+        "lat": -16.411,
+        "lng": -71.528,
+        "en_decreto_pcm": false
+      },
+      "tiempo_arribo_cono_minutos": 72,
+      "poblacion_total_triangulo": 54000,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": true,
+        "receptor_en_decreto": false,
+        "es_completamente_decretado": false,
+        "requiere_ampliacion_decreto": true,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    },
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "DOCUMENTO_EVAR_SIGRID_CENEPRED",
+      "entidad_fuente": "CENEPRED SIGRID / ANA",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/11209",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID / ANA. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    }
+  },
+  {
+    "id_quebrada": "Q-ARE-03",
+    "nombre": "Quebradas Huarangal, Pastores y El Pato (Lahar Misti)",
+    "denominacion_oficial_igp": "Quebradas Huarangal 1-2, Pastores 1 y El Pato 1",
+    "codigo_oficial_igp": "IGP-LAHAR-ARE-HUARANGAL-01",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": true,
+    "cuenca": "Cuenca del Río Chili / Torrenteras Miraflores",
+    "region": "Arequipa",
+    "provincia": "Arequipa",
+    "distrito": "Miraflores",
+    "distritos_impactados": [
+      "Miraflores",
+      "Alto Selva Alegre"
+    ],
+    "lat": -16.398,
+    "lng": -71.512,
+    "historial_activaciones": [
+      1983,
+      1998,
+      2012,
+      2020
+    ],
+    "frecuencia_historica": "REINCIDENCIA_CRITICA_MEDIA",
+    "umbral_critico_mm_hora": 10.0,
+    "umbral_acumulado_24h": 24.0,
+    "tiempo_concentracion_horas": 0.9,
+    "poblacion_en_cono_deyeccion": 42000,
+    "puntos_estrangulamiento": [
+      "Puente Av. Sepúlveda",
+      "Asoc. Huarangal Alto",
+      "Complejo Chullo"
+    ],
+    "obras_defensa_existentes": "Torrentera canalizada parcialmente",
+    "leccion_historica": "Bajada rápida de lahar volcánico con tiempo de arribo menor a 1 hora.",
+    "fuente_estudio": "IGP Red Lahares Misti / CENVUL IGP / ANA",
+    "cabecera_lat": -16.315,
+    "cabecera_lng": -71.412,
+    "cabecera_altitud_msnm": 4100,
+    "pendiente_media_pct": 29.0,
+    "codigo_pfafstetter_ana": "ANA-PF-13790",
+    "codigo_punto_critico_ana": "PC-ANA-2024-ARE-009",
+    "codigo_ingemmet_peligro": "PEL-ING-ARE-008",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-11215",
+    "codigo_vial_mtc_pvn": "Puente Av. Sepúlveda Miraflores",
+    "ubigeo_cabecera": "040110",
+    "distrito_cabecera_nombre": "Miraflores",
+    "ubigeo_receptor": "040110",
+    "distrito_receptor_nombre": "Miraflores",
+    "denominacion_amaru": "Q-ARE-03: Quebradas Huarangal, Pastores y El Pato (Lahar Misti)",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "codigo_tactico_c2": "Q-ARE-03-HUARANGAL_PASTORES_Y_E",
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "040110",
+        "distrito": "Miraflores",
+        "altitud_msnm": 4100,
+        "lat": -16.315,
+        "lng": -71.412,
+        "en_decreto_pcm": true
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "040110",
+        "distrito": "Miraflores - Miraflores",
+        "hito_vial": "Puente Av. Sepúlveda Miraflores",
+        "lat": -16.3565,
+        "lng": -71.462,
+        "en_decreto_pcm": true
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "040110",
+        "distrito": "Miraflores",
+        "cono_deyeccion": "Puente Av. Sepúlveda",
+        "lat": -16.398,
+        "lng": -71.512,
+        "en_decreto_pcm": true
+      },
+      "tiempo_arribo_cono_minutos": 54,
+      "poblacion_total_triangulo": 42000,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": true,
+        "receptor_en_decreto": true,
+        "es_completamente_decretado": true,
+        "requiere_ampliacion_decreto": false,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    },
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "DOCUMENTO_EVAR_SIGRID_CENEPRED",
+      "entidad_fuente": "CENEPRED SIGRID / ANA",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/11215",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID / ANA. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    }
+  },
+  {
+    "id_quebrada": "Q-LIM-10",
+    "nombre": "Quebrada Parca (Chilca)",
+    "denominacion_amaru": "Q-LIM-10: Quebrada Parca (Chilca)",
+    "codigo_tactico_c2": "Q-LIM-10-PARCA",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "cuenca": "Intercuenca Río Chilca / Qda. Parca",
+    "region": "Lima",
+    "provincia": "Cañete",
+    "distrito": "Chilca",
+    "distritos_impactados": [
+      "Chilca",
+      "San Antonio"
+    ],
+    "lat": -12.521,
+    "lng": -76.735,
+    "historial_activaciones": [
+      1998,
+      2017,
+      2023
+    ],
+    "frecuencia_historica": "REINCIDENCIA_CRITICA_ALTA",
+    "umbral_critico_mm_hora": 12.0,
+    "umbral_acumulado_24h": 30.0,
+    "tiempo_concentracion_horas": 1.5,
+    "poblacion_en_cono_deyeccion": 18500,
+    "puntos_estrangulamiento": [
+      "Panamericana Sur km 64",
+      "Casco Urbano Chilca",
+      "Puente Chilca"
+    ],
+    "obras_defensa_existentes": "Diques de enrocado y canalización perimetral urbana",
+    "leccion_historica": "Activación en marzo 2017 inundó sectores de Chilca e interrumpió el tránsito en la Panamericana Sur.",
+    "fuente_estudio": "CENEPRED EVAR Chilca / INDECI / Municipalidad de Chilca",
+    "cabecera_lat": -12.482,
+    "cabecera_lng": -76.62,
+    "cabecera_altitud_msnm": 1650,
+    "pendiente_media_pct": 17.5,
+    "codigo_pfafstetter_ana": "ANA-PF-13760",
+    "codigo_punto_critico_ana": "PC-ANA-2024-LIM-041",
+    "codigo_ingemmet_peligro": "PEL-ING-LIM-035",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-CHILCA-PARCA",
+    "codigo_vial_mtc_pvn": "PE-1S km 64 (Panamericana Sur)",
+    "ubigeo_cabecera": "150504",
+    "distrito_cabecera_nombre": "Chilca",
+    "ubigeo_receptor": "150504",
+    "distrito_receptor_nombre": "Chilca",
+    "denominacion_oficial_igp": "N/A",
+    "codigo_oficial_igp": "N/A",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": false,
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "REGISTRO_FOTOGRAFICO_Y_MAPA_SIGRID",
+      "entidad_fuente": "CENEPRED / INDECI",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/chilca",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED / INDECI. AMARU-FEN no toma fotos; integra y verifica pericialmente fuentes del SINAGERD."
+    },
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "150504",
+        "distrito": "Chilca",
+        "altitud_msnm": 1650,
+        "lat": -12.482,
+        "lng": -76.62,
+        "en_decreto_pcm": true
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "150504",
+        "distrito": "Chilca - Chilca",
+        "hito_vial": "PE-1S km 64 (Panamericana Sur)",
+        "lat": -12.5015,
+        "lng": -76.6775,
+        "en_decreto_pcm": true
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "150504",
+        "distrito": "Chilca",
+        "cono_deyeccion": "Panamericana Sur km 64",
+        "lat": -12.521,
+        "lng": -76.735,
+        "en_decreto_pcm": true
+      },
+      "tiempo_arribo_cono_minutos": 90,
+      "poblacion_total_triangulo": 18500,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": true,
+        "receptor_en_decreto": true,
+        "es_completamente_decretado": true,
+        "requiere_ampliacion_decreto": false,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    }
+  },
+  {
+    "id_quebrada": "Q-LIM-11",
+    "nombre": "Quebrada San Jerónimo (Cañete-Yauyos PE-24)",
+    "denominacion_amaru": "Q-LIM-11: Quebrada San Jerónimo (Cañete-Yauyos PE-24)",
+    "codigo_tactico_c2": "Q-LIM-11-SAN_JERONIMO",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "cuenca": "Cuenca del Río Cañete / Garganta San Jerónimo",
+    "region": "Lima",
+    "provincia": "Cañete",
+    "distrito": "Pacarán",
+    "distritos_impactados": [
+      "Pacarán",
+      "Lunahuaná"
+    ],
+    "lat": -12.871,
+    "lng": -76.082,
+    "historial_activaciones": [
+      1983,
+      1998,
+      2017,
+      2023
+    ],
+    "frecuencia_historica": "REINCIDENCIA_CRITICA_ALTA",
+    "umbral_critico_mm_hora": 14.0,
+    "umbral_acumulado_24h": 35.0,
+    "tiempo_concentracion_horas": 1.3,
+    "poblacion_en_cono_deyeccion": 6800,
+    "puntos_estrangulamiento": [
+      "Carretera Cañete-Yauyos PE-24 km 32",
+      "Badén San Jerónimo",
+      "Puente Colgante"
+    ],
+    "obras_defensa_existentes": "Muros de contención ciclópeo y gaviones MTC Provías",
+    "leccion_historica": "Huaicos periódicos bloquean la vía PE-24 aislando la provincia de Yauyos de la costa.",
+    "fuente_estudio": "MTC Provías Nacional / ANA / CENEPRED EVAR Cañete",
+    "cabecera_lat": -12.815,
+    "cabecera_lng": -75.985,
+    "cabecera_altitud_msnm": 2950,
+    "pendiente_media_pct": 24.0,
+    "codigo_pfafstetter_ana": "ANA-PF-13762",
+    "codigo_punto_critico_ana": "PC-ANA-2024-LIM-042",
+    "codigo_ingemmet_peligro": "PEL-ING-LIM-036",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-5747-REF",
+    "codigo_vial_mtc_pvn": "PE-24 km 32+000 (Cañete-Yauyos)",
+    "ubigeo_cabecera": "150508",
+    "distrito_cabecera_nombre": "Pacarán",
+    "ubigeo_receptor": "150507",
+    "distrito_receptor_nombre": "Lunahuaná",
+    "denominacion_oficial_igp": "N/A",
+    "codigo_oficial_igp": "N/A",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": false,
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "REGISTRO_VIAL_MTC_PROVIAS",
+      "entidad_fuente": "MTC Provías Nacional / CENEPRED",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/5747",
+      "atribucion_obligatoria": "Fuente oficial MTC Provías / CENEPRED. AMARU-FEN no toma fotos; integra y verifica pericialmente fuentes del SINAGERD."
+    },
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "150508",
+        "distrito": "Pacarán",
+        "altitud_msnm": 2950,
+        "lat": -12.815,
+        "lng": -75.985,
+        "en_decreto_pcm": false
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "150507",
+        "distrito": "Pacarán - Lunahuaná",
+        "hito_vial": "PE-24 km 32+000 (Cañete-Yauyos)",
+        "lat": -12.843,
+        "lng": -76.0335,
+        "en_decreto_pcm": false
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "150507",
+        "distrito": "Lunahuaná",
+        "cono_deyeccion": "Carretera Cañete-Yauyos PE-24 km 32",
+        "lat": -12.871,
+        "lng": -76.082,
+        "en_decreto_pcm": false
+      },
+      "tiempo_arribo_cono_minutos": 78,
+      "poblacion_total_triangulo": 6800,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": false,
+        "receptor_en_decreto": false,
+        "es_completamente_decretado": false,
+        "requiere_ampliacion_decreto": true,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    }
+  },
+  {
+    "id_quebrada": "Q-LIM-12",
+    "nombre": "Quebrada Las Viñas (Santa Cruz de Flores)",
+    "denominacion_amaru": "Q-LIM-12: Quebrada Las Viñas (Santa Cruz de Flores)",
+    "codigo_tactico_c2": "Q-LIM-12-LAS_VINAS",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "cuenca": "Cuenca Baja Río Mala / Qda. Las Viñas",
+    "region": "Lima",
+    "provincia": "Cañete",
+    "distrito": "Santa Cruz de Flores",
+    "distritos_impactados": [
+      "Santa Cruz de Flores",
+      "San Antonio"
+    ],
+    "lat": -12.585,
+    "lng": -76.632,
+    "historial_activaciones": [
+      1998,
+      2017,
+      2023
+    ],
+    "frecuencia_historica": "REINCIDENCIA_CRITICA_ALTA",
+    "umbral_critico_mm_hora": 12.0,
+    "umbral_acumulado_24h": 32.0,
+    "tiempo_concentracion_horas": 1.4,
+    "poblacion_en_cono_deyeccion": 4500,
+    "puntos_estrangulamiento": [
+      "Sector Las Viñas",
+      "Cruce Carretera Mala-Flores",
+      "Canal Principal de Riego"
+    ],
+    "obras_defensa_existentes": "Muros de protección de gaviones y canalización parcial",
+    "leccion_historica": "Desborde e inundación de viñedos y viviendas en Santa Cruz de Flores reportado en informe EVAR CENEPRED.",
+    "fuente_estudio": "CENEPRED SIGRID Doc 5784 / EVAR Flores / ANA",
+    "cabecera_lat": -12.542,
+    "cabecera_lng": -76.54,
+    "cabecera_altitud_msnm": 1820,
+    "pendiente_media_pct": 19.0,
+    "codigo_pfafstetter_ana": "ANA-PF-13763",
+    "codigo_punto_critico_ana": "PC-ANA-2024-LIM-043",
+    "codigo_ingemmet_peligro": "PEL-ING-LIM-037",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-5784",
+    "codigo_vial_mtc_pvn": "Ruta Departamental LM-121 (Mala - Santa Cruz de Flores)",
+    "ubigeo_cabecera": "150514",
+    "distrito_cabecera_nombre": "Santa Cruz de Flores",
+    "ubigeo_receptor": "150514",
+    "distrito_receptor_nombre": "Santa Cruz de Flores",
+    "denominacion_oficial_igp": "N/A",
+    "codigo_oficial_igp": "N/A",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": false,
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "INFORME_EVAR_OFICIAL_FOTOGRAFIAS_SIGRID",
+      "entidad_fuente": "CENEPRED (Centro Nacional de Estimación, Prevención y Reducción del Riesgo de Desastres)",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/5784",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID Doc 5784. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    },
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "150514",
+        "distrito": "Santa Cruz de Flores",
+        "altitud_msnm": 1820,
+        "lat": -12.542,
+        "lng": -76.54,
+        "en_decreto_pcm": false
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "150514",
+        "distrito": "Santa Cruz de Flores - Santa Cruz de Flores",
+        "hito_vial": "Ruta Departamental LM-121 (Mala - Santa Cruz de Flores)",
+        "lat": -12.5635,
+        "lng": -76.586,
+        "en_decreto_pcm": false
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "150514",
+        "distrito": "Santa Cruz de Flores",
+        "cono_deyeccion": "Sector Las Viñas",
+        "lat": -12.585,
+        "lng": -76.632,
+        "en_decreto_pcm": false
+      },
+      "tiempo_arribo_cono_minutos": 84,
+      "poblacion_total_triangulo": 4500,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": false,
+        "receptor_en_decreto": false,
+        "es_completamente_decretado": false,
+        "requiere_ampliacion_decreto": true,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    }
+  },
+  {
+    "id_quebrada": "Q-LIM-13",
+    "nombre": "Quebrada Calango (Calango)",
+    "denominacion_amaru": "Q-LIM-13: Quebrada Calango (Calango)",
+    "codigo_tactico_c2": "Q-LIM-13-CALANGO",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "cuenca": "Cuenca Media Río Mala / Torrenteras Calango",
+    "region": "Lima",
+    "provincia": "Cañete",
+    "distrito": "Calango",
+    "distritos_impactados": [
+      "Calango",
+      "Mala"
+    ],
+    "lat": -12.528,
+    "lng": -76.545,
+    "historial_activaciones": [
+      1983,
+      1998,
+      2017,
+      2023
+    ],
+    "frecuencia_historica": "REINCIDENCIA_CRITICA_ALTA",
+    "umbral_critico_mm_hora": 13.0,
+    "umbral_acumulado_24h": 35.0,
+    "tiempo_concentracion_horas": 1.6,
+    "poblacion_en_cono_deyeccion": 5200,
+    "puntos_estrangulamiento": [
+      "Carretera Mala-Calango km 22",
+      "Diques de disipación Calango",
+      "Bocatoma de Riego"
+    ],
+    "obras_defensa_existentes": "Diques de gaviones escalonados y trabajos de descolmatación",
+    "leccion_historica": "Bloqueo continuo de la vía de acceso a Calango y afectación de huertos frutícolas de manzana.",
+    "fuente_estudio": "CENEPRED SIGRID Doc 5776 / ANA / Municipalidad de Calango",
+    "cabecera_lat": -12.45,
+    "cabecera_lng": -76.43,
+    "cabecera_altitud_msnm": 2450,
+    "pendiente_media_pct": 21.0,
+    "codigo_pfafstetter_ana": "ANA-PF-13764",
+    "codigo_punto_critico_ana": "PC-ANA-2024-LIM-044",
+    "codigo_ingemmet_peligro": "PEL-ING-LIM-038",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-5776",
+    "codigo_vial_mtc_pvn": "Ruta Departamental LM-120 km 22",
+    "ubigeo_cabecera": "150503",
+    "distrito_cabecera_nombre": "Calango",
+    "ubigeo_receptor": "150503",
+    "distrito_receptor_nombre": "Calango",
+    "denominacion_oficial_igp": "N/A",
+    "codigo_oficial_igp": "N/A",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": false,
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "INFORME_EVAR_OFICIAL_FOTOGRAFIAS_SIGRID",
+      "entidad_fuente": "CENEPRED / Autoridad Nacional del Agua",
+      "documento_sigrid_url": "http://sigrid.cenepred.gob.pe/sigridv3/documento/5776",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID Doc 5776. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    },
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "150503",
+        "distrito": "Calango",
+        "altitud_msnm": 2450,
+        "lat": -12.45,
+        "lng": -76.43,
+        "en_decreto_pcm": true
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "150503",
+        "distrito": "Calango - Calango",
+        "hito_vial": "Ruta Departamental LM-120 km 22",
+        "lat": -12.489,
+        "lng": -76.4875,
+        "en_decreto_pcm": true
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "150503",
+        "distrito": "Calango",
+        "cono_deyeccion": "Carretera Mala-Calango km 22",
+        "lat": -12.528,
+        "lng": -76.545,
+        "en_decreto_pcm": true
+      },
+      "tiempo_arribo_cono_minutos": 96,
+      "poblacion_total_triangulo": 5200,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": true,
+        "receptor_en_decreto": true,
+        "es_completamente_decretado": true,
+        "requiere_ampliacion_decreto": false,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    }
+  },
+  {
+    "id_quebrada": "Q-LIM-14",
+    "nombre": "Quebrada Río Grande (Asia)",
+    "denominacion_amaru": "Q-LIM-14: Quebrada Río Grande (Asia)",
+    "codigo_tactico_c2": "Q-LIM-14-RIO_GRANDE",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "cuenca": "Intercuenca Río Grande / Desierto de Asia",
+    "region": "Lima",
+    "provincia": "Cañete",
+    "distrito": "Asia",
+    "distritos_impactados": [
+      "Asia",
+      "Coayllo"
+    ],
+    "lat": -12.782,
+    "lng": -76.575,
+    "historial_activaciones": [
+      1998,
+      2017,
+      2023
+    ],
+    "frecuencia_historica": "REINCIDENCIA_CRITICA_ALTA",
+    "umbral_critico_mm_hora": 11.0,
+    "umbral_acumulado_24h": 30.0,
+    "tiempo_concentracion_horas": 1.8,
+    "poblacion_en_cono_deyeccion": 8900,
+    "puntos_estrangulamiento": [
+      "Panamericana Sur PE-1S km 101",
+      "Anexo Santa Cruz de Asia",
+      "Puente Asia"
+    ],
+    "obras_defensa_existentes": "Diques transversales de retención de detritos y defensas ribereñas",
+    "leccion_historica": "Inundación de parcelas y corte de la autopista Panamericana Sur en marzo 2017.",
+    "fuente_estudio": "CENEPRED SIGRID Doc 5799 / EVAR Asia / INDECI",
+    "cabecera_lat": -12.71,
+    "cabecera_lng": -76.47,
+    "cabecera_altitud_msnm": 1750,
+    "pendiente_media_pct": 18.0,
+    "codigo_pfafstetter_ana": "ANA-PF-13765",
+    "codigo_punto_critico_ana": "PC-ANA-2024-LIM-045",
+    "codigo_ingemmet_peligro": "PEL-ING-LIM-039",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-5799",
+    "codigo_vial_mtc_pvn": "PE-1S km 101 (Panamericana Sur)",
+    "ubigeo_cabecera": "150505",
+    "distrito_cabecera_nombre": "Coayllo",
+    "ubigeo_receptor": "150502",
+    "distrito_receptor_nombre": "Asia",
+    "denominacion_oficial_igp": "N/A",
+    "codigo_oficial_igp": "N/A",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": false,
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "INFORME_EVAR_OFICIAL_FOTOGRAFIAS_SIGRID",
+      "entidad_fuente": "CENEPRED / INDECI",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/5799",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID Doc 5799. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    },
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "150505",
+        "distrito": "Coayllo",
+        "altitud_msnm": 1750,
+        "lat": -12.71,
+        "lng": -76.47,
+        "en_decreto_pcm": true
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "150502",
+        "distrito": "Coayllo - Asia",
+        "hito_vial": "PE-1S km 101 (Panamericana Sur)",
+        "lat": -12.746,
+        "lng": -76.5225,
+        "en_decreto_pcm": true
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "150502",
+        "distrito": "Asia",
+        "cono_deyeccion": "Panamericana Sur PE-1S km 101",
+        "lat": -12.782,
+        "lng": -76.575,
+        "en_decreto_pcm": true
+      },
+      "tiempo_arribo_cono_minutos": 108,
+      "poblacion_total_triangulo": 8900,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": true,
+        "receptor_en_decreto": true,
+        "es_completamente_decretado": true,
+        "requiere_ampliacion_decreto": false,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    }
+  },
+  {
+    "id_quebrada": "Q-LIM-15",
+    "nombre": "Quebrada San Carlos (San Vicente de Cañete)",
+    "denominacion_amaru": "Q-LIM-15: Quebrada San Carlos (San Vicente de Cañete)",
+    "codigo_tactico_c2": "Q-LIM-15-SAN_CARLOS",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "cuenca": "Cuenca Baja Río Cañete / Canal San Carlos",
+    "region": "Lima",
+    "provincia": "Cañete",
+    "distrito": "San Vicente de Cañete",
+    "distritos_impactados": [
+      "San Vicente de Cañete",
+      "Imperial"
+    ],
+    "lat": -13.065,
+    "lng": -76.375,
+    "historial_activaciones": [
+      1998,
+      2017,
+      2023
+    ],
+    "frecuencia_historica": "REINCIDENCIA_CRITICA_ALTA",
+    "umbral_critico_mm_hora": 10.0,
+    "umbral_acumulado_24h": 28.0,
+    "tiempo_concentracion_horas": 1.5,
+    "poblacion_en_cono_deyeccion": 22000,
+    "puntos_estrangulamiento": [
+      "Canal Lateral San Carlos",
+      "Cruce Vía San Vicente - Imperial",
+      "Av. Mariscal Benavides"
+    ],
+    "obras_defensa_existentes": "Canalización de concreto y diques de encauzamiento",
+    "leccion_historica": "Desbordes de lodo sobre la campiña de San Vicente afectando zonas periurbanas de la capital provincial.",
+    "fuente_estudio": "CENEPRED SIGRID Doc 5747 / ANA / Muni Cañete",
+    "cabecera_lat": -13.01,
+    "cabecera_lng": -76.28,
+    "cabecera_altitud_msnm": 1400,
+    "pendiente_media_pct": 16.5,
+    "codigo_pfafstetter_ana": "ANA-PF-13766",
+    "codigo_punto_critico_ana": "PC-ANA-2024-LIM-046",
+    "codigo_ingemmet_peligro": "PEL-ING-LIM-040",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-5747",
+    "codigo_vial_mtc_pvn": "Ruta Urbana Av. Mariscal Benavides / San Vicente",
+    "ubigeo_cabecera": "150506",
+    "distrito_cabecera_nombre": "Imperial",
+    "ubigeo_receptor": "150501",
+    "distrito_receptor_nombre": "San Vicente de Cañete",
+    "denominacion_oficial_igp": "N/A",
+    "codigo_oficial_igp": "N/A",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": false,
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "INFORME_EVAR_OFICIAL_FOTOGRAFIAS_SIGRID",
+      "entidad_fuente": "CENEPRED / Municipalidad Provincial de Cañete",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/5747",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID Doc 5747. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    },
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "150506",
+        "distrito": "Imperial",
+        "altitud_msnm": 1400,
+        "lat": -13.01,
+        "lng": -76.28,
+        "en_decreto_pcm": true
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "150501",
+        "distrito": "Imperial - San Vicente de Cañete",
+        "hito_vial": "Ruta Urbana Av. Mariscal Benavides / San Vicente",
+        "lat": -13.0375,
+        "lng": -76.3275,
+        "en_decreto_pcm": false
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "150501",
+        "distrito": "San Vicente de Cañete",
+        "cono_deyeccion": "Canal Lateral San Carlos",
+        "lat": -13.065,
+        "lng": -76.375,
+        "en_decreto_pcm": false
+      },
+      "tiempo_arribo_cono_minutos": 90,
+      "poblacion_total_triangulo": 22000,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": true,
+        "receptor_en_decreto": false,
+        "es_completamente_decretado": false,
+        "requiere_ampliacion_decreto": true,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    }
+  },
+  {
+    "id_quebrada": "Q-LIM-16",
+    "nombre": "Quebradas Zúñiga (Zúñiga / Cuenca Cañete)",
+    "denominacion_amaru": "Q-LIM-16: Quebradas Zúñiga (Zúñiga / Cuenca Cañete)",
+    "codigo_tactico_c2": "Q-LIM-16-ZUNIGA",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "cuenca": "Cuenca Alta Río Cañete / Garganta Zúñiga",
+    "region": "Lima",
+    "provincia": "Cañete",
+    "distrito": "Zúñiga",
+    "distritos_impactados": [
+      "Zúñiga"
+    ],
+    "lat": -12.852,
+    "lng": -75.985,
+    "historial_activaciones": [
+      1983,
+      1998,
+      2017,
+      2023
+    ],
+    "frecuencia_historica": "REINCIDENCIA_CRITICA_ALTA",
+    "umbral_critico_mm_hora": 15.0,
+    "umbral_acumulado_24h": 38.0,
+    "tiempo_concentracion_horas": 1.1,
+    "poblacion_en_cono_deyeccion": 3400,
+    "puntos_estrangulamiento": [
+      "Carretera PE-24 km 55",
+      "Garganta Rocosa Zúñiga",
+      "Puente Zúñiga"
+    ],
+    "obras_defensa_existentes": "Muros de contención de concreto y gaviones",
+    "leccion_historica": "Corte vial continuo en la carretera Cañete-Yauyos reportado por INDECI ante caídas de detritos.",
+    "fuente_estudio": "CENEPRED SIGRID Doc 5629 / INDECI / MTC",
+    "cabecera_lat": -12.78,
+    "cabecera_lng": -75.91,
+    "cabecera_altitud_msnm": 3200,
+    "pendiente_media_pct": 26.0,
+    "codigo_pfafstetter_ana": "ANA-PF-13767",
+    "codigo_punto_critico_ana": "PC-ANA-2024-LIM-047",
+    "codigo_ingemmet_peligro": "PEL-ING-LIM-041",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-5629",
+    "codigo_vial_mtc_pvn": "PE-24 km 55+000 (Cañete-Yauyos)",
+    "ubigeo_cabecera": "150516",
+    "distrito_cabecera_nombre": "Zúñiga",
+    "ubigeo_receptor": "150516",
+    "distrito_receptor_nombre": "Zúñiga",
+    "denominacion_oficial_igp": "N/A",
+    "codigo_oficial_igp": "N/A",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": false,
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "INFORME_TECNICO_INDECI_SIGRID",
+      "entidad_fuente": "INDECI / CENEPRED",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/documento/5629",
+      "atribucion_obligatoria": "Fuente oficial CENEPRED SIGRID Doc 5629 / INDECI. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    },
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "150516",
+        "distrito": "Zúñiga",
+        "altitud_msnm": 3200,
+        "lat": -12.78,
+        "lng": -75.91,
+        "en_decreto_pcm": false
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "150516",
+        "distrito": "Zúñiga - Zúñiga",
+        "hito_vial": "PE-24 km 55+000 (Cañete-Yauyos)",
+        "lat": -12.816,
+        "lng": -75.9475,
+        "en_decreto_pcm": false
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "150516",
+        "distrito": "Zúñiga",
+        "cono_deyeccion": "Carretera PE-24 km 55",
+        "lat": -12.852,
+        "lng": -75.985,
+        "en_decreto_pcm": false
+      },
+      "tiempo_arribo_cono_minutos": 66,
+      "poblacion_total_triangulo": 3400,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": false,
+        "receptor_en_decreto": false,
+        "es_completamente_decretado": false,
+        "requiere_ampliacion_decreto": true,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    }
+  },
+  {
+    "id_quebrada": "Q-ICA-02",
+    "nombre": "Quebrada Pampas de Chincha (Alto Larán)",
+    "denominacion_amaru": "Q-ICA-02: Quebrada Pampas de Chincha (Alto Larán)",
+    "codigo_tactico_c2": "Q-ICA-02-PAMPAS_CHINCHA",
+    "entidad_amaru": "AMARU-FEN (Comando Táctico C2)",
+    "cuenca": "Cuenca del Río San Juan / Qda. Pampas de Chincha",
+    "region": "Ica",
+    "provincia": "Chincha",
+    "distrito": "Alto Larán",
+    "distritos_impactados": [
+      "Alto Larán",
+      "Chincha Alta"
+    ],
+    "lat": -13.435,
+    "lng": -76.085,
+    "historial_activaciones": [
+      1983,
+      1998,
+      2017,
+      2023
+    ],
+    "frecuencia_historica": "REINCIDENCIA_CRITICA_ALTA",
+    "umbral_critico_mm_hora": 11.0,
+    "umbral_acumulado_24h": 28.0,
+    "tiempo_concentracion_horas": 1.4,
+    "poblacion_en_cono_deyeccion": 140,
+    "puntos_estrangulamiento": [
+      "Centro Poblado Pampas de Chincha",
+      "Canal de Riego Alto Larán",
+      "Camino Vecinal IC-104"
+    ],
+    "obras_defensa_existentes": "Diques de encauzamiento rústicos",
+    "leccion_historica": "Lámina Oficial N° 11 de la Autoridad Nacional del Agua (ANA) identifica 20 viviendas y 140 habitantes en riesgo en el abanico aluvial inundable.",
+    "fuente_estudio": "Autoridad Nacional del Agua (ANA) Lámina N° 11 / CENEPRED SIGRID",
+    "cabecera_lat": -13.36,
+    "cabecera_lng": -75.98,
+    "cabecera_altitud_msnm": 2350,
+    "pendiente_media_pct": 22.0,
+    "codigo_pfafstetter_ana": "ANA-PF-13780",
+    "codigo_punto_critico_ana": "PC-ANA-N11-ICA-002",
+    "codigo_ingemmet_peligro": "PEL-ING-ICA-006",
+    "codigo_sigrid_cenepred": "SIGRID-DOC-LAMINA11-ANA",
+    "codigo_vial_mtc_pvn": "Camino Vecinal IC-104 (Pampas de Chincha)",
+    "ubigeo_cabecera": "110202",
+    "distrito_cabecera_nombre": "Alto Larán",
+    "ubigeo_receptor": "110202",
+    "distrito_receptor_nombre": "Alto Larán",
+    "denominacion_oficial_igp": "N/A",
+    "codigo_oficial_igp": "N/A",
+    "entidad_igp": "Instituto Geofísico del Perú (IGP)",
+    "monitoreo_igp_in_situ": false,
+    "evidencia_visual_oficial": {
+      "tiene_evidencia_visual": true,
+      "tipo_archivo": "LAMINA_CARTOGRAFICA_OFICIAL_ANA_PUNTO_CRITICO_11",
+      "entidad_fuente": "Autoridad Nacional del Agua (ANA) - Dirección de Estudios de Proyectos Hidráulicos Multisectoriales",
+      "documento_sigrid_url": "https://sigrid.cenepred.gob.pe/sigridv3/",
+      "codigo_lamina": "Lámina N° 11 - Mapa de Ubicación Quebrada Pampas de Chincha",
+      "coordenadas_utm_fuente": {
+        "zona": "18S",
+        "este": 383447,
+        "norte": 8514761
+      },
+      "datos_censales_lamina": {
+        "viviendas_riesgo": 20,
+        "habitantes_directos": 60,
+        "habitantes_indirectos": 80,
+        "total_habitantes": 140
+      },
+      "atribucion_obligatoria": "Plano oficial Autoridad Nacional del Agua (ANA) Lámina N° 11. AMARU-FEN no toma fotos; integra y modela datos oficiales del SINAGERD."
+    },
+    "triangulo_hidrografico": {
+      "vertice_superior_cabecera": {
+        "ubigeo": "110202",
+        "distrito": "Alto Larán",
+        "altitud_msnm": 2350,
+        "lat": -13.36,
+        "lng": -75.98,
+        "en_decreto_pcm": false
+      },
+      "vertice_medio_transito": {
+        "ubigeo": "110202",
+        "distrito": "Alto Larán - Alto Larán",
+        "hito_vial": "Camino Vecinal IC-104 (Pampas de Chincha)",
+        "lat": -13.3975,
+        "lng": -76.0325,
+        "en_decreto_pcm": false
+      },
+      "vertice_inferior_cono": {
+        "ubigeo": "110202",
+        "distrito": "Alto Larán",
+        "cono_deyeccion": "Centro Poblado Pampas de Chincha",
+        "lat": -13.435,
+        "lng": -76.085,
+        "en_decreto_pcm": false
+      },
+      "tiempo_arribo_cono_minutos": 84,
+      "poblacion_total_triangulo": 140,
+      "propagar_alerta_triangulo": true,
+      "cobertura_legal_triangulo": {
+        "cabecera_en_decreto": false,
+        "receptor_en_decreto": false,
+        "es_completamente_decretado": false,
+        "requiere_ampliacion_decreto": true,
+        "mecanismo_legal_contingencia": "Ley N° 29664 Art. 67 (SINAGERD) y Programa Presupuestal 0068"
+      }
+    }
+  }
+]

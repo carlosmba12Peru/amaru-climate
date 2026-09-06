@@ -1,0 +1,675 @@
+{
+  "metadata": {
+    "fuente": "INDECI / SENAMHI / SINPAD - Histórico El Niño 1997-1998 y Niño Costero 2017",
+    "descripcion": "Zonificación de distritos con mayor recurrencia histórica de inundaciones y huaicos",
+    "referencia_cientifica_igp": "Instituto Geofísico del Perú (IGP) - 'El Niño 1997-1998: Situación Reciente y Futura'",
+    "pico_anomalia_tsm_1998": "+2.8 °C en Zona Niño 1+2",
+    "evidencia_archivo_local": "data/igp_el_nino_1997_1998.pdf (17.1 MB)"
+  },
+  "distritos_criticos": [
+    {
+      "departamento": "Piura",
+      "provincia": "Piura",
+      "distrito": "Castilla",
+      "eventos_historicos": [
+        "1998",
+        "2017"
+      ],
+      "tipo_desastre_recurrente": "Inundación por desborde del Río Piura",
+      "poblacion_vulnerable": 160000,
+      "cuenca_asociada": "Río Piura",
+      "infraestructura_critica": [
+        "Puente Bolognesi",
+        "Hospital Cayetano Heredia"
+      ],
+      "tiempo_anticipacion_horas": 6
+    },
+    {
+      "departamento": "Piura",
+      "provincia": "Piura",
+      "distrito": "Catacaos",
+      "eventos_historicos": [
+        "1998",
+        "2017"
+      ],
+      "tipo_desastre_recurrente": "Rotura de dique e inundación total",
+      "poblacion_vulnerable": 75000,
+      "cuenca_asociada": "Bajo Piura",
+      "infraestructura_critica": [
+        "Dique Pedregal",
+        "Carretera Piura-Catacaos"
+      ],
+      "tiempo_anticipacion_horas": 4
+    },
+    {
+      "departamento": "Lambayeque",
+      "provincia": "Chiclayo",
+      "distrito": "Íllimo",
+      "eventos_historicos": [
+        "1998",
+        "2017"
+      ],
+      "tipo_desastre_recurrente": "Desborde del Río La Leche",
+      "poblacion_vulnerable": 12000,
+      "cuenca_asociada": "Río La Leche",
+      "infraestructura_critica": [
+        "Puente La Leche",
+        "Panamericana Norte"
+      ],
+      "tiempo_anticipacion_horas": 8
+    },
+    {
+      "departamento": "La Libertad",
+      "provincia": "Trujillo",
+      "distrito": "El Porvenir",
+      "eventos_historicos": [
+        "1998",
+        "2017"
+      ],
+      "tipo_desastre_recurrente": "Activación de la Quebrada San Ildefonso",
+      "poblacion_vulnerable": 190000,
+      "cuenca_asociada": "Quebrada San Ildefonso / Río Moche",
+      "infraestructura_critica": [
+        "Cementerio Miraflores",
+        "Av. Prolongación Zela"
+      ],
+      "tiempo_anticipacion_horas": 3
+    },
+    {
+      "departamento": "Lima",
+      "provincia": "Lima",
+      "distrito": "Lurigancho-Chosica",
+      "eventos_historicos": [
+        "1987",
+        "1998",
+        "2017"
+      ],
+      "tipo_desastre_recurrente": "Activación múltiple de quebradas (Carossio, Pedregal, Quirio)",
+      "poblacion_vulnerable": 240000,
+      "cuenca_asociada": "Río Rímac",
+      "infraestructura_critica": [
+        "Carretera Central",
+        "Puente Carapongo"
+      ],
+      "tiempo_anticipacion_horas": 2
+    },
+    {
+      "departamento": "Tumbes",
+      "provincia": "Zarumilla",
+      "distrito": "Aguas Verdes",
+      "eventos_historicos": [
+        "1998",
+        "2017"
+      ],
+      "tipo_desastre_recurrente": "Desborde del Río Zarumilla / Anegamiento comercial",
+      "poblacion_vulnerable": 22000,
+      "cuenca_asociada": "Río Zarumilla",
+      "infraestructura_critica": [
+        "Puente Internacional",
+        "Canal de Zarumilla"
+      ],
+      "tiempo_anticipacion_horas": 5
+    }
+  ],
+  "estaciones_meteorologicas_igp_1998": [
+    {
+      "estacion": "Miraflores (Piura)",
+      "precipitacion_total_mm_1998": 1802.0,
+      "anomalia_porcentual": "+850%"
+    },
+    {
+      "estacion": "Puerto Pizarro (Tumbes)",
+      "precipitacion_total_mm_1998": 1420.0,
+      "anomalia_porcentual": "+720%"
+    },
+    {
+      "estacion": "Lambayeque (Chiclayo)",
+      "precipitacion_total_mm_1998": 890.0,
+      "anomalia_porcentual": "+640%"
+    },
+    {
+      "estacion": "Chosica (Lima)",
+      "precipitacion_total_mm_1998": 280.0,
+      "anomalia_porcentual": "+320% (Activación de 8 quebradas)"
+    }
+  ],
+  "memoria_detallada_congreso_1998": {
+    "fuente": "Diario de los Debates - Comisión Permanente del Congreso del Perú (18ª Sesión, 26 de febrero de 1998)",
+    "presidencia_congreso": "Carlos Torres y Torres Lara",
+    "expositor_ejecutivo": "Ing. Alberto Pandolfi Arbulú (Presidente del Consejo de Ministros)",
+    "informacion_tecnica": {
+      "definicion_mecanismo": "Calentamiento progresivo de las aguas superficiales del Océano Pacífico central hasta Sudamérica por debilitamiento, desaparición o inversión de los vientos alisios, alterando el equilibrio térmico entre Indonesia y la costa peruana.",
+      "frecuencia_historica": "Intervalos de recurrencia de 4 a 11 años, con 18 eventos registrados en el siglo XX.",
+      "pronosticos_cientificos": {
+        "deteccion_inicial": "Abril - Mayo 1997 con anomalías térmicas positivas en costa norte.",
+        "clasificacion_inicial": "Evento 'Fuerte' pero proyectado como inferior al 'Extraordinario' de 1982-1983 (SENAMHI, IMARPE, IGP, ERFEN, NOAA).",
+        "hipotesis_territorial_inicial": "Lluvias intensas concentradas en costa norte y 75% de probabilidad de sequía severa en sierra sur/altiplano.",
+        "conclusion_forum_enero_1998": "Modelos predictivos internacionales (IRI/PNUD) no anticiparon la magnitud ni la velocidad del evento; clasificado de 'Fuerte a Muy Fuerte' y sin precedentes por anomalías registradas."
+      }
+    },
+    "hechos_y_territorio": {
+      "regiones_criticas": [
+        {
+          "region": "Tumbes",
+          "cuencas": ["Río Tumbes", "Río Zarumilla"],
+          "impacto": "Inundaciones pluviales y fluviales masivas; corte de acceso a Matapalo, Casitas, Máncora, Pampa de Hospital y San Jacinto; sectores urbanos anegados (San José, Puerto Pizarro, El Bosque, Aguas Verdes)."
+        },
+        {
+          "region": "Piura",
+          "cuencas": ["Río Piura", "Río Chira"],
+          "impacto": "Desbordes mayores del Río Piura; Sullana gravemente afectada; anegamiento de Tambo Grande, Morropón, Piura y Paita."
+        },
+        {
+          "region": "Lambayeque",
+          "cuencas": ["Río La Leche", "Canal Taymi", "Drenes 1000 y 1500"],
+          "impacto": "Ruptura de vías e inundaciones generalizadas en Ferreñafe, Chiclayo, Leonardo Ortiz, La Victoria, Saltur, Mórrope, Mochumí, Íllimo y Pacora."
+        },
+        {
+          "region": "La Libertad",
+          "cuencas": ["Río Chamán", "Río Jequetepeque", "Quebrada San Ildefonso"],
+          "impacto": "Colapso de viviendas en Pacasmayo (distrito San José) y Trujillo."
+        },
+        {
+          "region": "Áncash",
+          "cuencas": ["Río Santa", "Río Lacramarca", "Río Huambacho", "Río Culebras", "Río Huarmey"],
+          "impacto": "Desbordes en Chimbote (Lacramarca), Valle de Nepeña (Huambacho), Casma y Huarmey."
+        },
+        {
+          "region": "Ica",
+          "cuencas": ["Río Ica"],
+          "impacto": "Desborde catastrófico del 23 de enero y segundo desborde del 29 de enero con caudal récord de 650 m3/s (máximo histórico previo: 350 m3/s). Huaicos en Los Molinos y Huamaní. Más de 65,000 damnificados en el casco urbano, La Tinguiña, Parcona, Subtanjalla y San Juan Bautista."
+        },
+        {
+          "region": "Arequipa y Sierra Sur",
+          "cuencas": ["Ríos de Castilla y Condesuyos"],
+          "impacto": "Desbordes, huaicos y deslizamientos anómalos en vez de la sequía esperada."
+        }
+      ],
+      "balance_cuantitativo_danos": {
+        "transporte_vial": {
+          "carreteras_asfaltadas_destruidas_km": 400,
+          "puentes_colapsados_metros_lineales": 3500,
+          "carreteras_afirmadas_a_rehabilitar_km": 4800,
+          "red_terciaria_a_rehabilitar_km": 4100
+        },
+        "salud_publica": {
+          "infecciones_respiratorias_agudas_casos": 64900,
+          "conjuntivitis_casos_lima": 12600,
+          "enfermedades_diarreicas_agudas_casos": 4700,
+          "vectores": "Incremento severo de malaria y dengue en costa norte; brotes de cólera controlados."
+        },
+        "educacion": {
+          "centros_educativos_destruidos": 154,
+          "centros_educativos_afectados": 295
+        },
+        "familias_damnificadas_en_modulos": 18580
+      }
+    },
+    "acciones_gubernamentales": {
+      "antes_prevencion": {
+        "periodo": "Junio - Noviembre 1997",
+        "costo_invertido_dolares": 150000000,
+        "marco_legal": [
+          "D.S. Nº 031-97-PCM: Declaratoria de emergencia inicial en 9 departamentos por 120 días.",
+          "D.S. Nº 040-97-PCM: Ampliación de emergencia a Cajamarca, Ayacucho, Cusco, Apurímac y Huancavelica.",
+          "D.S. Nº 290-97-PCM: Creación de la Comisión Nacional de Acciones de Emergencia (CONAE), asumida luego por Consejo de Ministros.",
+          "R.S. Nº 053-97-PE: Recomposición científica del ENFEN (IMARPE, SENAMHI, INRENA, INDECI, IGP, DHNM)."
+        ],
+        "creditos_suplementarios": [
+          "D.U. Nº 065-97: S/. 50 millones a Ministerio de la Presidencia para acciones de prevención.",
+          "D.U. Nº 072-97: S/. 47 millones para obras de emergencia en Proyecto CHAVIMOCHIC.",
+          "D.U. Nº 088-97: S/. 12 millones para Regiones Grau, Nor Oriental del Marañón, La Libertad y Chavín.",
+          "D.U. Nº 090-97: S/. 43.6 millones al Ministerio de Agricultura.",
+          "D.U. Nº 096-97: S/. 16.1 millones al Ministerio de Agricultura.",
+          "D.U. Nº 098-97: S/. 47.9 millones a diversas regiones del país.",
+          "D.U. Nº 102-97: S/. 27.0 millones a PRONAA para reserva alimentaria.",
+          "D.U. Nº 081-97: S/. 19.0 millones para proyectos de inversión multisectorial."
+        ],
+        "obras_e_intervenciones": {
+          "hidraulica_y_agricultura": "Limpieza de 2,060 km de cauces y drenes; 298 km encauzados; 135 km de quebradas protegidas; 91 km drenes urbanos limpios. Obras en Puyango-Tumbes, Chira-Piura, Olmos-Tinajones (desvío a Mórrope), Jequetepeque y Chavimochic. En sierra sur: siembra preventiva de 15,000 ha de pastos y habilitación de 120 pozos profundos.",
+          "salud": "Reforzamiento e impermeabilización de 437 establecimientos de salud (9 hospitales, 137 centros, 291 puestos). Organización de 150 brigadas médicas y 72 de fumigación (1,260 técnicos). Compra de 67 TM de medicinas para 6 meses preventivos y 2 meses de emergencia. 965 estaciones de radio enlazadas.",
+          "transportes": "Rehabilitación de 2,518 km de carreteras y 2,528 m de puentes. Limpieza de 504 km de cunetas y 971 alcantarillas. Protección de aeropuertos de Tumbes, Talara, Piura, Chiclayo, Cajamarca y Trujillo. Compra de 25 puentes Bailey.",
+          "alimentacion_y_social": "Acopio y preposicionamiento de 25,000 TM de alimentos por el PRONAA. Reubicación preventiva de 10,500 familias.",
+          "vivienda_y_saneamiento": "Limpieza de 90 km de alcantarillado con hidrojets. Otorgamiento de 106,859 préstamos para calaminas (S/. 63.2M por Banco de Materiales).",
+          "educacion_y_cultura": "Cierre adelantado del año escolar 1997 al 30 de noviembre. Medidas de preservación patrimonial en Chan Chan y Machu Picchu con apoyo de UNESCO.",
+          "ffaa": "Instalación de tanques flexibles (bladers) de combustible en Huancabamba, Huamachuco, Cajamarca, Tumbes, Rioja y Chachapoyas."
+        }
+      },
+      "durante_emergencia": {
+        "periodo": "Diciembre 1997 - Primer semestre 1998",
+        "mando_y_normatividad": [
+          "Designación de un Ministro responsable por zona afectada y vocero oficial único (PCM).",
+          "D.S. Nº 010-98-PCM: Exoneración de licitación y concurso público para bienes, servicios, rehabilitación y reconstrucción.",
+          "Creación de la Comisión Especial FEN para visar adquisiciones de todas las entidades con supervisión de Contraloría General."
+        ],
+        "financiamiento_emergencia": [
+          "D.U. Nº 005-98: S/. 30 millones a INDECI mediante Fondo Revolvente en Banco de la Nación.",
+          "D.U. Nº 007-98: S/. 232 millones a la Oficina de Inversiones del MEF para Programa de Apoyo.",
+          "D.U. Nº 008-98: S/. 10 millones a Ministerio de la Presidencia para créditos a agricultores damnificados (Banco de Materiales).",
+          "Total de gastos autorizados a febrero 1998: S/. 529 millones (87% recursos ordinarios del Tesoro Público)."
+        ],
+        "operaciones_de_respuesta": {
+          "asistencia_alimentaria": "861.4 TM de alimentos distribuidos a 287,615 personas a través de 1,108 comedores de emergencia / ollas comunes (ración de 500g/día/persona). 325 cocinas y módulos de menaje entregados.",
+          "refugio_y_agua": "232 módulos de emergencia de 180 m2 para refugio temporal en Tumbes, Piura, Chiclayo, Trujillo, Chimbote e Ica (18,580 familias beneficiadas). Instalación de 1,124 tanques de agua y reparto diario con camiones cisterna.",
+          "atencion_medica_y_epidemias": "Atención médica gratuita 24h en zonas de desastre; más de 100 brigadas itinerantes; puente aéreo de 106 TM de medicamentos y 35 TM de reserva en Lima; fumigación de 12,300 viviendas y 200 ha contra zancudos (malaria/dengue); atención universal en IPSS (14,000 asegurados y 21,000 no asegurados atendidos).",
+          "transporte_y_rescate_militar": "Puente aéreo continuo de las FFAA (Hércules, Antonov 32, Boeing 707, C-26, helicópteros): 3,017 pasajeros y 341.7 TM de carga transportadas entre Lima y Pisco, Trujillo, Chiclayo, Piura, Tumbes y Cusco. Empleo de botes Zodiac de la Marina y maquinaria pesada del Ejército. Policía Nacional en rescate, seguridad y control del orden.",
+          "apoyo_internacional_inmediato": "Ayuda humanitaria de Chile, España, Italia, Venezuela, Japón, canalizada por la ONU, Cáritas del Perú y donaciones de la sociedad civil."
+        }
+      },
+      "despues_reconstruccion": {
+        "periodo": "Fase Post-Niño (Planificada desde febrero 1998)",
+        "censo_y_diagnostico_inei": "Censo y empadronamiento continuo iniciado el 22 de febrero de 1998 (cédula de 47 preguntas a jefes de hogar) para caracterizar daños en viviendas, familias y cuantificar hectáreas agrícolas y rutas afectadas.",
+        "inversion_proyectada": "Cálculo de reconstrucción vial de US$ 275 millones (adicional a US$ 45M de emergencia).",
+        "programas_sectoriales": {
+          "vivienda_y_reubicacion": "22,000 préstamos blandos del Banco de Materiales (S/. 1,500 a S/. 6,000 a 20 años con 2 de gracia). Habilitación por ENACE de 7,800 lotes con módulos de 22.85 m2 en Tumbes, Piura, Talara, Chimbote, Callao, Pisco e Ica (S/. 130M). Titulación masiva COFOPRI/RPU en Ica como garantía hipotecaria. Reubicación definitiva de 31 AAHH vulnerables en Ica (4,091 familias empadronadas).",
+          "educacion": "Sustitución de 154 escuelas destruidas mediante Programa MECEP (Banco Mundial/BID); rehabilitación de 295 escuelas con presupuesto sectorial; habilitación de 5,000 aulas provisionales para iniciar clases antes de mayo 1998.",
+          "infraestructura_publica": "Reconstrucción definitiva de 400 km de asfalto, puentes definitivos, sistemas de agua potable, alcantarillado, defensas ribereñas y centrales hidroeléctricas.",
+          "empleo_y_apoyo_social": "Programa de trabajo rural intensivo en mano de obra.",
+          "fortalecimiento_cientifico": "Asignación presupuestal para modernización y equipamiento continuo de IGP, IMARPE, SENAMHI e INDECI."
+        },
+        "financiamiento_externo_concertado": [
+          "Banco Mundial: Préstamo de US$ 150 millones.",
+          "Banco Interamericano de Desarrollo (BID): Préstamo de US$ 150 millones (con desembolso de US$ 30M para fondo revolvente de emergencia).",
+          "EXIMBANK: Línea de crédito de US$ 50 millones para maquinaria pesada de transportes y agricultura.",
+          "Fondo General Contravalor Perú-Japón: Aprobación de US$ 5 millones para damnificados y reconstrucción.",
+          "Proyecto de Ley para autorizar uso de recursos del Fondo de Compensación Municipal (FONCOMUN) en reconstrucción local sin generar deuda."
+        ]
+      }
+    }
+  },
+  "memoria_oficial_coen_2017": {
+    "fuente": "Centro de Operaciones de Emergencia Nacional (COEN) / INDECI - Reporte Oficial El Niño Costero (Marzo 2017)",
+    "referencia_periodistica": "Mongabay Latam / Agencia Andina",
+    "cifras_nacionales_consolidadas": {
+      "fallecidos": 75,
+      "damnificados": 100169,
+      "afectados": 627048,
+      "viviendas_colapsadas": 10600,
+      "instituciones_educativas_afectadas": 1000,
+      "establecimientos_salud_afectados": 380,
+      "carreteras_destruidas_km": 1909,
+      "caminos_rurales_destruidos_km": 847,
+      "canales_riego_destruidos_km": 600,
+      "hectareas_cultivo_perdidas": 8600,
+      "regiones_con_impacto": 24
+    },
+    "regiones_mayor_impacto": [
+      {
+        "region": "Lambayeque",
+        "damnificados": 41237,
+        "afectados": 93486,
+        "viviendas_colapsadas": 4483,
+        "focos_criticos": "Íllimo, Pacora, Jayanca, Túcume por desborde del Río La Leche"
+      },
+      {
+        "region": "Piura",
+        "damnificados": 18996,
+        "afectados": 225492,
+        "viviendas_colapsadas": 2250,
+        "focos_criticos": "Catacaos, Cura Mori, Tambogrande, Piura por rotura del Dique Pedregal"
+      },
+      {
+        "region": "Lima",
+        "damnificados": 4972,
+        "afectados": 17320,
+        "viviendas_colapsadas": 1085,
+        "focos_criticos": "Chosica (Quirio, Pedregal, Carossio), Chaclacayo (Huampaní), SJL (Huaycoloro)"
+      },
+      {
+        "region": "La Libertad",
+        "damnificados": 3606,
+        "afectados": 17071,
+        "viviendas_colapsadas": 542,
+        "focos_criticos": "Trujillo (Qda. San Ildefonso), Huanchaco (Qda. El León), Virú (Puente Virú)"
+      },
+      {
+        "region": "Tumbes",
+        "damnificados": 380,
+        "afectados": 21792,
+        "viviendas_colapsadas": 5,
+        "focos_criticos": "Aguas Verdes, Zarumilla, Puerto Pizarro"
+      }
+    ],
+    "definiciones_normativas_indeci": {
+      "afectado": "Persona que sufre perturbación en su ambiente por efectos del fenómeno; requiere apoyo inmediato para eliminar o reducir las causas de la perturbación para continuar su actividad normal.",
+      "damnificado": "Persona que ha sufrido daño o perjuicio a su salud o en sus bienes; ha quedado sin vivienda en forma total o parcial, requiere refugio y ayuda humanitaria temporales, y no tiene capacidad propia de recuperar su patrimonio."
+    },
+    "lecciones_ingenieriles_fallas_infraestructura": [
+      {
+        "estructura": "Puente Pérez de Cuéllar (Chaclacayo - Río Rímac km 24)",
+        "mecanismo_falla": "Colapso por desmonte de basura acumulado en el margen izquierdo que redujo la sección hidráulica y desvió el flujo hacia la derecha, provocando socavación severa de estribos y pilares.",
+        "leccion": "La falta de fiscalización de desmontes ilegales en márgenes urbanos altera el cauce natural y derriba puentes de concreto."
+      },
+      {
+        "estructura": "Puente Virú (Panamericana Norte - La Libertad)",
+        "mecanismo_falla": "Desplome en la madrugada del 18 de marzo de 2017 por socavación profunda de cimientos ante avenida del Río Virú, aislando la conectividad terrestre de todo el norte.",
+        "leccion": "Negligencia en factores de seguridad y cálculo de socavación en puentes de la red vial nacional primaria."
+      },
+      {
+        "estructura": "Drenaje y Canales de Coronación",
+        "mecanismo_falla": "Inundación masiva de viviendas construidas en laderas de quebradas por falta de canales de coronación superiores que desvíen la escorrentía pluvial hacia el río.",
+        "leccion": "Medida advertida expresamente desde El Niño de 1998 que nunca fue ejecutada por los gobiernos locales."
+      }
+    ],
+    "impacto_macroeconomico_cepal": "Pérdida estimada de entre 1.5% y 6.0% del PBI nacional en gastos de rescate, atención de emergencia y reconstrucción.",
+    "estudio_caso_chosica_nino_costero": {
+      "titulo": "Patrón de Activación Temprana en Chosica y Santa Eulalia (El Niño Costero)",
+      "referencia_periodistica": "América TV Noticias / SENAMHI Aviso Activación Quebradas",
+      "dinamica_meteorologica": "El Niño Costero calienta el mar frente a Lima (+2.0 a +3.0 °C), provocando convección violenta vespertina que impacta la vertiente occidental andina a 800 - 1500 msnm.",
+      "quebradas_reincidentes_chosica": [
+        "Quirio", "Pedregal", "Carossio", "Corrales", "Santo Domingo", "Mariscal Castilla"
+      ],
+      "tiempo_respuesta_critico": "Menor a 45 minutos entre lluvia intensa en cabecera y el impacto del aluvión en la Carretera Central.",
+      "infraestructura_mitigacion": {
+        "mallas_dinamicas": "Redes de anillos de acero suizas instaladas en cabeceras de quebradas Quirio y Carossio con capacidad de retención de hasta 10,000 m³ de bolonería y rocas.",
+        "vulnerabilidad_remanente": "Las mallas retienen rocas de gran porte pero el lodo y flujo hiperconcentrado sigue discurriendo hacia la zona urbana si no hay canalización de fondo."
+      },
+      "puntos_estrangulamiento_viales": [
+        "Carretera Central km 32 a 36",
+        "Paseo peatonal y puente Quirio",
+        "Asentamiento Humano Alto Huampaní / Chaclacayo (Puente Pérez de Cuéllar)"
+      ],
+      "protocolo_tactico_amaru": "Ante Aviso SENAMHI de Activación de Quebradas en nivel Naranja/Rojo, ordenar de inmediato el corte de tráfico pesado en Corcona / Santa Anita y evacuar hacia zonas altas predefinidas (plataformas deportivas)."
+    }
+  },
+  "memoria_sanitaria_ops_oms_piura_2017": {
+    "fuente": "Organización Panamericana de la Salud (OPS/OMS) - Biblioteca Digital IRIS",
+    "titulo_documento": "Fenómeno El Niño Región Piura, Perú. Acciones, resultados y lecciones aprendidas",
+    "ano_publicacion": 2018,
+    "handle_iris_paho": "https://iris.paho.org/handle/10665.2/34889",
+    "impacto_epidemiologico_regional": {
+      "dengue": {
+        "casos_totales_registrados": 48000,
+        "fallecidos_confirmados": 43,
+        "foco_critico": "Distritos de Piura, Castilla, Catacaos, Sullana y Tambogrande",
+        "factor_detonante": "Anegamiento persistente por más de 30 días, aguas estancadas en cuencas ciegas y proliferación descontrolada de Aedes aegypti"
+      },
+      "leptospirosis": {
+        "mecanismo_transmision": "Contacto de piel y mucosas con aguas de inundación y lodo contaminado con orina de roedores",
+        "foco_critico": "Catacaos, Cura Mori, caseríos del Bajo Piura y agricultores vadeando campos anegados",
+        "alerta_clinica": "Fiebre aguda, ictericia, insuficiencia renal aguda y hemorragia pulmonar"
+      },
+      "arbovirosis_emergentes": ["Chikungunya", "Zika (con riesgo de síndrome congénito por microcefalia)"],
+      "infecciones_gastrointestinales_eda": {
+        "causa": "Colapso total de redes de alcantarillado y contaminación cruzada de fuentes de agua subterránea y camiones cisterna",
+        "poblacion_mayor_vulnerabilidad": "Niños menores de 5 años y adultos mayores en albergues espontáneos"
+      }
+    },
+    "danos_en_red_asistencial_salud": {
+      "hospitales_inundados": [
+        "Hospital III Cayetano Heredia de EsSalud (Castilla) - Evacuación de emergencias y UCI",
+        "Hospital Santa Rosa de Piura (MINSA) - Desborde de desagües en sótanos y áreas críticas"
+      ],
+      "establecimientos_primer_nivel_afectados": 63,
+      "perdida_cadena_frio": "Corte de energía por más de 72 horas afectó vacunas e insumos biológicos en postas rurales",
+      "poblacion_sin_acceso_medico": "Más de 200,000 personas por aislamiento de vías y centros anegados"
+    },
+    "acciones_estrategicas_respuesta_sanitaria": [
+      "Instalación de Hospitales de Campaña y Puestos Médicos de Avanzada (PMA) en zonas seguras no inundables",
+      "Campaña masiva de fumigación y nebulización espacial en 3 ciclos cubriendo más de 150,000 viviendas",
+      "Control larvario con larvicidas (piriproxifeno / abate) en depósitos de almacenamiento de agua",
+      "Distribución de tabletas de cloro, bidones de agua segura y plantas móviles de potabilización",
+      "Salas situacionales diarias de Vigilancia Epidemiológica (SVE) y Unidades de Vigilancia Clínica de Febriles (UVICLIN)"
+    ],
+    "lecciones_aprendidas_salud_publica_amaru": {
+      "leccion_1_anticipacion_vectorial": "No esperar el primer fallecido por dengue: el control larvario debe ejecutarse en fase de PREVENCIÓN (antes del inicio de lluvias).",
+      "leccion_2_hospitales_seguros": "Los hospitales de la costa norte requieren muros perimétricos de contención, generadores en niveles superiores y bombas de achique autónomas.",
+      "leccion_3_saneamiento_en_albergues": "Un albergue sin agua clorada y letrinas funcionales se convierte en un multiplicador epidémico en menos de 96 horas.",
+      "leccion_4_quimioprofilaxis_leptospirosis": "Administración oportuna de doxiciclina a brigadistas y rescatistas que intervienen en aguas de inundación y lodo."
+    }
+  },
+  "informe_oficial_enfen_ano12_n15_agosto_2026": {
+    "identificador": "Informe Técnico ENFEN Año 12 Nº 15",
+    "fecha_emision": "2026-08-26",
+    "archivo_local_pdf": "data/informe_tecnico_enfen_ano12_n15_2026.pdf",
+    "tamano_bytes": 13899693,
+    "paginas_totales": 85,
+    "url_origen": "https://enfen.imarpe.gob.pe/download/informe-tecnico-enfen-ano-12-n15-al-26-de-agosto-de-2026/?wpdmdl=2144&refresh=6a92226ad174a1787961962",
+    "estado_sistema_alerta": "Alerta de El Niño Costero",
+    "marco_presupuestal": "Programa Presupuestal por Resultados Nº 068: Reducción de vulnerabilidad y atención de emergencias por desastres",
+    "diagnostico_multisectorial": {
+      "instituciones_participantes": ["IMARPE", "ANA", "SENAMHI", "DIHIDRONAV", "INDECI", "IGP", "CENEPRED"],
+      "region_nino_1_2": {
+        "anomalia_mensual_julio_2026": "+3.56 °C",
+        "anomalias_semanales_agosto_2026": {
+          "05_ago_2026": "+4.1 °C",
+          "12_ago_2026": "+4.0 °C",
+          "19_ago_2026": "+4.0 °C"
+        },
+        "pronostico_magnitud_primavera_verano": {
+          "setiembre_2026_a_enero_2027": "Magnitud Extraordinaria (probabilidad >= 62 %)",
+          "febrero_marzo_2027": "Entre Fuerte y Extraordinaria",
+          "otono_2027": "Transición gradual hacia condición neutra"
+        }
+      },
+      "region_nino_3_4": {
+        "anomalia_mensual_julio_2026": "+2.03 °C",
+        "anomalias_semanales_agosto_2026": {
+          "05_ago_2026": "+2.6 °C",
+          "12_ago_2026": "+2.7 °C",
+          "19_ago_2026": "+2.6 °C"
+        },
+        "pronostico_magnitud": {
+          "setiembre_2026_a_enero_2027": "Magnitud Muy Fuerte (probabilidad >= 58 %)",
+          "maxima_intensidad": "Noviembre y Diciembre de 2026"
+        }
+      }
+    },
+    "escenarios_hidrologicos_y_climaticos": {
+      "costa_norte_y_central": "Lluvias muy por encima de lo normal en verano 2027, con alta susceptibilidad de huaicos e inundaciones en cuencas de Tumbes, Piura, Lambayeque, La Libertad, Ancash y Lima.",
+      "sierra_sur_oriental_altiplano": "Lluvias deficitarias por debajo de lo normal (riesgo severo de sequía agropecuaria en Puno, Cusco y cuenca del Titicaca).",
+      "temperatura_del_aire": "Temperaturas muy superiores a lo normal a lo largo de toda la faja costera con récords históricos."
+    },
+    "impactos_biologico_pesqueros_imarpe": {
+      "anchoveta": "Elevada incidencia de juveniles (61%), forzando el cierre de la Primera Temporada de Pesca 2026 mediante R.M. Nº 285-2026-PRODUCE a partir del 21 de agosto de 2026.",
+      "pota_calamar_gigante": "Actividades extractivas suspendidas mediante R.D. Nº 00092-2026-PRODUCE/DGSFS-PA.",
+      "especies_atípicas_cálidas": [
+        "Mobula thurstoni (diablo manta) en La Libertad",
+        "Caranx sexfasciatus (jurel ojo colorado) en Áncash",
+        "Caranx caninus (chumbo) en Lima",
+        "Atunes oceánicos (atún aleta amarilla y barrilete) dentro de las 100 millas náuticas"
+      ]
+    },
+    "impacto_juridico_politica_publica": {
+      "vinculacion_normativa": "Este Informe Técnico Nº 15 es el fundamento científico vinculante citado en el Decreto de Urgencia Nº 010-2026 (Obras por Impuestos) y en el Decreto Supremo Nº 124-2026-PCM (893 distritos en Estado de Emergencia).",
+      "recomendacion_directa_sinagerd": "Adoptar medidas inmediatas de reducción del muy alto riesgo existente y preparación de la respuesta ante peligros inminentes."
+    }
+  },
+  "estudio_senamhi_fen_1997_1998_idesep": {
+    "titulo": "El evento El Niño - Oscilación Sur 1997-1998: su impacto en el departamento de Lambayeque",
+    "autor_institucional": "Servicio Nacional de Meteorología e Hidrología del Perú (SENAMHI)",
+    "repositorio_origen": "Infraestructura de Datos Espaciales del SENAMHI (IDESEP)",
+    "url_oficial": "https://idesep.senamhi.gob.pe/portalidesep/files/tematica/evento-el-nino-la-nina/nino_97_98/EL_EVENTO_EL_NINO_OSCILACION_SUR_1997_1998.pdf",
+    "archivo_local_pdf": "data/senamhi_el_evento_el_nino_1997_1998.pdf",
+    "total_paginas": 78,
+    "tamano_bytes": 5450399,
+    "conceptos_clave_refuerzo_amaru": {
+      "teoria_carga_energetica_oceanica": {
+        "definicion_senamhi": "El almacenamiento excepcional y sostenido de energía térmica en la zona Niño 1+2 durante el invierno y primavera actúa como una 'carga energética' acumulada que indefectiblemente detona en precipitaciones torrenciales al sincronizarse con la llegada de las condiciones cálidas estivales en enero.",
+        "validacion_amaru": "Fundamenta y blinda el modelo de Triggers de Gobernanza Anticipatoria: no se debe esperar al inicio de lluvias para liberar fondos y maquinaria; la anomalía térmica sostenida es la certeza física de la detonación estival."
+      },
+      "mecanismo_brisa_monzon_costero": {
+        "dinamica_atmosferica": "El colapso de los vientos Alisios frente al calentamiento costero invierte el gradiente térmico continente-océano, generando brisas monzónicas vespertinas que transportan masiva humedad marina hacia tierra firme.",
+        "orografia_y_complejos_convectivos": "Al chocar contra la vertiente andina occidental se forman Complejos Convectivos de Mesoescala (CCM), detonando lluvias de extrema violencia desde la tarde hasta la madrugada siguiente."
+      },
+      "anomalias_pluviales_extremas_lambayeque": {
+        "porcentaje_sobre_la_normal": "Superó el 1,500 % en el norte y centro, 2,500 % en Chiclayo/Reque, y más de 3,000 % en Ferreñafe, Jayanca, Motupe y Olmos.",
+        "comparacion_1982_vs_1998": "El evento 1997-1998 fue de desarrollo temprano y concentró su pulso pluvial más violento entre enero y marzo de 1998, superando al Niño 1982-1983 en dicho trimestre."
+      },
+      "mandato_institucional_de_marco_legal_agil": {
+        "conclusion_senamhi_pagina_74": "El SENAMHI concluye formalmente que los desastres de El Niño exigen un marco legal acorde a la realidad que facilite directivas de excepción eficaces a nivel local y regional en armonía con la información científica.",
+        "validacion_amaru": "Legitima la arquitectura del Agente Legal y Normativo FEN y el uso del Art. 27 Ley 30225 y DU 010-2026."
+      }
+    }
+  },
+  "investigacion_academica_capel_molina_1998": {
+    "titulo": "EL NIÑO 1997-98 Y SU IMPACTO CLIMÁTICO GLOBAL",
+    "autor": "José Jaime Capel Molina (Universidad de Almería)",
+    "publicacion": "Papeles de Geografía, Nº 27, págs. 15-40 (Universidad de Murcia, 1998)",
+    "url_origen": "https://revistas.um.es/geografia/article/view/45511",
+    "archivo_local_pdf": "data/capel_molina_1998_el_nino_impacto_global.pdf",
+    "total_paginas": 26,
+    "resumen_ejecutivo": "Estudio científico de la magnitud extraordinaria del evento ENOS 1997-1998, analizando la anomalía térmica de +3.9 °C en el Pacífico Central, el récord de temperatura media superficial global del siglo XX (+0.44 °C) y sus impactos destructivos y teleconexiones en Perú, América y el mundo.",
+    "evidencias_cuantitativas_peru": {
+      "caudal_record_rio_piura": {
+        "caudal_pico": "4,424 m³/s (el mayor de la historia registrado el 12 de marzo de 1998)",
+        "colapso_puentes": "Arrastre del Puente Francisco Bolognesi y del histórico 'Puente Viejo' (Puente San Miguel de 1891, proyecto inglés centenario), con más de 25 víctimas fatales.",
+        "precipitacion_curso_alto": "Tormenta de más de 6 horas en el curso alto del río Piura (Observatorio de Malacasí registró 251 mm en 24h)."
+      },
+      "caudales_chira_y_tumbes": {
+        "rio_chira": "3,200 m³/s, derrumbe del puente Simón Rodríguez en Amotape.",
+        "rio_tumbes": "3,100 m³/s, desbordes continuos sobre la ciudad y 40% de los cultivos destruidos a nivel nacional.",
+        "lluvias_maximas_24h": "Talara 272.8 mm (18-Mar-1998, 5 veces el promedio anual normal), Tumbes 220 mm (10-Ene-1998), Sullana 210 mm (20-Ene-1998)."
+      },
+      "catastrofe_urbana_rio_ica": {
+        "fecha": "29 de enero de 1998",
+        "caudal_desborde": "660 m³/s de agua lodosa ('yapana')",
+        "capacidad_cauce_estrangulado": "250 m³/s (cauce canalizado de 20-25 m de ancho y 2.5 m de profundidad)",
+        "elevacion_lecho_por_sedimentos": "3 a 4 metros por encima del centro de la ciudad",
+        "invasion_antiguos_aliviaderos": "Ocupación urbana desordenada de los canales de alivio 'La Poruma' (oeste) y 'La Toledo' (este)",
+        "impacto": "135,724 damnificados (80% de viviendas, comercios y servicios dañados, 7,000 has agrícolas perdidas)."
+      },
+      "desastre_criosferico_machu_picchu": {
+        "fecha": "27 de febrero de 1998",
+        "descripcion": "Un gigantesco aluvión originado en el glaciar del nevado Salcantay desembocó en el río Vilcanota por la quebrada Aobamba, sepultando la Central Hidroeléctrica de Machu Picchu (110 MW).",
+        "causa_fisica_clave": "El desastre no fue producto de lluvias directas, sino del calentamiento anómalo extremo de El Niño que provocó el deshielo acelerado del glaciar andino."
+      }
+    },
+    "teleconexiones_globales": {
+      "desplazamiento_jet_stream": "El Jet Stream polar del Pacífico discurrió a latitudes inusualmente bajas, desatando violentas tormentas en California y Baja California (olas de 10 m, US$ 500M en daños).",
+      "lluvias_cono_sur": "Precipitaciones extremas en Uruguay (360 mm en 24h) y Río Grande do Sul (Brasil).",
+      "temperatura_planetaria": "1997 alcanzó el valor térmico más alto registrado en el siglo XX (+0.44 °C sobre el promedio 1961-1990)."
+    },
+    "lecciones_para_amaru_fen": [
+      "El riesgo FEN no es exclusivamente costero-pluvial: la anomalía térmica acelera el deshielo de glaciares andinos y genera aluviones devastadores en valles interandinos (caso Central Hidroeléctrica Machu Picchu).",
+      "El desastre de Ica demuestra que la sedimentación no atendida eleva el cauce por encima de la ciudad y que la invasión de aliviaderos colapsa la capacidad C a menos del 40% del caudal pico, fundamentando el cálculo de IRCE-FEN.",
+      "El caudal récord de 4,424 m³/s en el río Piura establece el umbral hidrológico no negociable para el diseño y defensas en las obras por impuestos del DU 010-2026."
+    ]
+  },
+  "informe_tecnico_senamhi_cenepred_69_2026_pisco": {
+    "identificador": "Informe Técnico Nº 69-2026/SENAMHI-DMA-SPC",
+    "titulo": "Mapas de Anomalías Extremas de Precipitación durante Eventos El Niño/Oscilación Sur (1983, 1998, 2016) y El Niño Costero (2017, 2023) - Periodo Enero-Marzo (EFM)",
+    "emisor": "Subdirección de Predicción Climática - SENAMHI",
+    "solicitante": "CENEPRED (Oficio Nº 00243-2026-CENEPRED/J)",
+    "fecha": "Junio de 2026",
+    "archivo_local_pdf": "data/cenepred_informe_tecnico_2026_0006823.pdf",
+    "total_paginas": 21,
+    "fuente_datos_grillada": "PISCO v2.2 (Peruvian Interpolated data of SENAMHI's Climatological and Hydrological Observations, 0.1° ~ 10 km)",
+    "patrones_regionales_conclusiones": {
+      "costa_norte_y_vertiente_occidental": "Mayores excesos pluviales históricos (> 250% sobre normal 1991-2020) desde Tumbes, Piura, Lambayeque y La Libertad hasta Tacna. El Niño Costero exhibe una señal húmeda más continua a lo largo de toda la faja costera que el ENOS Canónico.",
+      "sierra_norte_y_central": "Excesos moderados a muy húmedos (+15% a +250%) con calentamiento en el Pacífico Oriental (Niño 1+2).",
+      "sierra_sur_altiplano": "Zona de mayor déficit histórico durante el ENOS canónico con anomalías de -75% a -100% (sequía severa continua entre 13°S y 18°S en Puno, Cusco, Ayacucho y Arequipa alta). En El Niño Costero puro no se registraron excesos en el Altiplano.",
+      "selva": "Comportamiento heterogéneo; selva norte con excesos moderados y selva sur con condiciones normales a moderadamente secas."
+    },
+    "impacto_amaru_fen": "Proporciona el respaldo hidroclimatológico de alta resolución espacial para la zonificación de los 893 distritos del DS 124-2026-PCM y el ajuste de umbrales del IRCE-FEN."
+  },
+  "reporte_noaa_ncdc_98_02_winter_97_98": {
+    "identificador": "NOAA NCDC Technical Report No. 98-02",
+    "titulo": "The El Nino Winter of '97 - '98",
+    "autores": "Tom Ross, Neal Lott, Sam McCown, Duncan Quinn",
+    "entidad": "National Oceanic and Atmospheric Administration (NOAA) / NESDIS / NCDC",
+    "fecha": "Abril de 1998",
+    "archivo_local_pdf": "data/noaa_ncdc_technical_report_98_02_el_nino_winter_97_98.pdf",
+    "total_paginas": 28,
+    "resumen": "Evaluación técnica de la teleconexión global y registros extremos del invierno 1997-1998, catalogado como el 2° invierno más cálido y 7° más lluvioso en EE.UU. desde 1895.",
+    "mecanismo_fisico_clave": "Bifurcación meridional del Jet Stream subtropical polar, transportando calor latente y humedad ecuatorial hacia el continente americano.",
+    "impacto_amaru_fen": "Valida la consistencia interhemisférica entre las anomalías medidas en el Pacífico Ecuatorial (Niño 1+2 / 3.4) y las perturbaciones climáticas a gran escala, sustentando la Matriz de Consenso Dual de AMARU."
+  },
+  "caso_estudio_rpp_entrevista_gobernador_piura_trabas_descolmatacion": {
+    "identificador": "RPP Noticias - Entrevistas ADN (Podcast #23519)",
+    "enlace_web": "https://rpp.pe/audio/podcast/entrevistas-adn/gobernador-regional-de-piura-sostiene-que-trabas-burocraticas-demoran-descolmatacion-del-rio-piura-ante-el-fenomeno-de-el-nino-23519",
+    "enlace_radio_vivo": "https://rpp.pe/audio",
+    "fecha": "2026",
+    "entrevistado": "Luis Neyra León",
+    "cargo": "Gobernador Regional de Piura y Presidente de la Asociación Nacional de Gobernadores Regionales (ANGR)",
+    "titular": "Gobernador regional de Piura sostiene que trabas burocráticas demoran descolmatación del río Piura ante el Fenómeno de El Niño",
+    "sintesis_declaracion": "Sostuvo que las trabas burocráticas del gobierno central y la demora inicial en la emisión de decretos de urgencia adecuados dificultaron el inicio rápido de los trabajos de limpieza y descolmatación en el río Piura frente a la inminencia del FEN.",
+    "problematica_estructural": {
+      "cuello_de_botella": "Licitaciones ordinarias demoran de 4 a 7 meses, impidiendo que la maquinaria entre al río antes de las crecidas pluviales.",
+      "temor_a_contraloria": "Parálisis en los funcionarios por miedo a investigaciones penales si contratan maquinaria pesada sin un paraguas normativo expreso.",
+      "perdida_capacidad_hidraulica": "El río Piura ha acumulado sedimentos que reducen su cauce seguro a menos de 2,000 m³/s (en 1998 soportó 4,424 m³/s)."
+    },
+    "solucion_integral_amaru_fen": {
+      "herramienta_1_legal": "Agente Legal FEN aplica el Art. 27 Literal b de la Ley 30225 (Contratación Directa por Emergencia) amparado en el DS 124-2026-PCM para alquilar excavadoras y volquetes en 24 horas.",
+      "herramienta_2_financiamiento": "DU 010-2026 activa Obras por Impuestos (OxI) para que empresas privadas financien defensas ribereñas y descolmatación sin trabas de liquidez.",
+      "herramienta_3_gobernanza": "Motor de Gobernanza Anticipatoria CAF/PUCP activa el gasto del Programa Presupuestal 0068 con meses de antelación al monitorear anomalías TSM en Niño 1+2."
+    }
+  },
+  "estudio_comparativo_oannes_1972_1983_1998_2017": {
+    "identificador": "Oannes / El Regional Piura (Andrés Vera Córdova, 2017)",
+    "titulo": "Fenómenos El Niño y las diferencias entre 1972, 1982-83 y 1997-98",
+    "enlace_web": "https://www.oannes.org.pe/noticias/peru-fenomenos-el-nino-y-las-diferencias-entre-1972-1982-83-y-1997-98/",
+    "fecha_publicacion": "15 de marzo de 2017",
+    "autor": "Andrés Vera Córdova",
+    "comparativa_fenomenos": {
+      "evento_1972": {
+        "naturaleza": "Lluvias atípicas locales y fluviales sin muros de contención.",
+        "impacto_urbano": "Inundación en Piura, Sullana y Talara. El Malecón Eguiguren (a nivel de río) resistió. Primera gran destrucción de redes de agua y desborde en el mercado de abastos.",
+        "leccion": "Primera advertencia moderna sobre la fragilidad urbana de Piura."
+      },
+      "mega_nino_1982_1983": {
+        "naturaleza": "El más catastrófico y urbano de la historia contemporánea (diciembre 1982 a mayo 1983). Cero pronóstico previo.",
+        "impacto_urbano": "Lluvia masiva y homogénea sobre las ciudades (> 2,000 m³/s en río Piura). Destrucción total del Malecón Eguiguren, anegamiento del centro, El Chilcal y Buenos Aires.",
+        "respuestas_historicas": "Liderazgo de Mons. Óscar Cantuarias Pastor contra el centralismo limeño; creación del Canon Petrolero; construcción de muros con tablestacas/pilotes y el Canal Vía de Sullana."
+      },
+      "mega_nino_1997_1998": {
+        "naturaleza": "El único pronosticado con meses de antelación. Gran densidad pluvial concentrada en la cuenca media y alta.",
+        "impacto_hidrologico": "Caudales récord históricos: Río Chira > 3,000 m³/s y Río Piura > 4,000 m³/s (pico 4,424 m³/s). Caída de puentes Bolognesi y San Miguel.",
+        "efectividad_obras": "Las defensas y pilotes post-1983 contuvieron el desborde en el centro de Piura; el pronóstico previo evitó el colapso de la red vial nacional."
+      },
+      "nino_costero_2017": {
+        "naturaleza": "Híbrido violento: combina la agresión pluvial urbana directa de 1982-83 con la concentración de cuencas de 1997-98.",
+        "falla_estructural": "Ocupación descontrolada de hondonadas, cuencas ciegas y cauces de quebradas. Los planes urbanos y mapas de riesgo fueron tratados como 'documentos de anaquel'."
+      }
+    },
+    "lecciones_clave_amaru_fen": [
+      "Quitar densidad al río Piura mediante reservorios de almacenamiento y laminación en cuenca alta.",
+      "Prohibición absoluta de asentamientos en cuencas ciegas y hondonadas ya identificadas desde 1972.",
+      "Descentralizar decisiones técnicas y financieras superando el centralismo de Lima.",
+      "Las obras preventivas funcionan: las defensas post-1983 salvaron a Piura de una catástrofe total en 1998."
+    ]
+  },
+  "monitoreo_satelital_goes19_senamhi": {
+    "identificador": "SENAMHI - Portal Satélites GOES-19 (GOES-East / NOAA-NASA)",
+    "enlace_web": "https://www.senamhi.gob.pe/?p=satelites-goes19",
+    "posicion_orbital": "75.2° W (cobertura total de Sudamérica, Perú y Pacífico Oriental)",
+    "instrumentos": {
+      "ABI": {
+        "Canal_13_Limpio_10_3um": "Monitorea temperatura de brillo en topes de nubes. Temperaturas < -65°C indican nubes Cumulonimbus (Cb) de desarrollo vertical violento.",
+        "Canal_14_Infrarrojo_11_2um": "Detección de tormentas severas y núcleos convectivos generadores de huaicos.",
+        "Canales_8_9_10_Vapor_Agua": "Mapeo del transporte de humedad desde la Amazonía hacia la vertiente occidental andina."
+      },
+      "GLM": {
+        "mecanismo": "Sensor de descargas eléctricas totales (rayos nube-nube y nube-tierra) en tiempo real.",
+        "impacto_nowcasting": "Los saltos abruptos de descargas ('lightning jumps') anticipan la ocurrencia de huaicos en 15 a 30 minutos."
+      }
+    },
+    "utilidad_amaru_fen": "Nowcasting de ultra-corta latencia para disparo anticipado de sirenas de evacuación SISMATE."
+  },
+  "editorial_el_peruano_cooperacion_fen_2026": {
+    "identificador": "Diario Oficial El Peruano - Editorial",
+    "titulo": "Cooperación ante El Niño",
+    "fecha": "22 de agosto de 2026",
+    "enlace_web": "https://elperuano.pe/noticia/303038-cooperacion-ante-el-nino",
+    "cifras_clave_noaa": "Estimaciones de la NOAA indican un 69% de probabilidades de ser el evento El Niño más intenso registrado desde 1950.",
+    "pilares_diplomacia_proactiva": [
+      "1. Proactividad: Asegurar equipamiento y apoyo logístico internacional antes del impacto, no después.",
+      "2. Buque Hospital USNS Comfort: Llegada acordada para febrero a Piura con el Comando Sur de EE.UU. para evitar el colapso sanitario de la macrorregión norte.",
+      "3. Agenda Internacional: Inclusión de la emergencia de El Niño en la XXX Cumbre Iberoamericana en Madrid."
+    ],
+    "impacto_amaru_fen": "Valida la gobernanza anticipatoria y el preposicionamiento médico y logístico internacional meses antes de las lluvias."
+  },
+  "estudio_onu_unu_zapata_broad_1997_1998": {
+    "identificador": "United Nations University (UNU) / WMO / UNEP Country Study",
+    "titulo": "Reducing the Impact of Environmental Emergencies Through Early Warning and Preparedness: The Case of the 1997-98 El Niño - Peru",
+    "autores": "Antonio Zapata y Kenneth Broad",
+    "ano": "2000",
+    "enlace_web": "https://collections.unu.edu/eserv/UNU:8398/Peru.pdf",
+    "enlace_archivo": "https://archive.unu.edu/env/govern/ElNIno/CountryReports/pdf/peru.pdf",
+    "conclusiones_clave": [
+      "A pesar de que 1997-1998 tuvo el mejor pronóstico científico previo de la historia, las pérdidas en Perú superaron los US$ 3,500 millones.",
+      "La causa principal fue la demora burocrática en la liberación de fondos y la falta de articulación entre los entes técnico-científicos (SENAMHI, IMARPE, IGP) y los decisores políticos locales.",
+      "Recomienda institucionalizar la acción temprana automática (exactamente lo que implementa el Motor de Triggers CAF/PUCP en AMARU-FEN)."
+    ]
+  }
+}

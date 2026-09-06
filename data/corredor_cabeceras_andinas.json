@@ -1,0 +1,157 @@
+{
+  "metadata": {
+    "sistema": "AMARU-FEN Sala de Mando C2",
+    "nombre": "Corredor de Cabeceras Andinas de la Vertiente Occidental del Pacífico",
+    "rango_altitudinal_msnm": [800, 3800],
+    "proposito": "Detección temprana de tormentas convectivas y cálculo cinético de retardo (Tlag) para conos de deyección y badenes en costa",
+    "version": "1.0",
+    "fecha_actualizacion": "2026-09-04",
+    "modelo_indicador": "P_huaico = 1 / (1 + exp(-k * (Phi - Phi_crit))) * 100%"
+  },
+  "tramos_orograficos": [
+    {
+      "id_tramo": "TRAMO-TUMBES-CASITAS",
+      "region": "Tumbes",
+      "nombre": "Tramo Cabecera Bocapán - Cerro La Envidia (Casitas)",
+      "altitud_media_msnm": 950,
+      "puntos_muestreo": [
+        {
+          "nombre": "Cabecera Bocapán - Cerro La Envidia",
+          "lat": -3.95,
+          "lng": -80.52,
+          "altitud_msnm": 950
+        }
+      ],
+      "quebradas_asociadas": ["Q-TUM-01"],
+      "distritos_receptores": ["Casitas", "Zorritos"],
+      "tiempo_concentracion_promedio_horas": 2.5
+    },
+    {
+      "id_tramo": "TRAMO-PIURA-ALTO-PIURA",
+      "region": "Piura",
+      "nombre": "Tramo Cabecera Sierra de Morropón - Huancabamba",
+      "altitud_media_msnm": 1900,
+      "puntos_muestreo": [
+        {
+          "nombre": "Cabecera Río Seco / Sol Sol - Frías",
+          "lat": -4.95,
+          "lng": -79.92,
+          "altitud_msnm": 1650
+        },
+        {
+          "nombre": "Cabecera Serrán - Canchaque / Huancabamba",
+          "lat": -5.38,
+          "lng": -79.60,
+          "altitud_msnm": 2200
+        }
+      ],
+      "quebradas_asociadas": ["Q-PIU-02", "Q-PIU-03"],
+      "distritos_receptores": ["Chulucanas", "Morropón", "Salitral", "Canchaque"],
+      "tiempo_concentracion_promedio_horas": 1.8
+    },
+    {
+      "id_tramo": "TRAMO-LAMBAYEQUE-CHANCAY-ZANA",
+      "region": "Lambayeque",
+      "nombre": "Tramo Cabecera Chancay - Zaña (Límite Cajamarca)",
+      "altitud_media_msnm": 2100,
+      "puntos_muestreo": [
+        {
+          "nombre": "Cabecera Juana Ríos / Tocmoche - Llama",
+          "lat": -6.58,
+          "lng": -79.25,
+          "altitud_msnm": 1850
+        },
+        {
+          "nombre": "Cabecera Yaipón - Mirador Alto",
+          "lat": -6.55,
+          "lng": -79.18,
+          "altitud_msnm": 2100
+        },
+        {
+          "nombre": "Cabecera Oyotún - Zaña / Niepos",
+          "lat": -6.92,
+          "lng": -79.15,
+          "altitud_msnm": 2400
+        }
+      ],
+      "quebradas_asociadas": ["Q-LAM-01", "Q-LAM-02", "Q-LAM-03", "Q-LAM-04"],
+      "distritos_receptores": ["Chongoyape", "Oyotún", "Nueva Arica", "Pátapo"],
+      "tiempo_concentracion_promedio_horas": 1.8
+    },
+    {
+      "id_tramo": "TRAMO-LA-LIBERTAD-MOCHE-CHICAMA",
+      "region": "La Libertad",
+      "nombre": "Tramo Cabecera Cuenca Moche - Otuzco",
+      "altitud_media_msnm": 1800,
+      "puntos_muestreo": [
+        {
+          "nombre": "Cabecera San Ildefonso / Simbal - Otuzco",
+          "lat": -8.02,
+          "lng": -78.78,
+          "altitud_msnm": 1950
+        },
+        {
+          "nombre": "Cabecera El León / Cerros Huanchaco Alto",
+          "lat": -7.98,
+          "lng": -78.92,
+          "altitud_msnm": 1200
+        },
+        {
+          "nombre": "Cabecera San Carlos / Laredo Alto",
+          "lat": -8.05,
+          "lng": -78.82,
+          "altitud_msnm": 1600
+        }
+      ],
+      "quebradas_asociadas": ["Q-LIB-01", "Q-LIB-02", "Q-LIB-03", "Q-LIB-04"],
+      "distritos_receptores": ["El Porvenir", "Huanchaco", "Laredo", "Trujillo Centro", "Víctor Larco"],
+      "tiempo_concentracion_promedio_horas": 2.5
+    },
+    {
+      "id_tramo": "TRAMO-ANCASH-SANTA-CASCAJAL",
+      "region": "Áncash",
+      "nombre": "Tramo Cabecera Cascajal - Chuquicara",
+      "altitud_media_msnm": 1400,
+      "puntos_muestreo": [
+        {
+          "nombre": "Cabecera Cascajal / Cañón de Chuquicara",
+          "lat": -8.85,
+          "lng": -78.35,
+          "altitud_msnm": 1400
+        }
+      ],
+      "quebradas_asociadas": ["Q-ANC-01"],
+      "distritos_receptores": ["Chimbote", "Coishco", "Santa"],
+      "tiempo_concentracion_promedio_horas": 2.0
+    },
+    {
+      "id_tramo": "TRAMO-LIMA-RIMAC-SANTA-EULALIA",
+      "region": "Lima",
+      "nombre": "Tramo Cabecera Rímac - Santa Eulalia - Huarochirí",
+      "altitud_media_msnm": 2200,
+      "puntos_muestreo": [
+        {
+          "nombre": "Cabecera Santa Eulalia / Cumbe - San Mateo de Otao",
+          "lat": -11.85,
+          "lng": -76.55,
+          "altitud_msnm": 2300
+        },
+        {
+          "nombre": "Cabecera Chosica / Quirio Alto - Carapongo",
+          "lat": -11.92,
+          "lng": -76.68,
+          "altitud_msnm": 1750
+        },
+        {
+          "nombre": "Cabecera Huaycoloro / Cerro Camote",
+          "lat": -11.95,
+          "lng": -76.85,
+          "altitud_msnm": 1350
+        }
+      ],
+      "quebradas_asociadas": ["Q-LIM-01", "Q-LIM-02", "Q-LIM-03", "Q-LIM-04", "Q-LIM-05", "Q-LIM-06"],
+      "distritos_receptores": ["Lurigancho Chosica", "Chaclacayo", "Santa Eulalia", "San Juan de Lurigancho"],
+      "tiempo_concentracion_promedio_horas": 1.2
+    }
+  ]
+}

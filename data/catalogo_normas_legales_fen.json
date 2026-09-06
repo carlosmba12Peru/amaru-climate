@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "sistema": "AMARU-FEN - Marco Legal y Normativo para el Fenómeno El Niño",
+    "fuente_oficial": "Diario Oficial El Peruano / Sistema Peruano de Información Jurídica (SPIJ)",
+    "fecha_actualizacion": "2026-09-03"
+  },
+  "normas_vigentes_fen": [
+    {
+      "id_norma": "DS-124-2026-PCM",
+      "tipo": "DECRETO SUPREMO",
+      "numero": "Nº 124-2026-PCM",
+      "fecha_publicacion": "2026-09-01",
+      "diario_oficial_url": "https://busquedas.elperuano.pe/dispositivo/NL/2549507-1",
+      "titulo": "Decreto Supremo que declara el Estado de Emergencia en varios distritos de algunas provincias de 22 departamentos por peligro inminente ante intensas precipitaciones pluviales asociadas al Fenómeno El Niño 2026-2027",
+      "alcance_territorial": {
+        "departamentos_afectados": 22,
+        "provincias_afectadas": 154,
+        "total_distritos": 893,
+        "archivo_anexo_completo": "data/distritos_emergencia_ds_124_2026_pcm.json"
+      },
+      "plazo_vigencia": "60 días calendario",
+      "habilitaciones_legales": [
+        "Ejecución de medidas y acciones de excepción, inmediatas y necesarias de reducción del Muy Alto Riesgo existente y rehabilitación.",
+        "Participación directa de ministerios: MIDAGRI (ANA), MTC, Vivienda (MVCS), Salud, Interior y Defensa.",
+        "Financiamiento con cargo al presupuesto institucional de los pliegos involucrados (Programa Presupuestal 0068)."
+      ]
+    },
+    {
+      "id_norma": "DU-010-2026",
+      "tipo": "DECRETO DE URGENCIA",
+      "numero": "Nº 010-2026",
+      "fecha_publicacion": "2026-09-02",
+      "diario_oficial_url": "https://busquedas.elperuano.pe/dispositivo/EX/2550403-1",
+      "titulo": "Decreto de Urgencia que dicta medidas extraordinarias para la ejecución de intervenciones mediante el mecanismo de obras por impuestos ante el Fenómeno El Niño",
+      "sustento_cientifico_invocado": "Informe Técnico ENFEN Año 12 Nº 15 (26 de agosto de 2026) y DS Nº 124-2026-PCM",
+      "mecanismo_financiero": "Obras por Impuestos (Ley Nº 29230)",
+      "sectores_habilitados": [
+        "MIDAGRI / ANA: Defensas ribereñas, encauzamiento y descolmatación de cauces de ríos y quebradas",
+        "Vivienda, Construcción y Saneamiento: Drenaje pluvial, colectores y abastecimiento de agua segura",
+        "Transportes y Comunicaciones: Protección de puentes y red vial nacional"
+      ],
+      "beneficio_tactico": "Permite suscribir convenios directos con empresas privadas para ejecutar obras de mitigación de emergencia financiadas contra su Impuesto a la Renta sin esperar licitaciones públicas de meses."
+    },
+    {
+      "id_norma": "LEY-30225-ART-27",
+      "tipo": "LEY",
+      "numero": "Ley Nº 30225 - Artículo 27 Literal b",
+      "titulo": "Contratación Directa ante Situación de Emergencia por Catástrofes o Peligro Inminente",
+      "habilitaciones_legales": [
+        "Exonera el procedimiento clásico de licitación o concurso público.",
+        "Autoriza la contratación inmediata de maquinaria pesada, motobombas, combustible y bienes de ayuda humanitaria (BAH).",
+        "Plazo de regularización: Los informes técnico-legales y la resolución autoritativa pueden regularizarse dentro de los 10 días hábiles posteriores a la entrega del bien o inicio del servicio."
+      ]
+    },
+    {
+      "id_norma": "LEY-29338-ART-74",
+      "tipo": "LEY",
+      "numero": "Ley Nº 29338 - Artículo 74",
+      "titulo": "Fajas Marginales de Cuerpos de Agua y Quebradas",
+      "habilitaciones_legales": [
+        "Declara como bienes de dominio público hidráulico inalienables e imprescriptibles las riberas y fajas marginales.",
+        "Faculta a la Autoridad Nacional del Agua (ANA) y a las Municipalidades para desalojar asentamientos humanos precarios y demoler desmontes o construcciones ilegales que estrangulen cauces de quebradas."
+      ]
+    }
+  ]
+}
