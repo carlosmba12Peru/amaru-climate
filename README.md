@@ -50,21 +50,21 @@ El sistema implementa una **arquitectura dual desacoplada** que cubre los dos ex
 
 ```mermaid
 graph TD
-    subgraph Fuentes Oficiales & Sensores Orbitales
-        F1["SENAMHI (Avisos Severos & GeoServer)"]
+    subgraph FUENTES ["Fuentes Oficiales y Sensores Orbitales"]
+        F1["SENAMHI (Avisos Severos y GeoServer)"]
         F2["ENFEN / IMARPE (Informes Técnicos PDF)"]
-        F3["NOAA CPC (sstoi.indices & Advisory)"]
+        F3["NOAA CPC (sstoi.indices y Advisory)"]
         F4["IRI Columbia (Consenso Multimodelo)"]
-        F5["Satélite GOES-19 (Canal 13 ABI & GLM)"]
-        F6["IMARPE Satelital (TSM, Clorofila & ASCAT)"]
+        F5["Satélite GOES-19 (Canal 13 ABI y GLM)"]
+        F6["IMARPE Satelital (TSM, Clorofila y ASCAT)"]
         F7["OSINT Multicanal (TikTok, Radios Provinciales)"]
     end
 
-    subgraph Orquestador Central & Desacoplamiento Dual
+    subgraph ORQUESTACION ["Orquestador Central y Desacoplamiento Dual"]
         ORQ["AmaruOrchestrator<br/>(core/orchestrator.py)"]
     end
 
-    subgraph Subsistema AMARU-FEN (Costa - Fase Cálida)
+    subgraph FEN_SUB ["Subsistema AMARU-FEN (Costa - Fase Cálida)"]
         RELOJ_FEN["El Reloj del FEN<br/>(Noviembre: Ventana de Oro)"]
         IRCE["Índice IRCE-FEN<br/>(893 Distritos DS 124)"]
         AFA["Red Aforo ANA / SENAMHI<br/>(Chira, Piura, Rímac, Ica)"]
@@ -72,27 +72,58 @@ graph TD
         C2_FEN["Consola C2 AMARU-FEN<br/>(Puerto 8501)"]
     end
 
-    subgraph Subsistema AMARU-CHIRI (Sierra - Fase Fría)
-        RELOJ_NINA["El Reloj de La Niña<br/>(Abril: Ventana de Oro #facc15)"]
+    subgraph CHIRI_SUB ["Subsistema AMARU-CHIRI (Sierra - Fase Fría)"]
+        RELOJ_NINA["El Reloj de La Niña<br/>(Abril: Ventana de Oro)"]
         ISH["Índice ISH-CHIRI<br/>(27 Distritos Prioritarios)"]
-        CRIO["Agente Crioclimático<br/>(Sensación Térmica & Alpacas)"]
+        CRIO["Agente Crioclimático<br/>(Sensación Térmica y Alpacas)"]
         PREVAED["Directivas PREVAED<br/>(MINEDU / Escuelas Adobe)"]
         C2_CHIRI["Consola C2 AMARU-CHIRI<br/>(Puerto 8502)"]
     end
 
-    subgraph Capa AWS Cloud & Despacho Telegram
-        BEDROCK["Amazon Bedrock us-east-1<br/>(Nova Lite & Claude 3.5)"]
+    subgraph AWS_SUB ["Capa AWS Cloud y Despacho Telegram"]
+        BEDROCK["Amazon Bedrock us-east-1<br/>(Nova Lite y Claude 3.5)"]
         STRANDS["AWS Strands Agents SDK<br/>(11 Native Tools @tool)"]
         TG["Telegram Notifier<br/>(Máquina de Estados Ley 31814)"]
-        WEB3["AMARU Climate Oracle<br/>(ECDSA secp256k1 & Smart Contracts)"]
+        WEB3["AMARU Climate Oracle<br/>(ECDSA secp256k1 y Smart Contracts)"]
     end
 
-    F1 & F2 & F3 & F4 & F5 & F6 & F7 --> ORQ
-    ORQ --> RELOJ_FEN & IRCE & AFA & EDAN --> C2_FEN
-    ORQ --> RELOJ_NINA & ISH & CRIO & PREVAED --> C2_CHIRI
-    C2_FEN & C2_CHIRI --> STRANDS --> BEDROCK
-    IRCE & ISH --> TG
-    AFA & EDAN --> WEB3
+    F1 --> ORQ
+    F2 --> ORQ
+    F3 --> ORQ
+    F4 --> ORQ
+    F5 --> ORQ
+    F6 --> ORQ
+    F7 --> ORQ
+
+    ORQ --> RELOJ_FEN
+    ORQ --> IRCE
+    ORQ --> AFA
+    ORQ --> EDAN
+
+    RELOJ_FEN --> C2_FEN
+    IRCE --> C2_FEN
+    AFA --> C2_FEN
+    EDAN --> C2_FEN
+
+    ORQ --> RELOJ_NINA
+    ORQ --> ISH
+    ORQ --> CRIO
+    ORQ --> PREVAED
+
+    RELOJ_NINA --> C2_CHIRI
+    ISH --> C2_CHIRI
+    CRIO --> C2_CHIRI
+    PREVAED --> C2_CHIRI
+
+    C2_FEN --> STRANDS
+    C2_CHIRI --> STRANDS
+    STRANDS --> BEDROCK
+
+    IRCE --> TG
+    ISH --> TG
+
+    AFA --> WEB3
+    EDAN --> WEB3
 ```
 
 ---
