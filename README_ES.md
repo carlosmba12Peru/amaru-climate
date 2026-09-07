@@ -86,7 +86,8 @@ graph TD
 
     subgraph FEN_SUB ["Subsistema AMARU-FEN (Costa - Fase Cálida)"]
         RELOJ_FEN["El Reloj del FEN<br/>(Noviembre: Ventana de Oro)"]
-        IRCE["Índice IRCE-FEN<br/>(893 Distritos DS 124)"]
+        IPH["Índice IPH-FEN<br/>(Flujo de Detritos, Huaicos & Manning)"]
+        IRCE["Índice IRCE-FEN<br/>(1,891 FONDES & 893 Distritos DS 124)"]
         AFA["Red Aforo ANA / SENAMHI<br/>(Chira, Piura, Rímac, Ica)"]
         EDAN["Agente Despacho EDAN<br/>(Fichas INDECI / SINPAD)"]
         C2_FEN["Consola C2 AMARU-FEN<br/>(Puerto 8501)"]
@@ -116,11 +117,13 @@ graph TD
     F7 --> ORQ
 
     ORQ --> RELOJ_FEN
+    ORQ --> IPH
     ORQ --> IRCE
     ORQ --> AFA
     ORQ --> EDAN
 
     RELOJ_FEN --> C2_FEN
+    IPH --> C2_FEN
     IRCE --> C2_FEN
     AFA --> C2_FEN
     EDAN --> C2_FEN
@@ -139,9 +142,11 @@ graph TD
     C2_CHIRI --> STRANDS
     STRANDS --> BEDROCK
 
+    IPH --> TG
     IRCE --> TG
     ISH --> TG
 
+    IPH --> WEB3
     AFA --> WEB3
     EDAN --> WEB3
 ```
