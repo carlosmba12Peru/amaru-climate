@@ -5,7 +5,7 @@ Centro de Operaciones Inteligente para la Acción Temprana, Resiliencia Hidrocli
 > 🌐 **Idiomas / Languages:** [ 🇬🇧 Read in English (Official) ](README.md) | **[ 🇵🇪 Versión en Español ](README_ES.md)**
 
 
-[![Concytec / ProCiencia](https://img.shields.io/badge/Concytec-Prociencia_FEN_2026-blue)](https://www.gob.pe/concytec)
+[![Innovación Soberana](https://img.shields.io/badge/I+D-Innovaci%C3%B3n_Clim%C3%A1tica_Soberana-blue)](#)
 [![WFP AFCIA 2026](https://img.shields.io/badge/WFP_Innovation-AFCIA_LAC_2026-0077b6)](https://innovation.wfp.org/)
 [![FONDES 1,891 Distritos](https://img.shields.io/badge/FONDES-1%2C891_Distritos_DS_234--2025--EF-darkgreen)](https://www.mef.gob.pe/)
 [![AWS Strands Agents](https://img.shields.io/badge/AWS_Strands_Agents-Good_Neighbor_11_Tools-orange)](https://agentsforhumans.devpost.com/)
@@ -354,5 +354,9 @@ lab2/
 
 ---
 
-## 📜 Licencia y Atribución
-Desarrollado bajo el marco de la convocatoria Concytec / ProCiencia FEN 2026. Basado en las publicaciones científicas del Instituto Geofísico del Perú (IGP), los reportes de la Comisión Multisectorial ENFEN, el Plan Multisectorial ante Heladas y Friaje (D.S. Nº 122-2024-PCM) y la propuesta de Gobernanza Anticipatoria CAF / PUCP 2026.
+## 📜 Licencia y Titularidad
+**Innovación Soberana y Propiedad Intelectual Exclusiva:** Desarrollado de forma autónoma e independiente como una iniciativa de tecnología e innovación privada por **MERCADOS PLAZA DEL PERU S.A.C.** y su arquitecto líder de software **Carlos Baños Díaz**, con el 100% de titularidad patrimonial privada y sin cargas, restricciones ni co-titularidades institucionales.
+
+Los modelos metodológicos toman como referencia científica de dominio público las publicaciones del Instituto Geofísico del Perú (IGP), los reportes de la Comisión Multisectorial ENFEN, las directivas del Plan Multisectorial ante Heladas y Friaje (D.S. Nº 122-2024-PCM) y la doctrina internacional de Gobernanza Anticipatoria (CAF / WFP 2026).
+
+Distribuido bajo Licencia **Apache, Versión 2.0**.

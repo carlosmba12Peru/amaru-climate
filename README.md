@@ -4,7 +4,7 @@ Intelligent Operations Center for Early Action, Hydroclimatic & Cryoclimatic Res
 
 > 🌐 **Languages / Idiomas:** **[ 🇬🇧 English Version (Official) ](README.md)** | [ 🇵🇪 Versión en Español ](README_ES.md)
 
-[![Concytec / ProCiencia](https://img.shields.io/badge/Concytec-Prociencia_FEN_2026-blue)](https://www.gob.pe/concytec)
+[![Sovereign Tech](https://img.shields.io/badge/R&D-Sovereign_Climate_Innovation-blue)](#)
 [![WFP AFCIA 2026](https://img.shields.io/badge/WFP_Innovation-AFCIA_LAC_2026-0077b6)](https://innovation.wfp.org/)
 [![FONDES 1,891 Districts](https://img.shields.io/badge/FONDES-1%2C891_Districts_DS_234--2025--EF-darkgreen)](https://www.mef.gob.pe/)
 [![AWS Strands Agents](https://img.shields.io/badge/AWS_Strands_Agents-Good_Neighbor_11_Tools-orange)](https://agentsforhumans.devpost.com/)
@@ -340,8 +340,10 @@ amaru-climate/
 
 ---
 
-## 📜 License & Attribution
+## 📜 License & Ownership
 
-Developed under the research framework of the Concytec / ProCiencia FEN 2026 Call, drawing from scientific publications by the Instituto Geofísico del Perú (IGP), technical bulletins from the Multisectoral ENFEN Commission, the National Multi-Sectoral Frost and Freeze Plan (D.S. Nº 122-2024-PCM), and the Anticipatory Governance doctrine (CAF / PUCP 2026).
+**Proprietary Innovation & Sovereign IP:** Developed independently as an autonomous climate technology venture by **MERCADOS PLAZA DEL PERU S.A.C.** and lead software architect **Carlos Baños Díaz**, with 100% private equity ownership and zero institutional encumbrances.
+
+Methodological frameworks draw scientific inspiration from public domain research published by the Instituto Geofísico del Perú (IGP), official bulletins from the Multisectoral ENFEN Commission, the National Multi-Sectoral Frost and Freeze Plan (D.S. Nº 122-2024-PCM), and the global Anticipatory Governance doctrine (CAF / WFP 2026).
 
 Licensed under the **Apache License, Version 2.0**.
