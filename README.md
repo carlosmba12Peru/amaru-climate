@@ -234,6 +234,25 @@ AMARU is architected as an institutional-grade Decision Support System (TRL 7) a
 
 ---
 
+## 🔒 Cybersecurity, Envelope Encryption & Zero-PII Cryptography
+
+Disaster response systems handle highly sensitive data under extreme conditions. The AMARU System implements an institutional **Defense-in-Depth Cybersecurity Architecture** aligned with **Peruvian Data Protection Law Nº 29733** and the **ICRC Humanitarian Data Protection Standards**:
+
+1. **Zero-PII Tokenization in EDAN Disaster Census:**
+   * Official disaster damage assessments (Formulario EDAN Perú 2A) record vulnerable citizen identities (names, DNI, pregnant mothers, minors, collapsed home coordinates).
+   * Prior to ingestion into the multi-agent LLM reasoning pipeline (AWS Bedrock / Nova Lite / Claude 3.5), [`core/file_sanitizer.py`](core/file_sanitizer.py) and [`core/modulo_satelite_edan_cgr.py`](core/modulo_satelite_edan_cgr.py) execute irreversible cryptographic HMAC-SHA256 tokenization:
+     $$\text{Token}_{\text{citizen}} = \text{HMAC-SHA256}(\text{DNI} \parallel \text{Salt}_{\text{municipal}}, K_{\text{sovereign}})$$
+   * AI agents reason exclusively over anonymized vulnerability profiles. **Zero unhashed citizen PII is ever exposed to cloud model inference windows or logging buffers.**
+2. **Envelope Encryption (AES-256-GCM + Cloud KMS HSM):**
+   * Emergency citizen voice triage recordings ([`agents/agente_voz_vapi.py`](agents/agente_voz_vapi.py)) and the off-grid disaster event buffer ([`core/edge_resilience.py`](core/edge_resilience.py)) are encrypted at rest using ephemeral **AES-256-GCM Data Encryption Keys (DEKs)**.
+   * DEKs are wrapped and protected by **Master Key Encryption Keys (KEKs)** residing within **FIPS 140-3 Level 3 Hardware Security Modules (Cloud KMS HSM)**. Plaintext DEKs are purged from RAM immediately after encryption.
+3. **Zero-Knowledge On-Chain Footprint (Web3 Oracle):**
+   * In [`core/climate_oracle_web3.py`](core/climate_oracle_web3.py) and [`contracts/ParametricClimateRelief.sol`](contracts/ParametricClimateRelief.sol), relief triggers are executed on-chain via **secp256k1 ECDSA digital signatures** binding physical hazard indices (`IPH-FEN` / `ISH-CHIRI`) without storing any citizen personal data on the public blockchain.
+4. **OWASP Top 10 for LLM Active Defenses:**
+   * Native mitigation against **Prompt Injection (LLM01)** via strict payload sanitization and **Sensitive Information Disclosure (LLM06)** via strict output filtering in [`core/circuit_breaker.py`](core/circuit_breaker.py).
+
+---
+
 ## 🚀 Quickstart & Installation
 
 ### 1. Requirements & Setup

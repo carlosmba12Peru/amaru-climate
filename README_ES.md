@@ -235,6 +235,25 @@ El Sistema AMARU está diseñado como una plataforma de Soporte a la Decisión T
 
 ---
 
+## 🔒 Ciberseguridad, Envelope Encryption y Criptografía Zero-PII
+
+Los sistemas de respuesta ante emergencias manejan información de extrema sensibilidad humana y operativa. El Sistema AMARU implementa una **Arquitectura de Ciberseguridad de Defensa en Profundidad** alineada con la **Ley Peruana de Protección de Datos Personales Nº 29733** y los **Estándares de Protección de Datos en Acción Humanitaria del CICR**:
+
+1. **Tokenización Zero-PII en el Empadronamiento EDAN:**
+   * Las evaluaciones oficiales de daños (Formulario EDAN Perú 2A) registran datos sensibles de familias damnificadas (nombres, DNI, madres gestantes, menores de edad, coordenadas exactas de viviendas colapsadas).
+   * Antes de que estos datos ingresen al flujo de razonamiento de los modelos fundacionales (AWS Bedrock / Nova Lite / Claude 3.5), [`core/file_sanitizer.py`](core/file_sanitizer.py) y [`core/modulo_satelite_edan_cgr.py`](core/modulo_satelite_edan_cgr.py) ejecutan una tokenización criptográfica irreversible HMAC-SHA256:
+     $$\text{Token}_{\text{damnificado}} = \text{HMAC-SHA256}(\text{DNI} \parallel \text{Salt}_{\text{municipal}}, K_{\text{soberana}})$$
+   * Los agentes razonan exclusivamente sobre perfiles vulnerables anonimizados. **Ningún dato personal en texto plano ingresa jamás a la ventana de contexto de la nube ni a los registros de inferencia.**
+2. **Cifrado de Sobre (Envelope Encryption - AES-256-GCM + Cloud KMS HSM):**
+   * Las grabaciones de auxilio ciudadano ([`agents/agente_voz_vapi.py`](agents/agente_voz_vapi.py)) y el búfer de resiliencia fuera de línea ([`core/edge_resilience.py`](core/edge_resilience.py)) se cifran en reposo con claves efímeras de datos **AES-256-GCM (DEKs)**.
+   * Las DEKs se encuentran envueltas y protegidas por **Claves Maestras (KEKs)** custodiadas en módulos de seguridad de hardware **FIPS 140-3 Nivel 3 (Cloud KMS HSM)**. Las DEKs en texto plano se destruyen de la memoria RAM inmediatamente después del cifrado.
+3. **Huella Cero en Cadena (Zero-Knowledge en Oráculo Web3):**
+   * En [`core/climate_oracle_web3.py`](core/climate_oracle_web3.py) y [`contracts/ParametricClimateRelief.sol`](contracts/ParametricClimateRelief.sol), los desembolsos paramétricos se disparan mediante **firmas digitales ECDSA secp256k1** que vinculan los umbrales físicos (`IPH-FEN` / `ISH-CHIRI`) sin almacenar ningún dato personal de beneficiarios en la blockchain pública.
+4. **Defensas Activas OWASP Top 10 para LLM:**
+   * Mitigación nativa contra **Inyección de Prompts (LLM01)** mediante sanitización de entradas y contra **Divulgación de Datos Sensibles (LLM06)** mediante filtrado estricto en [`core/circuit_breaker.py`](core/circuit_breaker.py).
+
+---
+
 ## 🚀 Puesta en Marcha Rápida
 
 ### 1. Requisitos e Instalación
