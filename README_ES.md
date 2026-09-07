@@ -254,6 +254,27 @@ Los sistemas de respuesta ante emergencias manejan información de extrema sensi
 
 ---
 
+## 📚 Glosario Maestro de Términos (GovTech, Ciberseguridad, IA y Marco Hidroclimático)
+
+El Sistema AMARU establece un glosario institucional auditado que abarca cuatro pilares de gobernanza operativa. La doctrina íntegra está disponible en [`docs/glosario_maestro_amaru.md`](docs/glosario_maestro_amaru.md) ([PDF de Alta Resolución](docs/glosario_maestro_amaru.pdf)):
+
+| Dominio | Estándar / Concepto Clave | Definición Técnica e Implementación en AMARU |
+| :--- | :--- | :--- |
+| **GovTech y Marco Legal** | **FONDES (D.S. 234-2025-EF)** | Matriz maestra de 1,891 distritos priorizados para asignación presupuestal preventiva de desastres antes del colapso del río. |
+| **GovTech y Marco Legal** | **PP 0068 / PREVAED** | Programa presupuestal estratégico de reducción de la vulnerabilidad; activado mediante gatilladores biofísicos objetivos de AMARU. |
+| **GovTech y Marco Legal** | **Formulario EDAN 2A (SINPAD)** | Censo oficial de evaluación de daños y necesidades; prellenado satelital custodiado por comité tripartito de validación humana (`core/modulo_satelite_edan_cgr.py`). |
+| **GovTech y Marco Legal** | **Soberanía Humana (Ley 31814)** | Arquitectura mandatoria de DSS no autónomo; la potestad de evacuación y ejecución presupuestal recae exclusivamente en autoridades humanas. |
+| **Ciberseguridad** | **Tokenización Zero-PII** | Hasheo criptográfico irreversible HMAC-SHA256 de nombres y DNIs de damnificados previo a ingresar a los LLMs en la nube (Ley 29733). |
+| **Ciberseguridad** | **Cifrado de Sobre (KEK/DEK)** | Claves efímeras de datos AES-256-GCM envueltas por Claves Maestras en Cloud KMS HSM (FIPS 140-3 Nivel 3) para audios de emergencia y logs locales. |
+| **Ciberseguridad** | **FIPS 180-4 (SHA-256)** | Sellado matemático inmutable de atestados periciales (`IPH-FEN`, `IRCE-FEN`, `ISH-CHIRI`) para resistir auditorías forenses de la Contraloría (CGR). |
+| **Inteligencia Artificial** | **Física Explicable vs. LLM** | Prioridad de hidrodinámica determinista (Manning) y balance radiativo (Stefan-Boltzmann) sobre modelos generativos propensos a alucinaciones. |
+| **Inteligencia Artificial** | **Saaty AHP ($CR \le 0.10$)** | Proceso de Jerarquía Analítica matemático con ratios estrictos de consistencia para ponderación de multirriesgo en `IRCE-FEN`. |
+| **Inteligencia Artificial** | **Circuit Breaker Algorítmico** | Mecanismo de seguridad en `core/circuit_breaker.py` que aísla telemetría anómala o físicamente imposible. |
+| **Hidro y Crioclima** | **IPH-FEN e ISH-CHIRI** | Índices deterministas insignia para huaicos/crecidas (tensión de corte de Manning) y desplomes térmicos nocturnos ($<-15^\circ\text{C}$). |
+| **Hidro y Crioclima** | **Ventanas de Oro (Nov y Abr)** | Hitos logísticos de máxima anticipación: Noviembre para descolmatación costera (El Niño) y Abril para vacunación alpaquera y abrigo escolar (La Niña). |
+
+---
+
 ## 🚀 Puesta en Marcha Rápida
 
 ### 1. Requisitos e Instalación
@@ -367,7 +388,9 @@ lab2/
 ├── docs/                             # Documentación Técnica Oficial y Entregables WFP
 │   ├── AMARU_Pitch_Deck_WFP_AFCIA_EN.pdf # Presentación Ejecutiva Oficial (10 slides)
 │   ├── ficha_tecnica_nodos_iot_amaru.md # Especificación Nodos IoT Ultrasónicos No Invasivos
-│   └── ficha_tecnica_nodos_iot_amaru.pdf # Ficha Técnica en PDF de Alta Resolución
+│   ├── ficha_tecnica_nodos_iot_amaru.pdf # Ficha Técnica en PDF de Alta Resolución
+│   ├── glosario_maestro_amaru.md     # Glosario Maestro Integral de Términos (GovTech, Ciberseguridad, IA, Hidroclima)
+│   └── glosario_maestro_amaru.pdf    # Glosario Maestro en PDF de Alta Resolución
 ├── documentos_privados/              # Acervo Doctrinal Reservado (46 documentos técnicos y periciales)
 │   ├── dossier_postulacion_wfp_afcia_2026_oficial.md # Dossier Oficial de Postulación WFP AFCIA LAC 2026
 │   ├── ficha_tecnica_nodos_iot_amaru.md # Ficha Técnica Nodos IoT Ultrasónicos No Invasivos AMARU-NODE V1

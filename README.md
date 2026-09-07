@@ -253,6 +253,27 @@ Disaster response systems handle highly sensitive data under extreme conditions.
 
 ---
 
+## 📚 Master Glossary of Terms (GovTech, Cybersecurity, AI & Hydroclimate)
+
+The AMARU System establishes an audited institutional glossary across four operational governance pillars. The unabridged doctrine is available in [`docs/glosario_maestro_amaru.md`](docs/glosario_maestro_amaru.md) ([High-Resolution PDF](docs/glosario_maestro_amaru.pdf)):
+
+| Domain | Key Standard / Concept | Technical Definition & Implementation in AMARU |
+| :--- | :--- | :--- |
+| **GovTech & Law** | **FONDES (D.S. 234-2025-EF)** | Master baseline of 1,891 prioritized districts for preventative public disaster budget allocation prior to river collapse. |
+| **GovTech & Law** | **PP 0068 / PREVAED** | Strategic budgetary framework for disaster reduction; activated via AMARU's objective biophysical triggers. |
+| **GovTech & Law** | **EDAN Formulario 2A (SINPAD)** | Official damage assessment census; automated pre-population guarded by a tripartite human validation committee (`core/modulo_satelite_edan_cgr.py`). |
+| **GovTech & Law** | **Human Sovereignty (Law 31814)** | Mandatory non-autonomous DSS architecture; executive evacuation and budget authority remains exclusively with human officials. |
+| **Cybersecurity** | **Zero-PII Tokenization** | Irreversible HMAC-SHA256 hashing of victim names and DNIs before ingestion into cloud LLMs, fully compliant with Peru LPDP Law 29733. |
+| **Cybersecurity** | **Envelope Encryption (KEK/DEK)** | Ephemeral AES-256-GCM data encryption keys wrapped by Cloud KMS HSM (FIPS 140-3 Level 3) master keys for all citizen voice and event logs. |
+| **Cybersecurity** | **FIPS 180-4 (SHA-256)** | Tamper-proof mathematical hashing of all pericial reports (`IPH-FEN`, `IRCE-FEN`, `ISH-CHIRI`) to withstand Contraloría (CGR) forensic audits. |
+| **Artificial Intelligence** | **Explainable Physics vs. LLM** | Deterministic hydrodynamics (Manning equation) and radiative balance (Stefan-Boltzmann) over hallucination-prone black-box generative models. |
+| **Artificial Intelligence** | **Saaty AHP ($CR \le 0.10$)** | Mathematical Analytic Hierarchy Process with strict consistency ratio thresholds for multi-hazard risk weighting in `IRCE-FEN`. |
+| **Artificial Intelligence** | **Algorithmic Circuit Breaker** | Failsafe mechanism in `core/circuit_breaker.py` isolating anomalous or physically impossible telemetry inputs. |
+| **Hydroclimate & Cryoclimate** | **IPH-FEN & ISH-CHIRI** | Flagship deterministic indices for flash flood/huaico debris flow (Manning shear stress) and nocturnal freeze plunges ($<-15^\circ\text{C}$). |
+| **Hydroclimate & Cryoclimate** | **Golden Windows (Nov & Apr)** | Strategic logistical milestones: November for coastal desilting (El Niño) and April for Andean alpaca vaccination & school thermal shielding (La Niña). |
+
+---
+
 ## 🚀 Quickstart & Installation
 
 ### 1. Requirements & Setup
@@ -367,7 +388,9 @@ amaru-climate/
 ├── docs/                             # Official Technical Documentation & WFP Deliverables
 │   ├── AMARU_Pitch_Deck_WFP_AFCIA_EN.pdf # Official 10-Slide Pitch Deck (WFP AFCIA LAC 2026)
 │   ├── ficha_tecnica_nodos_iot_amaru.md # Non-Invasive Ultrasonic IoT Telemetry Specifications
-│   └── ficha_tecnica_nodos_iot_amaru.pdf # High-Resolution Hardware Spec Sheet PDF
+│   ├── ficha_tecnica_nodos_iot_amaru.pdf # High-Resolution Hardware Spec Sheet PDF
+│   ├── glosario_maestro_amaru.md     # Unabridged Master Glossary of Terms (GovTech, Cybersecurity, AI, Hydroclimate)
+│   └── glosario_maestro_amaru.pdf    # Master Glossary High-Resolution PDF
 ├── tests/                            # 167 automated pytest tests (167/167 passing - 100%)
 ├── ui/                               # Interactive Streamlit Tactical Consoles
 │   ├── app_amaru.py                  # Tactical Command Center AMARU-FEN (Port 8501)
