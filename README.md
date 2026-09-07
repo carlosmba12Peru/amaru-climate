@@ -46,6 +46,23 @@ El sistema implementa una **arquitectura dual desacoplada** que cubre los dos ex
 
 ---
 
+## 🏛️ Descargo de Responsabilidad Legal y Uso de Marcas (Disclaimer)
+
+> [!CAUTION]
+> ### 1. Declaración Expresa de No Afiliación Estatal
+> El **Sistema AMARU** (que comprende **AMARU-FEN** y **AMARU-CHIRI**) es una plataforma de software, innovación tecnológica e investigación privada desarrollada por **MERCADOS PLAZA DEL PERU S.A.C.**.  
+> **AMARU NO es una entidad pública, organismo gubernamental, ni dependencia oficial del Estado Peruano.** No forma parte orgánica del Sistema Nacional de Gestión del Riesgo de Desastres (SINAGERD), del Instituto Nacional de Defensa Civil (INDECI), del Centro Nacional de Estimación, Prevención y Reducción del Riesgo de Desastres (CENEPRED) ni de ningún ministerio, gobierno regional o municipalidad.
+> 
+> ### 2. Uso Legítimo y Referencial de Marcas y Fuentes Oficiales (Nominative Fair Use)
+> Las referencias, citas de decretos supremos, acrónimos o enlaces a organismos públicos e instituciones científicas (tales como **SENAMHI, ANA, IGP, IMARPE, ENFEN, INDECI, CENEPRED, MEF, MINEDU, PCM, NOAA, WMO, WFP / ONU, CAF, PUCP, UP**, entre otras), así como a plataformas tecnológicas de terceros (tales como **Telegram, Amazon Web Services - AWS, Amazon Bedrock, Google Cloud, Python, Streamlit, Ethereum, GitHub**, entre otras), se realizan **única y exclusivamente con fines técnicos, informativos, descriptivos, de interoperabilidad con fuentes de datos públicos abiertos y rigor metodológico (Uso Nominativo / Fair Use)**.  
+> 
+> En ningún caso dichas referencias implican patrocinio, aval, endoso oficial, asociación societaria o apropiación de signos distintivos por parte de los desarrolladores o de la empresa titular. **Todas las marcas registradas, nombres institucionales, logotipos y derechos de autor pertenecen única y exclusivamente a sus respectivos titulares legítimos.**
+> 
+> ### 3. Carácter Informativo y Ausencia de Responsabilidad Operativa
+> Los cálculos, modelos numéricos, índices (`IPH-FEN`, `IRCE-FEN`, `ISH-CHIRI`), reportes periciales o alertas generadas por el sistema constituyen proyecciones analíticas orientativas y no reemplazan bajo ninguna circunstancia los boletines, avisos meteorológicos y directivas oficiales emitidas por las autoridades estatales competentes. Los operadores, instituciones o usuarios que utilicen el sistema asumen la responsabilidad técnica de su empleo.
+
+---
+
 ## 🏛️ Arquitectura del Sistema Dual AMARU
 
 ```mermaid
@@ -301,6 +318,10 @@ lab2/
 │   ├── historico_sincronizaciones_c2.json # Registro histórico y variaciones Delta C2
 │   ├── estaciones_hidrologicas_aforo.json # Red telemétrica ANA/SENAMHI (caudales m³/s y umbrales)
 │   └── ... (Bases documentales históricas ENFEN Nº 15, SENAMHI 1997-1998, NOAA)
+├── docs/                             # Documentación Técnica Oficial y Entregables WFP
+│   ├── AMARU_Pitch_Deck_WFP_AFCIA_EN.pdf # Presentación Ejecutiva Oficial (10 slides)
+│   ├── ficha_tecnica_nodos_iot_amaru.md # Especificación Nodos IoT Ultrasónicos No Invasivos
+│   └── ficha_tecnica_nodos_iot_amaru.pdf # Ficha Técnica en PDF de Alta Resolución
 ├── documentos_privados/              # Acervo Doctrinal Reservado (46 documentos técnicos y periciales)
 │   ├── dossier_postulacion_wfp_afcia_2026_oficial.md # Dossier Oficial de Postulación WFP AFCIA LAC 2026
 │   ├── ficha_tecnica_nodos_iot_amaru.md # Ficha Técnica Nodos IoT Ultrasónicos No Invasivos AMARU-NODE V1
