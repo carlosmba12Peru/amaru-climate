@@ -557,5 +557,96 @@
       "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
     },
     "mensaje_completo": "❄️ *ALERTA ROJA GLACIAL — SISTEMA AMARU-CHIRI* ❄️\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🤖 *[AVISO OFICIAL: REPORTE ELABORADO POR INTELIGENCIA ARTIFICIAL]*\n_Elaborado autónomamente por el Motor de IA AMARU-CHIRI bajo la Ley Nº 31814 (Transparencia y Soberanía Humana)._\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 *UBIGEO 100301:* LA UNION (HUANUCO)\n🔴 *NIVEL:* ALERTA ROJA GLACIAL | *Índice ISH-CHIRI:* `82.0 / 100`\n⏱️ *Ventana Táctica Nocturna:* Desplome crítico en 4 a 6 horas (Clímax al amanecer)\n🕒 *Hora de Detección IA:* 05/09/2026 22:39:09 (PET)\n\n🌡️ *PARÁMETROS CRIOCLIMÁTICOS COMPUTADOS POR LA IA:*\n• *Temperatura Mínima Proyectada:* -8.5 °C\n• *Sensación Térmica (Wind Chill):* -13.5 °C (Viento Catabático Severo)\n• *Ganado Alpaquero en Riesgo:* 50,000 cabezas (Peligro de hipotermia/neumonía)\n• *Locales Escolares de Adobe:* 14 II.EE. sin aislamiento térmico PRONIED\n\n🏫 *DIRECTIVAS SECTORIALES EDUCATIVAS Y VIALES:*\n• *MINEDU / PREVAED:* ⚠️ *SUSPENSIÓN DE CLASES PRESENCIALES (PREVAED PP-0068)*\n• *Vialidad:* ⚠️ Peligro de formación de hielo en carreteras altoandinas\n\n⚡ *ACCIONES COMUNALES INMEDIATAS:*\n1️⃣ *Pecuario:* Guarecer crías en cobertizos y encender ahumado comunal con bosta seca.\n2️⃣ *Salud:* Distribuir antibióticos veterinarios y abrigar a niños y adultos mayores.\n3️⃣ *Transporte:* Restringir tránsito matinal en pasos cordilleranos por placas de hielo negro.\n\n⚖️ *CLÁUSULA DE SOBERANÍA HUMANA (Ley Nº 31814):*\n_Este informe es un cálculo algorítmico automatizado. La ejecución de medidas de protección corresponde a los comités multisectoriales locales (PMHF / INDECI)._\n\n🔗 *Consola Crioclimática en Vivo:* http://localhost:8502/?ubigeo=100301\n🏛️ *Plan Multisectorial ante Heladas y Friaje (PMHF)*"
+  },
+  {
+    "id": 44,
+    "metadata_envio": {
+      "timestamp": "2026-09-07T02:29:20.448273+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 51,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "🚀 *Prueba* – Bot **Amaru‑Fen IA ‑ Alertas** activo."
+  },
+  {
+    "id": 45,
+    "metadata_envio": {
+      "timestamp": "2026-09-07T02:32:35.208049+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 51,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "🚀 *Prueba* – Bot **Amaru‑Fen IA ‑ Alertas** activo."
+  },
+  {
+    "id": 46,
+    "metadata_envio": {
+      "timestamp": "2026-09-07T02:32:35.281505+00:00",
+      "chat_id": "SIMULACION_CANAL_C2",
+      "caracteres": 53,
+      "estado": "DESPACHADO_SIMULACION_OK",
+      "modo": "SIMULACION_TEST",
+      "elaborado_por_ia": true,
+      "nota": "Sin token de Telegram en .env; alerta generada y validada en entorno de pruebas C2."
+    },
+    "mensaje_completo": "🚀 *Prueba* – Bot **Amaru‑Chiri IA ‑ Alertas** activo."
+  },
+  {
+    "id": 47,
+    "metadata_envio": {
+      "timestamp": "2026-09-07T02:34:32.729604+00:00",
+      "chat_id": "5992814062",
+      "caracteres": 51,
+      "estado": "ERROR_CONEXION",
+      "modo": "EN_VIVO",
+      "elaborado_por_ia": true,
+      "error_excepcion": "<urlopen error _ssl.c:1063: The handshake operation timed out>"
+    },
+    "mensaje_completo": "🚀 *Prueba* – Bot **Amaru‑Fen IA ‑ Alertas** activo."
+  },
+  {
+    "id": 48,
+    "metadata_envio": {
+      "timestamp": "2026-09-07T02:34:49.430344+00:00",
+      "chat_id": "5992814062",
+      "caracteres": 53,
+      "estado": "ERROR_CONEXION",
+      "modo": "EN_VIVO",
+      "elaborado_por_ia": true,
+      "error_excepcion": "<urlopen error _ssl.c:1063: The handshake operation timed out>"
+    },
+    "mensaje_completo": "🚀 *Prueba* – Bot **Amaru‑Chiri IA ‑ Alertas** activo."
+  },
+  {
+    "id": 49,
+    "metadata_envio": {
+      "timestamp": "2026-09-07T03:04:20.498524+00:00",
+      "chat_id": "5992814062",
+      "caracteres": 51,
+      "estado": "ERROR_CONEXION",
+      "modo": "EN_VIVO",
+      "elaborado_por_ia": true,
+      "error_excepcion": "HTTP Error 400: Bad Request"
+    },
+    "mensaje_completo": "🚀 *Prueba* – Bot **Amaru‑Fen IA ‑ Alertas** activo."
+  },
+  {
+    "id": 50,
+    "metadata_envio": {
+      "timestamp": "2026-09-07T03:04:41.871688+00:00",
+      "chat_id": "5992814062",
+      "caracteres": 53,
+      "estado": "ERROR_CONEXION",
+      "modo": "EN_VIVO",
+      "elaborado_por_ia": true,
+      "error_excepcion": "HTTP Error 400: Bad Request"
+    },
+    "mensaje_completo": "🚀 *Prueba* – Bot **Amaru‑Chiri IA ‑ Alertas** activo."
   }
 ]

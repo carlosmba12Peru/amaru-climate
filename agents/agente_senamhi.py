@@ -1,6 +1,9 @@
 import logging
 from typing import Dict, Any, List, Optional
 
+import requests
+import json
+import re
 logger = logging.getLogger("AMARU.AgenteSenamhi")
 
 class AgenteSenamhi:
