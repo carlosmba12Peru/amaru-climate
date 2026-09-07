@@ -216,6 +216,25 @@ Para el certamen **AWS Agents for Humans Hackathon (Track: Good Neighbor Agents)
 
 ---
 
+## 🛡️ Cumplimiento de Estándares Internacionales (ISO, NIST, EU AI Act, OMM, OWASP, FIPS)
+
+El Sistema AMARU está diseñado como una plataforma de Soporte a la Decisión Técnica de grado institucional (**TRL 7**), alineado rigurosamente con los marcos globales de Inteligencia Artificial, Reducción del Riesgo de Desastres, Integridad Criptográfica y Ciberseguridad:
+
+| Estándar / Marco | Organismo Emisor | Alcance y Dominio de Gobernanza | Implementación Específica en AMARU |
+| :--- | :--- | :--- | :--- |
+| **EU AI Act (High-Risk AI)**<br>`Reglamento (UE) 2024/1689` | Unión Europea | IA en Infraestructuras Críticas y Protección Civil (Anexo III, punto 2) | **Supervisión Humana Obligatoria (Art. 14):** Arquitectura DSS no autónoma; **Robustez Técnica y Ciberseguridad (Art. 15):** Cortacircuitos algorítmicos deterministas (`core/circuit_breaker.py`); **Transparencia (Art. 13):** Explicabilidad física mediante hidrodinámica de Manning y termofísica radiativa. |
+| **ISO/IEC 42001:2023** | ISO / IEC | Sistema de Gestión de Inteligencia Artificial (AIMS) | Trazabilidad integral del ciclo de vida del dato hidroclimático, auditoría algorítmica continua y orquestación multi-agente desacoplada en `core/orchestrator.py`. |
+| **NIST AI RMF 1.0**<br>`NIST SP 1270` | NIST (EE.UU.) | Marco de Gestión de Riesgos de Inteligencia Artificial | Operacionalizado en las 4 funciones: **Govern** (Allowlist en `core/registro_fuentes_validadas.py`), **Map** (Geodatos de 1,891 distritos FONDES), **Measure** (Consistencia Saaty $CR \le 0.10$ en IRCE-FEN), y **Manage** (Máquina de estados anti-fatiga en Telegram). |
+| **Marco de Sendai (2015–2030)** | ONU / UNDRR | Reducción del Riesgo de Desastres (Prioridad 4: Acción Temprana) | Operacionaliza las dos **Ventanas de Oro Logísticas**: Noviembre para obras preventivas de descolmatación fluvial (El Niño) y Abril para vacunación alpaquera, forraje y adecuación escolar PREVAED (La Niña). |
+| **WMO-No. 558 & WMO-No. 49** | Organización Meteorológica Mundial (OMM/WMO) | Normas Técnicas para Servicios Hidrológicos y Meteorológicos | Control de calidad y estandarización de caudales de aforo ($m^3/s$) y umbrales de precipitación calibrados con ANA/SENAMHI y NOAA CPC. |
+| **FIPS 180-4** | NIST (EE.UU.) | Estándar de Hash Seguro (SHA-256) | Sellado criptográfico inmutable de todos los atestados periciales (`IPH-FEN`, `IRCE-FEN`, `ISH-CHIRI`) para resistir auditorías de la Contraloría General de la República (CGR). |
+| **IEEE 2418.1 / ISO 23258** | IEEE / ISO | Estándares para Blockchain y Oráculos DLT | Firmas digitales ECDSA secp256k1 en `core/climate_oracle_web3.py` y contratos inteligentes paramétricos automatizados en `contracts/ParametricClimateRelief.sol`. |
+| **Ley Nº 31814 & D.S. 085-2024-PCM** | Estado Peruano | Inteligencia Artificial y Soberanía Humana | Rotulado legal mandatorio en cada alerta emitida, ratificando jurídicamente que la potestad de evacuación y ejecución presupuestal recae exclusivamente en la autoridad humana. |
+| **OWASP Top 10 for LLM (2025)** | OWASP | Seguridad en Modelos de Lenguaje y Agentes IA | Defensas activas contra Inyección de Prompts (LLM01) y Divulgación de Datos Sensibles (LLM06) mediante sanitización estricta (`core/file_sanitizer.py`) y aislamiento de memoria. |
+| **ISO/IEC 27001:2022** | ISO / IEC | Seguridad de la Información y Continuidad Operativa | Resiliencia operativa fuera de línea (*Edge Resilience*) con buffer local (`core/edge_resilience.py`) ante colapso de redes satelitales o eléctricas durante el desastre. |
+
+---
+
 ## 🚀 Puesta en Marcha Rápida
 
 ### 1. Requisitos e Instalación

@@ -215,6 +215,25 @@ For the **AWS Agents for Humans Hackathon (Track: Good Neighbor Agents)**, AMARU
 
 ---
 
+## 🛡️ Compliance with International Standards (ISO, NIST, EU AI Act, WMO, OWASP, FIPS)
+
+AMARU is architected as an institutional-grade Decision Support System (TRL 7) adhering strictly to global frameworks across Artificial Intelligence, Disaster Risk Reduction, Cryptographic Integrity, and Cloud Security:
+
+| Standard / Framework | Issuing Body | Scope & Governance Domain | Implementation in AMARU |
+| :--- | :--- | :--- | :--- |
+| **EU AI Act (High-Risk AI)**<br>`Regulation (EU) 2024/1689` | European Union | AI in Critical Infrastructure & Disaster Management (Annex III, Point 2) | **Mandatory Human Oversight (Art. 14):** Non-autonomous DSS architecture; **Technical Robustness & Cybersecurity (Art. 15):** Deterministic algorithmic circuit breakers (`core/circuit_breaker.py`); **Transparency (Art. 13):** Explainable hydrodynamics (Manning equation) and thermal physics. |
+| **ISO/IEC 42001:2023** | ISO / IEC | Artificial Intelligence Management System (AIMS) | End-to-end data lifecycle traceability, continuous algorithmic risk auditing, and decoupled multi-agent governance in `core/orchestrator.py`. |
+| **NIST AI RMF 1.0**<br>`NIST SP 1270` | NIST (USA) | AI Risk Management Framework | Operationalized across **Govern** (Verified Allowlist in `core/registro_fuentes_validadas.py`), **Map** (Geodata for 1,891 FONDES districts), **Measure** (Saaty AHP consistency verification $CR \le 0.10$ in IRCE-FEN), and **Manage** (State machine anti-fatigue alerts in Telegram). |
+| **UN Sendai Framework (2015–2030)** | United Nations / UNDRR | Disaster Risk Reduction (Priority 4: Early Action) | Operationalizes the dual **Logistical Golden Windows**: November for river channel desilting (El Niño) and April for alpaca vaccination, forage, and PREVAED school thermal shielding (La Niña). |
+| **WMO-No. 558 & WMO-No. 49** | World Meteorological Organization (WMO) | Technical Regulations for Hydrological & Weather Services | Standardized quality control for hydrometric river gauge flows ($m^3/s$) and rainfall thresholds calibrated with ANA/SENAMHI and NOAA CPC. |
+| **FIPS 180-4** | NIST (USA) | Secure Hash Standard (SHA-256) | Tamper-proof cryptographic hashing of all pericial disaster records (`IPH-FEN`, `IRCE-FEN`, `ISH-CHIRI`) to ensure legal defensibility against public corruption audits. |
+| **IEEE 2418.1 / ISO 23258** | IEEE / ISO | Standards for Blockchain & DLT Oracles | secp256k1 ECDSA digital signatures in `core/climate_oracle_web3.py` and automated parametric disaster relief contracts in `contracts/ParametricClimateRelief.sol`. |
+| **Peru AI Law Nº 31814 & D.S. 085-2024-PCM** | Peruvian State | Artificial Intelligence & Human Sovereignty | Mandatory AI transparency disclosure on all dispatched alerts, legally ratifying that executive evacuation and budget disbursement powers remain solely with human authorities. |
+| **OWASP Top 10 for LLM (2025)** | OWASP | Security for LLM & Multi-Agent Systems | Active defenses against Prompt Injection (LLM01) and Sensitive Data Disclosure (LLM06) via strict payload sanitization (`core/file_sanitizer.py`) and memory boundary isolation. |
+| **ISO/IEC 27001:2022** | ISO / IEC | Information Security & Disaster Continuity | Air-gapped / off-grid disaster resilience buffering (`core/edge_resilience.py`) with local event queuing during extreme satellite or telecommunication blackouts. |
+
+---
+
 ## 🚀 Quickstart & Installation
 
 ### 1. Requirements & Setup
