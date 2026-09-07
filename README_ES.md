@@ -355,7 +355,7 @@ lab2/
 ---
 
 ## 📜 Licencia y Titularidad
-**Innovación Soberana y Propiedad Intelectual Exclusiva:** Desarrollado de forma autónoma e independiente como una iniciativa de tecnología e innovación privada por **MERCADOS PLAZA DEL PERU S.A.C.** y su arquitecto líder de software **Carlos Baños Díaz**, con el 100% de titularidad patrimonial privada y sin cargas, restricciones ni co-titularidades institucionales.
+**Innovación Soberana y Propiedad Intelectual Exclusiva:** Desarrollado de forma autónoma e independiente como una iniciativa de tecnología e innovación privada por **MERCADOS PLAZA DEL PERU S.A.C.** (donde su arquitecto líder de software **Carlos Baños Díaz** ostenta el 95% de participación social y control societario mayoritario), con capital 100% privado y sin cargas, restricciones ni co-titularidades institucionales.
 
 Los modelos metodológicos toman como referencia científica de dominio público las publicaciones del Instituto Geofísico del Perú (IGP), los reportes de la Comisión Multisectorial ENFEN, las directivas del Plan Multisectorial ante Heladas y Friaje (D.S. Nº 122-2024-PCM) y la doctrina internacional de Gobernanza Anticipatoria (CAF / WFP 2026).
 

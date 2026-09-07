@@ -342,7 +342,7 @@ amaru-climate/
 
 ## 📜 License & Ownership
 
-**Proprietary Innovation & Sovereign IP:** Developed independently as an autonomous climate technology venture by **MERCADOS PLAZA DEL PERU S.A.C.** and lead software architect **Carlos Baños Díaz**, with 100% private equity ownership and zero institutional encumbrances.
+**Proprietary Innovation & Sovereign IP:** Developed independently as an autonomous private climate technology venture by **MERCADOS PLAZA DEL PERU S.A.C.** (where lead software architect **Carlos Baños Díaz** holds 95% majority controlling equity) and zero institutional encumbrances.
 
 Methodological frameworks draw scientific inspiration from public domain research published by the Instituto Geofísico del Perú (IGP), official bulletins from the Multisectoral ENFEN Commission, the National Multi-Sectoral Frost and Freeze Plan (D.S. Nº 122-2024-PCM), and the global Anticipatory Governance doctrine (CAF / WFP 2026).
 
