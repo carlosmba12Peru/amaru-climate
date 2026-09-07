@@ -24,7 +24,7 @@ Centro de Operaciones Inteligente para la Acción Temprana, Resiliencia Hidrocli
 
 ## 🎯 Resumen Ejecutivo
 
-El **Sistema AMARU** es una plataforma científica y tecnológica de alta fidelidad (**TRL 7**) diseñada para transformar la gestión del riesgo de desastres en el Perú, transitando de un modelo reactivo e ineficiente a una **Gobernanza Anticipatoria (Marco CAF / PUCP 2026 / WFP AFCIA 2026)** basada en datos y agentes determinísticos de Inteligencia Artificial.
+El **Sistema AMARU** es una plataforma científica y tecnológica de alta fidelidad (**TRL 7**) diseñada para transformar la gestión del riesgo de desastres en el Perú, transitando de un modelo reactivo e ineficiente a una **Gobernanza y Acción Anticipatoria (Marco de Sendai / CAF)** basada en datos y agentes determinísticos de Inteligencia Artificial.
 
 El sistema implementa una **arquitectura dual desacoplada** que cubre los dos extremos climáticos críticos del territorio peruano:
 
@@ -357,6 +357,6 @@ lab2/
 ## 📜 Licencia y Titularidad
 **Innovación Soberana y Propiedad Intelectual Exclusiva:** Desarrollado de forma autónoma e independiente como una iniciativa de tecnología e innovación privada por **MERCADOS PLAZA DEL PERU S.A.C.** (donde su arquitecto líder de software **Carlos Baños Díaz** ostenta el 95% de participación social y control societario mayoritario), con capital 100% privado y sin cargas, restricciones ni co-titularidades institucionales.
 
-Los modelos metodológicos toman como referencia científica de dominio público las publicaciones del Instituto Geofísico del Perú (IGP), los reportes de la Comisión Multisectorial ENFEN, las directivas del Plan Multisectorial ante Heladas y Friaje (D.S. Nº 122-2024-PCM) y la doctrina internacional de Gobernanza Anticipatoria (CAF / WFP 2026).
+Los modelos metodológicos toman como referencia científica de dominio público las publicaciones del Instituto Geofísico del Perú (IGP), los reportes de la Comisión Multisectorial ENFEN, las directivas del Plan Multisectorial ante Heladas y Friaje (D.S. Nº 122-2024-PCM) y la doctrina internacional de Acción Anticipatoria (Marco de Sendai / CAF).
 
 Distribuido bajo Licencia **Apache, Versión 2.0**.

@@ -23,7 +23,7 @@ Intelligent Operations Center for Early Action, Hydroclimatic & Cryoclimatic Res
 
 ## 🎯 Executive Summary
 
-The **AMARU System** is a high-fidelity scientific and technological platform (**TRL 7**) engineered to transform disaster risk management across Peru and Latin America, transitioning from an inefficient, reactive post-disaster model to an **Anticipatory Governance Framework (CAF / PUCP 2026 / WFP AFCIA 2026)** driven by physical hydrodynamic models and deterministic Artificial Intelligence multi-agent swarms.
+The **AMARU System** is a high-fidelity scientific and technological platform (**TRL 7**) engineered to transform disaster risk management across Peru and Latin America, transitioning from an inefficient, reactive post-disaster model to an **Anticipatory Action & Disaster Risk Governance Framework (UN Sendai Framework / CAF)** driven by physical hydrodynamic models and deterministic Artificial Intelligence multi-agent swarms.
 
 The platform implements a **dual decoupled architecture** addressing both critical extremes of the ENSO (El Niño-Southern Oscillation) cycle:
 
@@ -344,6 +344,6 @@ amaru-climate/
 
 **Proprietary Innovation & Sovereign IP:** Developed independently as an autonomous private climate technology venture by **MERCADOS PLAZA DEL PERU S.A.C.** (where lead software architect **Carlos Baños Díaz** holds 95% majority controlling equity) and zero institutional encumbrances.
 
-Methodological frameworks draw scientific inspiration from public domain research published by the Instituto Geofísico del Perú (IGP), official bulletins from the Multisectoral ENFEN Commission, the National Multi-Sectoral Frost and Freeze Plan (D.S. Nº 122-2024-PCM), and the global Anticipatory Governance doctrine (CAF / WFP 2026).
+Methodological frameworks draw scientific inspiration from public domain research published by the Instituto Geofísico del Perú (IGP), official bulletins from the Multisectoral ENFEN Commission, the National Multi-Sectoral Frost and Freeze Plan (D.S. Nº 122-2024-PCM), and international Anticipatory Action standards (UN Sendai Framework / CAF).
 
 Licensed under the **Apache License, Version 2.0**.
