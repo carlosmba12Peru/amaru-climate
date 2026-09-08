@@ -13,6 +13,7 @@ import json
 from datetime import datetime
 
 from core.orchestrator import AmaruOrchestrator
+from agents.agente_memoria_historica import AgenteMemoriaHistorica
 from core.motor_chat_soberano import motor_chat_soberano
 
 try:
@@ -298,9 +299,9 @@ with st.sidebar:
     
     col_btn_sync1, col_btn_sync2 = st.columns(2)
     with col_btn_sync1:
-        btn_sync_nacional = st.button("🇵🇪 Nacionales", help="Sincroniza SENAMHI, ENFEN y Red de Aforos ANA", use_container_width=True)
+        btn_sync_nacional = st.button("🇵🇪 Nacionales", help="Sincroniza SENAMHI, ENFEN y Red de Aforos ANA", width='stretch')
     with col_btn_sync2:
-        btn_sync_global = st.button("🌐 Global Total", help="Sincroniza Nacionales + NOAA CPC + IRI Columbia + El Niño Live + Open-Meteo", use_container_width=True, type="primary")
+        btn_sync_global = st.button("🌐 Global Total", help="Sincroniza Nacionales + NOAA CPC + IRI Columbia + El Niño Live + Open-Meteo", width='stretch', type="primary")
 
     if btn_sync_nacional or btn_sync_global:
         es_global = bool(btn_sync_global)
@@ -539,10 +540,20 @@ with tab_dash:
     # 1. Banners de Estado Operativo y Nivel de Amenaza
     col_c1, col_c2, col_c3 = st.columns([1.5, 1, 1])
     with col_c1:
-        st.markdown("""
+        if "enfen_fecha" not in st.session_state:
+            agente = AgenteMemoriaHistorica()
+            fecha_raw = agente.consultar_informe_enfen_n15_agosto_2026().get("fecha_emision", "2026-08-26")
+            try:
+                fecha_dt = datetime.strptime(fecha_raw, "%Y-%m-%d")
+                st.session_state["enfen_fecha"] = fecha_dt.strftime("%d/%m/%Y")
+            except Exception:
+                st.session_state["enfen_fecha"] = fecha_raw
+        enfen_fecha = st.session_state["enfen_fecha"]
+        st.markdown(f"""
         <div style="background: linear-gradient(90deg, #b7094c 0%, #720026 100%); padding: 15px; border-radius: 8px; color: white;">
             <h4 style="margin:0;">🚨 NIVEL DE ALERTA NACIONAL: ROJO CRÍTICO (ENFEN Nº 15)</h4>
             <p style="margin:5px 0 0 0; font-size:14px;">Anomalía térmica costera +1.8 °C | Probabilidad NOAA récord 69% | 893 distritos en emergencia</p>
+            <p style="margin:2px 0 0 0; font-size:10px; opacity:0.8;">Fecha de emisión: {enfen_fecha}</p>
         </div>
         """, unsafe_allow_html=True)
     with col_c2:
@@ -602,12 +613,12 @@ with tab_dash:
             <div style="font-size: 10px; font-weight: 800; color: #38bdf8; letter-spacing: 1px; margin-bottom: 6px;">GRILLA SALA DE CRISIS</div>
         """, unsafe_allow_html=True)
         if reloj_toda_pantalla:
-            if st.button("🗗 CLOSE FULLSCREEN", key="btn_grid_fs_reloj", use_container_width=True, help="Cerrar vista a toda la pantalla y retornar al panel C2"):
+            if st.button("🗗 CLOSE FULLSCREEN", key="btn_grid_fs_reloj", width='stretch', help="Cerrar vista a toda la pantalla y retornar al panel C2"):
                 st.session_state["reloj_toda_pantalla"] = False
                 st.rerun()
             st.markdown("<div style='font-size: 11px; color: #00f5d4; font-weight: 700; margin-top: 4px;'>🟢 TODA PANTALLA ACTIVA</div>", unsafe_allow_html=True)
         else:
-            if st.button("▦ FULLSCREEN", key="btn_grid_fs_reloj", use_container_width=True, help="Agrandar a toda la pantalla para videowall o sala de situación"):
+            if st.button("▦ FULLSCREEN", key="btn_grid_fs_reloj", width='stretch', help="Agrandar a toda la pantalla para videowall o sala de situación"):
                 st.session_state["reloj_toda_pantalla"] = True
                 st.rerun()
             st.markdown("<div style='font-size: 11px; color: #94a3b8; font-weight: 600; margin-top: 4px;'>⊞ Grilla Toda Pantalla</div>", unsafe_allow_html=True)
@@ -790,7 +801,7 @@ with tab_dash:
         with c_clock_main:
             svg_code_fs = motor_reloj.generar_svg_reloj(modelo_reloj_actual, ancho=800, alto=800)
             html_fs = envolver_reloj_fullscreen_html(svg_code_fs)
-            st.components.v1.html(html_fs, height=840, scrolling=False)
+            st.iframe(html_fs, height=840)
 
         # 4 Tarjetas Métricas Tácticas Horizontales de Sala de Crisis
         k_rel1, k_rel2, k_rel3, k_rel4 = st.columns(4)
@@ -807,7 +818,7 @@ with tab_dash:
                     data=pdf_bytes_rel,
                     file_name="reloj_del_fen_modelo_matematico_y_analogos.pdf",
                     mime="application/pdf",
-                    use_container_width=True,
+                    width='stretch',
                     key="btn_descarga_reloj_pdf_fs"
                 )
         with c_rel_d2:
@@ -817,7 +828,7 @@ with tab_dash:
                     data=pdf_bytes_disp,
                     file_name="analisis_comparativo_probabilidades_amaru_vs_enfen_wmo.pdf",
                     mime="application/pdf",
-                    use_container_width=True,
+                    width='stretch',
                     key="btn_descarga_disp_pdf_fs"
                 )
 
@@ -891,7 +902,7 @@ with tab_dash:
                         data=pdf_bytes_rel,
                         file_name="reloj_del_fen_modelo_matematico_y_analogos.pdf",
                         mime="application/pdf",
-                        use_container_width=True,
+                        width='stretch',
                         key="btn_descarga_reloj_pdf"
                     )
             with c_std_d2:
@@ -901,14 +912,14 @@ with tab_dash:
                         data=pdf_bytes_disp,
                         file_name="analisis_comparativo_probabilidades_amaru_vs_enfen_wmo.pdf",
                         mime="application/pdf",
-                        use_container_width=True,
+                        width='stretch',
                         key="btn_descarga_disp_pdf"
                     )
 
         with col_reloj_viz:
             svg_code = motor_reloj.generar_svg_reloj(modelo_reloj_actual, ancho=540, alto=540)
             html_viz = envolver_reloj_fullscreen_html(svg_code)
-            st.components.v1.html(html_viz, height=580, scrolling=False)
+            st.iframe(html_viz, height=580)
 
     st.markdown("---")
 
@@ -942,46 +953,46 @@ with tab_dash:
         
         if rol_tag == "ciudadano":
             cp1, cp2 = st.columns(2)
-            if cp1.button("📍 Soy de Catacaos, ¿qué información tienes?", key="btn_c1_dash", use_container_width=True):
+            if cp1.button("📍 Soy de Catacaos, ¿qué información tienes?", key="btn_c1_dash", width='stretch'):
                 prompt_dash_click = "Soy de Catacaos, qué información tienes para mí"
-            if cp2.button("🏃‍♂️ ¿Hacia dónde evacuar en mi zona?", key="btn_c2_dash", use_container_width=True):
+            if cp2.button("🏃‍♂️ ¿Hacia dónde evacuar en mi zona?", key="btn_c2_dash", width='stretch'):
                 prompt_dash_click = "Hacia dónde debo evacuar si sube el río en mi distrito"
-            if cp1.button("🎒 ¿Qué debe llevar mi mochila de emergencia?", key="btn_c3_dash", use_container_width=True):
+            if cp1.button("🎒 ¿Qué debe llevar mi mochila de emergencia?", key="btn_c3_dash", width='stretch'):
                 prompt_dash_click = "Qué debe tener mi mochila de emergencia para El Niño"
-            if cp2.button("🐾 ¿Cómo protejo a mis animales y enseres?", key="btn_c4_dash", use_container_width=True):
+            if cp2.button("🐾 ¿Cómo protejo a mis animales y enseres?", key="btn_c4_dash", width='stretch'):
                 prompt_dash_click = "Cómo protejo a mis animales y enseres antes de la lluvia"
 
         elif rol_tag == "alcalde":
             cp1, cp2 = st.columns(2)
-            if cp1.button("🚜 ¿Cómo contrato maquinaria bajo D.S. 124?", key="btn_a1_dash", use_container_width=True):
+            if cp1.button("🚜 ¿Cómo contrato maquinaria bajo D.S. 124?", key="btn_a1_dash", width='stretch'):
                 prompt_dash_click = "Como alcalde, cómo contrato maquinaria pesada en 24h bajo el D.S. 124-2026-PCM sin riesgo de Contraloría"
-            if cp2.button("🚨 Caudal crítico y diques en Catacaos", key="btn_a2_dash", use_container_width=True):
+            if cp2.button("🚨 Caudal crítico y diques en Catacaos", key="btn_a2_dash", width='stretch'):
                 prompt_dash_click = "Cuáles son los puntos críticos y diques en riesgo en Catacaos UBIGEO 200105"
-            if cp1.button("📋 Pre-redactar borrador de Ficha EDAN", key="btn_a3_dash", use_container_width=True):
+            if cp1.button("📋 Pre-redactar borrador de Ficha EDAN", key="btn_a3_dash", width='stretch'):
                 prompt_dash_click = "Generar pre-borrador de Ficha EDAN para Catacaos"
-            if cp2.button("🛡️ Blindaje legal y PP 0068", key="btn_a4_dash", use_container_width=True):
+            if cp2.button("🛡️ Blindaje legal y PP 0068", key="btn_a4_dash", width='stretch'):
                 prompt_dash_click = "Qué informe pericial necesito para blindarme ante Contraloría con el PP 0068"
 
         elif rol_tag == "tecnico":
             cp1, cp2 = st.columns(2)
-            if cp1.button("📐 Desglose Saaty AHP (CR <= 0.10)", key="btn_t1_dash", use_container_width=True):
+            if cp1.button("📐 Desglose Saaty AHP (CR <= 0.10)", key="btn_t1_dash", width='stretch'):
                 prompt_dash_click = "Explícame la fórmula del IRCE-FEN y por qué la matriz Saaty tiene consistencia CR menor a 0.10"
-            if cp2.button("🌊 Sustento del IPH y 7 Huaicos Trujillo", key="btn_t2_dash", use_container_width=True):
+            if cp2.button("🌊 Sustento del IPH y 7 Huaicos Trujillo", key="btn_t2_dash", width='stretch'):
                 prompt_dash_click = "Por qué AMARU-FEN usa un IPH en lugar de solo mirar la lluvia de hoy y qué es la histéresis"
-            if cp1.button("📊 Resultados del Backtesting (96.2%)", key="btn_t3_dash", use_container_width=True):
+            if cp1.button("📊 Resultados del Backtesting (96.2%)", key="btn_t3_dash", width='stretch'):
                 prompt_dash_click = "Por qué la probabilidad de éxito en el backtesting va del 94.2 al 98.4 y qué significa el 96.2"
-            if cp2.button("⛰️ Quebradas Críticas Reincidentes", key="btn_t4_dash", use_container_width=True):
+            if cp2.button("⛰️ Quebradas Críticas Reincidentes", key="btn_t4_dash", width='stretch'):
                 prompt_dash_click = "Cuáles son las quebradas críticas de mayor riesgo y qué umbrales tienen"
 
         else: # periodista
             cp1, cp2 = st.columns(2)
-            if cp1.button("📰 Resumen para Nota de Prensa", key="btn_p1_dash", use_container_width=True):
+            if cp1.button("📰 Resumen para Nota de Prensa", key="btn_p1_dash", width='stretch'):
                 prompt_dash_click = "Para nota de prensa sobre Catacaos, qué información oficial verificada se tiene"
-            if cp2.button("🛑 Verificación: ¿Colapsará presa Poechos?", key="btn_p2_dash", use_container_width=True):
+            if cp2.button("🛑 Verificación: ¿Colapsará presa Poechos?", key="btn_p2_dash", width='stretch'):
                 prompt_dash_click = "Es verdad el rumor de que la represa de Poechos va a colapsar"
-            if cp1.button("📊 Cifras Oficiales D.S. 124-2026-PCM", key="btn_p3_dash", use_container_width=True):
+            if cp1.button("📊 Cifras Oficiales D.S. 124-2026-PCM", key="btn_p3_dash", width='stretch'):
                 prompt_dash_click = "Cuáles son las cifras oficiales de los 893 distritos en emergencia bajo D.S. 124-2026-PCM"
-            if cp2.button("🛡️ Fuentes Oficiales Homologadas Tier 1", key="btn_p4_dash", use_container_width=True):
+            if cp2.button("🛡️ Fuentes Oficiales Homologadas Tier 1", key="btn_p4_dash", width='stretch'):
                 prompt_dash_click = "Cuáles son las fuentes autorizadas y qué significa el Tier 1 en AMARU-FEN"
 
         cq_txt, cq_btn = st.columns([3.5, 1])
@@ -994,7 +1005,7 @@ with tab_dash:
                 label_visibility="collapsed"
             )
         with cq_btn:
-            btn_sub_dash = st.button("🚀 Consultar", key="btn_exec_dash", type="primary", use_container_width=True)
+            btn_sub_dash = st.button("🚀 Consultar", key="btn_exec_dash", type="primary", width='stretch')
 
     query_a_procesar = prompt_dash_click or (txt_in_dash if btn_sub_dash and txt_in_dash else None)
     if query_a_procesar:
@@ -1141,7 +1152,7 @@ with tab_dash:
             {"Macrorregión": "Centro (Lima Provincias / Chosica)", "Amenaza Dominante": "Huaicos en quebradas Quirio y Huaycoloro", "Semáforo": "🟠 NARANJA", "Acción Prioritaria": "Despeje de mallas geodinámicas y alerta Carretera Central"},
             {"Macrorregión": "Sur (Ica / Arequipa Costera)", "Amenaza Dominante": "Avenidas súbitas en Río Ica y quebradas de Chala", "Semáforo": "🟡 AMARILLO", "Acción Prioritaria": "Apertura de compuertas en Bocatoma Socorro"}
         ]
-        st.dataframe(pd.DataFrame(matriz_macro), hide_index=True, use_container_width=True)
+        st.dataframe(pd.DataFrame(matriz_macro), hide_index=True, width='stretch')
 
     with col_dec:
         st.markdown("#### ⚖️ Decisiones de Autoridad Humana (Ley Nº 31814)")
@@ -1178,37 +1189,37 @@ with tab_c2:
     with st.expander("⚡ Panel de Directivas Rápidas de 1-Clic (Macros Tácticos)", expanded=True):
         st.markdown("**🚨 Despachos de Alerta Táctica a Jefes de Defensa Civil (SINAGERD):**")
         col_m1, col_m2, col_m3, col_m4, col_m5 = st.columns(5)
-        if col_m1.button("🚨 Alerta Chincha (Sintético)", use_container_width=True, help="Dispara dossier completo a carlosedubanos@gmail.com"):
+        if col_m1.button("🚨 Alerta Chincha (Sintético)", width='stretch', help="Dispara dossier completo a carlosedubanos@gmail.com"):
             cmd_ejecutar = "alerta 110206-SIM"
-        if col_m2.button("📱 Telegram Chincha", use_container_width=True, help="Genera reporte corto optimizado para smartphone/móvil"):
+        if col_m2.button("📱 Telegram Chincha", width='stretch', help="Genera reporte corto optimizado para smartphone/móvil"):
             cmd_ejecutar = "telegram 110206-SIM"
-        if col_m3.button("🏛️ Alerta Chincha (Portal)", use_container_width=True, help="Dossier oficial de la Municipalidad de Pueblo Nuevo Chincha"):
+        if col_m3.button("🏛️ Alerta Chincha (Portal)", width='stretch', help="Dossier oficial de la Municipalidad de Pueblo Nuevo Chincha"):
             cmd_ejecutar = "alerta 110206"
-        if col_m4.button("🌊 Alerta Catacaos", use_container_width=True, help="Alerta para el distrito de Catacaos (Piura)"):
+        if col_m4.button("🌊 Alerta Catacaos", width='stretch', help="Alerta para el distrito de Catacaos (Piura)"):
             cmd_ejecutar = "alerta 200105"
-        if col_m5.button("⚠️ Alerta Chosica", use_container_width=True, help="Alerta para Lurigancho-Chosica (Lima)"):
+        if col_m5.button("⚠️ Alerta Chosica", width='stretch', help="Alerta para Lurigancho-Chosica (Lima)"):
             cmd_ejecutar = "alerta 150118"
 
         st.markdown("**📊 Telemetría, Monitoreo de Caudales & Gobernanza Anticipada:**")
         col_t1, col_t2, col_t3, col_t4 = st.columns(4)
-        if col_t1.button("📡 Status C2", use_container_width=True, help="Diagnóstico integral de enlaces y sincronización"):
+        if col_t1.button("📡 Status C2", width='stretch', help="Diagnóstico integral de enlaces y sincronización"):
             cmd_ejecutar = "status"
-        if col_t2.button("💧 Red Aforo ANA", use_container_width=True, help="Caudales en tiempo real y umbrales de desborde"):
+        if col_t2.button("💧 Red Aforo ANA", width='stretch', help="Caudales en tiempo real y umbrales de desborde"):
             cmd_ejecutar = "aforo"
-        if col_t3.button("🎯 IRCE Catacaos", use_container_width=True, help="Cálculo del Índice de Riesgo Compuesto en Catacaos"):
+        if col_t3.button("🎯 IRCE Catacaos", width='stretch', help="Cálculo del Índice de Riesgo Compuesto en Catacaos"):
             cmd_ejecutar = "irce CATACAOS"
-        if col_t4.button("🛡️ Auditar LPDP", use_container_width=True, help="Auditoría de protección de datos personales Ley 29733"):
+        if col_t4.button("🛡️ Auditar LPDP", width='stretch', help="Auditoría de protección de datos personales Ley 29733"):
             cmd_ejecutar = "lpdp"
 
         st.markdown("**🌐 Auditoría Pública y Verificación de Fuentes Oficiales (Ley 31814):**")
         col_a1, col_a2, col_a3, col_a4 = st.columns(4)
-        if col_a1.button("🌐 Fuentes Validadas", use_container_width=True, help="Listado exhaustivo de fuentes y enlaces de verificación"):
+        if col_a1.button("🌐 Fuentes Validadas", width='stretch', help="Listado exhaustivo de fuentes y enlaces de verificación"):
             cmd_ejecutar = "fuentes"
-        if col_a2.button("🛡️ Auditar Cadena C2", use_container_width=True, help="Auditoría criptográfica, hashes y firmas secp256k1"):
+        if col_a2.button("🛡️ Auditar Cadena C2", width='stretch', help="Auditoría criptográfica, hashes y firmas secp256k1"):
             cmd_ejecutar = "auditoria"
-        if col_a3.button("⚖️ Soberanía Humana", use_container_width=True, help="Marco legal vinculante Ley 31814"):
+        if col_a3.button("⚖️ Soberanía Humana", width='stretch', help="Marco legal vinculante Ley 31814"):
             cmd_ejecutar = "soberania"
-        if col_a4.button("🔌 Conmutar Edge Offgrid", use_container_width=True, help="Simular corte de satélite y conmutar a SLM Local Edge"):
+        if col_a4.button("🔌 Conmutar Edge Offgrid", width='stretch', help="Simular corte de satélite y conmutar a SLM Local Edge"):
             cmd_ejecutar = "offgrid offline"
 
     # 3. Terminal CLI Interactivo
@@ -1222,9 +1233,9 @@ with tab_c2:
             label_visibility="collapsed"
         )
     with c_cmd2:
-        btn_run_cmd = st.button("▶️ Ejecutar Directiva", type="primary", use_container_width=True)
+        btn_run_cmd = st.button("▶️ Ejecutar Directiva", type="primary", width='stretch')
     with c_cmd3:
-        btn_limpiar_buffer = st.button("🗑️ Limpiar", use_container_width=True)
+        btn_limpiar_buffer = st.button("🗑️ Limpiar", width='stretch')
 
     if btn_limpiar_buffer:
         st.session_state["historial_consola_c2"] = []
@@ -1290,7 +1301,7 @@ with tab_c2:
             data=texto_export,
             file_name=f"bitacora_c2_amaru_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt",
             mime="text/plain",
-            use_container_width=True
+            width='stretch'
         )
 
     # 6. Directorio Visual de Fuentes Oficiales y Enlaces de Auditoría Pública
@@ -1318,23 +1329,23 @@ with tab_c2:
                 """)
                 c_btn_s1, c_btn_s2 = st.columns(2)
                 with c_btn_s1:
-                    st.link_button("🚨 Avisos Meteorológicos", "https://www.senamhi.gob.pe/?p=aviso-meteorologico", use_container_width=True)
+                    st.link_button("🚨 Avisos Meteorológicos", "https://www.senamhi.gob.pe/?p=aviso-meteorologico", width='stretch')
                 with c_btn_s2:
-                    st.link_button("🛰️ Portal Satelital", "https://www.senamhi.gob.pe/?p=satelite", use_container_width=True)
+                    st.link_button("🛰️ Portal Satelital", "https://www.senamhi.gob.pe/?p=satelite", width='stretch')
 
                 st.markdown("""
                 ##### 2. 🌊 ENFEN (Comisión Multisectorial El Niño)
                 * **Rol:** Diagnóstico colegiado soberano, Informes Técnicos y anomalías TSM Niño 1+2 / 3.4.
                 * **Estado:** `🟢 VALIDADA / INFORME TÉCNICO VIGENTE`
                 """)
-                st.link_button("📄 Portal Oficial ENFEN", "https://enfen.gob.pe/", use_container_width=True)
+                st.link_button("📄 Portal Oficial ENFEN", "https://enfen.gob.pe/", width='stretch')
 
                 st.markdown("""
                 ##### 3. 💧 ANA (Autoridad Nacional del Agua - MIDAGRI)
                 * **Rol:** Red hidrométrica de aforo de ríos, umbrales de desborde y unidades Pfafstetter.
                 * **Estado:** `🟢 VALIDADA / RED SNIRH EN LÍNEA`
                 """)
-                st.link_button("🌊 Sistema SNIRH - Aforos Fluviales", "https://snirh.ana.gob.pe/", use_container_width=True)
+                st.link_button("🌊 Sistema SNIRH - Aforos Fluviales", "https://snirh.ana.gob.pe/", width='stretch')
 
             with c_f2:
                 st.markdown("""
@@ -1342,7 +1353,7 @@ with tab_c2:
                 * **Rol:** Cálculo y archivo histórico oficial del ICEN (Índice Costero El Niño) desde 1950.
                 * **Estado:** `🟢 VALIDADA / DATOS CRUDOS AUDITABLES`
                 """)
-                st.link_button("📊 Datos Crudos ICEN (.txt)", "http://met.igp.gob.pe/datos/ICEN.txt", use_container_width=True)
+                st.link_button("📊 Datos Crudos ICEN (.txt)", "http://met.igp.gob.pe/datos/ICEN.txt", width='stretch')
 
                 st.markdown("""
                 ##### 5. 📋 INDECI / SINPAD / COEN
@@ -1351,7 +1362,7 @@ with tab_c2:
                 """)
                 c_btn_i1, c_btn_i2 = st.columns(2)
                 with c_btn_i1:
-                    st.link_button("📋 Portal SINPAD", "https://sinpad.indeci.gob.pe/", use_container_width=True)
+                    st.link_button("📋 Portal SINPAD", "https://sinpad.indeci.gob.pe/", width='stretch')
                 with c_btn_i2:
                     st.link_button("🚨 Sala COEN", "https://coen.indeci.gob.pe/", use_container_width=True)
 
@@ -2156,6 +2167,19 @@ with tab1:
         st.markdown("##### 🇵🇪 Mapa 1: Situación Oficial Nacional & Fajas Marginales Fluviales")
         st.caption("Semáforo oficial de riesgo compuesto IRCE-FEN para los 893 distritos del DS 124-2026-PCM, estaciones hidrométricas de aforo ANA y calor del litoral costero Niño 1+2.")
         
+        # Opciones de visualización de capas
+        show_estaciones_ana = st.checkbox("📊 Estaciones de Aforo ANA", value=True, key="show_ana")
+        show_calor_mar = st.checkbox("🌊 Calor del Mar (Niño 1+2)", value=True, key="show_mar")
+        show_avisos_senamhi = st.checkbox("⚡ Avisos y alertas SENAMHI", value=False, key="show_senamhi")
+        show_imarpe = st.checkbox("🛰️ Datos IMARPE (Satélite)", value=False, key="show_imarpe")
+        # Enlaces rápidos a fuentes de datos
+        col_src1, col_src2, col_src3 = st.columns(3)
+        with col_src1:
+            st.link_button("📡 Ver datos SENAMHI", "https://www.senamhi.gob.pe/")
+        with col_src2:
+            st.link_button("🛰️ Ver datos IMARPE", "https://www.imarpe.pe/")
+        with col_src3:
+            st.link_button("🚰 Ver estaciones ANA", "https://www.ana.gob.pe/")
         nodos_m1 = []
         for u in ubigeos_filtrados:
             score_val = u.get("score_irce", 0.0)
@@ -2170,22 +2194,23 @@ with tab1:
                 "radius": radios_alerta_map.get(u.get("nivel_alerta"), 5000)
             })
 
-        # Estaciones Fluviales
-        estaciones_data = orchestrator.consultar_estaciones_aforo()
-        for e in estaciones_data:
-            q_act = e.get("caudal_simulado_actual_m3s", e.get("caudal_normal_m3s", 0.0))
-            desborde = q_act >= e.get("umbral_rojo_desborde_m3s", 999999)
-            col_est = [230, 57, 70, 255] if desborde else [30, 144, 255, 220]
-            nom_est = e.get("nombre", e.get("estacion", "Estación Fluvial"))
-            nodos_m1.append({
-                "nombre": f"Estación Fluvial {nom_est} ({e.get('rio', 'Río')})",
-                "lat": e["latitud"],
-                "lon": e["longitud"],
-                "estado": "DESBORDE FLUVIAL 🔴" if desborde else "AFORO REGULAR 🔵",
-                "info": f"Caudal Instantáneo: {q_act:,.0f} m³/s | Límite: {e.get('umbral_rojo_desborde_m3s', 0):,} m³/s",
-                "color": col_est,
-                "radius": 15000
-            })
+        if show_estaciones_ana:
+            # Estaciones Fluviales (ANA)
+            estaciones_data = orchestrator.consultar_estaciones_aforo()
+            for e in estaciones_data:
+                q_act = e.get("caudal_simulado_actual_m3s", e.get("caudal_normal_m3s", 0.0))
+                desborde = q_act >= e.get("umbral_rojo_desborde_m3s", 999999)
+                col_est = [230, 57, 70, 255] if desborde else [30, 144, 255, 220]
+                nom_est = e.get("nombre", e.get("estacion", "Estación Fluvial"))
+                nodos_m1.append({
+                    "nombre": f"Estación Fluvial {nom_est} ({e.get('rio', 'Río')})",
+                    "lat": e["latitud"],
+                    "lon": e["longitud"],
+                    "estado": "DESBORDE FLUVIAL 🔴" if desborde else "AFORO REGULAR 🔵",
+                    "info": f"Caudal Instantáneo: {q_act:,.0f} m³/s | Límite: {e.get('umbral_rojo_desborde_m3s', 0):,} m³/s",
+                    "color": col_est,
+                    "radius": 15000
+                })
 
         if ver_mar_capa:
             nodos_m1.extend(generar_malla_termica_mar_peruano(tsm_anomalia))
@@ -3524,7 +3549,7 @@ with tab3:
             with tab_mail_full:
                 st.markdown(f"**Asunto Oficial:** `{desp['asunto']}`")
                 st.markdown(f"**Destinatario Oficial:** `{desp['destinatario_correo']}`")
-                st.components.v1.html(desp["cuerpo_html"], height=480, scrolling=True)
+                st.iframe(desp["cuerpo_html"], height=480)
                 with st.expander("📄 Ver Texto Plano Oficial (para expediente administrativo)"):
                     st.code(desp["cuerpo_texto"], language="text")
 

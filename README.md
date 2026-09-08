@@ -347,7 +347,7 @@ python -m pytest tests/test_blindaje_criptografico_iph_fen.py tests/test_blockch
 amaru-climate/
 ├── agents/                           # Specialized Autonomous Multi-Agent Swarm
 │   ├── agente_memoria_historica.py   # Historical memory: FEN 1998, 2017, ENFEN Nº 15, SENAMHI 97-98 & IGP
-│   ├── agente_legal_normativo.py     # Legal compliance: 1,891 FONDES districts, 893 DS 124 & Law 31814
+│   ├── agente_legal_normativo.py     # Legal advisor: manages extraordinary legal norms (decrees, laws) for FEN, 1,891 FONDES districts, 893 DS 124 districts and Law 31814
 │   ├── agente_senamhi.py             # Meteorological sentry, warnings & 24h flash flood telemetry
 │   ├── agente_georriesgo.py          # Georisk, SHA-256 locked IPH-FEN, Manning & alluvial cones
 │   ├── agente_vigia_osint.py         # OSINT citizen monitoring across live streams & community radio

@@ -335,12 +335,12 @@ class MotorRelojFEN:
             d = f"M {x1_out:.2f} {y1_out:.2f} A {r_arco+16} {r_arco+16} 0 0 1 {x2_out:.2f} {y2_out:.2f} L {x2_in:.2f} {y2_in:.2f} A {r_interno} {r_interno} 0 0 0 {x1_in:.2f} {y1_in:.2f} Z"
             paths_arco.append(f'<path d="{d}" fill="{color}" fill-opacity="{opac}" stroke="#1e293b" stroke-width="0.8" />')
 
-        # Sector Especial: Ventana de Oro Logística FEN (Noviembre: 300.0° a 359.5°)
+        # Sector Especial: Ventana de Oro Logística FEN (Noviembre: 330.0° a 359.5°)
         # La única ventana física de estiaje para descolmatación antes de las crecidas de diciembre
-        x1_oro_fen, y1_oro_fen = polar_to_cartesian(r_arco + 16, 300.0)
+        x1_oro_fen, y1_oro_fen = polar_to_cartesian(r_arco + 16, 330.0)
         x2_oro_fen, y2_oro_fen = polar_to_cartesian(r_arco + 16, 359.5)
         x2_oro_fen_in, y2_oro_fen_in = polar_to_cartesian(r_interno, 359.5)
-        x1_oro_fen_in, y1_oro_fen_in = polar_to_cartesian(r_interno, 300.0)
+        x1_oro_fen_in, y1_oro_fen_in = polar_to_cartesian(r_interno, 330.0)
         path_arco_oro_fen = (
             f"M {x1_oro_fen:.2f} {y1_oro_fen:.2f} "
             f"A {r_arco+16} {r_arco+16} 0 0 1 {x2_oro_fen:.2f} {y2_oro_fen:.2f} "
@@ -348,7 +348,7 @@ class MotorRelojFEN:
             f"A {r_interno} {r_interno} 0 0 0 {x1_oro_fen_in:.2f} {y1_oro_fen_in:.2f} Z"
         )
         r_oro_fen_mid = (r_arco + 16 + r_interno) / 2
-        x1_oro_fen_t, y1_oro_fen_t = polar_to_cartesian(r_oro_fen_mid, 302.0)
+        x1_oro_fen_t, y1_oro_fen_t = polar_to_cartesian(r_oro_fen_mid, 300.0)
         x2_oro_fen_t, y2_oro_fen_t = polar_to_cartesian(r_oro_fen_mid, 357.0)
         path_track_oro_fen = f"M {x1_oro_fen_t:.2f} {y1_oro_fen_t:.2f} A {r_oro_fen_mid:.2f} {r_oro_fen_mid:.2f} 0 0 1 {x2_oro_fen_t:.2f} {y2_oro_fen_t:.2f}"
 
@@ -603,7 +603,7 @@ class MotorRelojFEN:
             <!-- SECTOR VENTANA DE ORO LOGÍSTICA FEN (NOVIEMBRE) -->
             <path d="{path_arco_oro_fen}" fill="#10b981" fill-opacity="0.50" stroke="#4ade80" stroke-width="1.5" filter="url(#glow-green)" />
             <text fill="#dcfce7" font-size="7.5" font-weight="bold" font-family="system-ui, sans-serif" letter-spacing="0.5">
-                <textPath href="#track-oro-nov" xlink:href="#track-oro-nov" startOffset="50%" text-anchor="middle">★ VENTANA DE ORO (NOVIEMBRE) ★</textPath>
+                <textPath href="#track-oro-nov" xlink:href="#track-oro-nov" startOffset="50%" text-anchor="middle">Ventana de Oro (Noviembre)</textPath>
             </text>
 
             <!-- Zona Roja Variopinta de Amenaza FEN con Gradiente Dinámico -->

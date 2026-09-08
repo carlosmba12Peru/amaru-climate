@@ -20,7 +20,16 @@ import pandas as pd
 import json
 from datetime import datetime
 
-from core.reloj_nina import MotorRelojNina, ModeloRelojNina
+try:
+    from core.reloj_nina import MotorRelojNina, ModeloRelojNina
+except Exception:
+    import importlib, sys
+    spec = importlib.util.spec_from_file_location('core.reloj_nina', str(root_dir / 'core' / 'reloj_nina.py'))
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    MotorRelojNina = mod.MotorRelojNina
+    ModeloRelojNina = mod.ModeloRelojNina
+    sys.modules['core.reloj_nina'] = mod
 from agents.agente_crioclimatico_nina import AgenteCrioclimaticoNina, ResumenEvaluacionChiri
 
 st.set_page_config(
@@ -50,7 +59,11 @@ def get_agente():
     return AgenteCrioclimaticoNina()
 
 agente = get_agente()
-motor_reloj = MotorRelojNina()
+@st.cache_resource
+def get_motor_reloj():
+    return MotorRelojNina()
+
+motor_reloj = get_motor_reloj()
 
 # ==================== BARRA LATERAL (SIDEBAR C2) ====================
 with st.sidebar:
@@ -150,11 +163,11 @@ with tab_reloj:
             tmin_promedio=sum(e.tmin_observada_c for e in resumen.evaluaciones) / len(resumen.evaluaciones)
         )
         svg_code = motor_reloj.generar_svg_reloj(modelo_reloj, ancho=520, alto=520)
-        st.components.v1.html(f"""
+        st.iframe(f"""
         <div style="display: flex; justify-content: center; align-items: center; background: radial-gradient(circle at center, #082f49 0%, #020617 100%); padding: 10px; border-radius: 16px; border: 1px solid #0369a1; box-shadow: 0 10px 30px rgba(0,242,254,0.15);">
             {svg_code}
         </div>
-        """, height=560, scrolling=False)
+        """, height=560)
 
     with col_rel_meta:
         st.markdown(f"""
@@ -213,7 +226,7 @@ with tab_tablero:
         })
 
     df_chiri = pd.DataFrame(filas_tabla)
-    st.dataframe(df_chiri, use_container_width=True, hide_index=True)
+    st.dataframe(df_chiri, width='stretch', hide_index=True)
 
 # ----------------- TAB 3: INSPECTOR DISTRITAL -----------------
 with tab_inspector:
@@ -324,7 +337,7 @@ with tab_educacion:
     with col_t1:
         st.code(msg_telegram, language="markdown")
     with col_t2:
-        if st.button("🚀 Enviar Alerta Telegram", type="primary", use_container_width=True):
+        if st.button("🚀 Enviar Alerta Telegram", type="primary", width='stretch'):
             res_envio = notifier_chiri.enviar_mensaje_telegram(msg_telegram)
             st.success(f"Estado: {res_envio['estado']}")
             st.caption(f"Modo: {res_envio['modo']}")

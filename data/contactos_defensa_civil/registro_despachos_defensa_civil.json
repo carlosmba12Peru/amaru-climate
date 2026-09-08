@@ -476,5 +476,176 @@
       "declaracion": "Entorno controlado de prueba sintética"
     },
     "asunto": "🚨 [ALERTA FEN CRITICO_ROJO] AMARU-FEN: Acción Temprana en PUEBLO NUEVO (UBIGEO 110206) - IRCE: 0.825"
+  },
+  {
+    "id_despacho": "DESP-GRD-1788801927",
+    "fecha_hora": "07/09/2026 12:25:27",
+    "ubigeo": "110206",
+    "distrito": "PUEBLO NUEVO",
+    "departamento": "ICA",
+    "destinatario_correo_enmascarado_lpdp": "de*****il@munipnuevochincha.gob.pe",
+    "destinatario_funcionario": "Whasinton Juan Espinoza Lujan",
+    "score_irce": 0.825,
+    "nivel_alerta": "CRITICO_ROJO",
+    "modo_ejecucion": "SIMULACION_SINTETICA_CONTROLADA",
+    "estado_envio": "ENTREGADO_SIMULADO",
+    "autorizacion_humana": {
+      "tipo": "SIMULACION_AUDITADA_EVALUADOR",
+      "autorizador": "Operador de Sala C2 AMARU-FEN",
+      "declaracion": "Entorno controlado de prueba sintética"
+    },
+    "asunto": "🚨 [ALERTA FEN CRITICO_ROJO] AMARU-FEN: Acción Temprana en PUEBLO NUEVO (UBIGEO 110206) - IRCE: 0.825"
+  },
+  {
+    "id_despacho": "DESP-GRD-1788802312",
+    "fecha_hora": "07/09/2026 12:31:52",
+    "ubigeo": "110206",
+    "distrito": "PUEBLO NUEVO",
+    "departamento": "ICA",
+    "destinatario_correo_enmascarado_lpdp": "de*****il@munipnuevochincha.gob.pe",
+    "destinatario_funcionario": "Whasinton Juan Espinoza Lujan",
+    "score_irce": 0.825,
+    "nivel_alerta": "CRITICO_ROJO",
+    "modo_ejecucion": "SIMULACION_SINTETICA_CONTROLADA",
+    "estado_envio": "ENTREGADO_SIMULADO",
+    "autorizacion_humana": {
+      "tipo": "SIMULACION_AUDITADA_EVALUADOR",
+      "autorizador": "Operador de Sala C2 AMARU-FEN",
+      "declaracion": "Entorno controlado de prueba sintética"
+    },
+    "asunto": "🚨 [ALERTA FEN CRITICO_ROJO] AMARU-FEN: Acción Temprana en PUEBLO NUEVO (UBIGEO 110206) - IRCE: 0.825"
+  },
+  {
+    "id_despacho": "DESP-GRD-1788804898",
+    "fecha_hora": "07/09/2026 13:14:58",
+    "ubigeo": "110206",
+    "distrito": "PUEBLO NUEVO",
+    "departamento": "ICA",
+    "destinatario_correo_enmascarado_lpdp": "de*****il@munipnuevochincha.gob.pe",
+    "destinatario_funcionario": "Whasinton Juan Espinoza Lujan",
+    "score_irce": 0.825,
+    "nivel_alerta": "CRITICO_ROJO",
+    "modo_ejecucion": "SIMULACION_SINTETICA_CONTROLADA",
+    "estado_envio": "ENTREGADO_SIMULADO",
+    "autorizacion_humana": {
+      "tipo": "SIMULACION_AUDITADA_EVALUADOR",
+      "autorizador": "Operador de Sala C2 AMARU-FEN",
+      "declaracion": "Entorno controlado de prueba sintética"
+    },
+    "asunto": "🚨 [ALERTA FEN CRITICO_ROJO] AMARU-FEN: Acción Temprana en PUEBLO NUEVO (UBIGEO 110206) - IRCE: 0.825"
+  },
+  {
+    "id_despacho": "DESP-GRD-1788804972",
+    "fecha_hora": "07/09/2026 13:16:12",
+    "ubigeo": "110206",
+    "distrito": "PUEBLO NUEVO",
+    "departamento": "ICA",
+    "destinatario_correo_enmascarado_lpdp": "de*****il@munipnuevochincha.gob.pe",
+    "destinatario_funcionario": "Whasinton Juan Espinoza Lujan",
+    "score_irce": 0.825,
+    "nivel_alerta": "CRITICO_ROJO",
+    "modo_ejecucion": "SIMULACION_SINTETICA_CONTROLADA",
+    "estado_envio": "ENTREGADO_SIMULADO",
+    "autorizacion_humana": {
+      "tipo": "SIMULACION_AUDITADA_EVALUADOR",
+      "autorizador": "Operador de Sala C2 AMARU-FEN",
+      "declaracion": "Entorno controlado de prueba sintética"
+    },
+    "asunto": "🚨 [ALERTA FEN CRITICO_ROJO] AMARU-FEN: Acción Temprana en PUEBLO NUEVO (UBIGEO 110206) - IRCE: 0.825"
+  },
+  {
+    "id_despacho": "DESP-GRD-1788807025",
+    "fecha_hora": "07/09/2026 13:50:25",
+    "ubigeo": "110206",
+    "distrito": "PUEBLO NUEVO",
+    "departamento": "ICA",
+    "destinatario_correo_enmascarado_lpdp": "de*****il@munipnuevochincha.gob.pe",
+    "destinatario_funcionario": "Whasinton Juan Espinoza Lujan",
+    "score_irce": 0.825,
+    "nivel_alerta": "CRITICO_ROJO",
+    "modo_ejecucion": "SIMULACION_SINTETICA_CONTROLADA",
+    "estado_envio": "ENTREGADO_SIMULADO",
+    "autorizacion_humana": {
+      "tipo": "SIMULACION_AUDITADA_EVALUADOR",
+      "autorizador": "Operador de Sala C2 AMARU-FEN",
+      "declaracion": "Entorno controlado de prueba sintética"
+    },
+    "asunto": "🚨 [ALERTA FEN CRITICO_ROJO] AMARU-FEN: Acción Temprana en PUEBLO NUEVO (UBIGEO 110206) - IRCE: 0.825"
+  },
+  {
+    "id_despacho": "DESP-GRD-1788807060",
+    "fecha_hora": "07/09/2026 13:51:00",
+    "ubigeo": "110206",
+    "distrito": "PUEBLO NUEVO",
+    "departamento": "ICA",
+    "destinatario_correo_enmascarado_lpdp": "de*****il@munipnuevochincha.gob.pe",
+    "destinatario_funcionario": "Whasinton Juan Espinoza Lujan",
+    "score_irce": 0.825,
+    "nivel_alerta": "CRITICO_ROJO",
+    "modo_ejecucion": "SIMULACION_SINTETICA_CONTROLADA",
+    "estado_envio": "ENTREGADO_SIMULADO",
+    "autorizacion_humana": {
+      "tipo": "SIMULACION_AUDITADA_EVALUADOR",
+      "autorizador": "Operador de Sala C2 AMARU-FEN",
+      "declaracion": "Entorno controlado de prueba sintética"
+    },
+    "asunto": "🚨 [ALERTA FEN CRITICO_ROJO] AMARU-FEN: Acción Temprana en PUEBLO NUEVO (UBIGEO 110206) - IRCE: 0.825"
+  },
+  {
+    "id_despacho": "DESP-GRD-1788808797",
+    "fecha_hora": "07/09/2026 14:19:57",
+    "ubigeo": "110206",
+    "distrito": "PUEBLO NUEVO",
+    "departamento": "ICA",
+    "destinatario_correo_enmascarado_lpdp": "de*****il@munipnuevochincha.gob.pe",
+    "destinatario_funcionario": "Whasinton Juan Espinoza Lujan",
+    "score_irce": 0.825,
+    "nivel_alerta": "CRITICO_ROJO",
+    "modo_ejecucion": "SIMULACION_SINTETICA_CONTROLADA",
+    "estado_envio": "ENTREGADO_SIMULADO",
+    "autorizacion_humana": {
+      "tipo": "SIMULACION_AUDITADA_EVALUADOR",
+      "autorizador": "Operador de Sala C2 AMARU-FEN",
+      "declaracion": "Entorno controlado de prueba sintética"
+    },
+    "asunto": "🚨 [ALERTA FEN CRITICO_ROJO] AMARU-FEN: Acción Temprana en PUEBLO NUEVO (UBIGEO 110206) - IRCE: 0.825"
+  },
+  {
+    "id_despacho": "DESP-GRD-1788810207",
+    "fecha_hora": "07/09/2026 14:43:27",
+    "ubigeo": "110206",
+    "distrito": "PUEBLO NUEVO",
+    "departamento": "ICA",
+    "destinatario_correo_enmascarado_lpdp": "de*****il@munipnuevochincha.gob.pe",
+    "destinatario_funcionario": "Whasinton Juan Espinoza Lujan",
+    "score_irce": 0.825,
+    "nivel_alerta": "CRITICO_ROJO",
+    "modo_ejecucion": "SIMULACION_SINTETICA_CONTROLADA",
+    "estado_envio": "ENTREGADO_SIMULADO",
+    "autorizacion_humana": {
+      "tipo": "SIMULACION_AUDITADA_EVALUADOR",
+      "autorizador": "Operador de Sala C2 AMARU-FEN",
+      "declaracion": "Entorno controlado de prueba sintética"
+    },
+    "asunto": "🚨 [ALERTA FEN CRITICO_ROJO] AMARU-FEN: Acción Temprana en PUEBLO NUEVO (UBIGEO 110206) - IRCE: 0.825"
+  },
+  {
+    "id_despacho": "DESP-GRD-1788811083",
+    "fecha_hora": "07/09/2026 14:58:03",
+    "ubigeo": "110206",
+    "distrito": "PUEBLO NUEVO",
+    "departamento": "ICA",
+    "destinatario_correo_enmascarado_lpdp": "de*****il@munipnuevochincha.gob.pe",
+    "destinatario_funcionario": "Whasinton Juan Espinoza Lujan",
+    "score_irce": 0.825,
+    "nivel_alerta": "CRITICO_ROJO",
+    "modo_ejecucion": "SIMULACION_SINTETICA_CONTROLADA",
+    "estado_envio": "ENTREGADO_SIMULADO",
+    "autorizacion_humana": {
+      "tipo": "SIMULACION_AUDITADA_EVALUADOR",
+      "autorizador": "Operador de Sala C2 AMARU-FEN",
+      "declaracion": "Entorno controlado de prueba sintética"
+    },
+    "asunto": "🚨 [ALERTA FEN CRITICO_ROJO] AMARU-FEN: Acción Temprana en PUEBLO NUEVO (UBIGEO 110206) - IRCE: 0.825"
   }
 ]

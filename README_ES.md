@@ -20,7 +20,32 @@ Centro de Operaciones Inteligente para la Acción Temprana, Resiliencia Hidrocli
 [![Ley 31814](https://img.shields.io/badge/Soberan%C3%ADa_Humana-Ley_N%C2%B0_31814-red)](#)
 [![Licencia](https://img.shields.io/badge/Licencia-Apache_2.0-lightgrey)](#)
 
+## 🛠️ Instalación del entorno
+
+1. **Instalar `uv`** (si no está instalado):
+```powershell
+pip install uv
+```
+
+2. **Crear el entorno virtual** con Python 3.14:
+```powershell
+uv venv .venv
+.\\.venv\\Scripts\\activate
+```
+
+3. **Instalar dependencias** del proyecto:
+```powershell
+pip install -r requirements.txt
+```
+
 ---
+
+## 🔢 Versionamiento
+
+**Versión actual:** `0.1.0`  
+**Identificador de versión:** `amaru-v0.1.0-20240907`
+
+![Version](https://img.shields.io/badge/Version-0.1.0-blue)
 
 ## 🎯 Resumen Ejecutivo
 
@@ -347,7 +372,7 @@ python -m pytest tests/test_blindaje_criptografico_iph_fen.py tests/test_blockch
 lab2/
 ├── agents/                           # Enjambre de Agentes Autónomos Especializados
 │   ├── agente_memoria_historica.py   # Oráculo FEN 1998, 2017, ENFEN Nº 15, SENAMHI 97-98 e IGP
-│   ├── agente_legal_normativo.py     # Asesor jurídico: 1,891 distritos FONDES, 893 distritos DS 124 y Ley 31814
+│   ├── agente_legal_normativo.py     # Asesor jurídico: gestiona normas legales extraordinarias (decretos, leyes) para el FEN, 1,891 distritos FONDES, 893 distritos DS 124 y Ley 31814
 │   ├── agente_senamhi.py             # Centinela meteorológico, avisos y quebradas 24h
 │   ├── agente_georriesgo.py          # Georriesgo, IPH-FEN blindado SHA-256, Manning y conos aluviales
 │   ├── agente_vigia_osint.py         # Rastreo ciudadano OSINT en streams y radios comunitarias

@@ -454,7 +454,7 @@ class MotorRelojNina:
             <!-- SECTOR VENTANA DE ORO LOGÍSTICA (ABRIL) EN AMARILLO -->
             <path d="{path_arco_oro}" fill="#facc15" fill-opacity="0.65" stroke="#fef08a" stroke-width="1.6" filter="url(#glowAmarillo)" />
             <text fill="#020617" font-size="8.5" font-weight="900" font-family="system-ui, sans-serif" letter-spacing="0.5">
-                <textPath href="#trackOroAbril" xlink:href="#trackOroAbril" startOffset="50%" text-anchor="middle">★ VENTANA DE ORO (ABRIL) ★</textPath>
+                <textPath href="#trackOroAbril" xlink:href="#trackOroAbril" startOffset="50%" text-anchor="middle">Ventana de Oro (Abril)</textPath>
             </text>
 
             <!-- Segmentos del Arco Glacial -->

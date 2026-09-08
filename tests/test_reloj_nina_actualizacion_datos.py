@@ -34,7 +34,7 @@ def test_actualizacion_reloj_nina_con_datos_dinamicos():
     svg_frio = resultado_frio["svg"]
     assert "-1.8°C" in svg_frio
     assert "-14.5°C" in svg_frio
-    assert "VENTANA DE ORO (ABRIL)" in svg_frio
+    assert "Ventana de Oro (Abril)" in svg_frio
     assert "#facc15" in svg_frio  # Amarillo táctico de la ventana de oro
     assert 'fill="#000000"' in svg_frio  # Letras negras sobre el arco glacial
 
@@ -99,7 +99,7 @@ def test_preservacion_ventana_de_oro_amarillo_y_letras_negras():
         assert 'fill="#facc15"' in svg
         assert 'stroke="#fef08a"' in svg
         assert "trackOroAbril" in svg
-        assert "VENTANA DE ORO (ABRIL)" in svg
+        assert "Ventana de Oro (Abril)" in svg
         assert "ABR★" in svg
         
         # Letras negras en los textos del arco glacial
